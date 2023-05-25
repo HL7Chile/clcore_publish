@@ -1,0 +1,29 @@
+{
+  "website": {
+    "style": "fhir.layout",
+    "url": "https://hl7chile.cl/fhir/ig/clcore/",
+    "server": "asp-new",
+    "org": "HL7, Inc",
+    "search-template": "searchform.template.html",
+    "index-template": "index.template"
+  },
+  "feeds": {
+    "package": "package-feed.xml",
+    "publication": "publication-feed.xml"
+  },
+  "ig-dirs": [
+    "smart-app-launch",
+    "us",
+    "uv"
+  ],
+  "indexes": {
+    "us": {
+      "title": "HL7 US Realm Implementation Guides",
+      "source": "us/index.html"
+    },
+    "uv": {
+      "title": "HL7 International Realm Implementation Guides",
+      "source": "uv/index.html"
+    }
+  }
+}
