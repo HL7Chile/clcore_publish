@@ -1,0 +1,59 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CSCodMadurez",
+  "id": "CSCodMadurez",
+  "title": "Códigos de grado de madurez del artefacto",
+  "description": "Códigos de grado de madurez del artefacto",
+  "version": "1.0.0",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodMadurez",
+  "concept": [
+    {
+      "code": "1",
+      "display": "1"
+    },
+    {
+      "code": "2",
+      "display": "2"
+    },
+    {
+      "code": "3",
+      "display": "3"
+    },
+    {
+      "code": "4",
+      "display": "4"
+    },
+    {
+      "code": "N",
+      "display": "N"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "date": "2022-01-18T00:00:00-03:00",
+  "contact": [
+    {
+      "name": "HL7 Chile",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "chair@hl7chile.cl"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CL",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Chile"
+        }
+      ]
+    }
+  ],
+  "count": 5
+}

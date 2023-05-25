@@ -1,0 +1,552 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "urn:iso:std:iso:3166"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:iso:std:iso:3166"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"urn:iso:std:iso:3166\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#urn:iso:std:iso:3166) is not valid in the value set 'CodPaises' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/signature+xml"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "urn:ietf:bcp:13"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "application/signature+xml",
+  "code" : "application/signature+xml",
+  "system" : "urn:ietf:bcp:13"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "CL",
+  "display" : "Chile"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.4.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "urn:iso:std:iso:3166"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.4.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"urn:iso:std:iso:3166\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#urn:iso:std:iso:3166) is not valid in the value set 'CodPaises' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/signature+xml"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "application/signature+xml",
+  "code" : "application/signature+xml",
+  "system" : "urn:ietf:bcp:13"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.5.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "urn:iso:std:iso:3166"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.5.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"urn:iso:std:iso:3166\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#urn:iso:std:iso:3166) is not valid in the value set 'CodPaises' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "LA"
+}, "url": "http://hl7.org/fhir/ValueSet/provenance-activity-type", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "Error performing tx5 operation 'validate-code: Failed to connect to tx.fhir.org/104.196.166.17:80' (parameters = \"\")",
+  "class" : "SERVER_ERROR"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.5.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "CL",
+  "display" : "Chile"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.6.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  
+}, "url": "http://hl7.org/fhir/ValueSet/iso3166-1-2", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#) is not valid in the value set 'Iso3166-1-2' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  
+}, "url": "http://hl7.org/fhir/ValueSet/iso3166-1-3", "version": "4.0.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#) is not valid in the value set 'Iso3166-1-3' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "Hipertensión Arterial"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT", "version": "1.6.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct",
+  "severity" : "warning",
+  "error" : "The display \"Hipertensión Arterial\" is not a valid display for the code {http://snomed.info/sct}38341003 - should be one of ['High blood pressure', 'Hypertensive vascular disease', 'Hypertensive vascular degeneration', 'Hypertension', 'BP - High blood pressure', 'Systemic arterial hypertension', 'HBP - High blood pressure', 'HT - Hypertension', 'High blood pressure disorder', 'BP+ - Hypertension', 'Hypertensive disorder, systemic arterial (disorder)', 'Hypertensive disorder', 'HTN - Hypertension', 'Hypertensive disorder, systemic arterial'] (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.6.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "urn:iso:std:iso:3166"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.6.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "severity" : "error",
+  "error" : "The code \"urn:iso:std:iso:3166\" is not valid in the system urn:iso:std:iso:3166; The code provided (urn:iso:std:iso:3166#urn:iso:std:iso:3166) is not valid in the value set 'CodPaises' (from http://tx.fhir.org/r4)"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.6.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT", "version": "1.6.0"}####
+e: {
+  "valueSet" : {
+  "resourceType" : "ValueSet",
+  "id" : "VSDiagnosticosSCT",
+  "language" : "en",
+  "url" : "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT",
+  "version" : "1.6.0",
+  "name" : "VSDiagnosticosSCT",
+  "title" : "Diagnósticos SNOMED y Ausente o Desconocido",
+  "status" : "active",
+  "date" : "2022-07-25T00:00:00-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "expansion" : {
+    "extension" : [{
+      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
+      "valueBoolean" : true
+    }],
+    "identifier" : "urn:uuid:074d0349-9b18-4364-8ac5-abc3f6c8c901",
+    "timestamp" : "2022-08-16T15:52:09.817Z",
+    "parameter" : [{
+      "name" : "expansion-source",
+      "valueUri" : "ValueSet/VSDiagnosticosSCT"
+    },
+    {
+      "name" : "limitedExpansion",
+      "valueBoolean" : true
+    }]
+  }
+},
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.0.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT", "version": "1.0.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.0.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.0.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "http://hl7chile.cl/fhir/ig/CoreCL/ValueSet/VSDiagnosticosSCT", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "http://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "http://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "http://hl7chile.cl/fhir/ig/CoreCL/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/VSDiagnosticosSCT", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/VSDiagnosticosSCT", "version": "1.7.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/corecl/ValueSet/CodPais", "version": "1.7.1", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDiagnosticosSCT", "version": "1.8.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "versionFlexible":"true"}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "versionFlexible":"true"}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "urn:iso:std:iso:3166",
+  "code" : "CL",
+  "display" : "Chile"
+}, "url": "http://hl7.org/fhir/ValueSet/jurisdiction", "version": "4.0.1", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "152"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "152",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "CL"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "Chile",
+  "code" : "CL",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "application/signature+xml"
+}, "url": "http://hl7.org/fhir/ValueSet/mimetypes", "version": "4.0.1", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "application/signature+xml",
+  "code" : "application/signature+xml",
+  "system" : "urn:ietf:bcp:13"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "38341003",
+  "display" : "High blood pressure"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDiagnosticosSCT", "version": "1.8.0", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"false", "valueSetMode":"NO_MEMBERSHIP_CHECK", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "High blood pressure",
+  "code" : "38341003",
+  "system" : "http://snomed.info/sct",
+  "version" : "http://snomed.info/sct/900000000000207008/version/20230131"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "222"
+}, "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais", "version": "1.8.0", "langs":"[]", "useServer":"true", "useClient":"true", "guessSystem":"true", "valueSetMode":"ALL_CHECKS", "displayWarningMode":"false", "versionFlexible":"true", "profile": {
+  "resourceType" : "Parameters",
+  "parameter" : [{
+    "name" : "x-system-cache-id",
+    "valueString" : "dc8fd4bc-091a-424a-8a3b-6198ef146891"
+  }]
+}}####
+v: {
+  "display" : "El Salvador",
+  "code" : "222",
+  "system" : "urn:iso:std:iso:3166",
+  "version" : "2018"
+}
+-------------------------------------------------------------------------------------
