@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "NombreCampana",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana",
-  "version": "1.8.0",
   "name": "NombreCampanaCL",
   "title": "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)",
   "status": "active",
@@ -45,8 +44,23 @@
         "fixedUri": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana"
       },
       {
-        "id": "Extension.valueCoding",
-        "path": "Extension.valueCoding",
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueCoding",
+        "path": "Extension.value[x]",
+        "sliceName": "valueCoding",
         "short": "Valor de la extensión",
         "min": 0,
         "max": "1",

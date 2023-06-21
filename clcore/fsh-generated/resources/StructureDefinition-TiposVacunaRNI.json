@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "TiposVacunaRNI",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI",
-  "version": "1.8.0",
   "name": "TiposVacunaCL",
   "title": "Código de tipos de Vacunas en Chile",
   "status": "active",
@@ -45,8 +44,23 @@
         "fixedUri": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI"
       },
       {
-        "id": "Extension.valueCode",
-        "path": "Extension.valueCode",
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueCode",
+        "path": "Extension.value[x]",
+        "sliceName": "valueCode",
         "short": "Valor de la extensión",
         "min": 0,
         "max": "1",

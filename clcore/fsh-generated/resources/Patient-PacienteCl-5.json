@@ -134,32 +134,24 @@
       }
     }
   ],
-  "extension": [
-    {
-      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "urn:iso:std:iso:3166",
-            "code": "152",
-            "display": "Chile"
-          }
-        ]
-      }
-    }
-  ],
-  "active": true,
-  "telecom": [
-    {
-      "system": "email",
-      "value": "juan@jo.cl",
-      "use": "home"
-    }
-  ],
-  "gender": "male",
-  "birthDate": "1980-08-04",
   "contact": [
     {
+      "name": {
+        "use": "official",
+        "family": "Calleja",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+              "valueString": "Morales"
+            }
+          ]
+        },
+        "given": [
+          "Juana",
+          "Josefa"
+        ]
+      },
       "extension": [
         {
           "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto",
@@ -205,23 +197,31 @@
             }
           ]
         }
-      ],
-      "name": {
-        "use": "official",
-        "family": "Calleja",
-        "_family": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
-              "valueString": "Morales"
-            }
-          ]
-        },
-        "given": [
-          "Juana",
-          "Josefa"
+      ]
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "urn:iso:std:iso:3166",
+            "code": "152",
+            "display": "Chile"
+          }
         ]
       }
     }
-  ]
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "email",
+      "value": "juan@jo.cl",
+      "use": "home"
+    }
+  ],
+  "gender": "male",
+  "birthDate": "1980-08-04"
 }

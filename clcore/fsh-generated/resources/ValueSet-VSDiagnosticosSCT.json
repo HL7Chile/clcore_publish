@@ -5,9 +5,9 @@
   "id": "VSDiagnosticosSCT",
   "title": "Diagnósticos SNOMED y Ausente o Desconocido",
   "description": "Diagnósticos definidos en Snomed-CT.",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDiagnosticosSCT",
   "experimental": false,
+  "version": "1.0.0",
   "date": "2022-07-25T00:00:00-03:00",
   "contact": [
     {

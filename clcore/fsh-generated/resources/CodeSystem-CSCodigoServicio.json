@@ -6,7 +6,6 @@
   "id": "CSCodigoServicio",
   "title": "Tipos de Servicios Remotos",
   "description": "Códigos para los Servicios realizados en un encuentro remoto según indicaciones del Ministerio de Salud",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoServicio",
   "concept": [
     {
@@ -68,6 +67,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-05-22T00:00:00-03:00",
   "contact": [
     {

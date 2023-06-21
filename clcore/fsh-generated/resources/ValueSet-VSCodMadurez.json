@@ -5,9 +5,9 @@
   "id": "VSCodMadurez",
   "title": "Códigos de grado de madurez del artefacto",
   "description": "Códigos de grado de madurez del artefacto",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
   "experimental": false,
+  "version": "1.0.0",
   "date": "2022-07-25T00:00:00-03:00",
   "contact": [
     {

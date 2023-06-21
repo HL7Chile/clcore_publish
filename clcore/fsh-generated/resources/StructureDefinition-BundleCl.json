@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "BundleCl",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/BundleCl",
-  "version": "1.8.0",
   "name": "BundleCL",
   "title": "Cl BundleCL",
   "status": "active",

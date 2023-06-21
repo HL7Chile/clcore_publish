@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "CoreMedicamentoCl",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl",
-  "version": "1.8.0",
   "name": "MedicamentoCL",
   "title": "CL Medicamento",
   "status": "active",

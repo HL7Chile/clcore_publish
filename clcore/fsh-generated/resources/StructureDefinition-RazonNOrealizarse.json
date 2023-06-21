@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "RazonNOrealizarse",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarse",
-  "version": "1.8.0",
   "name": "RazonNOTatencionCL",
   "title": "Código de las razones por la cual no se pudo realizar la atención",
   "status": "active",
@@ -47,28 +46,12 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "short": "Códigos de razones por la cual el encuentro remoto no se pudo realizar",
         "type": [
           {
             "code": "code"
           }
-        ]
-      },
-      {
-        "id": "Extension.valueCode",
-        "path": "Extension.valueCode",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "extensible",
           "valueSet": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOT"

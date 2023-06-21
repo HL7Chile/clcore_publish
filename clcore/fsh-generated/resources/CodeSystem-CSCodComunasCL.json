@@ -6,7 +6,6 @@
   "id": "CSCodComunasCL",
   "title": "Códigos de Comunas en Chile",
   "description": "Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
   "concept": [
     {
@@ -1396,6 +1395,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-01-18T00:00:00-03:00",
   "contact": [
     {

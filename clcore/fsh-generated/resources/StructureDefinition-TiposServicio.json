@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "TiposServicio",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposServicio",
-  "version": "1.8.0",
   "name": "TiposdeservicioCL",
   "title": "Código de los tipos de servicio que se atiende",
   "status": "active",
@@ -47,28 +46,12 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "short": "Códigos de Tipos de Servicios de Salud",
         "type": [
           {
             "code": "code"
           }
-        ]
-      },
-      {
-        "id": "Extension.valueCode",
-        "path": "Extension.valueCode",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "extensible",
           "valueSet": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposServicio"

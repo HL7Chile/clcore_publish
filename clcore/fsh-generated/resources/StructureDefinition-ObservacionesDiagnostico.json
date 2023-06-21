@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "ObservacionesDiagnostico",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ObservacionesDiagnostico",
-  "version": "1.8.0",
   "name": "ObservacionesNotas",
   "title": "Observaciones o comentarios simples respecto a un diagnóstico",
   "status": "active",

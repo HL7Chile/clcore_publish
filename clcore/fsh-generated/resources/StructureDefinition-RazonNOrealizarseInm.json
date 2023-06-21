@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "RazonNOrealizarseInm",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm",
-  "version": "1.8.0",
   "name": "RazonNOTinmunizacionCL",
   "title": "Razones por las cuales no se pudo realizar la inmunización",
   "status": "active",
@@ -47,28 +46,12 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "short": "Códigos de razones por la cual la inmunización no se pudo realizar",
         "type": [
           {
             "code": "code"
           }
-        ]
-      },
-      {
-        "id": "Extension.valueCode",
-        "path": "Extension.valueCode",
-        "min": 0,
-        "max": "1",
+        ],
         "binding": {
           "strength": "extensible",
           "valueSet": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm"

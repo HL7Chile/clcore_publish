@@ -6,7 +6,6 @@
   "id": "CSCodigoVacunas",
   "title": "Códigos de Vacunas RNI",
   "description": "Códigos de las vacunas o inmunizaciones según indicaciones del Ministerio de Salud",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoVacunas",
   "concept": [
     {
@@ -328,6 +327,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-06-05T00:00:00-03:00",
   "contact": [
     {

@@ -6,7 +6,6 @@
   "id": "CSRazonNOT",
   "title": "Razones Cancelación Atención Remota",
   "description": "Códigos de las razones por la cual un encuentro remoto no pudo realizarse según indicaciones del Ministerio de Salud",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSRazonNOT",
   "concept": [
     {
@@ -32,6 +31,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-05-22T00:00:00-03:00",
   "contact": [
     {

@@ -5,9 +5,9 @@
   "id": "VSTiposVacunas",
   "title": "Tipos de Vacunas RNI",
   "description": "Tipos de Vacunas utilizadas en Chile según CodeSystem local",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas",
   "experimental": false,
+  "version": "1.0.0",
   "date": "2022-06-05T00:00:00-03:00",
   "contact": [
     {

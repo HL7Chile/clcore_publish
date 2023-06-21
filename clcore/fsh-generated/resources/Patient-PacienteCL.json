@@ -133,23 +133,24 @@
       }
     }
   ],
-  "active": true,
-  "telecom": [
-    {
-      "system": "phone",
-      "use": "mobile",
-      "value": "943561833"
-    },
-    {
-      "system": "email",
-      "use": "work",
-      "value": "mariRosal@mimail.com"
-    }
-  ],
-  "gender": "female",
-  "birthDate": "1983-03-24",
   "contact": [
     {
+      "name": {
+        "use": "official",
+        "family": "Calleja",
+        "_family": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+              "valueString": "Morales"
+            }
+          ]
+        },
+        "given": [
+          "Juana",
+          "Josefa"
+        ]
+      },
       "extension": [
         {
           "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto",
@@ -195,25 +196,24 @@
             }
           ]
         }
-      ],
-      "name": {
-        "use": "official",
-        "family": "Calleja",
-        "_family": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
-              "valueString": "Morales"
-            }
-          ]
-        },
-        "given": [
-          "Juana",
-          "Josefa"
-        ]
-      }
+      ]
     }
   ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "mobile",
+      "value": "943561833"
+    },
+    {
+      "system": "email",
+      "use": "work",
+      "value": "mariRosal@mimail.com"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1983-03-24",
   "communication": [
     {
       "language": {

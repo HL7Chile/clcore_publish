@@ -6,5 +6,10 @@
     "changes": "changes.html",
     "status": "draft",
     "sequence": "STU2",
+    "first" : true,
+    "category" : "National Base",
+    "title" : "Chile Core",
+    "introduction" : "Jorges to fill out",
+    "ci-build" : "https://build.fhir.org/ig/HL7Chile/clcore",
     "fhirversion": "4.0.1"
 }

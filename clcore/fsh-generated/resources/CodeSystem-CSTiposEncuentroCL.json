@@ -6,7 +6,6 @@
   "id": "CSTiposEncuentroCL",
   "title": "Tipos de Encuentro",
   "description": "Códigos de Encuentros según MINSAL",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTiposEncuentroCL",
   "concept": [
     {
@@ -24,6 +23,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-05-21T00:00:00-03:00",
   "contact": [
     {

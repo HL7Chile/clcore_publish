@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "TiposEncuentro",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposEncuentro",
-  "version": "1.8.0",
   "name": "TiposEncuentroRemotoCL",
   "title": "Código de tipos de encuentro remoto",
   "status": "active",
@@ -45,8 +44,23 @@
         "fixedUri": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposEncuentro"
       },
       {
-        "id": "Extension.valueCode",
-        "path": "Extension.valueCode",
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Extension.value[x]:valueCode",
+        "path": "Extension.value[x]",
+        "sliceName": "valueCode",
         "min": 0,
         "max": "1",
         "type": [

@@ -5,9 +5,9 @@
   "id": "CodPais",
   "title": "Códigos de Países",
   "description": "Codigos definidos para la identificación de países segun norma ISO3166-N",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais",
   "experimental": false,
+  "version": "1.0.0",
   "date": "2022-01-18T00:00:00-03:00",
   "contact": [
     {

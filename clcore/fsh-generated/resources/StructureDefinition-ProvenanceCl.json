@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "ProvenanceCl",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvenanceCl",
-  "version": "1.8.0",
   "name": "ProvenanceCL",
   "title": "CL Provenance",
   "status": "active",

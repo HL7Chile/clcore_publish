@@ -9,7 +9,6 @@
       "title": "Codigo de Identificación de países",
       "types": [
         "CodeableConcept",
-        "CodeableConcept",
         "string",
         "Extension",
         "Coding",
@@ -27,7 +26,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl",
       "title": "Códigos para Comunas en Chile",
       "types": [
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -47,7 +45,6 @@
       "title": "Contacto de los participantes secundarios del encuentro",
       "types": [
         "ContactPoint",
-        "ContactPoint",
         "string",
         "Extension",
         "code",
@@ -61,7 +58,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto",
       "title": "Identificación del Contacto de un Paciente",
       "types": [
-        "Identifier",
         "Identifier",
         "string",
         "Extension",
@@ -82,7 +78,6 @@
         "string",
         "Period",
         "Reference",
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -174,7 +169,6 @@
       "title": "Códigos para Provincias en Chile",
       "types": [
         "CodeableConcept",
-        "CodeableConcept",
         "string",
         "Extension",
         "Coding",
@@ -192,7 +186,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarse",
       "title": "Código de las razones por la cual no se pudo realizar la atención",
       "types": [
-        "code",
         "code"
       ]
     },
@@ -200,7 +193,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm",
       "title": "Razones por las cuales no se pudo realizar la inmunización",
       "types": [
-        "code",
         "code"
       ]
     },
@@ -208,7 +200,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
       "title": "Códigos para Regiones en Chile",
       "types": [
-        "CodeableConcept",
         "CodeableConcept",
         "string",
         "Extension",
@@ -250,7 +241,6 @@
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposServicio",
       "title": "Código de los tipos de servicio que se atiende",
       "types": [
-        "code",
         "code"
       ]
     },

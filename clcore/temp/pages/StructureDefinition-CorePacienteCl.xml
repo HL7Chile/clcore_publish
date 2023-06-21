@@ -70,7 +70,7 @@
   <name value="PacienteCl"/>
   <title value="CL Paciente"/>
   <status value="active"/>
-  <date value="2023-05-25T12:36:52-04:00"/>
+  <date value="2023-06-21T10:22:43+10:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -542,14 +542,6 @@
     </element>
     <element id="Patient.extension:nacionalidad.value[x]">
       <path value="Patient.extension.value[x]"/>
-      <slicing>
-        <discriminator>
-          <type value="type"/>
-          <path value="$this"/>
-        </discriminator>
-        <ordered value="false"/>
-        <rules value="closed"/>
-      </slicing>
       <short value="Código de País"/>
       <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)."/>
       <min value="0"/>
@@ -577,37 +569,7 @@
         <map value="N/A"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept">
-      <path value="Patient.extension.value[x]"/>
-      <sliceName value="valueCodeableConcept"/>
-      <short value="Value of extension"/>
-      <definition value="Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list)."/>
-      <min value="0"/>
-      <max value="1"/>
-      <base>
-        <path value="Extension.value[x]"/>
-        <min value="0"/>
-        <max value="1"/>
-      </base>
-      <type>
-        <code value="CodeableConcept"/>
-      </type>
-      <constraint>
-        <key value="ele-1"/>
-        <severity value="error"/>
-        <human value="All FHIR elements must have a @value or children"/>
-        <expression value="hasValue() or (children().count() &gt; id.count())"/>
-        <xpath value="@value|f:*|h:div"/>
-        <source value="http://hl7.org/fhir/StructureDefinition/Element"/>
-      </constraint>
-      <isModifier value="false"/>
-      <isSummary value="false"/>
-      <mapping>
-        <identity value="rim"/>
-        <map value="N/A"/>
-      </mapping>
-    </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.id">
+    <element id="Patient.extension:nacionalidad.value[x].id">
       <path value="Patient.extension.value[x].id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -632,7 +594,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.extension">
+    <element id="Patient.extension:nacionalidad.value[x].extension">
       <path value="Patient.extension.value[x].extension"/>
       <slicing>
         <discriminator>
@@ -680,7 +642,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding">
+    <element id="Patient.extension:nacionalidad.value[x].coding">
       <path value="Patient.extension.value[x].coding"/>
       <short value="Code defined by a terminology system"/>
       <definition value="A reference to a code defined by a terminology system."/>
@@ -720,7 +682,7 @@
         <map value="fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.id">
+    <element id="Patient.extension:nacionalidad.value[x].coding.id">
       <path value="Patient.extension.value[x].coding.id"/>
       <representation value="xmlAttr"/>
       <short value="Unique id for inter-element referencing"/>
@@ -745,7 +707,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.extension">
+    <element id="Patient.extension:nacionalidad.value[x].coding.extension">
       <path value="Patient.extension.value[x].coding.extension"/>
       <slicing>
         <discriminator>
@@ -793,7 +755,7 @@
         <map value="n/a"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.system">
+    <element id="Patient.extension:nacionalidad.value[x].coding.system">
       <path value="Patient.extension.value[x].coding.system"/>
       <short value="Identity of the terminology system"/>
       <definition value="The identification of the code system that defines the meaning of the symbol in the code."/>
@@ -833,7 +795,7 @@
         <map value="fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.version">
+    <element id="Patient.extension:nacionalidad.value[x].coding.version">
       <path value="Patient.extension.value[x].coding.version"/>
       <short value="Version of the system - if relevant"/>
       <definition value="The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged."/>
@@ -871,7 +833,7 @@
         <map value="fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.code">
+    <element id="Patient.extension:nacionalidad.value[x].coding.code">
       <path value="Patient.extension.value[x].coding.code"/>
       <short value="Symbol in syntax defined by the system"/>
       <definition value="A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination)."/>
@@ -914,7 +876,7 @@
         <map value="fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.display">
+    <element id="Patient.extension:nacionalidad.value[x].coding.display">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>
@@ -956,7 +918,7 @@
         <map value="fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.userSelected">
+    <element id="Patient.extension:nacionalidad.value[x].coding.userSelected">
       <path value="Patient.extension.value[x].coding.userSelected"/>
       <short value="If this coding was chosen directly by the user"/>
       <definition value="Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays)."/>
@@ -995,7 +957,7 @@
         <map value="fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\#true a [     fhir:source &quot;true&quot;;     fhir:target dt:CDCoding.codingRationale\#O   ]"/>
       </mapping>
     </element>
-    <element id="Patient.extension:nacionalidad.value[x]:valueCodeableConcept.text">
+    <element id="Patient.extension:nacionalidad.value[x].text">
       <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable">
         <valueBoolean value="true"/>
       </extension>

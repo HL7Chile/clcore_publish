@@ -6,7 +6,6 @@
   "id": "CSEspecialidadesDeisCL",
   "title": "Códigos de Especialidades",
   "description": "Códigos de especialidades médicas descritas según DEIS",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
   "concept": [
     {
@@ -284,6 +283,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-01-18T00:00:00-03:00",
   "contact": [
     {

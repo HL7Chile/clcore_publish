@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "ContactoParticipantes",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ContactoParticipantes",
-  "version": "1.8.0",
   "name": "ContactopartCL",
   "title": "Contacto de los participantes secundarios del encuentro",
   "status": "active",
@@ -47,16 +46,6 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "short": "Códigos de contactos",
         "type": [
           {
@@ -65,14 +54,8 @@
         ]
       },
       {
-        "id": "Extension.valueContactPoint",
-        "path": "Extension.valueContactPoint",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.valueContactPoint.system",
-        "path": "Extension.valueContactPoint.system",
+        "id": "Extension.value[x].system",
+        "path": "Extension.value[x].system",
         "binding": {
           "strength": "required",
           "valueSet": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSContactosec"

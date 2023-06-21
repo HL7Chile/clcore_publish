@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "ImmunizationCL",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL",
-  "version": "1.8.0",
   "name": "ImmunizationCL",
   "title": "CL Inmunización",
   "status": "active",
@@ -157,8 +156,23 @@
         "mustSupport": true
       },
       {
-        "id": "Immunization.occurrenceDateTime",
-        "path": "Immunization.occurrenceDateTime",
+        "id": "Immunization.occurrence[x]",
+        "path": "Immunization.occurrence[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Immunization.occurrence[x]:occurrenceDateTime",
+        "path": "Immunization.occurrence[x]",
+        "sliceName": "occurrenceDateTime",
         "short": "Fecha de administración de la vacuna",
         "definition": "Fecha y hora en la que se realiza la inmunización o se administra la vacuna",
         "min": 1,
@@ -286,8 +300,23 @@
         "mustSupport": true
       },
       {
-        "id": "Immunization.protocolApplied.doseNumberString",
-        "path": "Immunization.protocolApplied.doseNumberString",
+        "id": "Immunization.protocolApplied.doseNumber[x]",
+        "path": "Immunization.protocolApplied.doseNumber[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Immunization.protocolApplied.doseNumber[x]:doseNumberString",
+        "path": "Immunization.protocolApplied.doseNumber[x]",
+        "sliceName": "doseNumberString",
         "short": "Número de dosis dentro de la serie",
         "min": 1,
         "max": "1",

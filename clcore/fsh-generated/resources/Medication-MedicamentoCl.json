@@ -8,13 +8,13 @@
   },
   "identifier": [
     {
-      "system": "http://minsal.cl/semantikos/description-id",
       "use": "official",
+      "system": "http://minsal.cl/semantikos/description-id",
       "value": "1991971000167110"
     },
     {
-      "system": "http://minsal.cl/semantikos/concept-id",
       "use": "official",
+      "system": "http://minsal.cl/semantikos/concept-id",
       "value": "840851000167103"
     }
   ],

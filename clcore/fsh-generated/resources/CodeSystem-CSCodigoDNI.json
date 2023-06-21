@@ -6,7 +6,6 @@
   "id": "CSCodigoDNI",
   "title": "Códigos de Documentos DNI para LATAM y el Caribe",
   "description": "Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
   "concept": [
     {
@@ -144,6 +143,7 @@
   ],
   "experimental": false,
   "caseSensitive": true,
+  "version": "1.0.0",
   "date": "2022-01-18T00:00:00-03:00",
   "contact": [
     {

@@ -10,7 +10,7 @@
   "name" : "PacienteCl",
   "title" : "CL Paciente",
   "status" : "active",
-  "date" : "2023-05-25T12:36:52-04:00",
+  "date" : "2023-06-21T10:22:43+10:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -503,14 +503,6 @@
     {
       "id" : "Patient.extension:nacionalidad.value[x]",
       "path" : "Patient.extension.value[x]",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "type",
-          "path" : "$this"
-        }],
-        "ordered" : false,
-        "rules" : "closed"
-      },
       "short" : "Código de País",
       "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).",
       "min" : 0,
@@ -539,38 +531,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept",
-      "path" : "Patient.extension.value[x]",
-      "sliceName" : "valueCodeableConcept",
-      "short" : "Value of extension",
-      "definition" : "Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Extension.value[x]",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "CodeableConcept"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.id",
+      "id" : "Patient.extension:nacionalidad.value[x].id",
       "path" : "Patient.extension.value[x].id",
       "representation" : ["xmlAttr"],
       "short" : "Unique id for inter-element referencing",
@@ -597,7 +558,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.extension",
+      "id" : "Patient.extension:nacionalidad.value[x].extension",
       "path" : "Patient.extension.value[x].extension",
       "slicing" : {
         "discriminator" : [{
@@ -646,7 +607,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding",
+      "id" : "Patient.extension:nacionalidad.value[x].coding",
       "path" : "Patient.extension.value[x].coding",
       "short" : "Code defined by a terminology system",
       "definition" : "A reference to a code defined by a terminology system.",
@@ -687,7 +648,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.id",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.id",
       "path" : "Patient.extension.value[x].coding.id",
       "representation" : ["xmlAttr"],
       "short" : "Unique id for inter-element referencing",
@@ -714,7 +675,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.extension",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.extension",
       "path" : "Patient.extension.value[x].coding.extension",
       "slicing" : {
         "discriminator" : [{
@@ -763,7 +724,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.system",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.system",
       "path" : "Patient.extension.value[x].coding.system",
       "short" : "Identity of the terminology system",
       "definition" : "The identification of the code system that defines the meaning of the symbol in the code.",
@@ -804,7 +765,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.version",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.version",
       "path" : "Patient.extension.value[x].coding.version",
       "short" : "Version of the system - if relevant",
       "definition" : "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
@@ -843,7 +804,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.code",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.code",
       "path" : "Patient.extension.value[x].coding.code",
       "short" : "Symbol in syntax defined by the system",
       "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
@@ -887,7 +848,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.display",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.display",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true
@@ -931,7 +892,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.coding.userSelected",
+      "id" : "Patient.extension:nacionalidad.value[x].coding.userSelected",
       "path" : "Patient.extension.value[x].coding.userSelected",
       "short" : "If this coding was chosen directly by the user",
       "definition" : "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).",
@@ -971,7 +932,7 @@
       }]
     },
     {
-      "id" : "Patient.extension:nacionalidad.value[x]:valueCodeableConcept.text",
+      "id" : "Patient.extension:nacionalidad.value[x].text",
       "extension" : [{
         "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
         "valueBoolean" : true

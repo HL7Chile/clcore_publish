@@ -5,9 +5,9 @@
   "id": "VSTiposDocClinic",
   "title": "Tipos de Documentos Clínicos",
   "description": "Tipos de Documentos clínicos para Composition. Se trae todo Loinc, se requerirá un VS específico",
-  "version": "1.0.0",
   "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocClinic",
   "experimental": false,
+  "version": "1.0.0",
   "date": "2022-05-21T00:00:00-03:00",
   "contact": [
     {
