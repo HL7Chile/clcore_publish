@@ -1,0 +1,21 @@
+cambio de cardinalidad
+  * country.extension contains CodigoPaises named paises  0..1  MS
+    estaba con 1..1 y ahora con 0..1
+
+modifique los ejemplos
+
+
+
+*/
+Extension:   PaisOrigenNacionalidadCl
+Id:          CodigoPaises
+Title:       "Codigo de Identificación de países"
+Description: "Esta extensión incluye códigos de paises de origen"
+* value[x] only CodeableConcept
+* value[x] ^short = "Código de País"
+* url 1..1 MS
+* valueCodeableConcept.coding ******1*******0..1 MS
+  * code ********1******0..1 MS
+  * code from CodPais
+  * system 0..1 MS
+  * display 0..1 MS

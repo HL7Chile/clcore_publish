@@ -3,10 +3,10 @@
   "id" : "VSTiposDocumentos",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-CSCodigoDNI.html\"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI</code></a></li><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-v2-0203.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos",
-  "version" : "1.8.1",
+  "version" : "1.8.2",
   "name" : "VSTiposDocumentos",
   "title" : "Tipos de Documentos",
   "status" : "active",
@@ -39,6 +39,9 @@
     },
     {
       "system" : "http://terminology.hl7.org/CodeSystem/v2-0203"
+    },
+    {
+      "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"
     }]
   }
 }

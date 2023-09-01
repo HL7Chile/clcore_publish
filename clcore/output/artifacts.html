@@ -97,12 +97,11 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.1 - ci-build
+                    <span style="display:inline-block;">1.8.2 - ci-build
 
 
 
-  <img alt="Chile flag" src="assets/images/chl.svg" height="16" title="Chile"/>
- 
+  <span title="Chile">CL</span>  
                     </span>
                 </p>
             </div>
@@ -196,7 +195,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.1). See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.2). See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -247,15 +246,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Perfil para genererar un recurso que permita desarrollar logs de auditoría en cuanto al acceso y manejo de recursos FHIR</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="StructureDefinition-BundleCl.html"
-                     title="StructureDefinition/BundleCl">Cl BundleCL</a>
-               </td>
-               <td>
-<p>Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta</p>
 </td>
             </tr>
             <tr>
@@ -357,6 +347,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso de Especialidad Médica para la denominación de Prescriptor en Chile</p>
 </td>
             </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-BundleCl.html"
+                     title="StructureDefinition/BundleCl">Cl BundleCL</a>
+               </td>
+               <td>
+<p>Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta</p>
+</td>
+            </tr>
          </tbody>
       </table>
    </p>
@@ -428,20 +427,20 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-TiposEncuentro.html"
-                     title="StructureDefinition/TiposEncuentro">Código de tipos de encuentro remoto</a>
-               </td>
-               <td>
-<p>Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="StructureDefinition-TiposVacunaRNI.html"
                      title="StructureDefinition/TiposVacunaRNI">Código de tipos de Vacunas en Chile</a>
                </td>
                <td>
 <p>Esta extensión incluye códigos de los tipos de vacunas que existe en el Registro Nacional de Inmunizaciones RNI</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-TiposEncuentro.html"
+                     title="StructureDefinition/TiposEncuentro">Código de tipos de encuentro remoto</a>
+               </td>
+               <td>
+<p>Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota</p>
 </td>
             </tr>
             <tr>
@@ -600,14 +599,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="ValueSet-VSCodMadurez.html" title="ValueSet/VSCodMadurez">Códigos de grado de madurez del artefacto</a>
-               </td>
-               <td>
-<p>Códigos de grado de madurez del artefacto</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="ValueSet-CodPais.html" title="ValueSet/CodPais">Códigos de Países</a>
                </td>
                <td>
@@ -630,6 +621,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VSCodMadurez.html" title="ValueSet/VSCodMadurez">Códigos de grado de madurez del artefacto</a>
+               </td>
+               <td>
+<p>Códigos de grado de madurez del artefacto</p>
 </td>
             </tr>
             <tr>
@@ -664,6 +663,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Códigos de Servicios de Salud que existen en Chile</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="ValueSet-VSTipoIdentificador.html"
+                     title="ValueSet/VSTipoIdentificador">Tipo Identificador</a>
+               </td>
+               <td>
+<p>Tipo Identificador</p>
 </td>
             </tr>
             <tr>
@@ -765,10 +773,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="CodeSystem-CSCodMadurez.html" title="CodeSystem/CSCodMadurez">Códigos de grado de madurez del artefacto</a>
+                  <a href="CodeSystem-CodPais.html" title="CodeSystem/CodPais">Códigos de Países</a>
                </td>
                <td>
-<p>Códigos de grado de madurez del artefacto</p>
+<p>Codigos definidos para la identificación de países segun norma ISO3166-N</p>
 </td>
             </tr>
             <tr>
@@ -795,6 +803,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Códigos de las vacunas o inmunizaciones según indicaciones del Ministerio de Salud</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CodeSystem-CSCodMadurez.html" title="CodeSystem/CSCodMadurez">Códigos de grado de madurez del artefacto</a>
+               </td>
+               <td>
+<p>Códigos de grado de madurez del artefacto</p>
 </td>
             </tr>
             <tr>
@@ -832,6 +848,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="CodeSystem-CSTipoIdentificador.html"
+                     title="CodeSystem/CSTipoIdentificador">Tipo Identificador</a>
+               </td>
+               <td>
+<p>Tipo Identificador</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CodeSystem-CSTiposEncuentroCL.html"
                      title="CodeSystem/CSTiposEncuentroCL">Tipos de Encuentro</a>
                </td>
@@ -862,19 +887,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="Medication-MedicamentoCl.html" title="Medication/MedicamentoCl">Ejemplo de comprimido Tareg - D 160</a>
+                  <a href="Location-LocalizacionEjemploCL1.html"
+                     title="Location/LocalizacionEjemploCL1">Ejemplo Localización Farmacia</a>
                </td>
                <td>
-<p>Medicamento comprimido Tareg -D160 referemciado como medicamento en la TFC, considerando el de 25 comprimidos</p>
+<p>Ejemplo de la localización relacionada con una Farmacia específica ubicada en la comuna de Viña del Mar</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Provenance-EjemplValidacionProvCl.html"
-                     title="Provenance/EjemplValidacionProvCl">Ejemplo de la Validación de una Receta por medio del Prescriptor</a>
+                  <a href="Organization-ORG1.html" title="Organization/ORG1">Ejemplo Organización Prestadora de Salud</a>
                </td>
                <td>
-<p>Ejemplo de una Receta en Request Group que contiene una receta, en la cual el prestador que la ha desarollado genera una validación por medio de una firma</p>
+<p>CESFAM Rio Bueno (Ficticio) con ID DEIS no real</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="Bundle-BundleEx.html" title="Bundle/BundleEx">Ejemplo Simple de Bundle de Transacción</a>
+               </td>
+               <td>
+<p>Bundle de Transacción con un recurso Practitioner y un Recurso Organization</p>
 </td>
             </tr>
             <tr>
@@ -900,40 +933,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                </td>
                <td>
 <p>Condition ficticio</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="PractitionerRole-EspecialidadCL.html"
-                     title="PractitionerRole/EspecialidadCL">Ejemplo de Recurso de especialidad</a>
-               </td>
-               <td>
-<p>Define el Rol de un Médico durante la Operación de un paciente en Urgencia</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-PacienteCl-4.html" title="Patient/PacienteCl-4">Ejemplo de Recurso de paciente Nacional con contacto declarado</a>
-               </td>
-               <td>
-<p>Paciente ficticio nacional CI Chilena, 
-     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
-     * cuyo nombre se decribe mediante el oficial y uno social. 
-     * La dirección tampoco es Real.
-     * Se agrega al paciente un acompañante patiente.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-PacienteCl-5.html" title="Patient/PacienteCl-5">Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</a>
-               </td>
-               <td>
-<p>Paciente ficticio nacional CI Chilena, 
-     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
-     * cuyo nombre se decribe mediante el oficial y uno social. 
-     * La dirección tampoco es Real.
-     * Se agrega al paciente un acompañante patiente
-     * La dirección se declara con códigos por extensión.</p>
 </td>
             </tr>
             <tr>
@@ -1003,22 +1002,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-PacienteCL2.html" title="Patient/PacienteCL2">Ejemplo de Recurso Paciente Extranjero</a>
-               </td>
-               <td>
-<p>Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte.</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="Patient-PacienteCL.html" title="Patient/PacienteCL">Ejemplo de Recurso Paciente Nacional</a>
-               </td>
-               <td>
-<p>Paciente ficticio nacional CI Chilena, sin sistema de validación “http://regcivil.cl/Validacion/RUN” ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
                   <a href="Practitioner-3240.html" title="Practitioner/3240">Ejemplo de Recurso Prestador como base para un Core Nacional</a>
                </td>
                <td>
@@ -1035,10 +1018,11 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="AuditEvent-AuditEventEx.html" title="AuditEvent/AuditEventEx">Ejemplo de un Audit-Event Search.</a>
+                  <a href="PractitionerRole-EspecialidadCL.html"
+                     title="PractitionerRole/EspecialidadCL">Ejemplo de Recurso de especialidad</a>
                </td>
                <td>
-<p>Log de Audición de una operacion Search.</p>
+<p>Define el Rol de un Médico durante la Operación de un paciente en Urgencia</p>
 </td>
             </tr>
             <tr>
@@ -1051,35 +1035,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Location-LocalizacionEjemploCL1.html"
-                     title="Location/LocalizacionEjemploCL1">Ejemplo Localización Farmacia</a>
+                  <a href="Medication-MedicamentoCl.html" title="Medication/MedicamentoCl">Ejemplo de comprimido Tareg - D 160</a>
                </td>
                <td>
-<p>Ejemplo de la localización relacionada con una Farmacia específica ubicada en la comuna de Viña del Mar</p>
+<p>Medicamento comprimido Tareg -D160 referemciado como medicamento en la TFC, considerando el de 25 comprimidos</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Organization-ORG1.html" title="Organization/ORG1">Ejemplo Organización Prestadora de Salud</a>
+                  <a href="Provenance-EjemplValidacionProvCl.html"
+                     title="Provenance/EjemplValidacionProvCl">Ejemplo de la Validación de una Receta por medio del Prescriptor</a>
                </td>
                <td>
-<p>CESFAM Rio Bueno (Ficticio) con ID DEIS no real</p>
+<p>Ejemplo de una Receta en Request Group que contiene una receta, en la cual el prestador que la ha desarollado genera una validación por medio de una firma</p>
 </td>
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Bundle-BundleEx.html" title="Bundle/BundleEx">Ejemplo Simple de Bundle de Transacción</a>
+                  <a href="AuditEvent-AuditEventEx.html" title="AuditEvent/AuditEventEx">Ejemplo de un Audit-Event Search.</a>
                </td>
                <td>
-<p>Bundle de Transacción con un recurso Practitioner y un Recurso Organization</p>
-</td>
-            </tr>
-            <tr>
-               <td style="column-width:30%">
-                  <a href="RequestGroup-RG12224.html" title="RequestGroup/RG12224">example</a>
-               </td>
-               <td>
-<p>Solo un ejemplo</p>
+<p>Log de Audición de una operacion Search.</p>
 </td>
             </tr>
             <tr>
@@ -1093,10 +1069,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="Patient-PacienteCl-3.html" title="Patient/PacienteCl-3">Paciente Nacional, con datos actualizados, declarando nacionalidad</a>
+                  <a href="RequestGroup-RG12224.html" title="RequestGroup/RG12224">example</a>
                </td>
                <td>
-<p>Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real</p>
+<p>Solo un ejemplo</p>
 </td>
             </tr>
          </tbody>
@@ -1126,7 +1102,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 27, 2023 22:42-0400">2023-06-27</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Sep 1, 2023 14:45-0400">2023-09-01</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |

@@ -8,16 +8,15 @@
     "sourceTail" : "ImplementationGuide-hl7.fhir.cl.clcore.json",
     "path" : "ImplementationGuide-hl7.fhir.cl.clcore.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "clcore",
     "title" : "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -37,7 +36,7 @@
     "sourceTail" : "CodeSystem-CSCodRegionCL.json",
     "path" : "CodeSystem-CSCodRegionCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodRegionCL",
     "title" : "Códigos de Regiones en Chile",
     "experimental" : false,
@@ -46,8 +45,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -67,16 +65,15 @@
     "sourceTail" : "StructureDefinition-ImmunizationCL.json",
     "path" : "StructureDefinition-ImmunizationCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ImmunizationCL",
     "title" : "CL Inmunización",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Definición de un evento de inmunización para las necesidades de interoperabilidad en Chile.",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -96,16 +93,15 @@
     "sourceTail" : "StructureDefinition-DocumentoCl.json",
     "path" : "StructureDefinition-DocumentoCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/DocumentoCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "DocumentoCl",
     "title" : "CL Documento",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Definición de un documento para Resumen de Historia o Registro de Encuentro para Historia Clínica, basado en IPS.",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -125,16 +121,15 @@
     "sourceTail" : "StructureDefinition-TiposVacunaRNI.json",
     "path" : "StructureDefinition-TiposVacunaRNI.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "TiposVacunaCL",
     "title" : "Código de tipos de Vacunas en Chile",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye códigos de los tipos de vacunas que existe en el Registro Nacional de Inmunizaciones RNI",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -154,7 +149,7 @@
     "sourceTail" : "ValueSet-VSCodigoslenguaje.json",
     "path" : "ValueSet-VSCodigoslenguaje.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodigoslenguaje",
     "title" : "Codigos Lenguaje",
     "experimental" : false,
@@ -163,8 +158,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -184,7 +178,7 @@
     "sourceTail" : "ValueSet-VSCodigosComunaCL.json",
     "path" : "ValueSet-VSCodigosComunaCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosComunaCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodigosComunaCL",
     "title" : "Códigos de Comunas en Chile",
     "experimental" : false,
@@ -193,8 +187,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -205,23 +198,11 @@
     },
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
   },
-  "Patient/PacienteCl-3" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 7,
-    "source" : "fsh-generated/resources/Patient-PacienteCl-3.json",
-    "sourceTail" : "Patient-PacienteCl-3.json",
-    "path" : "Patient-PacienteCl-3.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
   "AllergyIntolerance/222" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 8,
+    "index" : 7,
     "source" : "fsh-generated/resources/AllergyIntolerance-222.json",
     "sourceTail" : "AllergyIntolerance-222.json",
     "path" : "AllergyIntolerance-222.html",
@@ -233,21 +214,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 9,
+    "index" : 8,
     "source" : "fsh-generated/resources/StructureDefinition-RazonNOrealizarse.json",
     "sourceTail" : "StructureDefinition-RazonNOrealizarse.json",
     "path" : "StructureDefinition-RazonNOrealizarse.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarse",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "RazonNOTatencionCL",
     "title" : "Código de las razones por la cual no se pudo realizar la atención",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye códigos de razones por la cuales no pudo llevarse a cabo el encuentro remoto",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -262,21 +242,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 10,
+    "index" : 9,
     "source" : "fsh-generated/resources/StructureDefinition-CoreLocalizacionCl.json",
     "sourceTail" : "StructureDefinition-CoreLocalizacionCl.json",
     "path" : "StructureDefinition-CoreLocalizacionCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreLocalizacionCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "LocalizacionCL",
     "title" : "CL Localización",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este perfil determina la ubicación especifica para un evento, objeto o Infraestructura específica. Este perfil permite vinlcular la localización especifica con una organización o espacio físico específico",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -291,21 +270,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 11,
+    "index" : 10,
     "source" : "fsh-generated/resources/StructureDefinition-ComunasCl.json",
     "sourceTail" : "StructureDefinition-ComunasCl.json",
     "path" : "StructureDefinition-ComunasCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ComunasCl",
     "title" : "Códigos para Comunas en Chile",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión que permite codiificar las Comunas en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -320,12 +298,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 12,
+    "index" : 11,
     "source" : "fsh-generated/resources/ValueSet-VSNombreCampana.json",
     "sourceTail" : "ValueSet-VSNombreCampana.json",
     "path" : "ValueSet-VSNombreCampana.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSNombreCampana",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSNombreCampanaCL",
     "title" : "Campañas de Vacunación",
     "experimental" : false,
@@ -334,8 +312,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -350,7 +327,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 13,
+    "index" : 12,
     "source" : "fsh-generated/resources/Location-3333458.json",
     "sourceTail" : "Location-3333458.json",
     "path" : "Location-3333458.html",
@@ -362,12 +339,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 14,
+    "index" : 13,
     "source" : "fsh-generated/resources/CodeSystem-CSCodigoVacunas.json",
     "sourceTail" : "CodeSystem-CSCodigoVacunas.json",
     "path" : "CodeSystem-CSCodigoVacunas.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoVacunas",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSTiposVacunaCL",
     "title" : "Códigos de Vacunas RNI",
     "experimental" : false,
@@ -376,8 +353,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -392,12 +368,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 15,
+    "index" : 14,
     "source" : "fsh-generated/resources/CodeSystem-CSCodSSalud.json",
     "sourceTail" : "CodeSystem-CSCodSSalud.json",
     "path" : "CodeSystem-CSCodSSalud.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodSSalud",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodSSaludCL",
     "title" : "Servicios de Salud Chile",
     "experimental" : false,
@@ -406,8 +382,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -422,22 +397,10 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 16,
+    "index" : 15,
     "source" : "fsh-generated/resources/Immunization-999.json",
     "sourceTail" : "Immunization-999.json",
     "path" : "Immunization-999.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
-  "Patient/PacienteCl-5" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 17,
-    "source" : "fsh-generated/resources/Patient-PacienteCl-5.json",
-    "sourceTail" : "Patient-PacienteCl-5.json",
-    "path" : "Patient-PacienteCl-5.html",
     "status" : {
       "class" : "colsi"
     }
@@ -446,12 +409,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 18,
+    "index" : 16,
     "source" : "fsh-generated/resources/CodeSystem-CSCodComunasCL.json",
     "sourceTail" : "CodeSystem-CSCodComunasCL.json",
     "path" : "CodeSystem-CSCodComunasCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodComunasCL",
     "title" : "Códigos de Comunas en Chile",
     "experimental" : false,
@@ -460,8 +423,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -476,12 +438,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 19,
+    "index" : 17,
     "source" : "fsh-generated/resources/CodeSystem-CSEspecialidadesDeisCL.json",
     "sourceTail" : "CodeSystem-CSEspecialidadesDeisCL.json",
     "path" : "CodeSystem-CSEspecialidadesDeisCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSEspecialidadesDeisCL",
     "title" : "Códigos de Especialidades",
     "experimental" : false,
@@ -490,8 +452,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -506,7 +467,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 20,
+    "index" : 18,
     "source" : "fsh-generated/resources/Medication-MedicamentoCl-2.json",
     "sourceTail" : "Medication-MedicamentoCl-2.json",
     "path" : "Medication-MedicamentoCl-2.html",
@@ -518,7 +479,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 21,
+    "index" : 19,
     "source" : "fsh-generated/resources/Immunization-ImmunizationCL.json",
     "sourceTail" : "Immunization-ImmunizationCL.json",
     "path" : "Immunization-ImmunizationCL.html",
@@ -530,12 +491,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 22,
+    "index" : 20,
     "source" : "fsh-generated/resources/ValueSet-VSTiposDocClinic.json",
     "sourceTail" : "ValueSet-VSTiposDocClinic.json",
     "path" : "ValueSet-VSTiposDocClinic.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocClinic",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSTiposDocClinic",
     "title" : "Tipos de Documentos Clínicos",
     "experimental" : false,
@@ -544,8 +505,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -560,21 +520,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 23,
+    "index" : 21,
     "source" : "fsh-generated/resources/StructureDefinition-SegundoApellido.json",
     "sourceTail" : "StructureDefinition-SegundoApellido.json",
     "path" : "StructureDefinition-SegundoApellido.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "SegundoApellido",
     "title" : "Segundo Apellido",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Segundo Apellido",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -589,12 +548,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 24,
+    "index" : 22,
     "source" : "fsh-generated/resources/ValueSet-VSCodMadurez.json",
     "sourceTail" : "ValueSet-VSCodMadurez.json",
     "path" : "ValueSet-VSCodMadurez.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodMadurez",
     "title" : "Códigos de grado de madurez del artefacto",
     "experimental" : false,
@@ -603,8 +562,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -619,7 +577,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 25,
+    "index" : 23,
     "source" : "fsh-generated/resources/RequestGroup-RG12224.json",
     "sourceTail" : "RequestGroup-RG12224.json",
     "path" : "RequestGroup-RG12224.html"
@@ -628,12 +586,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 26,
+    "index" : 24,
     "source" : "fsh-generated/resources/CodeSystem-CSCodigoDNI.json",
     "sourceTail" : "CodeSystem-CSCodigoDNI.json",
     "path" : "CodeSystem-CSCodigoDNI.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodigoDNI",
     "title" : "Códigos de Documentos DNI para LATAM y el Caribe",
     "experimental" : false,
@@ -642,8 +600,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -658,12 +615,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 27,
+    "index" : 25,
     "source" : "fsh-generated/resources/CodeSystem-CSCodProvinciasCL.json",
     "sourceTail" : "CodeSystem-CSCodProvinciasCL.json",
     "path" : "CodeSystem-CSCodProvinciasCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodProvinciasCL",
     "title" : "Códigos de Provincias en Chile",
     "experimental" : false,
@@ -672,8 +629,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -688,12 +644,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 28,
+    "index" : 26,
     "source" : "fsh-generated/resources/CodeSystem-CSCodMadurez.json",
     "sourceTail" : "CodeSystem-CSCodMadurez.json",
     "path" : "CodeSystem-CSCodMadurez.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodMadurez",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodMadurez",
     "title" : "Códigos de grado de madurez del artefacto",
     "experimental" : false,
@@ -702,8 +658,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -718,21 +673,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 29,
+    "index" : 27,
     "source" : "fsh-generated/resources/StructureDefinition-ServicioSalud.json",
     "sourceTail" : "StructureDefinition-ServicioSalud.json",
     "path" : "StructureDefinition-ServicioSalud.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ServicioSaludCL",
     "title" : "Sistema Nacional de Servicios de Salud",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye los códigos de los Servicios de Salud que existen en el país",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -747,7 +701,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 30,
+    "index" : 28,
     "source" : "fsh-generated/resources/PractitionerRole-EspecialidadCL.json",
     "sourceTail" : "PractitionerRole-EspecialidadCL.json",
     "path" : "PractitionerRole-EspecialidadCL.html",
@@ -759,21 +713,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 31,
+    "index" : 29,
     "source" : "fsh-generated/resources/StructureDefinition-CorePrestadorCl.json",
     "sourceTail" : "StructureDefinition-CorePrestadorCl.json",
     "path" : "StructureDefinition-CorePrestadorCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePrestadorCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "PrestadorCL",
     "title" : "CL Prestador",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil fue creado para cubrir la descripción de un Prestador a nivel Nacional",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -788,7 +741,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 32,
+    "index" : 30,
     "source" : "fsh-generated/resources/Bundle-BundleEx.json",
     "sourceTail" : "Bundle-BundleEx.json",
     "path" : "Bundle-BundleEx.html"
@@ -797,7 +750,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 33,
+    "index" : 31,
     "source" : "fsh-generated/resources/Condition-1112.json",
     "sourceTail" : "Condition-1112.json",
     "path" : "Condition-1112.html",
@@ -809,21 +762,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 34,
+    "index" : 32,
     "source" : "fsh-generated/resources/StructureDefinition-CodigoPaises.json",
     "sourceTail" : "StructureDefinition-CodigoPaises.json",
     "path" : "StructureDefinition-CodigoPaises.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "PaisOrigenNacionalidadCl",
     "title" : "Codigo de Identificación de países",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye códigos de paises de origen",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -838,21 +790,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 35,
+    "index" : 33,
     "source" : "fsh-generated/resources/StructureDefinition-cl-address.json",
     "sourceTail" : "StructureDefinition-cl-address.json",
     "path" : "StructureDefinition-cl-address.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/cl-address",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ClAddress",
     "title" : "CL Address",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Variable dirección",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -867,7 +818,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 36,
+    "index" : 34,
     "source" : "fsh-generated/resources/Composition-CompositionCl-CarlosSalas.json",
     "sourceTail" : "Composition-CompositionCl-CarlosSalas.json",
     "path" : "Composition-CompositionCl-CarlosSalas.html",
@@ -879,21 +830,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 37,
+    "index" : 35,
     "source" : "fsh-generated/resources/StructureDefinition-ProvenanceCl.json",
     "sourceTail" : "StructureDefinition-ProvenanceCl.json",
     "path" : "StructureDefinition-ProvenanceCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvenanceCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ProvenanceCL",
     "title" : "CL Provenance",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil describe la forma de validación respecto a la procedencia de un recurso genrado durante un acto clínico.",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -908,21 +858,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 38,
+    "index" : 36,
     "source" : "fsh-generated/resources/StructureDefinition-VSEspecialidadesDeisCL.json",
     "sourceTail" : "StructureDefinition-VSEspecialidadesDeisCL.json",
     "path" : "StructureDefinition-VSEspecialidadesDeisCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/VSEspecialidadesDeisCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "EspecialidadCL",
     "title" : "Especialidad del médico principal",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye los códigos de las especialidades que puede tener el medico principal",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -937,7 +886,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 39,
+    "index" : 37,
     "source" : "fsh-generated/resources/Observation-123.json",
     "sourceTail" : "Observation-123.json",
     "path" : "Observation-123.html",
@@ -949,12 +898,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 40,
+    "index" : 38,
     "source" : "fsh-generated/resources/ValueSet-VSTiposEncuentroCL.json",
     "sourceTail" : "ValueSet-VSTiposEncuentroCL.json",
     "path" : "ValueSet-VSTiposEncuentroCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposEncuentroCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSTiposEncuentroCL",
     "title" : "Tipos de Encuentro",
     "experimental" : false,
@@ -963,8 +912,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -979,21 +927,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 41,
+    "index" : 39,
     "source" : "fsh-generated/resources/StructureDefinition-TiposServicio.json",
     "sourceTail" : "StructureDefinition-TiposServicio.json",
     "path" : "StructureDefinition-TiposServicio.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposServicio",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "TiposdeservicioCL",
     "title" : "Código de los tipos de servicio que se atiende",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye códigos de servicios que se entregan de forma remota",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1004,28 +951,16 @@
     },
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
   },
-  "Patient/PacienteCl-4" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 42,
-    "source" : "fsh-generated/resources/Patient-PacienteCl-4.json",
-    "sourceTail" : "Patient-PacienteCl-4.json",
-    "path" : "Patient-PacienteCl-4.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
   "CodeSystem/csrazonnoencuentro" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 43,
+    "index" : 40,
     "source" : "fsh-generated/resources/CodeSystem-csrazonnoencuentro.json",
     "sourceTail" : "CodeSystem-csrazonnoencuentro.json",
     "path" : "CodeSystem-csrazonnoencuentro.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/csrazonnoencuentro",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSrazonnoencuentro",
     "title" : "Razón Encuentro Remoto no Realizado",
     "experimental" : false,
@@ -1034,8 +969,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1050,21 +984,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 44,
+    "index" : 41,
     "source" : "fsh-generated/resources/StructureDefinition-BundleCl.json",
     "sourceTail" : "StructureDefinition-BundleCl.json",
     "path" : "StructureDefinition-BundleCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/BundleCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "BundleCL",
     "title" : "Cl BundleCL",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1079,12 +1012,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 45,
+    "index" : 42,
     "source" : "fsh-generated/resources/ValueSet-VSCodigosServiciosSalud.json",
     "sourceTail" : "ValueSet-VSCodigosServiciosSalud.json",
     "path" : "ValueSet-VSCodigosServiciosSalud.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosServiciosSalud",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodigosServiciosSaludCL",
     "title" : "Servicos de Salud en Chile",
     "experimental" : false,
@@ -1093,8 +1026,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1109,7 +1041,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 46,
+    "index" : 43,
     "source" : "fsh-generated/resources/Provenance-EjemplValidacionProvCl.json",
     "sourceTail" : "Provenance-EjemplValidacionProvCl.json",
     "path" : "Provenance-EjemplValidacionProvCl.html",
@@ -1121,21 +1053,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 47,
+    "index" : 44,
     "source" : "fsh-generated/resources/StructureDefinition-ObservacionesDiagnostico.json",
     "sourceTail" : "StructureDefinition-ObservacionesDiagnostico.json",
     "path" : "StructureDefinition-ObservacionesDiagnostico.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ObservacionesDiagnostico",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ObservacionesNotas",
     "title" : "Observaciones o comentarios simples respecto a un diagnóstico",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión sirve para insertar comentarios acerca a un diagnóstico médico realizado en un encuentro remoto",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1150,12 +1081,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 48,
+    "index" : 45,
     "source" : "fsh-generated/resources/CodeSystem-CSCodigoServicio.json",
     "sourceTail" : "CodeSystem-CSCodigoServicio.json",
     "path" : "CodeSystem-CSCodigoServicio.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoServicio",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodServicioCL",
     "title" : "Tipos de Servicios Remotos",
     "experimental" : false,
@@ -1164,8 +1095,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1180,21 +1110,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 49,
+    "index" : 46,
     "source" : "fsh-generated/resources/StructureDefinition-ContactoParticipantes.json",
     "sourceTail" : "StructureDefinition-ContactoParticipantes.json",
     "path" : "StructureDefinition-ContactoParticipantes.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ContactoParticipantes",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ContactopartCL",
     "title" : "Contacto de los participantes secundarios del encuentro",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1209,21 +1138,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 50,
+    "index" : 47,
     "source" : "fsh-generated/resources/StructureDefinition-NombreCampana.json",
     "sourceTail" : "StructureDefinition-NombreCampana.json",
     "path" : "StructureDefinition-NombreCampana.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "NombreCampanaCL",
     "title" : "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye los nombres de las distintas Campañas que se realizan y estan registradas en el RNI",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1238,7 +1166,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 51,
+    "index" : 48,
     "source" : "fsh-generated/resources/Organization-f003.json",
     "sourceTail" : "Organization-f003.json",
     "path" : "Organization-f003.html",
@@ -1250,12 +1178,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 52,
+    "index" : 49,
     "source" : "fsh-generated/resources/ValueSet-VSCodigosProvinciasCL.json",
     "sourceTail" : "ValueSet-VSCodigosProvinciasCL.json",
     "path" : "ValueSet-VSCodigosProvinciasCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodigosProvinciasCL",
     "title" : "Códigos de Provincias en Chile",
     "experimental" : false,
@@ -1264,8 +1192,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1280,7 +1207,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 53,
+    "index" : 50,
     "source" : "fsh-generated/resources/Location-LocalizacionEjemploCL1.json",
     "sourceTail" : "Location-LocalizacionEjemploCL1.json",
     "path" : "Location-LocalizacionEjemploCL1.html",
@@ -1292,12 +1219,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 54,
+    "index" : 51,
     "source" : "fsh-generated/resources/CodeSystem-CSCodigoslenguaje.json",
     "sourceTail" : "CodeSystem-CSCodigoslenguaje.json",
     "path" : "CodeSystem-CSCodigoslenguaje.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSCodigoslenguaje",
     "title" : "Codigos Lenguaje",
     "experimental" : false,
@@ -1306,8 +1233,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1322,12 +1248,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 55,
+    "index" : 52,
     "source" : "fsh-generated/resources/ValueSet-VSContactosec.json",
     "sourceTail" : "ValueSet-VSContactosec.json",
     "path" : "ValueSet-VSContactosec.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSContactosec",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSContactoSecundario",
     "title" : "Contacto participantes",
     "experimental" : false,
@@ -1336,8 +1262,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1352,12 +1277,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 56,
+    "index" : 53,
     "source" : "fsh-generated/resources/ValueSet-VSRazonNOT.json",
     "sourceTail" : "ValueSet-VSRazonNOT.json",
     "path" : "ValueSet-VSRazonNOT.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOT",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSRazonNOencuentro",
     "title" : "Razones no Atención Remota",
     "experimental" : false,
@@ -1366,8 +1291,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1382,21 +1306,49 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 57,
+    "index" : 54,
     "source" : "fsh-generated/resources/StructureDefinition-CorePacienteCl.json",
     "sourceTail" : "StructureDefinition-CorePacienteCl.json",
     "path" : "StructureDefinition-CorePacienteCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "PacienteCl",
     "title" : "CL Paciente",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso Paciente para un Historial Clínico Nacional",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 Chile",
+      "link" : "http://hl7chile.cl",
+      "status" : "Active"
+    },
+    "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
+  },
+  "CodeSystem/CSTipoIdentificador" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 55,
+    "source" : "fsh-generated/resources/CodeSystem-CSTipoIdentificador.json",
+    "sourceTail" : "CodeSystem-CSTipoIdentificador.json",
+    "path" : "CodeSystem-CSTipoIdentificador.html",
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+    "version" : "1.8.2",
+    "name" : "CSTipoIdentificador",
+    "title" : "Tipo Identificador",
+    "experimental" : false,
+    "date" : "2023-07-03T00:00:00-03:00",
+    "description" : "Tipo Identificador",
+    "jurisdictions" : [
+      {
+        "code" : "CL",
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1411,12 +1363,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 58,
+    "index" : 56,
     "source" : "fsh-generated/resources/CodeSystem-CSNombreCampana.json",
     "sourceTail" : "CodeSystem-CSNombreCampana.json",
     "path" : "CodeSystem-CSNombreCampana.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSNombreCampana",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSNombreCampanaCL",
     "title" : "Campañas Inmunización",
     "experimental" : false,
@@ -1425,8 +1377,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1441,12 +1392,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 59,
+    "index" : 57,
     "source" : "fsh-generated/resources/CodeSystem-CSRazonNOT.json",
     "sourceTail" : "CodeSystem-CSRazonNOT.json",
     "path" : "CodeSystem-CSRazonNOT.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSRazonNOT",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSRazonNOencuentroCL",
     "title" : "Razones Cancelación Atención Remota",
     "experimental" : false,
@@ -1455,8 +1406,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1471,21 +1421,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 60,
+    "index" : 58,
     "source" : "fsh-generated/resources/StructureDefinition-RazonNOrealizarseInm.json",
     "sourceTail" : "StructureDefinition-RazonNOrealizarseInm.json",
     "path" : "StructureDefinition-RazonNOrealizarseInm.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "RazonNOTinmunizacionCL",
     "title" : "Razones por las cuales no se pudo realizar la inmunización",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye las razones por la cuales no pudo llevarse a cabo la inmunización",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1500,21 +1449,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 61,
+    "index" : 59,
     "source" : "fsh-generated/resources/StructureDefinition-CoreOrganizacionCl.json",
     "sourceTail" : "StructureDefinition-CoreOrganizacionCl.json",
     "path" : "StructureDefinition-CoreOrganizacionCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreOrganizacionCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "OrganizacionCL",
     "title" : "CL Organización",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado para también cubrir las necesidades nacionales de un Recurso de Organzación en Salud",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1525,16 +1473,45 @@
     },
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
   },
+  "CodeSystem/CodPais" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 60,
+    "source" : "fsh-generated/resources/CodeSystem-CodPais.json",
+    "sourceTail" : "CodeSystem-CodPais.json",
+    "path" : "CodeSystem-CodPais.html",
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+    "version" : "1.8.2",
+    "name" : "CSCodPaises",
+    "title" : "Códigos de Países",
+    "experimental" : false,
+    "date" : "2022-01-18T00:00:00-03:00",
+    "description" : "Codigos definidos para la identificación de países segun norma ISO3166-N",
+    "jurisdictions" : [
+      {
+        "code" : "CL",
+        "name" : "Chile"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 Chile",
+      "link" : "http://hl7chile.cl",
+      "status" : "Active"
+    },
+    "copyright" : "All content on ISO Online is copyright protected. The copyright is owned by ISO. Any use of the content, including copying of it in whole or in part, for example to another Internet site, is prohibited and would require written permission from ISO."
+  },
   "ValueSet/VSRazonNOTinm" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 62,
+    "index" : 61,
     "source" : "fsh-generated/resources/ValueSet-VSRazonNOTinm.json",
     "sourceTail" : "ValueSet-VSRazonNOTinm.json",
     "path" : "ValueSet-VSRazonNOTinm.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSRazonNOTinmCL",
     "title" : "Razones no Inmunización",
     "experimental" : false,
@@ -1543,8 +1520,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1559,12 +1535,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 63,
+    "index" : 62,
     "source" : "fsh-generated/resources/ValueSet-VSTiposServicio.json",
     "sourceTail" : "ValueSet-VSTiposServicio.json",
     "path" : "ValueSet-VSTiposServicio.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposServicio",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSTiposServicioCL",
     "title" : "Tipos de Servicios Remotos",
     "experimental" : false,
@@ -1573,8 +1549,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1589,21 +1564,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 64,
+    "index" : 63,
     "source" : "fsh-generated/resources/StructureDefinition-CoreMedicamentoCl.json",
     "sourceTail" : "StructureDefinition-CoreMedicamentoCl.json",
     "path" : "StructureDefinition-CoreMedicamentoCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "MedicamentoCL",
     "title" : "CL Medicamento",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica desde la visión del TFC que se usará para poder manejar farmacos ya registrados, y que deberán ser consultados por los prestadores a la hora de prescribir algno.",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1618,21 +1592,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 65,
+    "index" : 64,
     "source" : "fsh-generated/resources/StructureDefinition-RegionesCl.json",
     "sourceTail" : "StructureDefinition-RegionesCl.json",
     "path" : "StructureDefinition-RegionesCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "RegionesCl",
     "title" : "Códigos para Regiones en Chile",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión que permite codificar las Regiones en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1647,21 +1620,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 66,
+    "index" : 65,
     "source" : "fsh-generated/resources/StructureDefinition-TiposEncuentro.json",
     "sourceTail" : "StructureDefinition-TiposEncuentro.json",
     "path" : "StructureDefinition-TiposEncuentro.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposEncuentro",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "TiposEncuentroRemotoCL",
     "title" : "Código de tipos de encuentro remoto",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1676,12 +1648,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 67,
+    "index" : 66,
     "source" : "fsh-generated/resources/ValueSet-VSTiposDocumentos.json",
     "sourceTail" : "ValueSet-VSTiposDocumentos.json",
     "path" : "ValueSet-VSTiposDocumentos.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSTiposDocumentos",
     "title" : "Tipos de Documentos",
     "experimental" : false,
@@ -1690,8 +1662,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1706,13 +1677,42 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 68,
+    "index" : 67,
     "source" : "fsh-generated/resources/Encounter-EncounterCL.json",
     "sourceTail" : "Encounter-EncounterCL.json",
     "path" : "Encounter-EncounterCL.html",
     "status" : {
       "class" : "colsi"
     }
+  },
+  "ValueSet/VSTipoIdentificador" : {
+    "history" : false,
+    "testplan" : false,
+    "testscript" : false,
+    "index" : 68,
+    "source" : "fsh-generated/resources/ValueSet-VSTipoIdentificador.json",
+    "sourceTail" : "ValueSet-VSTipoIdentificador.json",
+    "path" : "ValueSet-VSTipoIdentificador.html",
+    "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador",
+    "version" : "1.8.2",
+    "name" : "VSTipoIdentificador",
+    "title" : "Tipo Identificador",
+    "experimental" : false,
+    "date" : "2023-07-03T00:00:00-03:00",
+    "description" : "Tipo Identificador",
+    "jurisdictions" : [
+      {
+        "code" : "CL",
+        "name" : "Chile"
+      }
+    ],
+    "status" : {
+      "class" : "colsi",
+      "owner" : "HL7 Chile",
+      "link" : "http://hl7chile.cl",
+      "status" : "Active"
+    },
+    "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
   },
   "Practitioner/3020" : {
     "history" : false,
@@ -1735,7 +1735,7 @@
     "sourceTail" : "ValueSet-CodPais.json",
     "path" : "ValueSet-CodPais.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CodPaises",
     "title" : "Códigos de Países",
     "experimental" : false,
@@ -1744,8 +1744,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1765,16 +1764,15 @@
     "sourceTail" : "StructureDefinition-EncounterCL.json",
     "path" : "StructureDefinition-EncounterCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "EncounterCL",
     "title" : "CL Encuentro",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Definición de un Encuentro clínico remoto para las necesidades de interoperabilidad en Chile.",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1794,16 +1792,15 @@
     "sourceTail" : "StructureDefinition-CoreDiagnosticoCl.json",
     "path" : "StructureDefinition-CoreDiagnosticoCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreDiagnosticoCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "DiagnosticoCl",
     "title" : "CL Condición-Diagnóstico",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Condicion o Diagnósticos de Pacientes para Registro Clínico Electrónico",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1823,7 +1820,7 @@
     "sourceTail" : "CodeSystem-CSRazonNOTinm.json",
     "path" : "CodeSystem-CSRazonNOTinm.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSRazonNOTinm",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSRazonNOinmunizacionCL",
     "title" : "Razones no Inmunización",
     "experimental" : false,
@@ -1832,8 +1829,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1853,16 +1849,15 @@
     "sourceTail" : "StructureDefinition-IdContacto.json",
     "path" : "StructureDefinition-IdContacto.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "IdentificacionContactoCl",
     "title" : "Identificación del Contacto de un Paciente",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Identificación de contacto de paciente en especial para casos en los cuales este actúa como Tutor Legal",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1882,7 +1877,7 @@
     "sourceTail" : "ValueSet-VSEspecialidadesDeisCL.json",
     "path" : "ValueSet-VSEspecialidadesDeisCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesDeisCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSEspecialidadesDeisCL",
     "title" : "Códigos de Especialidades",
     "experimental" : false,
@@ -1891,8 +1886,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1924,7 +1918,7 @@
     "sourceTail" : "ValueSet-VSDiagnosticosSCT.json",
     "path" : "ValueSet-VSDiagnosticosSCT.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDiagnosticosSCT",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSDiagnosticosSCT",
     "title" : "Diagnósticos SNOMED y Ausente o Desconocido",
     "experimental" : false,
@@ -1933,8 +1927,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1954,7 +1947,7 @@
     "sourceTail" : "CodeSystem-CSTiposEncuentroCL.json",
     "path" : "CodeSystem-CSTiposEncuentroCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTiposEncuentroCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CSTiposEncuentroCL",
     "title" : "Tipos de Encuentro",
     "experimental" : false,
@@ -1963,8 +1956,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -1996,7 +1988,7 @@
     "sourceTail" : "ValueSet-VSTiposVacunas.json",
     "path" : "ValueSet-VSTiposVacunas.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSTiposVacunasCL",
     "title" : "Tipos de Vacunas RNI",
     "experimental" : false,
@@ -2005,8 +1997,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2026,16 +2017,15 @@
     "sourceTail" : "StructureDefinition-NotasEncuentro.json",
     "path" : "StructureDefinition-NotasEncuentro.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NotasEncuentro",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "NotasCL",
     "title" : "Notas realizadas en un encuentro por Comité",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2070,37 +2060,24 @@
       "class" : "colsi"
     }
   },
-  "Patient/PacienteCL" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 84,
-    "source" : "fsh-generated/resources/Patient-PacienteCL.json",
-    "sourceTail" : "Patient-PacienteCL.json",
-    "path" : "Patient-PacienteCL.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
   "StructureDefinition/CoreEspecialidadCl" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 85,
+    "index" : 84,
     "source" : "fsh-generated/resources/StructureDefinition-CoreEspecialidadCl.json",
     "sourceTail" : "StructureDefinition-CoreEspecialidadCl.json",
     "path" : "StructureDefinition-CoreEspecialidadCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreEspecialidadCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "CoreEspecialidadCl",
     "title" : "CL RolClinico",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso de Especialidad Médica para la denominación de Prescriptor en Chile",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2115,21 +2092,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 86,
+    "index" : 85,
     "source" : "fsh-generated/resources/StructureDefinition-AuditEventCl.json",
     "sourceTail" : "StructureDefinition-AuditEventCl.json",
     "path" : "StructureDefinition-AuditEventCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/AuditEventCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "AuditEventCl",
     "title" : "CL Auditoria",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Perfil para genererar un recurso que permita desarrollar logs de auditoría en cuanto al acceso y manejo de recursos FHIR",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2144,7 +2120,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 87,
+    "index" : 86,
     "source" : "fsh-generated/resources/Organization-ORG1.json",
     "sourceTail" : "Organization-ORG1.json",
     "path" : "Organization-ORG1.html",
@@ -2156,12 +2132,12 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 88,
+    "index" : 87,
     "source" : "fsh-generated/resources/ValueSet-VSCodigosRegionesCL.json",
     "sourceTail" : "ValueSet-VSCodigosRegionesCL.json",
     "path" : "ValueSet-VSCodigosRegionesCL.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "VSCodigosRegionesCL",
     "title" : "Códigos de Regiones en Chile",
     "experimental" : false,
@@ -2170,8 +2146,7 @@
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2186,7 +2161,7 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 89,
+    "index" : 88,
     "source" : "fsh-generated/resources/Medication-MedicamentoCl.json",
     "sourceTail" : "Medication-MedicamentoCl.json",
     "path" : "Medication-MedicamentoCl.html",
@@ -2198,21 +2173,20 @@
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 90,
+    "index" : 89,
     "source" : "fsh-generated/resources/StructureDefinition-ProvinciasCl.json",
     "sourceTail" : "StructureDefinition-ProvinciasCl.json",
     "path" : "StructureDefinition-ProvinciasCl.html",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl",
-    "version" : "1.8.1",
+    "version" : "1.8.2",
     "name" : "ProvinciasCl",
     "title" : "Códigos para Provincias en Chile",
-    "date" : "2023-06-27T22:42:19-04:00",
+    "date" : "2023-09-01T14:45:29-04:00",
     "description" : "Esta extensión que permite codificar las Provincias en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
         "code" : "CL",
-        "name" : "Chile",
-        "flag" : "chl"
+        "name" : "Chile"
       }
     ],
     "status" : {
@@ -2223,23 +2197,11 @@
     },
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional."
   },
-  "Patient/PacienteCL2" : {
-    "history" : false,
-    "testplan" : false,
-    "testscript" : false,
-    "index" : 91,
-    "source" : "fsh-generated/resources/Patient-PacienteCL2.json",
-    "sourceTail" : "Patient-PacienteCL2.json",
-    "path" : "Patient-PacienteCL2.html",
-    "status" : {
-      "class" : "colsi"
-    }
-  },
   "AuditEvent/AuditEventEx" : {
     "history" : false,
     "testplan" : false,
     "testscript" : false,
-    "index" : 92,
+    "index" : 90,
     "source" : "fsh-generated/resources/AuditEvent-AuditEventEx.json",
     "sourceTail" : "AuditEvent-AuditEventEx.json",
     "path" : "AuditEvent-AuditEventEx.html",

@@ -11,7 +11,7 @@
     "basename" : "Immunization",
     "basepath" : "http://hl7.org/fhir/R4/immunization.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -30,7 +30,7 @@
     "basename" : "Composition",
     "basepath" : "http://hl7.org/fhir/R4/composition.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -49,7 +49,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -61,7 +61,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "RazonNOrealizarse" : {
     "index" : 3,
@@ -75,7 +75,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -87,7 +87,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "CoreLocalizacionCl" : {
     "index" : 4,
@@ -101,7 +101,7 @@
     "basename" : "Location",
     "basepath" : "http://hl7.org/fhir/R4/location.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -120,7 +120,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -132,7 +132,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "SegundoApellido" : {
     "index" : 6,
@@ -146,7 +146,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -158,7 +158,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "ServicioSalud" : {
     "index" : 7,
@@ -172,7 +172,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -184,7 +184,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "CorePrestadorCl" : {
     "index" : 8,
@@ -198,7 +198,7 @@
     "basename" : "Practitioner",
     "basepath" : "http://hl7.org/fhir/R4/practitioner.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -217,7 +217,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -229,7 +229,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "cl-address" : {
     "index" : 10,
@@ -243,7 +243,7 @@
     "basename" : "Address",
     "basepath" : "http://hl7.org/fhir/R4/datatypes.html#Address",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -262,7 +262,7 @@
     "basename" : "Provenance",
     "basepath" : "http://hl7.org/fhir/R4/provenance.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -281,7 +281,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -293,7 +293,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "TiposServicio" : {
     "index" : 13,
@@ -307,7 +307,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -319,7 +319,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "BundleCl" : {
     "index" : 14,
@@ -333,7 +333,7 @@
     "basename" : "Bundle",
     "basepath" : "http://hl7.org/fhir/R4/bundle.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -352,7 +352,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -364,7 +364,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "ContactoParticipantes" : {
     "index" : 16,
@@ -378,7 +378,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -390,7 +390,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "NombreCampana" : {
     "index" : 17,
@@ -404,7 +404,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -416,7 +416,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "CorePacienteCl" : {
     "index" : 18,
@@ -430,7 +430,7 @@
     "basename" : "Patient",
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -449,7 +449,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -461,7 +461,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "CoreOrganizacionCl" : {
     "index" : 20,
@@ -475,7 +475,7 @@
     "basename" : "Organization",
     "basepath" : "http://hl7.org/fhir/R4/organization.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -494,7 +494,7 @@
     "basename" : "Medication",
     "basepath" : "http://hl7.org/fhir/R4/medication.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -513,7 +513,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -525,7 +525,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "TiposEncuentro" : {
     "index" : 23,
@@ -539,7 +539,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -551,7 +551,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "EncounterCL" : {
     "index" : 24,
@@ -565,7 +565,7 @@
     "basename" : "Encounter",
     "basepath" : "http://hl7.org/fhir/R4/encounter.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -584,7 +584,7 @@
     "basename" : "Condition",
     "basepath" : "http://hl7.org/fhir/R4/condition.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -603,7 +603,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -615,7 +615,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "NotasEncuentro" : {
     "index" : 27,
@@ -629,7 +629,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -641,7 +641,7 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   },
   "CoreEspecialidadCl" : {
     "index" : 28,
@@ -655,7 +655,7 @@
     "basename" : "PractitionerRole",
     "basepath" : "http://hl7.org/fhir/R4/practitionerrole.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -674,7 +674,7 @@
     "basename" : "AuditEvent",
     "basepath" : "http://hl7.org/fhir/R4/auditevent.html",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -693,7 +693,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Jun 27 22:42:19 CLT 2023",
+    "date" : "Fri Sep 01 14:45:29 CLT 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -705,6 +705,6 @@
         "expression" : "Element"
       }
     ],
-    "extension-contexts" : ["Element"]
+    "extension-contexts" : ["none"]
   }
 }

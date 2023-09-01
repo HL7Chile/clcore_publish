@@ -12,11 +12,11 @@
       </div>
    </text>
    <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
-   <version value="1.8.1"/>
+   <version value="1.8.2"/>
    <name value="clcore"/>
    <title value="Guía de Implementación &#34;cl core&#34; FHIR R4, (Versión Evolutiva)"/>
    <status value="active"/>
-   <date value="2023-06-27T22:42:19-04:00"/>
+   <date value="2023-09-01T14:45:29-04:00"/>
    <publisher value="HL7 Chile"/>
    <contact>
       <name value="HL7 Chile"/>
@@ -282,19 +282,20 @@
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency">
          <valueCode value="hl7.fhir.uv.tools#current"/>
       </extension>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       <grouping id="-str-profile">
          <name value="Structures: Resource Profiles"/>
          <description value="These define constraints on FHIR resources for systems conforming to this implementation guide."/>
@@ -315,64 +316,22 @@
          <name value="Terminology: Code Systems"/>
          <description value="These define new code systems used by systems conforming to this implementation guide."/>
       </grouping>
-
-
-
-
-
-
+      
+      
+      
+      
+      
+      
       <grouping id="-ex-example">
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
-
-
+      
+      
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSNombreCampana.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSNombreCampana"/>
-         </reference>
-         <name value="Campañas de Vacunación"/>
-         <description value="Campañas de Inmunización utilizada en Chile según CodeSystem local"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSNombreCampana.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSNombreCampana"/>
-         </reference>
-         <name value="Campañas Inmunización"/>
-         <description value="Códigos de las campañas de vacunas o inmunizaciones según indicaciones del Ministerio de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:complex-type"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-cl-address.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/cl-address"/>
-         </reference>
-         <name value="CL Address"/>
-         <description value="Variable dirección"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-datatype"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -388,21 +347,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:resource"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-BundleCl.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/BundleCl"/>
-         </reference>
-         <name value="Cl BundleCL"/>
-         <description value="Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-profile"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -418,6 +365,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -433,6 +383,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -448,6 +401,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -463,6 +419,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -478,6 +437,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -493,6 +455,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -508,6 +473,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -523,6 +491,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -538,6 +509,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -553,6 +527,9 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:resource"/>
          </extension>
@@ -568,6 +545,45 @@
          <groupingId value="-str-profile"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:resource"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-BundleCl.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/BundleCl"/>
+         </reference>
+         <name value="Cl BundleCL"/>
+         <description value="Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-profile"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:complex-type"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-cl-address.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/cl-address"/>
+         </reference>
+         <name value="CL Address"/>
+         <description value="Variable dirección"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-datatype"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -583,36 +599,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodigoslenguaje.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSCodigoslenguaje"/>
-         </reference>
-         <name value="Codigos Lenguaje"/>
-         <description value="Códigos de leguaje"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodigoslenguaje.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodigoslenguaje"/>
-         </reference>
-         <name value="Codigos Lenguaje"/>
-         <description value="Codigoslenguaje"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -628,21 +617,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSContactosec.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSContactosec"/>
-         </reference>
-         <name value="Contacto participantes"/>
-         <description value="Contacto telefónico o correo de los participantes"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -658,6 +635,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -673,21 +653,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="StructureDefinition:extension"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="StructureDefinition-TiposEncuentro.html"/>
-         </extension>
-         <reference>
-            <reference value="StructureDefinition/TiposEncuentro"/>
-         </reference>
-         <name value="Código de tipos de encuentro remoto"/>
-         <description value="Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-str-extension"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -703,201 +671,27 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+            <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodigosComunaCL.html"/>
+            <valueUri value="StructureDefinition-TiposEncuentro.html"/>
          </extension>
          <reference>
-            <reference value="ValueSet/VSCodigosComunaCL"/>
+            <reference value="StructureDefinition/TiposEncuentro"/>
          </reference>
-         <name value="Códigos de Comunas en Chile"/>
-         <description value="Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <name value="Código de tipos de encuentro remoto"/>
+         <description value="Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota"/>
          <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
+         <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodComunasCL.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodComunasCL"/>
-         </reference>
-         <name value="Códigos de Comunas en Chile"/>
-         <description value="Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodigoDNI.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodigoDNI"/>
-         </reference>
-         <name value="Códigos de Documentos DNI para LATAM y el Caribe"/>
-         <description value="Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSEspecialidadesDeisCL.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSEspecialidadesDeisCL"/>
-         </reference>
-         <name value="Códigos de Especialidades"/>
-         <description value="Códigos de especialidades médicas descritas según DEIS"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSEspecialidadesDeisCL.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSEspecialidadesDeisCL"/>
-         </reference>
-         <name value="Códigos de Especialidades"/>
-         <description value="Códigos de especialidades médicas descritas según DEIS"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodMadurez.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSCodMadurez"/>
-         </reference>
-         <name value="Códigos de grado de madurez del artefacto"/>
-         <description value="Códigos de grado de madurez del artefacto"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodMadurez.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodMadurez"/>
-         </reference>
-         <name value="Códigos de grado de madurez del artefacto"/>
-         <description value="Códigos de grado de madurez del artefacto"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-CodPais.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/CodPais"/>
-         </reference>
-         <name value="Códigos de Países"/>
-         <description value="Codigos definidos para la identificación de países segun norma ISO3166-N"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodigosProvinciasCL.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSCodigosProvinciasCL"/>
-         </reference>
-         <name value="Códigos de Provincias en Chile"/>
-         <description value="Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodProvinciasCL.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodProvinciasCL"/>
-         </reference>
-         <name value="Códigos de Provincias en Chile"/>
-         <description value="Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodigosRegionesCL.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSCodigosRegionesCL"/>
-         </reference>
-         <name value="Códigos de Regiones en Chile"/>
-         <description value="Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodRegionCL.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodRegionCL"/>
-         </reference>
-         <name value="Códigos de Regiones en Chile"/>
-         <description value="Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodigoVacunas.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodigoVacunas"/>
-         </reference>
-         <name value="Códigos de Vacunas RNI"/>
-         <description value="Códigos de las vacunas o inmunizaciones según indicaciones del Ministerio de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -913,6 +707,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -928,6 +725,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -943,396 +743,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSDiagnosticosSCT.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSDiagnosticosSCT"/>
-         </reference>
-         <name value="Diagnósticos SNOMED y Ausente o Desconocido"/>
-         <description value="Diagnósticos definidos en Snomed-CT."/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Medication"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Medication-MedicamentoCl.html"/>
-         </extension>
-         <reference>
-            <reference value="Medication/MedicamentoCl"/>
-         </reference>
-         <name value="Ejemplo de comprimido Tareg - D 160"/>
-         <description value="Medicamento comprimido Tareg -D160 referemciado como medicamento en la TFC, considerando el de 25 comprimidos"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Provenance"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Provenance-EjemplValidacionProvCl.html"/>
-         </extension>
-         <reference>
-            <reference value="Provenance/EjemplValidacionProvCl"/>
-         </reference>
-         <name value="Ejemplo de la Validación de una Receta por medio del Prescriptor"/>
-         <description value="Ejemplo de una Receta en Request Group que contiene una receta, en la cual el prestador que la ha desarollado genera una validación por medio de una firma"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvenanceCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="AllergyIntolerance"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="AllergyIntolerance-222.html"/>
-         </extension>
-         <reference>
-            <reference value="AllergyIntolerance/222"/>
-         </reference>
-         <name value="Ejemplo de Recurso AllergyIntolerance"/>
-         <description value="AllergyIntolerance ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Composition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Composition-CompositionCl-CarlosSalas.html"/>
-         </extension>
-         <reference>
-            <reference value="Composition/CompositionCl-CarlosSalas"/>
-         </reference>
-         <name value="Ejemplo de Recurso CompositionCl"/>
-         <description value="Composición de un documento para resumen de historia clínica"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/DocumentoCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-1112.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/1112"/>
-         </reference>
-         <name value="Ejemplo de Recurso Condition"/>
-         <description value="Condition ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="PractitionerRole"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="PractitionerRole-EspecialidadCL.html"/>
-         </extension>
-         <reference>
-            <reference value="PractitionerRole/EspecialidadCL"/>
-         </reference>
-         <name value="Ejemplo de Recurso de especialidad"/>
-         <description value="Define el Rol de un Médico durante la Operación de un paciente en Urgencia"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreEspecialidadCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-PacienteCl-4.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/PacienteCl-4"/>
-         </reference>
-         <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado"/>
-         <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&#34;http://regcivil.cl/Validacion/RUN\&#34; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente."/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-PacienteCl-5.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/PacienteCl-5"/>
-         </reference>
-         <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"/>
-         <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&#34;http://regcivil.cl/Validacion/RUN\&#34; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión."/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Encounter"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Encounter-EncounterCL.html"/>
-         </extension>
-         <reference>
-            <reference value="Encounter/EncounterCL"/>
-         </reference>
-         <name value="Ejemplo de Recurso Encuentro"/>
-         <description value="Encuentro remoto ficticio"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Immunization"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Immunization-999.html"/>
-         </extension>
-         <reference>
-            <reference value="Immunization/999"/>
-         </reference>
-         <name value="Ejemplo de Recurso Immunization"/>
-         <description value="Immunization ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Immunization"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Immunization-ImmunizationCL.html"/>
-         </extension>
-         <reference>
-            <reference value="Immunization/ImmunizationCL"/>
-         </reference>
-         <name value="Ejemplo de Recurso Inmunización"/>
-         <description value="Registro de inmunización ficticio"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Location"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Location-3333458.html"/>
-         </extension>
-         <reference>
-            <reference value="Location/3333458"/>
-         </reference>
-         <name value="Ejemplo de Recurso Location"/>
-         <description value="Location ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="MedicationStatement"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="MedicationStatement-354.html"/>
-         </extension>
-         <reference>
-            <reference value="MedicationStatement/354"/>
-         </reference>
-         <name value="Ejemplo de Recurso MedicationStatement"/>
-         <description value="MedicationStatement ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Observation"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Observation-123.html"/>
-         </extension>
-         <reference>
-            <reference value="Observation/123"/>
-         </reference>
-         <name value="Ejemplo de Recurso Observation"/>
-         <description value="Observation ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Organization"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Organization-f003.html"/>
-         </extension>
-         <reference>
-            <reference value="Organization/f003"/>
-         </reference>
-         <name value="Ejemplo de Recurso Organización"/>
-         <description value="Organización ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-11.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/11"/>
-         </reference>
-         <name value="Ejemplo de Recurso Paciente"/>
-         <description value="Paciente ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-PacienteCL2.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/PacienteCL2"/>
-         </reference>
-         <name value="Ejemplo de Recurso Paciente Extranjero"/>
-         <description value="Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte."/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-PacienteCL.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/PacienteCL"/>
-         </reference>
-         <name value="Ejemplo de Recurso Paciente Nacional"/>
-         <description value="Paciente ficticio nacional CI Chilena, sin sistema de validación &#34;http://regcivil.cl/Validacion/RUN&#34; ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Practitioner"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Practitioner-3240.html"/>
-         </extension>
-         <reference>
-            <reference value="Practitioner/3240"/>
-         </reference>
-         <name value="Ejemplo de Recurso Prestador como base para un Core Nacional"/>
-         <description value="Ejemplo de un Prestador no Real con identificadores en Systemas con API&#34;s no disponibles"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePrestadorCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Practitioner"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Practitioner-3020.html"/>
-         </extension>
-         <reference>
-            <reference value="Practitioner/3020"/>
-         </reference>
-         <name value="Ejemplo de Recurso Profesional"/>
-         <description value="Profesional ficticio"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="AuditEvent"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="AuditEvent-AuditEventEx.html"/>
-         </extension>
-         <reference>
-            <reference value="AuditEvent/AuditEventEx"/>
-         </reference>
-         <name value="Ejemplo de un Audit-Event Search."/>
-         <description value="Log de Audición de una operacion Search."/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/AuditEventCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Condition"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Condition-DiagnosticoEj.html"/>
-         </extension>
-         <reference>
-            <reference value="Condition/DiagnosticoEj"/>
-         </reference>
-         <name value="Ejemplo de Un Diagnóstico de hipertensión"/>
-         <description value="Diagnóstico Confirmado de Hipertesión"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreDiagnosticoCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Location"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Location-LocalizacionEjemploCL1.html"/>
-         </extension>
-         <reference>
-            <reference value="Location/LocalizacionEjemploCL1"/>
-         </reference>
-         <name value="Ejemplo Localización Farmacia"/>
-         <description value="Ejemplo de la localización relacionada con una Farmacia específica ubicada en la comuna de Viña del Mar"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreLocalizacionCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Organization"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Organization-ORG1.html"/>
-         </extension>
-         <reference>
-            <reference value="Organization/ORG1"/>
-         </reference>
-         <name value="Ejemplo Organización Prestadora de Salud"/>
-         <description value="CESFAM Rio Bueno (Ficticio) con ID DEIS no real"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreOrganizacionCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Bundle"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Bundle-BundleEx.html"/>
-         </extension>
-         <reference>
-            <reference value="Bundle/BundleEx"/>
-         </reference>
-         <name value="Ejemplo Simple de Bundle de Transacción"/>
-         <description value="Bundle de Transacción con un recurso Practitioner y un Recurso Organization"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/BundleCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1348,36 +761,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="RequestGroup"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="RequestGroup-RG12224.html"/>
-         </extension>
-         <reference>
-            <reference value="RequestGroup/RG12224"/>
-         </reference>
-         <name value="example"/>
-         <description value="Solo un ejemplo"/>
-         <exampleBoolean value="true"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Medication"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Medication-MedicamentoCl-2.html"/>
-         </extension>
-         <reference>
-            <reference value="Medication/MedicamentoCl-2"/>
-         </reference>
-         <name value="Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido"/>
-         <description value="Definición de Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido Código de descripción = 1703591000167111 y de Cocepto = 696681000167108 según TFC"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1393,6 +779,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1408,6 +797,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1423,6 +815,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1438,81 +833,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="Patient"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="Patient-PacienteCl-3.html"/>
-         </extension>
-         <reference>
-            <reference value="Patient/PacienteCl-3"/>
-         </reference>
-         <name value="Paciente Nacional, con datos actualizados, declarando nacionalidad"/>
-         <description value="Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real"/>
-         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
-         <groupingId value="-ex-example"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSRazonNOT.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSRazonNOT"/>
-         </reference>
-         <name value="Razones Cancelación Atención Remota"/>
-         <description value="Códigos de las razones por la cual un encuentro remoto no pudo realizarse según indicaciones del Ministerio de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSRazonNOT.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSRazonNOT"/>
-         </reference>
-         <name value="Razones no Atención Remota"/>
-         <description value="Razones por la que no se lleva a cabo un encuentro remoto según CodeSystem local"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSRazonNOTinm.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSRazonNOTinm"/>
-         </reference>
-         <name value="Razones no Inmunización"/>
-         <description value="Razones por la que no se lleva a cabo la administración de una vacuna o registro de una inmunización según CodeSystem local"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSRazonNOTinm.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSRazonNOTinm"/>
-         </reference>
-         <name value="Razones no Inmunización"/>
-         <description value="Códigos de las razones por la cual el registro de inmunización no pudo realizarse según indicaciones del Ministerio de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1528,21 +851,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-csrazonnoencuentro.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/csrazonnoencuentro"/>
-         </reference>
-         <name value="Razón Encuentro Remoto no Realizado"/>
-         <description value="Códigos de las razones por la cual un encuentro remoto no pudo realizarse según indicaciones del Ministerio de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1558,36 +869,9 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSCodSSalud.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSCodSSalud"/>
-         </reference>
-         <name value="Servicios de Salud Chile"/>
-         <description value="Códigos del Sistema Nacional de Servicios de Salud"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
-         </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSCodigosServiciosSalud.html"/>
-         </extension>
-         <reference>
-            <reference value="ValueSet/VSCodigosServiciosSalud"/>
-         </reference>
-         <name value="Servicos de Salud en Chile"/>
-         <description value="Códigos de Servicios de Salud que existen en Chile"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="StructureDefinition:extension"/>
          </extension>
@@ -1603,6 +887,261 @@
          <groupingId value="-str-extension"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSNombreCampana.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSNombreCampana"/>
+         </reference>
+         <name value="Campañas de Vacunación"/>
+         <description value="Campañas de Inmunización utilizada en Chile según CodeSystem local"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodigoslenguaje.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodigoslenguaje"/>
+         </reference>
+         <name value="Codigos Lenguaje"/>
+         <description value="Códigos de leguaje"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSContactosec.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSContactosec"/>
+         </reference>
+         <name value="Contacto participantes"/>
+         <description value="Contacto telefónico o correo de los participantes"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodigosComunaCL.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodigosComunaCL"/>
+         </reference>
+         <name value="Códigos de Comunas en Chile"/>
+         <description value="Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSEspecialidadesDeisCL.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSEspecialidadesDeisCL"/>
+         </reference>
+         <name value="Códigos de Especialidades"/>
+         <description value="Códigos de especialidades médicas descritas según DEIS"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-CodPais.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/CodPais"/>
+         </reference>
+         <name value="Códigos de Países"/>
+         <description value="Codigos definidos para la identificación de países segun norma ISO3166-N"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodigosProvinciasCL.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodigosProvinciasCL"/>
+         </reference>
+         <name value="Códigos de Provincias en Chile"/>
+         <description value="Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodigosRegionesCL.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodigosRegionesCL"/>
+         </reference>
+         <name value="Códigos de Regiones en Chile"/>
+         <description value="Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodMadurez.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodMadurez"/>
+         </reference>
+         <name value="Códigos de grado de madurez del artefacto"/>
+         <description value="Códigos de grado de madurez del artefacto"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSDiagnosticosSCT.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSDiagnosticosSCT"/>
+         </reference>
+         <name value="Diagnósticos SNOMED y Ausente o Desconocido"/>
+         <description value="Diagnósticos definidos en Snomed-CT."/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSRazonNOT.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSRazonNOT"/>
+         </reference>
+         <name value="Razones no Atención Remota"/>
+         <description value="Razones por la que no se lleva a cabo un encuentro remoto según CodeSystem local"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSRazonNOTinm.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSRazonNOTinm"/>
+         </reference>
+         <name value="Razones no Inmunización"/>
+         <description value="Razones por la que no se lleva a cabo la administración de una vacuna o registro de una inmunización según CodeSystem local"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSCodigosServiciosSalud.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSCodigosServiciosSalud"/>
+         </reference>
+         <name value="Servicos de Salud en Chile"/>
+         <description value="Códigos de Servicios de Salud que existen en Chile"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSTipoIdentificador.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSTipoIdentificador"/>
+         </reference>
+         <name value="Tipo Identificador"/>
+         <description value="Tipo Identificador"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="ValueSet"/>
          </extension>
@@ -1618,6 +1157,9 @@
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="ValueSet"/>
          </extension>
@@ -1633,6 +1175,9 @@
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="ValueSet"/>
          </extension>
@@ -1648,21 +1193,9 @@
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
-         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="CodeSystem"/>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
          </extension>
-         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="CodeSystem-CSTiposEncuentroCL.html"/>
-         </extension>
-         <reference>
-            <reference value="CodeSystem/CSTiposEncuentroCL"/>
-         </reference>
-         <name value="Tipos de Encuentro"/>
-         <description value="Códigos de Encuentros según MINSAL"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-codesystem"/>
-      </resource>
-      <resource>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="ValueSet"/>
          </extension>
@@ -1678,6 +1211,315 @@
          <groupingId value="-term-valueset"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSTiposVacunas.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSTiposVacunas"/>
+         </reference>
+         <name value="Tipos de Vacunas RNI"/>
+         <description value="Tipos de Vacunas utilizadas en Chile según CodeSystem local"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSNombreCampana.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSNombreCampana"/>
+         </reference>
+         <name value="Campañas Inmunización"/>
+         <description value="Códigos de las campañas de vacunas o inmunizaciones según indicaciones del Ministerio de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodigoslenguaje.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodigoslenguaje"/>
+         </reference>
+         <name value="Codigos Lenguaje"/>
+         <description value="Codigoslenguaje"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodComunasCL.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodComunasCL"/>
+         </reference>
+         <name value="Códigos de Comunas en Chile"/>
+         <description value="Códigos de Comunas para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodigoDNI.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodigoDNI"/>
+         </reference>
+         <name value="Códigos de Documentos DNI para LATAM y el Caribe"/>
+         <description value="Códigos para los DNI de países de America Latina y el Caribe según indicaciones de VS HL7 de V3"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSEspecialidadesDeisCL.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSEspecialidadesDeisCL"/>
+         </reference>
+         <name value="Códigos de Especialidades"/>
+         <description value="Códigos de especialidades médicas descritas según DEIS"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CodPais.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CodPais"/>
+         </reference>
+         <name value="Códigos de Países"/>
+         <description value="Codigos definidos para la identificación de países segun norma ISO3166-N"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodProvinciasCL.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodProvinciasCL"/>
+         </reference>
+         <name value="Códigos de Provincias en Chile"/>
+         <description value="Códigos de Provincias para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodRegionCL.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodRegionCL"/>
+         </reference>
+         <name value="Códigos de Regiones en Chile"/>
+         <description value="Códigos de Regiones para Chile según Códigos Únicos Territoriales Actualizados, por Decreto exento No 817 del Ministerio del Interior"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodigoVacunas.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodigoVacunas"/>
+         </reference>
+         <name value="Códigos de Vacunas RNI"/>
+         <description value="Códigos de las vacunas o inmunizaciones según indicaciones del Ministerio de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodMadurez.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodMadurez"/>
+         </reference>
+         <name value="Códigos de grado de madurez del artefacto"/>
+         <description value="Códigos de grado de madurez del artefacto"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSRazonNOT.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSRazonNOT"/>
+         </reference>
+         <name value="Razones Cancelación Atención Remota"/>
+         <description value="Códigos de las razones por la cual un encuentro remoto no pudo realizarse según indicaciones del Ministerio de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSRazonNOTinm.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSRazonNOTinm"/>
+         </reference>
+         <name value="Razones no Inmunización"/>
+         <description value="Códigos de las razones por la cual el registro de inmunización no pudo realizarse según indicaciones del Ministerio de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-csrazonnoencuentro.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/csrazonnoencuentro"/>
+         </reference>
+         <name value="Razón Encuentro Remoto no Realizado"/>
+         <description value="Códigos de las razones por la cual un encuentro remoto no pudo realizarse según indicaciones del Ministerio de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSCodSSalud.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSCodSSalud"/>
+         </reference>
+         <name value="Servicios de Salud Chile"/>
+         <description value="Códigos del Sistema Nacional de Servicios de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSTipoIdentificador.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSTipoIdentificador"/>
+         </reference>
+         <name value="Tipo Identificador"/>
+         <description value="Tipo Identificador"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSTiposEncuentroCL.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSTiposEncuentroCL"/>
+         </reference>
+         <name value="Tipos de Encuentro"/>
+         <description value="Códigos de Encuentros según MINSAL"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="CodeSystem"/>
          </extension>
@@ -1693,19 +1535,418 @@
          <groupingId value="-term-codesystem"/>
       </resource>
       <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-            <valueString value="ValueSet"/>
+            <valueString value="Location"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-            <valueUri value="ValueSet-VSTiposVacunas.html"/>
+            <valueUri value="Location-LocalizacionEjemploCL1.html"/>
          </extension>
          <reference>
-            <reference value="ValueSet/VSTiposVacunas"/>
+            <reference value="Location/LocalizacionEjemploCL1"/>
          </reference>
-         <name value="Tipos de Vacunas RNI"/>
-         <description value="Tipos de Vacunas utilizadas en Chile según CodeSystem local"/>
-         <exampleBoolean value="false"/>
-         <groupingId value="-term-valueset"/>
+         <name value="Ejemplo Localización Farmacia"/>
+         <description value="Ejemplo de la localización relacionada con una Farmacia específica ubicada en la comuna de Viña del Mar"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreLocalizacionCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-ORG1.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/ORG1"/>
+         </reference>
+         <name value="Ejemplo Organización Prestadora de Salud"/>
+         <description value="CESFAM Rio Bueno (Ficticio) con ID DEIS no real"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreOrganizacionCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Bundle"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Bundle-BundleEx.html"/>
+         </extension>
+         <reference>
+            <reference value="Bundle/BundleEx"/>
+         </reference>
+         <name value="Ejemplo Simple de Bundle de Transacción"/>
+         <description value="Bundle de Transacción con un recurso Practitioner y un Recurso Organization"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/BundleCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="AllergyIntolerance"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="AllergyIntolerance-222.html"/>
+         </extension>
+         <reference>
+            <reference value="AllergyIntolerance/222"/>
+         </reference>
+         <name value="Ejemplo de Recurso AllergyIntolerance"/>
+         <description value="AllergyIntolerance ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Composition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Composition-CompositionCl-CarlosSalas.html"/>
+         </extension>
+         <reference>
+            <reference value="Composition/CompositionCl-CarlosSalas"/>
+         </reference>
+         <name value="Ejemplo de Recurso CompositionCl"/>
+         <description value="Composición de un documento para resumen de historia clínica"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/DocumentoCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-1112.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/1112"/>
+         </reference>
+         <name value="Ejemplo de Recurso Condition"/>
+         <description value="Condition ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Encounter"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Encounter-EncounterCL.html"/>
+         </extension>
+         <reference>
+            <reference value="Encounter/EncounterCL"/>
+         </reference>
+         <name value="Ejemplo de Recurso Encuentro"/>
+         <description value="Encuentro remoto ficticio"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Immunization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Immunization-999.html"/>
+         </extension>
+         <reference>
+            <reference value="Immunization/999"/>
+         </reference>
+         <name value="Ejemplo de Recurso Immunization"/>
+         <description value="Immunization ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Immunization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Immunization-ImmunizationCL.html"/>
+         </extension>
+         <reference>
+            <reference value="Immunization/ImmunizationCL"/>
+         </reference>
+         <name value="Ejemplo de Recurso Inmunización"/>
+         <description value="Registro de inmunización ficticio"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Location"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Location-3333458.html"/>
+         </extension>
+         <reference>
+            <reference value="Location/3333458"/>
+         </reference>
+         <name value="Ejemplo de Recurso Location"/>
+         <description value="Location ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="MedicationStatement"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="MedicationStatement-354.html"/>
+         </extension>
+         <reference>
+            <reference value="MedicationStatement/354"/>
+         </reference>
+         <name value="Ejemplo de Recurso MedicationStatement"/>
+         <description value="MedicationStatement ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Observation"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Observation-123.html"/>
+         </extension>
+         <reference>
+            <reference value="Observation/123"/>
+         </reference>
+         <name value="Ejemplo de Recurso Observation"/>
+         <description value="Observation ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Organization"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Organization-f003.html"/>
+         </extension>
+         <reference>
+            <reference value="Organization/f003"/>
+         </reference>
+         <name value="Ejemplo de Recurso Organización"/>
+         <description value="Organización ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-11.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/11"/>
+         </reference>
+         <name value="Ejemplo de Recurso Paciente"/>
+         <description value="Paciente ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-3240.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/3240"/>
+         </reference>
+         <name value="Ejemplo de Recurso Prestador como base para un Core Nacional"/>
+         <description value="Ejemplo de un Prestador no Real con identificadores en Systemas con API&#34;s no disponibles"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePrestadorCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Practitioner"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Practitioner-3020.html"/>
+         </extension>
+         <reference>
+            <reference value="Practitioner/3020"/>
+         </reference>
+         <name value="Ejemplo de Recurso Profesional"/>
+         <description value="Profesional ficticio"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="PractitionerRole"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="PractitionerRole-EspecialidadCL.html"/>
+         </extension>
+         <reference>
+            <reference value="PractitionerRole/EspecialidadCL"/>
+         </reference>
+         <name value="Ejemplo de Recurso de especialidad"/>
+         <description value="Define el Rol de un Médico durante la Operación de un paciente en Urgencia"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreEspecialidadCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Condition"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Condition-DiagnosticoEj.html"/>
+         </extension>
+         <reference>
+            <reference value="Condition/DiagnosticoEj"/>
+         </reference>
+         <name value="Ejemplo de Un Diagnóstico de hipertensión"/>
+         <description value="Diagnóstico Confirmado de Hipertesión"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreDiagnosticoCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Medication"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Medication-MedicamentoCl.html"/>
+         </extension>
+         <reference>
+            <reference value="Medication/MedicamentoCl"/>
+         </reference>
+         <name value="Ejemplo de comprimido Tareg - D 160"/>
+         <description value="Medicamento comprimido Tareg -D160 referemciado como medicamento en la TFC, considerando el de 25 comprimidos"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Provenance"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Provenance-EjemplValidacionProvCl.html"/>
+         </extension>
+         <reference>
+            <reference value="Provenance/EjemplValidacionProvCl"/>
+         </reference>
+         <name value="Ejemplo de la Validación de una Receta por medio del Prescriptor"/>
+         <description value="Ejemplo de una Receta en Request Group que contiene una receta, en la cual el prestador que la ha desarollado genera una validación por medio de una firma"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvenanceCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="AuditEvent"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="AuditEvent-AuditEventEx.html"/>
+         </extension>
+         <reference>
+            <reference value="AuditEvent/AuditEventEx"/>
+         </reference>
+         <name value="Ejemplo de un Audit-Event Search."/>
+         <description value="Log de Audición de una operacion Search."/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/AuditEventCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Medication"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Medication-MedicamentoCl-2.html"/>
+         </extension>
+         <reference>
+            <reference value="Medication/MedicamentoCl-2"/>
+         </reference>
+         <name value="Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido"/>
+         <description value="Definición de Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido Código de descripción = 1703591000167111 y de Cocepto = 696681000167108 según TFC"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="RequestGroup"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="RequestGroup-RG12224.html"/>
+         </extension>
+         <reference>
+            <reference value="RequestGroup/RG12224"/>
+         </reference>
+         <name value="example"/>
+         <description value="Solo un ejemplo"/>
+         <exampleBoolean value="true"/>
+         <groupingId value="-ex-example"/>
       </resource>
       <page>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
@@ -2019,6 +2260,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-VSTipoIdentificador.html"/>
+               <title value="Tipo Identificador"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-VSTiposDocumentos.html"/>
                <title value="Tipos de Documentos"/>
                <generation value="generated"/>
@@ -2074,6 +2320,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="CodeSystem-CodPais.html"/>
+               <title value="Códigos de Países"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="CodeSystem-CSCodProvinciasCL.html"/>
                <title value="Códigos de Provincias en Chile"/>
                <generation value="generated"/>
@@ -2106,6 +2357,11 @@
             <page>
                <nameUrl value="CodeSystem-CSCodSSalud.html"/>
                <title value="Servicios de Salud Chile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-CSTipoIdentificador.html"/>
+               <title value="Tipo Identificador"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2149,16 +2405,6 @@
                <generation value="generated"/>
             </page>
             <page>
-               <nameUrl value="Patient-PacienteCl-4.html"/>
-               <title value="Ejemplo de Recurso de paciente Nacional con contacto declarado"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Patient-PacienteCl-5.html"/>
-               <title value="Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"/>
-               <generation value="generated"/>
-            </page>
-            <page>
                <nameUrl value="Encounter-EncounterCL.html"/>
                <title value="Ejemplo de Recurso Encuentro"/>
                <generation value="generated"/>
@@ -2196,16 +2442,6 @@
             <page>
                <nameUrl value="Patient-11.html"/>
                <title value="Ejemplo de Recurso Paciente"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Patient-PacienteCL2.html"/>
-               <title value="Ejemplo de Recurso Paciente Extranjero"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Patient-PacienteCL.html"/>
-               <title value="Ejemplo de Recurso Paciente Nacional"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2251,11 +2487,6 @@
             <page>
                <nameUrl value="Medication-MedicamentoCl-2.html"/>
                <title value="Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido"/>
-               <generation value="generated"/>
-            </page>
-            <page>
-               <nameUrl value="Patient-PacienteCl-3.html"/>
-               <title value="Paciente Nacional, con datos actualizados, declarando nacionalidad"/>
                <generation value="generated"/>
             </page>
          </page>

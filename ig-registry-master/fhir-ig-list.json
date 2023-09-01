@@ -7006,12 +7006,12 @@
       "editions": [
         {
           "name": "STU2 Draft",
-          "ig-version": "1.8.1",
-          "package": "hl7.fhir.cl.clcore#1.8.1",
+          "ig-version": "1.8.2",
+          "package": "hl7.fhir.cl.clcore#1.8.2",
           "fhir-version": [
             "4.0.1"
           ],
-          "url": "https://hl7chile.cl/fhir/ig/clcore/1.8.1"
+          "url": "https://hl7chile.cl/fhir/ig/clcore/1.8.2"
         }
       ]
     }

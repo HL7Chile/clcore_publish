@@ -3,10 +3,10 @@
   "id" : "VSContactosec",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-contact-point-system.html\"><code>http://hl7.org/fhir/contact-point-system</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSContactosec",
-  "version" : "1.8.1",
+  "version" : "1.8.2",
   "name" : "VSContactoSecundario",
   "title" : "Contacto participantes",
   "status" : "active",

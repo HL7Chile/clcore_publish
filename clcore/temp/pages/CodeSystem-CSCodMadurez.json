@@ -3,10 +3,10 @@
   "id" : "CSCodMadurez",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system <code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodMadurez</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CSCodMadurez-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CSCodMadurez-2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"CSCodMadurez-3\"> </a></td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"CSCodMadurez-4\"> </a></td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"CSCodMadurez-N\"> </a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodMadurez",
-  "version" : "1.8.1",
+  "version" : "1.8.2",
   "name" : "CSCodMadurez",
   "title" : "Códigos de grado de madurez del artefacto",
   "status" : "active",

@@ -3,10 +3,10 @@
   "id" : "VSCodigosProvinciasCL",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-CSCodProvinciasCL.html\"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
-  "version" : "1.8.1",
+  "version" : "1.8.2",
   "name" : "VSCodigosProvinciasCL",
   "title" : "Códigos de Provincias en Chile",
   "status" : "active",

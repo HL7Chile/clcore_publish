@@ -1,0 +1,75 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CSTipoIdentificador",
+  "id": "CSTipoIdentificador",
+  "title": "Tipo Identificador",
+  "description": "Tipo Identificador",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Run"
+    },
+    {
+      "code": "02",
+      "display": "Run materno/progenitor(a)"
+    },
+    {
+      "code": "03",
+      "display": "Número de Folio de comprobante de parto"
+    },
+    {
+      "code": "04",
+      "display": "Número de pasaporte"
+    },
+    {
+      "code": "05",
+      "display": "Número de documento identificador de país de origen"
+    },
+    {
+      "code": "06",
+      "display": "Número de identificador FONASA"
+    },
+    {
+      "code": "07",
+      "display": "Identificador Provisorio Escolar"
+    },
+    {
+      "code": "08",
+      "display": "Identificador Provisorio Apoderado"
+    },
+    {
+      "code": "09",
+      "display": "Registro Único de Contribuyentes"
+    }
+  ],
+  "experimental": false,
+  "caseSensitive": true,
+  "version": "1.0.0",
+  "date": "2023-07-03T00:00:00-03:00",
+  "contact": [
+    {
+      "name": "MINSAL TIC/Interoperabilidad",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "interoperabilidad@minsal.cl"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CL",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Chile"
+        }
+      ]
+    }
+  ],
+  "count": 9
+}

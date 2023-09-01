@@ -3,10 +3,10 @@
   "id" : "CodPais",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html\"><code>urn:iso:std:iso:3166</code></a></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais",
-  "version" : "1.8.1",
+  "version" : "1.8.2",
   "name" : "CodPaises",
   "title" : "Códigos de Países",
   "status" : "active",
@@ -35,7 +35,7 @@
   "copyright" : "All content on ISO Online is copyright protected. The copyright is owned by ISO. Any use of the content, including copying of it in whole or in part, for example to another Internet site, is prohibited and would require written permission from ISO.",
   "compose" : {
     "include" : [{
-      "system" : "urn:iso:std:iso:3166"
+      "system" : "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"
     }]
   }
 }
