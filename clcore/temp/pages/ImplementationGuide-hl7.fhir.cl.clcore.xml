@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
-  <version value="1.8.0"/>
+  <version value="1.8.1"/>
   <name value="clcore"/>
   <title value="Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva)"/>
   <status value="active"/>
-  <date value="2023-06-21T10:22:43+10:00"/>
+  <date value="2023-06-27T22:42:19-04:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -77,14 +77,6 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueString value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="no-broken-links"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -304,14 +296,6 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
         <valueCode value="apply-publisher"/>
-      </extension>
-      <extension url="value">
-        <valueString value="true"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="no-broken-links"/>
       </extension>
       <extension url="value">
         <valueString value="true"/>
@@ -1602,9 +1586,9 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="Changes.html"/>
+          <valueUrl value="changes.html"/>
         </extension>
-        <nameUrl value="Changes.html"/>
+        <nameUrl value="changes.html"/>
         <title value="Historial de Cambios"/>
         <generation value="markdown"/>
       </page>

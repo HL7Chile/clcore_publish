@@ -1,0 +1,28 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5abb9851-3b0b-4266-a6d9-0019c44f6583-42",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5abb9851-3b0b-4266-a6d9-0019c44f6583-42",
+  "name" : "IntersectionCSTiposEncuentroCLAndCSTiposEncuentroCL",
+  "title" : "Intersection of Tipos de Encuentro And Tipos de Encuentro",
+  "status" : "active",
+  "date" : "2023-06-27T22:42:34-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "PR",
+    "display" : "Programada"
+  },
+  {
+    "code" : "SP",
+    "display" : "Espontánea"
+  },
+  {
+    "code" : "CO",
+    "display" : "Comité"
+  }]
+}

@@ -4,8 +4,8 @@
   "igId" : "hl7.fhir.cl.clcore",
   "igName" : "clcore",
   "packageId" : "hl7.fhir.cl.clcore",
-  "igVer" : "1.8.0",
-  "errorCount" : 2,
+  "igVer" : "1.8.1",
+  "errorCount" : 0,
   "version" : "4.0.1",
   "revision" : "a53ec6ee1b",
   "versionFull" : "4.0.1-a53ec6ee1b",
@@ -13,9 +13,9 @@
   "toolingRevision" : "3",
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 93,
-  "processedFiles" : 126,
-  "genDate" : "Wed, Jun 21, 2023 10:22+1000",
-  "genDay" : "21/06/2023",
+  "processedFiles" : 128,
+  "genDate" : "Tue, Jun 27, 2023 22:42-0400",
+  "genDay" : "27/06/2023",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -236,7 +236,7 @@
     "name" : "clcore",
     "title" : "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
     "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
-    "version" : "1.8.0",
+    "version" : "1.8.1",
     "status" : "active",
     "experimental" : false,
     "publisher" : "HL7 Chile",
@@ -247,7 +247,7 @@
         "telecom" : ["http://hl7chile.cl", "chair@hl7chile.cl"]
       }
     ],
-    "date" : "2023-06-21T10:22:43+10:00",
+    "date" : "2023-06-27T22:42:19-04:00",
     "description" : "Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4",
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional.",
     "fhirVersion" : "4.0.1"

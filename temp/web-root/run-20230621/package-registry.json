@@ -1,0 +1,18 @@
+{
+  "packages" : [
+    {
+      "path" : "clcore/package-list.json",
+      "package-id" : "hl7.fhir.cl.clcore",
+      "title" : "Chile Core",
+      "canonical" : "https://hl7chile.cl/fhir/ig/clcore",
+      "category" : "National Base",
+      "ci-build" : "https://build.fhir.org/ig/HL7Chile/clcore",
+      "version-count" : 1,
+      "latest" : {
+        "version" : "1.8.0",
+        "date" : "2023-06-21",
+        "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.0"
+      }
+    }
+  ]
+}

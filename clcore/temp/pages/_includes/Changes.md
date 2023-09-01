@@ -1,9 +1,7 @@
-### Version = 1.7.0
-- 
-- 
+### Version 1.8.1
+- Se agrega link para generar comentarios en un google form
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker inc
+### Versión 1.8.0
 
-### Version = 1.5
-
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheet
+- Se realiza cambio del *Computable Name* a "clcore"
+- Se realiza cambio del *id* a "hl7.fhir.cl.clcore"

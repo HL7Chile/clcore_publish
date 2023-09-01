@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "5abb9851-3b0b-4266-a6d9-0019c44f6583-164",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/5abb9851-3b0b-4266-a6d9-0019c44f6583-164",
+  "name" : "UnionVSContactoSecundarioAndVSContactoSecundario",
+  "title" : "Union of Contacto participantes And Contacto participantes",
+  "status" : "active",
+  "date" : "2023-06-27T22:42:36-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "expansion" : {
+    "contains" : [{
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "phone",
+      "display" : "Phone"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "fax",
+      "display" : "Fax"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "email",
+      "display" : "Email"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "pager",
+      "display" : "Pager"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "url",
+      "display" : "URL"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "sms",
+      "display" : "SMS"
+    },
+    {
+      "system" : "http://hl7.org/fhir/contact-point-system",
+      "code" : "other",
+      "display" : "Other"
+    }]
+  }
+}

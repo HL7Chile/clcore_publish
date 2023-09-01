@@ -22,21 +22,8 @@
   <li>
     <a href="Consolidado-Operaciones.html">Operaciones</a>
   </li>
-  <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Artefactos
-      <b class="caret"></b>
-    </a>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="Perfiles.html">Perfiles</a>
-      </li>
-      <li>
-        <a href="Extensiones.html">Extensiones</a>
-      </li>
-      <li>
-        <a href="Set-De-Validacion-ValueSets.html">Valuesets</a>
-      </li>
-    </ul>
+  <li>
+    <a href="artifacts.html">Artefactos</a>
   </li>
   <li>
     <a href="Set-Ejemplos.html">Ejemplos</a>
@@ -45,6 +32,6 @@
     <a href="Todas-Descargas.html">Descargas</a>
   </li>
   <li>
-    <a href="Changes.html">Historial de cambios</a>
+    <a href="changes.html">Historial de cambios</a>
   </li>
 </ul>

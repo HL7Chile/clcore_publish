@@ -1,0 +1,72 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "5abb9851-3b0b-4266-a6d9-0019c44f6583-20",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/5abb9851-3b0b-4266-a6d9-0019c44f6583-20",
+  "name" : "UnionCSCodServicioCLAndCSCodServicioCL",
+  "title" : "Union of Tipos de Servicios Remotos And Tipos de Servicios Remotos",
+  "status" : "active",
+  "date" : "2023-06-27T22:42:34-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "nutINTA",
+    "display" : "Nutrición INTA"
+  },
+  {
+    "code" : "nedINTA",
+    "display" : "Medicina INTA"
+  },
+  {
+    "code" : "medInt",
+    "display" : "Medicina Interna"
+  },
+  {
+    "code" : "saludMDigital",
+    "display" : "Salud Mental Digital"
+  },
+  {
+    "code" : "medGen",
+    "display" : "Medicina General"
+  },
+  {
+    "code" : "derm",
+    "display" : "Dermatología"
+  },
+  {
+    "code" : "telDiabetes",
+    "display" : "Telemedicina Diabetes"
+  },
+  {
+    "code" : "telRehab",
+    "display" : "Tele rehabilitación"
+  },
+  {
+    "code" : "otorrin",
+    "display" : "Otorrinolaringología"
+  },
+  {
+    "code" : "neurInf",
+    "display" : "Neurología Infantil"
+  },
+  {
+    "code" : "atencUrgAPS",
+    "display" : "Atención de Urgencia APS"
+  },
+  {
+    "code" : "vih",
+    "display" : "VIH"
+  },
+  {
+    "code" : "geri",
+    "display" : "Geriatría"
+  },
+  {
+    "code" : "gine",
+    "display" : "Ginecología"
+  }]
+}

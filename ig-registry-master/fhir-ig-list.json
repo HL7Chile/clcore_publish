@@ -6989,6 +6989,31 @@
           "url": "https://simplifier.net/guide/NHSDigital/"
         }
       ]
+    },
+    {
+      "name": "Chile Core",
+      "category": "National Base",
+      "npm-name": "hl7.fhir.cl.clcore",
+      "description": "??",
+      "authority": "??",
+      "country": "??",
+      "history": "https://hl7chile.cl/fhir/ig/clcore/history.html",
+      "language": [
+        "en"
+      ],
+      "canonical": "https://hl7chile.cl/fhir/ig/clcore",
+      "ci-build": "http://build.fhir.org/ig/HL7Chile/clcore",
+      "editions": [
+        {
+          "name": "STU2 Draft",
+          "ig-version": "1.8.1",
+          "package": "hl7.fhir.cl.clcore#1.8.1",
+          "fhir-version": [
+            "4.0.1"
+          ],
+          "url": "https://hl7chile.cl/fhir/ig/clcore/1.8.1"
+        }
+      ]
     }
   ]
 }

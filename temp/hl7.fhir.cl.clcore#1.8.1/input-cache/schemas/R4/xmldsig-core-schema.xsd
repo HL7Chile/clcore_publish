@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portal Cautivo</title>
+
+	<!-- Core Style -->
+	<link href="//statics.arara.cl/araraBox/css/arara-wifi.css" rel="stylesheet">
+	<link href="//statics.arara.cl/araraBox/css/animate.css" rel="stylesheet">
+	<style type="text/css">
+		body {
+			background: #2D3C48 url(//statics.arara.cl/araraBox/images/default/PORTRAIT/MID.jpg) no-repeat top center fixed;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+		.alert-danger {
+			color: #fff;
+		}
+		.alert {
+			border: 1px solid transparent;
+			border-radius: 4px;
+			margin-bottom: 20px;
+			padding: 15px;
+		}
+		b, strong {
+			font-weight: 700;
+		}
+		#overlayImg {
+			background-color: rgba(0.4,0.5,0, 0.4);
+			width:      100%;
+			height:     100%;
+			top:        0;
+			left:       0;
+			position:   fixed;
+			display: none;
+		}
+		#loadingImg {
+			position:absolute;
+			top:50%;
+			left:50%;
+			width:30px;
+			height:30px;
+			margin-top:-15px;
+			margin-left:-15px;
+		}
+		.errorInput{
+			border-color:red;
+			border-width:2px;
+			border-style:solid;
+		}
+		#errorWarning{
+		  display:none;
+		  color:red;
+		}
+	</style>
+</head>
+
+
+
+<body>
+	<div class="arara-box" id="step1">
+		<h1>Bienvenido a<br/>default wifi</h1>
+		
+
+		<p style="margin-top: 10px; display: block">Conéctate rápidamente con Facebook</p>
+		<div class="arara-box-connect" id="btn_fb" style="display: block">
+			<a href="#">
+				<img src="//statics.arara.cl/araraBox/images/facebook-connect.png">
+			</a>
+		</div>
+		<br>
+		<p style="display: block">O bien</p>
+
+		<a href="#" id="btn_normal" class="arara-btn" onclick="return false;">o ingresa tus datos</a>
+
+		
+	</div>
+
+	<div class="arara-box" id="step2" style="display:none; opacity: 0">
+		<div class="arara-back">
+			<a href="#" id="back_001" onclick="return false;" ><img src="//statics.arara.cl/araraBox/images/back.png"></a>
+		</div>
+
+		<h1>Ingresa<br>o regístrate</h1>
+
+		<a href="#" id="btn_log" class="arara-btn-on" style="margin-top: 10px;"><big>Ingresar</big></a>
+		<p>Si ya estás registrado</p><br/><br/>
+
+		<a href="#" id="reg_000" class="arara-btn"><big>Regístrate</big></a>
+	</div>
+
+	<div class="arara-box" id="step3" style="display:none; opacity: 0">
+		<div class="arara-back">
+			<a href="#" id="back_002" onclick="return false;"><img src="//statics.arara.cl/araraBox/images/back.png"></a>
+		</div>
+
+		<h1 style="font-size: 20px;">Ingresa tu rut</h1>
+		<br/>
+
+		<form role="form" method="post" action="login/rut" onsubmit="return validateForm.start(event, 'rut','btn_rut_log','back_002');">
+			<input type="text" name="rut" placeholder="Rut ej: 99999990" id="rut" onkeyup="cleanRut();">
+
+			<br/>
+
+			<button type="submit" id="btn_rut_log" class="arara-btn-on">Ingresar</button>
+		</form>
+	</div>
+
+	<div class="arara-box" id="step4" style="display:none; opacity: 0">
+		<div class="arara-back">
+			<a href="#" id="back_003" onclick="return false;"><img src="//statics.arara.cl/araraBox/images/back.png"></a>
+		</div>
+
+		<h1 style="font-size: 18px;">Ingresa tus datos</h1>
+		<br/>
+
+		<form role="form" method="POST" action="login/register" onsubmit="return validateForm.start(event, 'register','btn_register','back_003',['register_rut','register_mail','register_phone']);">
+			<input type="text" name="rut" id="register_rut" placeholder="Rut ej: 99999990" onkeyup="cleanRut();">
+			<input type="email" name="mail" id="register_mail" placeholder="Email">
+			
+
+			<!-- <input type="name" name="name" id="register_name" placeholder="Nombre"> -->
+			<!-- <input type="text" name="lastname" id="register_lastname" placeholder="Apellidos"> -->
+			<!-- <input type="text" name="age" id="register_age" placeholder="Fecha de nacimiento"> -->
+			<!-- 		 -->
+			<!-- <select name="gender" id="register_gender"> -->
+			<!-- 	<option value="" disabled selected>Sexo</option> -->
+			<!-- 	<option value="male">Hombre</option> -->
+			<!-- 	<option value="female">Mujer</option> -->
+			<!-- </select> -->
+
+			<br/>
+
+			<button type="submit" class="arara-btn-on" id="btn_register">Registrame</button>
+		</form>
+	</div>
+
+	<p>Powered by <a href="http://arara.tv" target="_blank">Arara</a></p>
+	<script type="text/javascript" src="//statics.arara.cl/araraBox/js/modernizr.js"></script>
+	<script type="text/javascript" src="//statics.arara.cl/araraBox/js/placeholders.js"></script>
+	<script type="text/javascript" src="//statics.arara.cl/araraBox/js/index2.js"></script>
+	<script type="text/javascript">
+		var base_image = "default";
+		var change = function(){
+
+			if(screen.height > screen.width){
+				//Portrait
+				var _size = "HIGH";
+				if (screen.height <= 480){
+					_size = "LOW";
+				}else if (screen.height <= 800){
+					_size = "MID";
+				}
+				var _image = base_image+"/PORTRAIT/"+_size;
+
+				window.document.body.style.background = "#2D3C48 url(//statics.arara.cl/araraBox/images/"+_image+".jpg) no-repeat top center fixed";
+				window.document.body.style.backgroundSize="cover";
+			}else{
+				//Landscape
+				var _size = "HIGH";
+				if (screen.width <= 480){
+					_size = "LOW";
+				}else if (screen.width <= 800){
+					_size = "MID";
+				}
+				var _image = base_image+"/LANDSCAPE/"+_size;
+
+				window.document.body.style.background = "#2D3C48 url(//statics.arara.cl/araraBox/images/"+_image+".jpg) no-repeat top center fixed";
+				window.document.body.style.backgroundSize="cover";
+			}
+		};
+
+		window.onload = change;
+		window.onresize = change;
+	</script>
+	<script type='text/javascript'>
+	var checkInterval = 1  * 1000;
+	var waitTimeout   = 20 * 1000;
+
+	function animateV2(current, next, event, prevEvent, isBack) {
+		const effectsEnabled = !! ( Modernizr.cssanimations && effectBrowser )
+		const transition = isBack ? 'flipOutYararaB' : 'flipOutYarara'
+
+		setBack(current, next, prevEvent, isBack)
+
+		if ( effectsEnabled ) {
+			document.getElementById(current).className="arara-box animated flipOutY";
+			document.getElementById(next).className="arara-box animated " + transition;
+		} else
+			document.getElementById(current).style.opacity = 100;
+
+		if ( event ){
+			var _query = 'tracker/?idTx=&event='+event+'&araraBox=';
+			if (event == "showPortal")
+				_query += "&publisher=default&videoServer=&publisherId=&placementId=&referer=";
+			sendReqTracker(_query, function(err, data) {
+				if ( err ) return console.log('error tracker ['+err.message+']')
+				console.log('tracker OKKKK')
+				console.log(JSON.stringify(data))
+			})
+		}
+		document.getElementById(current).style.display="none";
+		document.getElementById(next).style.display="block";
+	}
+
+	function setBack(current, next, prevEvent, isBack) {
+		if ( isBack ) return;
+		document.querySelector('#' + next + ' .back-button').dataset.prev = current;
+		if ( prevEvent )
+			document.querySelector('#' + next + ' .back-button').dataset.event = prevEvent;
+	}
+
+	var backButtons = document.querySelectorAll('.back-button');
+
+	for ( var i = 0; i < backButtons.length; i++ ) {
+		backButtons[i].addEventListener('click', backButtonOnClick)
+	}
+
+	function backButtonOnClick(e) {
+		const target = e.target.dataset && e.target.dataset.current ? e.target : e.target.parentNode
+		if ( ! target.dataset.current || ! target.dataset.prev )
+			return console.warn('Back button got clicked, but no data was found')
+		console.info('Back button got clicked with (current=' + target.dataset.current + ', prev=' + target.dataset.prev + ', prevEvent=' + target.dataset.event + ')')
+		animateV2(target.dataset.current, target.dataset.prev, target.dataset.event, null, true)
+	}
+
+	function waitForShowPortal(cb) {
+	  console.log('Checking if form can be submitted...')
+	  if ( showPortalReady() ) {
+	    console.log('Show Portal is ready! continuing normally...')
+	    return cb()
+	  }
+
+	  console.log('Show Portal is FALSE. Checking every ' + (checkInterval/1000)  + ' seconds...')
+	  enableOverlay()
+
+	  var done = false;
+	  const interval = setInterval(function () {
+	    if ( ! showPortalReady() ) {
+	      console.log('Show Portal status: FALSE')
+	      return;
+	    }
+	    console.log('Show Portal status: TRUE')
+	    done = true;
+	    clearInterval(interval)
+	    disableOverlay()
+	    return cb()
+	  }, checkInterval)
+
+	  setTimeout(function() {
+	  	if ( done ) return;
+	  	disableOverlay()
+	  	return cb()
+	  }, waitTimeout)
+
+	  return false
+	}
+
+	function showPortalReady() {
+		return window.__ARARA__SHOWPORTAL__READY__
+	}
+
+	function setShowPortalReady(val) {
+		console.log('Setting __ARARA__SHOWPORTAL__READY__ to ' + val + '...')
+		window.__ARARA__SHOWPORTAL__READY__ = val
+	}
+
+	function overlay(val) {
+		document.getElementById('overlayImg').style.display = val
+	}
+
+	function enableOverlay() {
+		overlay('block')
+	}
+
+	function disableOverlay() {
+		overlay('none')
+	}
+
+	var sendReqTracker = function(query,callback) {
+		var xmlhttp;
+		var response;
+		var url = "/"
+		xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+		xmlhttp.onreadystatechange = function() {
+			if (xmlhttp.readyState == XMLHttpRequest.DONE) {
+				if (xmlhttp.status == 200) {
+					response = JSON.parse(xmlhttp.responseText)
+					callback(null, response);
+				} else {
+					callback(new Error('There was an error server') );
+				}
+			}
+		}
+		xmlhttp.open('GET', url+query, true);
+		xmlhttp.send();
+	};
+
+	function acceptCheck2() {
+		// validate checkboxes
+		const currentCheckboxes = document.querySelectorAll('.input-checkboxes')
+		const checkboxes = "".split(',');
+		const checkboxContainer = document.getElementById('checkbox-accept')
+		
+		for (let i = 0; i < currentCheckboxes.length; i++) {
+			if (checkboxes[i] == 'true' && currentCheckboxes[i].checked == false) {
+				checkboxContainer.style.display = 'block';
+				return false
+			}
+		}
+
+		checkboxContainer.style.display = 'none';
+		return true
+	}
+
+	var iDiv = document.createElement('div');
+	iDiv.id = 'overlayImg';
+	iDiv.style="display:none;"
+
+	var imgLoading = document.createElement("img");
+	imgLoading.setAttribute("src", "//statics.arara.cl/araraBox/images/loader.gif");
+	imgLoading.setAttribute("id","loadingImg")
+
+	iDiv.appendChild(imgLoading);
+	if ( document.getElementsByTagName('body')[0] ){
+		document.getElementsByTagName('body')[0].appendChild(iDiv);
+	}
+
+	//remove original event
+	if( document.getElementById('btn_normal') )
+		document.getElementById('btn_normal').removeEventListener('click',animate_action.btn_normal, false);
+	if( document.getElementById('btn_log') )
+		document.getElementById('btn_log').removeEventListener('click', animate_action.btn_log);
+	if( document.getElementById('reg_000') )
+		document.getElementById('reg_000').removeEventListener('click', animate_action.req_000);
+	if( document.getElementById('back_001') )
+		document.getElementById('back_001').removeEventListener('click',animate_action.back_001, false);
+	if( document.getElementById('back_002') )
+		document.getElementById('back_002').removeEventListener('click',animate_action.back_002, false);
+	if( document.getElementById('back_003') )
+		document.getElementById('back_003').removeEventListener('click',animate_action.back_003, false);
+
+	if( document.getElementById('back_004') ){
+		document.getElementById('back_004').removeEventListener('click',animate_action.back_004, false);
+	}
+	if( document.getElementById('foreigner') ){
+		document.getElementById('foreigner').removeEventListener('click', animate_action.foreigner,false);
+	}
+
+	if( document.getElementById('btn_autologin') ){
+		document.getElementById('btn_autologin').removeEventListener('click', animate_action.btn_autologin,false);
+	}
+
+	//redefinicion de animaciones
+	animate_action.btn_normal = function(){
+		const isValidCheckbox = acceptCheck2()
+
+		if (isValidCheckbox === false) {
+			return
+		}
+
+		var query= "tracker/portal/selectLogin/show?idTx=&event=showSelectLogin&araraBox=";
+		//console.log("\n>>>>>>>>>>>>>btn_normal query["+query+"]\n ")
+		sendReqTracker(query, function(err,data){
+			if(  err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+
+		if(!Modernizr.cssanimations || !effectBrowser) {
+			console.log("entra al if de if(!Modernizr.cssanimations || !effectBrowser) ")
+			document.getElementById('step1').style.display = "none";
+			document.getElementById('step2').style.display = "";
+			document.getElementById('step2').style.opacity = 100;
+		}else{
+			console.log("else animate(1)");
+			animate(1);
+		}
+	};
+	animate_action.btn_log = function() {
+		console.log('btn_log')
+		var query="tracker/portal/login/show?idTx=&event=showLogin&araraBox="
+
+		//console.log("\n>>>>>>>>>>>>>btn_log query["+query+"]\n ")
+
+		sendReqTracker(query, function(err,data){
+			if(  err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				//console.log(JSON.stringify(data) )
+			}
+		});
+		animate(2);
+	};
+	animate_action.req_000 = function() {
+		var query="tracker/portal/register/show?idTx=&event=showRegister&araraBox="
+		//console.log("reg_000 mac[]  query["+query+"]")
+		sendReqTracker(query, function(err,data){
+			if(  err ){
+				//TODO_TITO  preguntar a JP que hacer si hay un error
+				console.log("error tracker ["+err.message+"]")
+				var __url ="https://arara-2-4d6d89a5e6d39b9645821489ceaa7cf2cbe3b150-1669721516.arara.cl:443/newadwall.html?idTx=undefined&amp;ARARA_PID=&amp;ARARA_TYPE=WIFIArara&amp;ARARA_LOC=undefined&amp;ARARA_GW=192.168.40.1&amp;ts=1669721516&amp;hs=f1f3acb442c1070ab76dfdf1e37347a6bb68c91d&amp;ARARA_MID=undefined"
+				__url = __url.replace(/amp;/g, '');
+				window.location.href = __url;
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+		animate(2,4);
+	};
+	animate_action.back_001 = function(){
+		var query= "tracker/portal/show?idTx=&event=showPortal&publisher=default&araraBox=&videoServer=&publisherId=&placementId=&referer=";
+		//console.log("\n>>>>>>>>>>>>>back_001 query["+query+"]\n ")
+
+		sendReqTracker(query, function(err,data){
+			if( err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+		animate(2,1,true);
+	};
+	animate_action.back_002 = function(){
+		var query= "tracker/portal/selectLogin/show?idTx=&event=showSelectLogin&araraBox=";
+		console.log("\n>>>>>>>>>>>>>back_002 query["+query+"]\n ")
+
+		sendReqTracker(query, function(err,data){
+			if( err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+		animate(3,2,true);
+	};
+	animate_action.back_003 = function(){
+		var query= "tracker/portal/selectLogin/show?idTx=&event=showSelectLogin&araraBox=";
+		//console.log("back_003 mac[] query["+query+"]")
+
+		sendReqTracker(query, function(err,data){
+			if( err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+		animate(4,2,true);
+	};
+	animate_action.back_004 = function(){
+		console.log("back_04 listener en api trackerV3")
+		var query= "tracker/portal/show?idTx=&event=showPortal&publisher=default&araraBox=&videoServer=&publisherId=&placementId=&referer=";
+		//console.log("\n>>>>>>>>>>>>>back_004 query["+query+"]\n ")
+
+		sendReqTracker(query, function(err,data){
+			if( err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+		animate(5,1,true);
+	};
+	animate_action.foreigner = function(){
+		var query="tracker/portal/login/show?idTx=&event=showLogin&araraBox="
+		//console.log("\n>>>>>>>>>>>>>foreigner query["+query+"]\n ")
+
+		sendReqTracker(query, function(err,data){
+			if(  err ){
+				console.log("error tracker ["+err.message+"]")
+			}else{
+				console.log("tracker OKKKK");
+				console.log(JSON.stringify(data) )
+			}
+		});
+
+		if(!Modernizr.cssanimations || !effectBrowser) {
+			document.getElementById('step1').style.display = "none";
+			document.getElementById('step5').style.display = "";
+			document.getElementById('step5').style.opacity = 100;
+		}else{
+			animate(1,5);
+		}
+
+	};
+	
+
+	animate_action.btn_fb = function(){
+		console.log(" btn fb actions in trackerV3")
+		document.getElementById('btn_normal').removeEventListener('click',animate_action.btn_normal, false);
+		var url;
+		
+			isSiteOnline("https://arara-1-e03944981f463cd8d5296a089025e69a36bff81b-1669721516.arara.cl:443", function(success){
+		
+			if( success ){
+				url = "https://m.facebook.com/v2.3/dialog/oauth?response_type=code&amp;scope=user_gender%2Cemail%2Cuser_likes&amp;redirect_uri=https%3A%2F%2Fnetwork.arara.cl%2Flogin%2Fcallback&amp;client_id=653353051391091" + `&state={"oauthType":"facebook", "legaltexts": ${getValueFromCheckboxes()} }`;
+				enableOverlay()
+			}else{
+				document.getElementById('btn_normal').addEventListener('click', animate_action.btn_normal );
+				console.log("fue un err ir a  url urlDnsYoutube por  lo tanto mandar url para showplit");
+				url = "https://arara-2-4d6d89a5e6d39b9645821489ceaa7cf2cbe3b150-1669721516.arara.cl:443/newadwall.html?idTx=undefined&amp;ARARA_PID=&amp;ARARA_TYPE=WIFIArara&amp;ARARA_LOC=undefined&amp;ARARA_GW=192.168.40.1&amp;ts=1669721516&amp;hs=f1f3acb442c1070ab76dfdf1e37347a6bb68c91d&amp;ARARA_MID=undefined";
+			}
+			url = url.replace(/amp;/g, '');
+			console.log("url ["+url+"]")
+			window.location.href = url;
+		});
+	}
+
+	animate_action.btn_google = function(){
+		console.log(" btn google actions in trackerV3")
+		document.getElementById('btn_normal').removeEventListener('click',animate_action.btn_normal, false);
+		var url;
+
+		
+			isSiteOnline("https://arara-1-e03944981f463cd8d5296a089025e69a36bff81b-1669721516.arara.cl:443", function(success){
+		
+			if( success ){
+				url = "https://accounts.google.com/o/oauth2/v2/auth?scope=https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/user.emails.read https://www.googleapis.com/auth/user.birthday.read https://www.googleapis.com/auth/user.gender.read&amp;access_type=offline&amp;include_granted_scopes=true&amp;response_type=code&amp;redirect_uri=https://network.arara.cl/login/callback&amp;client_id=730558038049-p4mgofqjupdgmcq5qq1s83hjhcbu6r8u.apps.googleusercontent.com" + `&state={"oauthType":"google", "legaltexts": ${getValueFromCheckboxes()}}`;
+				enableOverlay()
+			}else{
+				document.getElementById('btn_normal').addEventListener('click', animate_action.btn_normal );
+				console.log("fue un err ir a  url urlDnsYoutube por  lo tanto mandar url para showplit");
+				url = "https://arara-2-4d6d89a5e6d39b9645821489ceaa7cf2cbe3b150-1669721516.arara.cl:443/newadwall.html?idTx=undefined&amp;ARARA_PID=&amp;ARARA_TYPE=WIFIArara&amp;ARARA_LOC=undefined&amp;ARARA_GW=192.168.40.1&amp;ts=1669721516&amp;hs=f1f3acb442c1070ab76dfdf1e37347a6bb68c91d&amp;ARARA_MID=undefined";
+			}
+			url = url.replace(/amp;/g, '');
+			console.log("url ["+url+"]")
+			window.location.href = url;
+		});
+	}
+
+	if( document.getElementById('btn_google') ){
+		document.getElementById('btn_google').addEventListener('click', animate_action.btn_google);
+	};
+
+	if( document.getElementById('btn_normal') )
+		document.getElementById('btn_normal').addEventListener('click', animate_action.btn_normal );
+	if( document.getElementById('btn_log') )
+		document.getElementById('btn_log').addEventListener('click', animate_action.btn_log);
+	if( document.getElementById('reg_000') )
+		document.getElementById('reg_000').addEventListener('click', animate_action.req_000);
+	if( document.getElementById('back_001') )
+		document.getElementById('back_001').addEventListener('click', animate_action.back_001);
+	if( document.getElementById('back_002') )
+		document.getElementById('back_002').addEventListener('click', animate_action.back_002 );
+	if( document.getElementById('back_003') )
+		document.getElementById('back_003').addEventListener('click', animate_action.back_003);
+	if( document.getElementById('foreigner') )
+		document.getElementById('foreigner').addEventListener('click', animate_action.foreigner	);
+	if( document.getElementById('back_004') )
+		document.getElementById('back_004').addEventListener('click', animate_action.back_004);
+	if( document.getElementById('btn_autologin') )
+		document.getElementById('btn_autologin').addEventListener('click', animate_action.btn_autologin);
+
+
+
+
+	var gateway = "";
+	if( ! /^MPZA.*/.test(gateway) ){
+		if( document.getElementById('btn_fb') ){
+			document.getElementById('btn_fb').addEventListener('click', animate_action.btn_fb);
+		};
+	}
+
+
+	var initTracker = function(){
+		console.log(" initTracker ")
+
+		var xhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+		var params = "idTx=&publisher=default&araraBox=&videoServer=&publisherId=&placementId=&referer=";
+
+		xhttp.onreadystatechange = function() {
+			console.log("done");
+			console.log(this);
+			if (this.readyState == 4 && this.status == 200) {
+
+				/***************************************/
+				/***************************************/
+				setShowPortalReady(true)
+				/***************************************/
+				/***************************************/
+
+				console.log("responseText", this.responseText)
+				// Typical action to be performed when the document is ready:
+				var res = JSON.parse(this.responseText);
+				console.log("res")
+				console.log(res)
+				if (res['success'] === true ){
+					console.log("exittoooo")
+					window.location = res['redirect'];
+				}else if(res['success'] == false){
+					console.log("no hacer redirect");
+				}else{
+					console.log("error en respuesta ");
+				}
+			}
+		};
+
+
+		xhttp.open("POST", "/verify/redirect/adwall", true);
+		xhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+		xhttp.send(params);
+
+		return;
+	};
+	initTracker();
+
+
+	// dynamic legal texts
+	const legalTexts = document.querySelectorAll('.legal-texts') // this value come front legal text apis with legal texts
+	const legalTextsBack = document.querySelectorAll('.legal-text-back')
+	// To keep the code the same and avoid identifier conflicts, add the prefix (-) to each legal text container.
+
+	for (let i = 0; i < legalTexts.length; i++) {
+		legalTexts[i].addEventListener('click', (event) => {
+			event.preventDefault()
+			const idLegalTextToShow = event.target.hash.replace('#legal-text-id-', '')
+
+			// add animation to element
+			animate(1, '-'+idLegalTextToShow)
+		})
+	}
+
+	for (let i = 0; i < legalTextsBack.length; i++) {
+		legalTextsBack[i].addEventListener('click', (event) => {
+			event.preventDefault()
+
+			const element = event.path.find(e => e.className === 'legal-text-back') // It is necessary to find the correct element.
+			const idLegalTextToHiden = element.id.replace('back-', '')
+			animate('-'+idLegalTextToHiden, 1, true)
+		})
+	}
+</script>
+
+</body>
+</html>
