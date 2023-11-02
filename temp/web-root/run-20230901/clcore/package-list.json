@@ -7,8 +7,8 @@
       "sequence" : "ci-build"
     },
     {
-      "version" : "1.8.2",
-      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.2",
+      "version" : "1.8.4",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.4",
       "status" : "draft",
       "sequence" : "STU2",
       "fhirversion" : "4.0.1",

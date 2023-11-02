@@ -624,15 +624,11 @@ InstanceOf : CorePrestadorCl
 * id = "3240"	
  
 //Identificación por Cédula Chilena
-* identifier[RUN].use = #official    //obligado
+* identifier[run].use = #official    //obligado
 //* identifier[RUN].system = "https://api.minsal.cl/v1/personas/datos/basicos/run"
-* identifier[RUN].value = "8336277-3" // endPoint definido por perfil
-* identifier[RUN].system = "http://api_run/run"
-* identifier[OtrosID].use = #secondary    //obligado
-//* identifier[RNPI].system = "https://apis.superdesalud.gob.cl/api/prestadores/registro/"
-* identifier[OtrosID].value = "999999"  // endPoint definido por perfil
-* identifier[OtrosID].system = "http://example.org/api"  // endPoint definido por perfil
-* identifier[OtrosID].use = #secondary  // endPoint definido por perfil
+* identifier[run].value = "8336277-3" // endPoint definido por perfil
+* identifier[run].system = "http://registrocivil.cl/run"
+
 
 
 //registro de prestador activo
@@ -753,7 +749,7 @@ Usage: #example
 
 Instance : EncounterCL
 Title : "Ejemplo de Recurso Encuentro"
-Description: "Encuentro remoto ficticio"
+Description: "Encuentro remoto ficticio del paciente"
 InstanceOf : EncounterCL
 Usage : #example
 

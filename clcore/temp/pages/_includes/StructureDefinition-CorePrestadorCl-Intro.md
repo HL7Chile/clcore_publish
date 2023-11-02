@@ -1,15 +1,11 @@
 #### Ejemplos de uso en Diferentes Escenarios
 <br>
 
- * Búsqueda de Profesional de la Salud por *RUN* o por *RNPI*
+ * Búsqueda de Profesional de la Salud por *RUN*, *RNPI*, *PASAPORTE* u *OTRO IDENTIFICADOR*
  * Determinación de Certificados que acredita el Prestador 
  * Determinación de especialidades que posee el prestador
  
- 
-<br>
-<br>
-
-### Elementos Mandatorios y Must Support
+ ### Elementos Mandatorios y Must Support
 <br>
 
 El perfil presenta una serie de elementos de datos que siempre deben estar presentes en cada recurso que se genere desde este perfil. Estos elementos denominados como **Mandatorios** se pueden observar en elperfil con cardinalidad de valor inicial *1*. 
@@ -28,9 +24,7 @@ La definición formal del Perfil en la legueta *Text Summary* indica cuantos de 
 
 Consideraciones para la implementaciónrn
 
-* La Idetificación del Prestador individual puede ser:
-  * Basada en **RUN**, identificación que es obligatoria. Para este *slice* se requiere un *identifier.use = official*
-  * Y una o varias opcional que puede ser del tipo **RNPI**, **Pasaporte** entre otros.
+* La Idetificación del Prestador individual puede ser Basada en el **RUN**, **RNPI**, **Pasaporte** u **otro**.
 * Para el elemento *name* se agega la extensión externa de 2o apellido en donde la url de esta es *http://hl7.org/fhir/StructureDefinition/humanname-mothers-family*.
 * El elemento *address* considera la creación de un nuevo **tipo de datos** denominado **ClAddress** que contiene lo mismo que el tipo original más las extensiones para codificar comunas, provincias, regiones y países.
 * Se entiende por *qualification* como los certificados/títulos, especialidades y subespecialidades registradas por el prestador. Para diferenciar certificados de especialidades y subespecialidades se ha optado por desarrollar dos *slice* para este elemento.

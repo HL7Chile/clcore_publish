@@ -1593,3 +1593,111 @@ Description: "Tipo Identificador"
 * #08 "Identificador Provisorio Apoderado"
 * #09 "Registro Único de Contribuyentes"
 
+
+ValueSet: VSIdentidaddeGenero
+Id: VSIdentidaddeGenero
+Title: "Identidad de Genero"
+Description: "Identidad de Genero"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSIdentidaddeGenero
+
+CodeSystem: CSIdentidaddeGenero
+Id: CSIdentidaddeGenero
+Title: "Identidad de Genero"
+Description: "Identidad de Genero"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Masculino"
+* #2 "Femenina"
+* #4 "Transgénero Masculino"
+* #5 "Transgénero Femenina"
+* #6 "No binarie"
+* #7 "Otra"
+* #8 "No Revelado"
+
+ValueSet: VSSexoListadoDeis
+Id: VSSexoListadoDeis
+Title: "Sexo Listado Deis"
+Description: "Sexo Listado Deis"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSSexoListadoDeis
+
+CodeSystem: CSSexoListadoDeis
+Id: CSSexoListadoDeis
+Title: "Sexo Listado Deis"
+Description: "Sexo Listado Deis"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Masculino"
+* #2 "Femenina"
+* #4 "Transgénero Masculino"
+* #5 "Transgénero Femenina"
+* #6 "No binarie"
+* #7 "Otra"
+* #8 "No Revelado"
+
+ValueSet: VSIdentificadores
+Id: VSIdentificadores
+Title: "Identificadores"
+Description: "Identificadores"
+* ^experimental = false
+* ^version = "0.1"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* codes from system CSIdentificadores
+
+CodeSystem: CSIdentificadores
+Id: CSIdentificadores
+Title: "Identificadores"
+Description: "Identificadores"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "RUN" "Registro Unico Nacional"
+* #2 "RNPI" "Registro Nacional de Prestadores Individuales"
+* #3 "PPN" "Pasaporte"
+* #4 "OTRO" "Otro tipo de identificador"

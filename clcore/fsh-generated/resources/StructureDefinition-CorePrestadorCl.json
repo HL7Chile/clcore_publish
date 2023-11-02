@@ -1,0 +1,628 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "CorePrestadorCl",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePrestadorCl",
+  "name": "PrestadorCL",
+  "title": "CL Prestador",
+  "status": "active",
+  "description": "Este Perfil fue creado para cubrir la descripción de un Prestador a nivel Nacional",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "servd",
+      "uri": "http://www.omg.org/spec/ServD/1.0/",
+      "name": "ServD"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Practitioner",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Practitioner",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Practitioner.extension",
+        "path": "Practitioner.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "definition": "Extensión para almacenar el sexo biologico del paciente"
+      },
+      {
+        "id": "Practitioner.extension:IdentidadDeGenero",
+        "path": "Practitioner.extension",
+        "sliceName": "IdentidadDeGenero",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.extension:SexoBiologico",
+        "path": "Practitioner.extension",
+        "sliceName": "SexoBiologico",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier",
+        "path": "Practitioner.identifier",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "type.coding.code"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Identificación de los prestadores",
+        "definition": "El identificador oficial para cada prestador en Chile es el Registro Nacional de Prestadores Institucionales (NRPI). Ademas existe el identificador nacional chileno, el Registro Único Nacional (RUN). Y por ultimo puede ingresar un numero de pasaporte y un ID extra para cada prestador.",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier.type",
+        "path": "Practitioner.identifier.type",
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentificadores"
+        }
+      },
+      {
+        "id": "Practitioner.identifier:run",
+        "path": "Practitioner.identifier",
+        "sliceName": "run",
+        "short": "Identificador destinado a almacenar el número de RUN",
+        "definition": "Corresponde al identificador (RUN) otorgado el Registro Civil de Chile",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:run.use",
+        "path": "Practitioner.identifier.use",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:run.type.coding.code",
+        "path": "Practitioner.identifier.type.coding.code",
+        "min": 1,
+        "patternCode": "1"
+      },
+      {
+        "id": "Practitioner.identifier:run.system",
+        "path": "Practitioner.identifier.system",
+        "short": "endPoint que valida el RUN",
+        "definition": "Define la url del endPoint a la cual apunta la API, para validar el RUN",
+        "comment": "Se define el el endPoint al cual debe apuntar a la API, con el fin de validar que el numero de RUN ingresado exista y que sea correcto. Por momento se usará la url = \"http://api_run/run\"",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:run.value",
+        "path": "Practitioner.identifier.value",
+        "short": "Número de RUN",
+        "definition": "Valor del RUN en la Cédula de Identidad entregada por el Registro Civil, en formato sin puntos y con guión para diferencia el dígito verificador",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:rnpi",
+        "path": "Practitioner.identifier",
+        "sliceName": "rnpi",
+        "short": "Valor de RNPI",
+        "definition": "Valor de RNPI",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:rnpi.use",
+        "path": "Practitioner.identifier.use",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:rnpi.type.coding.code",
+        "path": "Practitioner.identifier.type.coding.code",
+        "min": 1,
+        "patternCode": "2"
+      },
+      {
+        "id": "Practitioner.identifier:rnpi.system",
+        "path": "Practitioner.identifier.system",
+        "short": "endPoint para validar los códigos",
+        "definition": "Define la url del endPoint a la cual apunta la API",
+        "comment": "Se define el endPoint al cual debe apuntar a la API",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:rnpi.value",
+        "path": "Practitioner.identifier.value",
+        "short": "Valor identificador",
+        "definition": "Valor identificador",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:pasaporte",
+        "path": "Practitioner.identifier",
+        "sliceName": "pasaporte",
+        "short": "Valor de PASAPORTE",
+        "definition": "Valor de PASAPORTE",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:pasaporte.use",
+        "path": "Practitioner.identifier.use",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:pasaporte.type.coding.code",
+        "path": "Practitioner.identifier.type.coding.code",
+        "min": 1,
+        "patternCode": "3"
+      },
+      {
+        "id": "Practitioner.identifier:pasaporte.system",
+        "path": "Practitioner.identifier.system",
+        "short": "endPoint para validar los códigos",
+        "definition": "Define la url del endPoint a la cual apunta la API",
+        "comment": "Se define el endPoint al cual debe apuntar a la API",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:pasaporte.value",
+        "path": "Practitioner.identifier.value",
+        "short": "Valor identificador",
+        "definition": "Valor identificador",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:otro",
+        "path": "Practitioner.identifier",
+        "sliceName": "otro",
+        "short": "Para otros identificadores que el notificador estime conveniente",
+        "definition": "Para otros identificadores que el notificador estime conveniente",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:otro.use",
+        "path": "Practitioner.identifier.use",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:otro.type.coding.code",
+        "path": "Practitioner.identifier.type.coding.code",
+        "min": 1,
+        "patternCode": "4"
+      },
+      {
+        "id": "Practitioner.identifier:otro.system",
+        "path": "Practitioner.identifier.system",
+        "short": "endPoint para validar los códigos",
+        "definition": "Define la url del endPoint a la cual apunta la API",
+        "comment": "Se define el endPoint al cual debe apuntar a la API",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.identifier:otro.value",
+        "path": "Practitioner.identifier.value",
+        "short": "Valor identificador",
+        "definition": "Valor identificador",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.active",
+        "path": "Practitioner.active",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name",
+        "path": "Practitioner.name",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name.use",
+        "path": "Practitioner.name.use",
+        "short": "Uso del nombre del prestador",
+        "definition": "Este es el uso que se le da al nombre del Prestador considerando que puede ser nombre oficial, temporal, seudonimo, entre otros, Pero por motivos legales este uso es Oficial ",
+        "patternCode": "official",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name.family",
+        "path": "Practitioner.name.family",
+        "short": "Primer Apellido",
+        "definition": "Se debe ingresar el primer apellido, segun indica su identificacion personal",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name.family.extension",
+        "path": "Practitioner.name.family.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "short": "Extensión para el segundo apellido"
+      },
+      {
+        "id": "Practitioner.name.family.extension:segundoApellido",
+        "path": "Practitioner.name.family.extension",
+        "sliceName": "segundoApellido",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.name.given",
+        "path": "Practitioner.name.given",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.telecom",
+        "path": "Practitioner.telecom",
+        "definition": "Contacto del prestador",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.telecom.system",
+        "path": "Practitioner.telecom.system",
+        "short": "Debe utilizar \"phone\" o \"email\".",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.telecom.value",
+        "path": "Practitioner.telecom.value",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.telecom.use",
+        "path": "Practitioner.telecom.use",
+        "short": "Uso del contacto descrito. Puede usar \"home | work | temp | old | mobile\"",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.address",
+        "path": "Practitioner.address",
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/cl-address"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.gender",
+        "path": "Practitioner.gender",
+        "short": "Sexo Registral (male | female | other | unknown (requerido))",
+        "definition": "Sexo de nacimiento registrado",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.birthDate",
+        "path": "Practitioner.birthDate",
+        "short": "Fecha de nacimiento del Paciente. El formato debe ser YYYY-MM-DD",
+        "definition": "Fecha de nacimiento del Paciente. El formato debe ser YYYY-MM-DD (Ej: 1996-08-21)",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification",
+        "path": "Practitioner.qualification",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "identifier.value"
+            }
+          ],
+          "rules": "open",
+          "description": "Debido a que los profesisonales de la salud pueden tener titulo y ademas poseer especialidades, es que se ha realizado un slice, con el fin de poder diferenciarlos. El de Certificados tiene identifier.value el valor cert y el slice de especialidad el valor esp"
+        },
+        "short": "Certificados, títulos y/o Especialidad(es) obtenidas por el Prestador",
+        "definition": "Certificados, titulos y/o especialidades que el Prestador pueda validar",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert",
+        "path": "Practitioner.qualification",
+        "sliceName": "Cert",
+        "short": "Especificación de los Títulos o Certificados Profesionales que tiene el Prestador",
+        "definition": "Listado de Títulos o Cetificados Profesionales que tiene el prestador. Solo se consideran aquellos que pueden ser demostrados en consulta a la casa de estudios pertinente",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.identifier",
+        "path": "Practitioner.qualification.identifier",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.identifier.value",
+        "path": "Practitioner.qualification.identifier.value",
+        "short": "Valor del tipo de calificación, en este caso cert",
+        "definition": "Valor del tipo de calificación, en este caso cert",
+        "min": 1,
+        "patternString": "cert",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code",
+        "path": "Practitioner.qualification.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code.coding",
+        "path": "Practitioner.qualification.code.coding",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code.coding.system",
+        "path": "Practitioner.qualification.code.coding.system",
+        "short": "El sistema sobre el cual se verificarán los titulos o certificados de los Prestadores",
+        "definition": "La url sobre la cual se encuentra el endPoint para el acceso a  los códigos de titulos y/o certificados de prestadores. El perfil especifica que se debe usar la siguiente url:  \"https://api.minsal.cl/v1/catalogos/profesiones/\"",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code.coding.code",
+        "path": "Practitioner.qualification.code.coding.code",
+        "short": "Nombre del titulo o certificado agregado",
+        "definition": "Nombre del titulo o certificado agregado. Agregar un poco mas de informacion acerca del item que se esta agregando.",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code.coding.display",
+        "path": "Practitioner.qualification.code.coding.display",
+        "short": "Nombre del titulo o certificado agregado",
+        "definition": "Nombre del titulo o certificado agregado. Agregar un poco mas de informacion acerca del item que se esta agregando.",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.code.text",
+        "path": "Practitioner.qualification.code.text",
+        "short": "Nombre del titulo entregado por la Super Intendencia de Salud",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.issuer",
+        "path": "Practitioner.qualification.issuer",
+        "short": "Organizacion que entrega el certificado o título",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Cert.issuer.display",
+        "path": "Practitioner.qualification.issuer.display",
+        "short": "Nombre de la organizacion que entrega certificado o título",
+        "definition": "Nombre de la organizacion que entrega el certificado o título válido para ejercer como prestdor. En este elemento solo se puede agregar texto libre",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp",
+        "path": "Practitioner.qualification",
+        "sliceName": "Esp",
+        "short": "Especificación de la o las  especialidades que posea el prestador",
+        "definition": "Listado de especialidades que posee el prestador. Solo se consideran aquellos que pueden ser demostrados en consulta a la casa de estudios pertinente",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.identifier",
+        "path": "Practitioner.qualification.identifier",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.identifier.value",
+        "path": "Practitioner.qualification.identifier.value",
+        "short": "Valor del tipo de calificación, en este caso esp",
+        "definition": "Valor del tipo de calificación, en este caso esp",
+        "min": 1,
+        "patternString": "esp",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code",
+        "path": "Practitioner.qualification.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code.coding",
+        "path": "Practitioner.qualification.code.coding",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code.coding.system",
+        "path": "Practitioner.qualification.code.coding.system",
+        "short": "El sistema sobre el cual se verificarán las especialidades de los Prestadores",
+        "definition": "la url sobre la cual se encuentra el endPoint para el acceso a  los códigos de especialidades de prestadores. El perfil especifica  \"https://api.minsal.cl/v1/catalogos/tiposEspecialidadMedica/\"",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code.coding.code",
+        "path": "Practitioner.qualification.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code.coding.display",
+        "path": "Practitioner.qualification.code.coding.display",
+        "short": "Nombre de la especialidad",
+        "definition": "Nombre la especialidad agregada. Agregar un poco mas de informacion acerca del item que se esta agregando.",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.code.text",
+        "path": "Practitioner.qualification.code.text",
+        "short": "Texto libre de la especialidad del profesional",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.issuer",
+        "path": "Practitioner.qualification.issuer",
+        "short": "Organizacion que entrega el certificado o título",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:Esp.issuer.display",
+        "path": "Practitioner.qualification.issuer.display",
+        "short": "Nombre de la organizacion que entrega certificado o título",
+        "definition": "Nombre de la organizacion que entrega el certificado o título válido para ejercer como prestdor. En este elemento solo se puede agregar texto libre",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp",
+        "path": "Practitioner.qualification",
+        "sliceName": "SubEsp",
+        "short": "Especificación de la o las subespecialidades que posea el prestador",
+        "definition": "Listado de subespecialidades que posee el prestador. Solo se consideran aquellos que pueden ser demostrados en consulta a la casa de estudios pertinente",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.identifier",
+        "path": "Practitioner.qualification.identifier",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.identifier.value",
+        "path": "Practitioner.qualification.identifier.value",
+        "short": "Valor del tipo de calificación, en este caso subesp",
+        "definition": "Valor del tipo de calificación, en este caso subesp",
+        "min": 1,
+        "patternString": "subesp",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code",
+        "path": "Practitioner.qualification.code",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code.coding",
+        "path": "Practitioner.qualification.code.coding",
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code.coding.system",
+        "path": "Practitioner.qualification.code.coding.system",
+        "short": "El sistema sobre el cual se verificarán las especialidades de los Prestadores",
+        "definition": "la url sobre la cual se encuentra el endPoint para el acceso a  los códigos de especialidades de prestadores.",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code.coding.code",
+        "path": "Practitioner.qualification.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code.coding.display",
+        "path": "Practitioner.qualification.code.coding.display",
+        "short": "Nombre de la subespecialidad",
+        "definition": "Nombre la subespecialidad agregada. Agregar un poco mas de informacion acerca del item que se esta agregando.",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.code.text",
+        "path": "Practitioner.qualification.code.text",
+        "short": "Texto libre de la subespecialidad del profesional",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.issuer",
+        "path": "Practitioner.qualification.issuer",
+        "short": "Organizacion que entrega el certificado o título",
+        "mustSupport": true
+      },
+      {
+        "id": "Practitioner.qualification:SubEsp.issuer.display",
+        "path": "Practitioner.qualification.issuer.display",
+        "short": "Nombre de la organizacion que entrega certificado o título",
+        "definition": "Nombre de la organizacion que entrega el certificado o título válido para ejercer como prestdor. En este elemento solo se puede agregar texto libre",
+        "mustSupport": true
+      }
+    ]
+  }
+}

@@ -3,14 +3,14 @@
   "id" : "hl7.fhir.cl.clcore",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>clcore</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore</pre><div><p>Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4</p>\n</div></div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
-  "version" : "1.8.2",
+  "version" : "1.8.5",
   "name" : "clcore",
   "title" : "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
   "status" : "active",
-  "date" : "2023-09-01T14:45:29-04:00",
+  "date" : "2023-10-31T17:56:54-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -43,7 +43,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.0.0"
+    "version" : "5.3.0"
   },
   {
     "id" : "hl7ext",
@@ -297,6 +297,17 @@
       "extension" : [{
         "url" : "code",
         "valueString" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "apply-wg"
       },
       {
         "url" : "value",
@@ -598,6 +609,17 @@
       "extension" : [{
         "url" : "code",
         "valueCode" : "apply-version"
+      },
+      {
+        "url" : "value",
+        "valueString" : "true"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "apply-wg"
       },
       {
         "url" : "value",
@@ -1257,7 +1279,7 @@
         "reference" : "Encounter/EncounterCL"
       },
       "name" : "Ejemplo de Recurso Encuentro",
-      "description" : "Encuentro remoto ficticio",
+      "description" : "Encuentro remoto ficticio del paciente",
       "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL"
     },
     {
@@ -1470,10 +1492,70 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/IdentidadDeGenero"
+      },
+      "name" : "Identidad De Genero",
+      "description" : "Identidad De Genero",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSIdentidaddeGenero"
+      },
+      "name" : "Identidad de Genero",
+      "description" : "Identidad de Genero",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSIdentidaddeGenero"
+      },
+      "name" : "Identidad de Genero",
+      "description" : "Identidad de Genero",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/IdContacto"
       },
       "name" : "Identificación del Contacto de un Paciente",
       "description" : "Identificación de contacto de paciente en especial para casos en los cuales este actúa como Tutor Legal",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSIdentificadores"
+      },
+      "name" : "Identificadores",
+      "description" : "Identificadores",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSIdentificadores"
+      },
+      "name" : "Identificadores",
+      "description" : "Identificadores",
       "exampleBoolean" : false
     },
     {
@@ -1618,6 +1700,54 @@
       },
       "name" : "Servicos de Salud en Chile",
       "description" : "Códigos de Servicios de Salud que existen en Chile",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SexoBiologico"
+      },
+      "name" : "Sexo Biologico del paciente",
+      "description" : "Sexo Biologico del paciente",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/VSSexoListadoDeis"
+      },
+      "name" : "Sexo Listado Deis",
+      "description" : "Sexo Listado Deis",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/CSSexoListadoDeis"
+      },
+      "name" : "Sexo Listado Deis",
+      "description" : "Sexo Listado Deis",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/SexoRegistral"
+      },
+      "name" : "Sexo Registral del paciente",
+      "description" : "Sexo Registral del paciente",
       "exampleBoolean" : false
     },
     {

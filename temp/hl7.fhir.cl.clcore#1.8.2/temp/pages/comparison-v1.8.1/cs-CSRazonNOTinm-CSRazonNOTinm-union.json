@@ -1,11 +1,11 @@
 {
   "resourceType" : "CodeSystem",
-  "id" : "3b796495-3f5f-4a28-87f9-c083a875e98e-38",
-  "url" : "http://hl7.org/fhir/comparison/CodeSystem/3b796495-3f5f-4a28-87f9-c083a875e98e-38",
+  "id" : "7e0a81e9-e381-4760-9a4b-6c21dedf45c7-38",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/7e0a81e9-e381-4760-9a4b-6c21dedf45c7-38",
   "name" : "UnionCSRazonNOinmunizacionCLAndCSRazonNOinmunizacionCL",
   "title" : "Union of Razones no Inmunización And Razones no Inmunización",
   "status" : "active",
-  "date" : "2023-09-01T16:50:16-04:00",
+  "date" : "2023-09-01T22:37:57-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

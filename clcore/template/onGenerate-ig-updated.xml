@@ -12,11 +12,11 @@
       </div>
    </text>
    <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
-   <version value="1.8.2"/>
+   <version value="1.8.5"/>
    <name value="clcore"/>
    <title value="Guía de Implementación &#34;cl core&#34; FHIR R4, (Versión Evolutiva)"/>
    <status value="active"/>
-   <date value="2023-09-01T14:45:29-04:00"/>
+   <date value="2023-10-31T17:56:54-03:00"/>
    <publisher value="HL7 Chile"/>
    <contact>
       <name value="HL7 Chile"/>
@@ -47,7 +47,7 @@
       </extension>
       <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
       <packageId value="hl7.terminology.r4"/>
-      <version value="5.0.0"/>
+      <version value="5.3.0"/>
    </dependsOn>
    <dependsOn id="hl7ext">
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -241,6 +241,14 @@
       </extension>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
          <extension url="code">
+            <valueString value="apply-wg"/>
+         </extension>
+         <extension url="value">
+            <valueString value="true"/>
+         </extension>
+      </extension>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+         <extension url="code">
             <valueString value="active-tables"/>
          </extension>
          <extension url="value">
@@ -326,6 +334,149 @@
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
       
       
       <resource>
@@ -768,6 +919,24 @@
             <valueString value="StructureDefinition:extension"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-IdentidadDeGenero.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/IdentidadDeGenero"/>
+         </reference>
+         <name value="Identidad De Genero"/>
+         <description value="Identidad De Genero"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="StructureDefinition-IdContacto.html"/>
          </extension>
          <reference>
@@ -865,6 +1034,42 @@
          </reference>
          <name value="Segundo Apellido"/>
          <description value="Segundo Apellido"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-SexoBiologico.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/SexoBiologico"/>
+         </reference>
+         <name value="Sexo Biologico del paciente"/>
+         <description value="Sexo Biologico del paciente"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-str-extension"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="StructureDefinition:extension"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="StructureDefinition-SexoRegistral.html"/>
+         </extension>
+         <reference>
+            <reference value="StructureDefinition/SexoRegistral"/>
+         </reference>
+         <name value="Sexo Registral del paciente"/>
+         <description value="Sexo Registral del paciente"/>
          <exampleBoolean value="false"/>
          <groupingId value="-str-extension"/>
       </resource>
@@ -1074,6 +1279,42 @@
             <valueString value="ValueSet"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSIdentidaddeGenero.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSIdentidaddeGenero"/>
+         </reference>
+         <name value="Identidad de Genero"/>
+         <description value="Identidad de Genero"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSIdentificadores.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSIdentificadores"/>
+         </reference>
+         <name value="Identificadores"/>
+         <description value="Identificadores"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="ValueSet-VSRazonNOT.html"/>
          </extension>
          <reference>
@@ -1117,6 +1358,24 @@
          </reference>
          <name value="Servicos de Salud en Chile"/>
          <description value="Códigos de Servicios de Salud que existen en Chile"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-valueset"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="ValueSet"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="ValueSet-VSSexoListadoDeis.html"/>
+         </extension>
+         <reference>
+            <reference value="ValueSet/VSSexoListadoDeis"/>
+         </reference>
+         <name value="Sexo Listado Deis"/>
+         <description value="Sexo Listado Deis"/>
          <exampleBoolean value="false"/>
          <groupingId value="-term-valueset"/>
       </resource>
@@ -1416,6 +1675,42 @@
             <valueString value="CodeSystem"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSIdentidaddeGenero.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSIdentidaddeGenero"/>
+         </reference>
+         <name value="Identidad de Genero"/>
+         <description value="Identidad de Genero"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSIdentificadores.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSIdentificadores"/>
+         </reference>
+         <name value="Identificadores"/>
+         <description value="Identificadores"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
             <valueUri value="CodeSystem-CSRazonNOT.html"/>
          </extension>
          <reference>
@@ -1477,6 +1772,24 @@
          </reference>
          <name value="Servicios de Salud Chile"/>
          <description value="Códigos del Sistema Nacional de Servicios de Salud"/>
+         <exampleBoolean value="false"/>
+         <groupingId value="-term-codesystem"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="CodeSystem"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="CodeSystem-CSSexoListadoDeis.html"/>
+         </extension>
+         <reference>
+            <reference value="CodeSystem/CSSexoListadoDeis"/>
+         </reference>
+         <name value="Sexo Listado Deis"/>
+         <description value="Sexo Listado Deis"/>
          <exampleBoolean value="false"/>
          <groupingId value="-term-codesystem"/>
       </resource>
@@ -1656,7 +1969,7 @@
             <reference value="Encounter/EncounterCL"/>
          </reference>
          <name value="Ejemplo de Recurso Encuentro"/>
-         <description value="Encuentro remoto ficticio"/>
+         <description value="Encuentro remoto ficticio del paciente"/>
          <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL"/>
          <groupingId value="-ex-example"/>
       </resource>
@@ -2160,6 +2473,11 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="StructureDefinition-IdentidadDeGenero.html"/>
+               <title value="Identidad De Genero"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="StructureDefinition-IdContacto.html"/>
                <title value="Identificación del Contacto de un Paciente"/>
                <generation value="generated"/>
@@ -2187,6 +2505,16 @@
             <page>
                <nameUrl value="StructureDefinition-SegundoApellido.html"/>
                <title value="Segundo Apellido"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-SexoBiologico.html"/>
+               <title value="Sexo Biologico del paciente"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="StructureDefinition-SexoRegistral.html"/>
+               <title value="Sexo Registral del paciente"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2245,6 +2573,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="ValueSet-VSIdentidaddeGenero.html"/>
+               <title value="Identidad de Genero"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-VSIdentificadores.html"/>
+               <title value="Identificadores"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="ValueSet-VSRazonNOT.html"/>
                <title value="Razones no Atención Remota"/>
                <generation value="generated"/>
@@ -2257,6 +2595,11 @@
             <page>
                <nameUrl value="ValueSet-VSCodigosServiciosSalud.html"/>
                <title value="Servicos de Salud en Chile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="ValueSet-VSSexoListadoDeis.html"/>
+               <title value="Sexo Listado Deis"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2340,6 +2683,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="CodeSystem-CSIdentidaddeGenero.html"/>
+               <title value="Identidad de Genero"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-CSIdentificadores.html"/>
+               <title value="Identificadores"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="CodeSystem-CSRazonNOT.html"/>
                <title value="Razones Cancelación Atención Remota"/>
                <generation value="generated"/>
@@ -2357,6 +2710,11 @@
             <page>
                <nameUrl value="CodeSystem-CSCodSSalud.html"/>
                <title value="Servicios de Salud Chile"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="CodeSystem-CSSexoListadoDeis.html"/>
+               <title value="Sexo Listado Deis"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2637,6 +2995,10 @@
       </parameter>
       <parameter>
          <code value="apply-version"/>
+         <value value="true"/>
+      </parameter>
+      <parameter>
+         <code value="apply-wg"/>
          <value value="true"/>
       </parameter>
       <parameter>

@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VSSexoListadoDeis",
+  "id": "VSSexoListadoDeis",
+  "title": "Sexo Listado Deis",
+  "description": "Sexo Listado Deis",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSSexoListadoDeis",
+  "experimental": false,
+  "version": "0.1",
+  "date": "2023-01-15",
+  "contact": [
+    {
+      "name": "MINSAL CHILE",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "minsal@minsal.cl"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CL",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Chile"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis"
+      }
+    ]
+  }
+}

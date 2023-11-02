@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "VSTiposServicioCL",
+  "id": "VSTiposServicio",
+  "title": "Tipos de Servicios Remotos",
+  "description": "Tipos de Servicios para encuentro remoto según CodeSystem local",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposServicio",
+  "experimental": false,
+  "version": "1.0.0",
+  "date": "2022-05-22T00:00:00-03:00",
+  "contact": [
+    {
+      "name": "HL7 Chile",
+      "telecom": [
+        {
+          "system": "email",
+          "value": "chair@hl7chile.cl"
+        }
+      ]
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "CL",
+          "system": "urn:iso:std:iso:3166",
+          "display": "Chile"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoServicio"
+      }
+    ]
+  }
+}

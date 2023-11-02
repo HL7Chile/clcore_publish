@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.cl.clcore",
-  "version": "1.8.2",
+  "version": "1.8.5",
   "fhirVersion": "4.0.1",
   "jurisdiction": "CL",
   "extensions": [
@@ -143,6 +143,14 @@
       ]
     },
     {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero",
+      "title": "Identidad De Genero",
+      "types": [
+        "CodeableConcept",
+        "CodeableConcept"
+      ]
+    },
+    {
       "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana",
       "title": "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)",
       "types": [
@@ -227,6 +235,20 @@
       "types": [
         "Coding",
         "Coding"
+      ]
+    },
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico",
+      "title": "Sexo Biologico del paciente",
+      "types": [
+        "CodeableConcept"
+      ]
+    },
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoRegistral",
+      "title": "Sexo Registral del paciente",
+      "types": [
+        "CodeableConcept"
       ]
     },
     {
@@ -414,6 +436,10 @@
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto": [
       "Patient.contact"
     ],
+    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero": [
+      "Patient",
+      "Practitioner"
+    ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana": [
       "Immunization"
     ],
@@ -441,6 +467,10 @@
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud": [
       "Immunization.location"
+    ],
+    "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico": [
+      "Patient",
+      "Practitioner"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposEncuentro": [
       "Encounter.type"

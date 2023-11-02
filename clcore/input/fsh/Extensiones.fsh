@@ -1,42 +1,36 @@
-/* 		Extension 		*/
-/*	Pais de Origen	*/
+Extension: IdentidadDeGenero
+Id: IdentidadDeGenero
+Title: "Identidad De Genero"
+Description: "Identidad De Genero"
+* valueCodeableConcept ^short = "Identidad De Genero"
+* valueCodeableConcept from  VSIdentidaddeGenero
+
+Extension: SexoBiologico
+Id: SexoBiologico
+Title: "Sexo Biologico del paciente"
+Description: "Sexo Biologico del paciente"
+* value[x] only CodeableConcept
+* valueCodeableConcept ^short = "SexoBiologico"
+* valueCodeableConcept from VSSexoListadoDeis
 
 
-/*Extension:   GradMadurez
-Id:          structuredefinition-gradMadurez
-Title:       "Grado de Madures de Artefactos"
-Description: "Esta extención determina en código el grado de madurez de cualquier artefacto"
+Extension: SexoRegistral
+Id: SexoRegistral
+Title: "Sexo Registral del paciente"
+Description: "Sexo Registral del paciente"
+* value[x] only CodeableConcept
+* valueCodeableConcept ^short = "SexoRegistral"
+* valueCodeableConcept from http://hl7.org/fhir/ValueSet/administrative-gender
 
-* ^extension[0].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
-* ^extension[=].valueCode = #fhir
-* ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"
-* ^extension[=].valueInteger = 1
-* ^url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/structuredefinition-gradMadurez"
-* ^version = "4.3.0"
-* ^status = #draft
-* ^experimental = false
-* ^date = "2014-01-31"
-* ^publisher = "Health Level Seven, Inc. - [WG Name] WG"
-* ^contact.telecom.system = #url
-* ^contact.telecom.value = "http://hl7.org/special/committees/FHIR"
-* . 0..1
-* . ^short = "FMM Level"
-* . ^definition = "The FMM level assigned to the artifact."
-* . ^comment = "Though this is defined for resources, it can be used for any artifact."
-* url = "https://hl7chile.cl/fhir/ig/corecl/StructureDefinition/structuredefinition-gradMadurez" (exactly)
-* value[x] 1..
-* value[x] only code
-* value[x] ^short = "Código de madurez"
-* valueCode from VSCodMadurez (required)
 
-*/
+
 Extension:   PaisOrigenNacionalidadCl
 Id:          CodigoPaises
 Title:       "Codigo de Identificación de países"
 Description: "Esta extensión incluye códigos de paises de origen"
 * value[x] only CodeableConcept
 * value[x] ^short = "Código de País"
-* url 1..1 MS
+//* url 1..1 MS
 * valueCodeableConcept.coding 0..1 MS
   * code 0..1 MS
   * code from CodPais

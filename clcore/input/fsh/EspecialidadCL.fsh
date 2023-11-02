@@ -15,6 +15,7 @@ Description:    "Este Perfil ha sido desarrollado para cubrir las necesidades de
 
 * practitioner and practitioner.reference MS
 * practitioner 1..1
+* practitioner only Reference(PrestadorCL)
 * practitioner ^short = "Referencia al Prestador  especialidad"
 * practitioner ^definition = "La referencia al prestador de salud, al cual se le quieren asignar funciones o actividades de especialidad."
 * practitioner.reference ^short = "Referencia al uri del recurso Practitioner del prestador en cuestión"

@@ -4,12 +4,34 @@
     <description>New Packages published by HL7 Chile</description>
     <link>http://hl7chile.cl/fhir/ig/package-feed.xml</link>
     <generator>HL7, Inc FHIR Publication tooling</generator>
-    <lastBuildDate>Fri, 01 Sep 2023 04:48:28 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 01 Sep 2023 11:20:53 -0400</lastBuildDate>
     <atom:link href="http://hl7chile.cl/fhir/ig/package-feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 01 Sep 2023 04:48:28 -0400</pubDate>
+    <pubDate>Fri, 01 Sep 2023 11:20:53 -0400</pubDate>
     <language>en</language>
     <ttl>600</ttl>
   
+    <item>
+      <title>hl7.fhir.cl.clcore#1.8.4</title>
+      <description>Versión de desarrollo</description>
+      <link>https://hl7chile.cl/fhir/ig/clcore/1.8.4/package.tgz</link>
+      <guid isPermaLink="true">https://hl7chile.cl/fhir/ig/clcore/1.8.4/package.tgz</guid>
+      <dc:creator>HL7, Inc</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 01 Sep 2023 11:20:53 -0400</pubDate>
+      <fhir:details>Publication run at 01/09/2023 by jmansilla using vVersion 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (35 hours old) source id Unknown (todo) Run #7</fhir:details>
+    </item>
+    <item>
+      <title>hl7.fhir.cl.clcore#1.8.3</title>
+      <description>Versión de desarrollo</description>
+      <link>https://hl7chile.cl/fhir/ig/clcore/1.8.3/package.tgz</link>
+      <guid isPermaLink="true">https://hl7chile.cl/fhir/ig/clcore/1.8.3/package.tgz</guid>
+      <dc:creator>HL7, Inc</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 01 Sep 2023 11:02:59 -0400</pubDate>
+      <fhir:details>Publication run at 01/09/2023 by jmansilla using vVersion 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (35 hours old) source id Unknown (todo) Run #6</fhir:details>
+    </item>
     <item>
       <title>hl7.fhir.cl.clcore#1.8.2</title>
       <description>Versión de desarrollo</description>
@@ -18,8 +40,8 @@
       <dc:creator>HL7, Inc</dc:creator>
       <fhir:version>4.0.1</fhir:version>
       <fhir:kind>IG</fhir:kind>
-      <pubDate>Fri, 01 Sep 2023 04:48:28 -0400</pubDate>
-      <fhir:details>Publication run at 01/09/2023 by jmansilla using vVersion 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (29 hours old) source id Unknown (todo) Run #5</fhir:details>
+      <pubDate>Fri, 01 Sep 2023 10:35:46 -0400</pubDate>
+      <fhir:details>Publication run at 01/09/2023 by jmansilla using vVersion 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (35 hours old) source id Unknown (todo) Run #5</fhir:details>
     </item>
     <item>
       <title>hl7.fhir.cl.clcore#1.8.1</title>

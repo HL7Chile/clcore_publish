@@ -1,0 +1,62 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "SexoRegistral",
+  "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoRegistral",
+  "name": "SexoRegistral",
+  "title": "Sexo Registral del paciente",
+  "status": "active",
+  "description": "Sexo Registral del paciente",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Sexo Registral del paciente",
+        "definition": "Sexo Registral del paciente"
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoRegistral"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "short": "SexoRegistral",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://hl7.org/fhir/ValueSet/administrative-gender"
+        }
+      }
+    ]
+  }
+}

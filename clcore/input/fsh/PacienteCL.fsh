@@ -15,9 +15,18 @@ Description:    "Este Perfil ha sido desarrollado para cubrir las necesidades de
       * system and code MS
 
 
+* extension contains IdentidadDeGenero named IdentidadDeGenero 0..1 MS
+* extension ^definition = "Extensión para almacenar la identidad de genero de cada paciente"
+
+* extension contains SexoBiologico named SexoBiologico 0..1 MS
+* extension ^definition = "Extensión para almacenar el sexo biologico del paciente"
+
+//* extension contains SexoRegistral named SexoRegistral 0..1 MS
+//* extension ^definition = "Extensión para almacenar el sexo Registral del paciente"
+
+
+
 * extension contains PaisOrigenNacionalidadCl named nacionalidad 0..1 MS
-
-
 * extension[nacionalidad].url ^short = "Extensión de Nacionalidad para pacientes extranjeros"
 * extension ^definition = "Para hacer uso de esta extensión se debe agregar el path: extension.url = \"nacionalidad\""
 
@@ -128,11 +137,11 @@ Description:    "Este Perfil ha sido desarrollado para cubrir las necesidades de
   * value ^short = "Dato del contato del paciente descrito"
   * value ^definition = "Valor del contacto como por ejemplo el numero de telefono fijo o de móvil o el email del Paciente"
 
-* gender 1..1
-* gender ^short = "Sexo de nacimiento Registrado, male | female | other | unknown (requerido)"
+* gender 0..1
+* gender ^short = "Sexo de nacimiento Registrado. (male | female | other | unknown (requerido))"
 * gender ^definition = "Sexo de nacimiento Registrado"
 
-* birthDate 1..1
+* birthDate 0..1
 * birthDate ^short = "Fecha de nacimiento del Paciente. El formato debe ser YYYY-MM-DD"
 * birthDate ^definition = "Fecha de nacimiento del Paciente. El formato debe ser YYYY-MM-DD (Ej: 1996-08-21)"
 

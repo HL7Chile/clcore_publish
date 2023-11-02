@@ -10,14 +10,14 @@
   fhir:id [ fhir:v "hl7.fhir.cl.clcore"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">Placeholder</div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>clcore</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore</pre><div><p>Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.8.2"] ; # 
+  fhir:version [ fhir:v "1.8.5"] ; # 
   fhir:name [ fhir:v "clcore"] ; # 
   fhir:title [ fhir:v "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-09-01T14:45:29-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-10-31T17:56:54-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;
@@ -52,7 +52,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.0.0" ]
+     fhir:version [ fhir:v "5.3.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -268,6 +268,15 @@
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true" ]
@@ -514,6 +523,15 @@
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "apply-version" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "true" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "apply-wg" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "true" ]
@@ -1175,7 +1193,7 @@
          fhir:reference [ fhir:v "Encounter/EncounterCL" ]
        ] ;
        fhir:name [ fhir:v "Ejemplo de Recurso Encuentro" ] ;
-       fhir:description [ fhir:v "Encuentro remoto ficticio" ] ;
+       fhir:description [ fhir:v "Encuentro remoto ficticio del paciente" ] ;
        fhir:example [
          fhir:v "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL"^^xsd:anyURI ;
          fhir:link <https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL>
@@ -1414,11 +1432,71 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero> ;
+         fhir:reference [ fhir:v "StructureDefinition/IdentidadDeGenero" ]
+       ] ;
+       fhir:name [ fhir:v "Identidad De Genero" ] ;
+       fhir:description [ fhir:v "Identidad De Genero" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentidaddeGenero> ;
+         fhir:reference [ fhir:v "ValueSet/VSIdentidaddeGenero" ]
+       ] ;
+       fhir:name [ fhir:v "Identidad de Genero" ] ;
+       fhir:description [ fhir:v "Identidad de Genero" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero> ;
+         fhir:reference [ fhir:v "CodeSystem/CSIdentidaddeGenero" ]
+       ] ;
+       fhir:name [ fhir:v "Identidad de Genero" ] ;
+       fhir:description [ fhir:v "Identidad de Genero" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto> ;
          fhir:reference [ fhir:v "StructureDefinition/IdContacto" ]
        ] ;
        fhir:name [ fhir:v "Identificación del Contacto de un Paciente" ] ;
        fhir:description [ fhir:v "Identificación de contacto de paciente en especial para casos en los cuales este actúa como Tutor Legal" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentificadores> ;
+         fhir:reference [ fhir:v "ValueSet/VSIdentificadores" ]
+       ] ;
+       fhir:name [ fhir:v "Identificadores" ] ;
+       fhir:description [ fhir:v "Identificadores" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores> ;
+         fhir:reference [ fhir:v "CodeSystem/CSIdentificadores" ]
+       ] ;
+       fhir:name [ fhir:v "Identificadores" ] ;
+       fhir:description [ fhir:v "Identificadores" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -1563,6 +1641,54 @@
        ] ;
        fhir:name [ fhir:v "Servicos de Salud en Chile" ] ;
        fhir:description [ fhir:v "Códigos de Servicios de Salud que existen en Chile" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico> ;
+         fhir:reference [ fhir:v "StructureDefinition/SexoBiologico" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo Biologico del paciente" ] ;
+       fhir:description [ fhir:v "Sexo Biologico del paciente" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSSexoListadoDeis> ;
+         fhir:reference [ fhir:v "ValueSet/VSSexoListadoDeis" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo Listado Deis" ] ;
+       fhir:description [ fhir:v "Sexo Listado Deis" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis> ;
+         fhir:reference [ fhir:v "CodeSystem/CSSexoListadoDeis" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo Listado Deis" ] ;
+       fhir:description [ fhir:v "Sexo Listado Deis" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoRegistral> ;
+         fhir:reference [ fhir:v "StructureDefinition/SexoRegistral" ]
+       ] ;
+       fhir:name [ fhir:v "Sexo Registral del paciente" ] ;
+       fhir:description [ fhir:v "Sexo Registral del paciente" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

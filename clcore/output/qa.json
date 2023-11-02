@@ -2,11 +2,12 @@
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
   "name" : "clcore",
   "package-id" : "hl7.fhir.cl.clcore",
-  "ig-ver" : "1.8.2",
-  "date" : "Fri, 01 Sep, 2023 14:45:29 -0400",
+  "ig-ver" : "1.8.5",
+  "date" : "Tue, 31 Oct, 2023 17:56:54 -0300",
   "errs" : 0,
-  "warnings" : 30,
-  "hints" : 11,
+  "warnings" : 39,
+  "hints" : 12,
   "version" : "4.0.1",
-  "tool" : "5.0.0 (3)"
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 1878047024
 }
