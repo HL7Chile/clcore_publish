@@ -6,3 +6,7 @@ Thumbs.db
 /input-cache
 /temp
 /template
+/clcore/template
+/clcore/fsh-generated
+/clcore/input-cache
+/clcore/temp

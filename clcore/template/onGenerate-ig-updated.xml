@@ -12,11 +12,11 @@
       </div>
    </text>
    <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
-   <version value="1.8.5"/>
+   <version value="1.8.6"/>
    <name value="clcore"/>
    <title value="Guía de Implementación &#34;cl core&#34; FHIR R4, (Versión Evolutiva)"/>
    <status value="active"/>
-   <date value="2023-10-31T17:56:54-03:00"/>
+   <date value="2023-11-09T12:29:21-03:00"/>
    <publisher value="HL7 Chile"/>
    <contact>
       <name value="HL7 Chile"/>
@@ -334,6 +334,11 @@
          <name value="Example: Example Instances"/>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like."/>
       </grouping>
+      
+      
+      
+      
+      
       
       
       
@@ -2104,6 +2109,42 @@
             <valueInteger value="999999999"/>
          </extension>
          <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-PacienteCL2.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/PacienteCL2"/>
+         </reference>
+         <name value="Ejemplo de Recurso Paciente Extranjero"/>
+         <description value="Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte."/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-PacienteCL.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/PacienteCL"/>
+         </reference>
+         <name value="Ejemplo de Recurso Paciente Nacional"/>
+         <description value="Paciente ficticio nacional CI Chilena, sin sistema de validación &#34;http://regcivil.cl/Validacion/RUN&#34; ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
             <valueString value="Practitioner"/>
          </extension>
          <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
@@ -2151,6 +2192,42 @@
          <name value="Ejemplo de Recurso de especialidad"/>
          <description value="Define el Rol de un Médico durante la Operación de un paciente en Urgencia"/>
          <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreEspecialidadCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-PacienteCl-4.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/PacienteCl-4"/>
+         </reference>
+         <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado"/>
+         <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&#34;http://regcivil.cl/Validacion/RUN\&#34; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente."/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-PacienteCl-5.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/PacienteCl-5"/>
+         </reference>
+         <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"/>
+         <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&#34;http://regcivil.cl/Validacion/RUN\&#34; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión."/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2241,6 +2318,24 @@
          <name value="Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido"/>
          <description value="Definición de Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido Código de descripción = 1703591000167111 y de Cocepto = 696681000167108 según TFC"/>
          <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreMedicamentoCl"/>
+         <groupingId value="-ex-example"/>
+      </resource>
+      <resource>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-sort">
+            <valueInteger value="999999999"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+            <valueString value="Patient"/>
+         </extension>
+         <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+            <valueUri value="Patient-PacienteCl-3.html"/>
+         </extension>
+         <reference>
+            <reference value="Patient/PacienteCl-3"/>
+         </reference>
+         <name value="Paciente Nacional, con datos actualizados, declarando nacionalidad"/>
+         <description value="Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real"/>
+         <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
          <groupingId value="-ex-example"/>
       </resource>
       <resource>
@@ -2342,9 +2437,9 @@
          </page>
          <page>
             <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-               <valueUrl value="changes.html"/>
+               <valueUrl value="Changes.html"/>
             </extension>
-            <nameUrl value="changes.html"/>
+            <nameUrl value="Changes.html"/>
             <title value="Historial de Cambios"/>
             <generation value="markdown"/>
          </page>
@@ -2763,6 +2858,16 @@
                <generation value="generated"/>
             </page>
             <page>
+               <nameUrl value="Patient-PacienteCl-4.html"/>
+               <title value="Ejemplo de Recurso de paciente Nacional con contacto declarado"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-PacienteCl-5.html"/>
+               <title value="Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"/>
+               <generation value="generated"/>
+            </page>
+            <page>
                <nameUrl value="Encounter-EncounterCL.html"/>
                <title value="Ejemplo de Recurso Encuentro"/>
                <generation value="generated"/>
@@ -2800,6 +2905,16 @@
             <page>
                <nameUrl value="Patient-11.html"/>
                <title value="Ejemplo de Recurso Paciente"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-PacienteCL2.html"/>
+               <title value="Ejemplo de Recurso Paciente Extranjero"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-PacienteCL.html"/>
+               <title value="Ejemplo de Recurso Paciente Nacional"/>
                <generation value="generated"/>
             </page>
             <page>
@@ -2845,6 +2960,11 @@
             <page>
                <nameUrl value="Medication-MedicamentoCl-2.html"/>
                <title value="Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido"/>
+               <generation value="generated"/>
+            </page>
+            <page>
+               <nameUrl value="Patient-PacienteCl-3.html"/>
+               <title value="Paciente Nacional, con datos actualizados, declarando nacionalidad"/>
                <generation value="generated"/>
             </page>
          </page>

@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>clcore</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore</pre><div><p>Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4</p>\n</div></div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
-  "version" : "1.8.5",
+  "version" : "1.8.6",
   "name" : "clcore",
   "title" : "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
   "status" : "active",
-  "date" : "2023-10-31T17:56:54-03:00",
+  "date" : "2023-11-09T12:29:21-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -1273,6 +1273,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PacienteCl-4"
+      },
+      "name" : "Ejemplo de Recurso de paciente Nacional con contacto declarado",
+      "description" : "Paciente ficticio nacional CI Chilena, \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente.",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PacienteCl-5"
+      },
+      "name" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección",
+      "description" : "Paciente ficticio nacional CI Chilena, \n     * sin sistema de validación \\\"http://regcivil.cl/Validacion/RUN\\\" ficticio , \n     * cuyo nombre se decribe mediante el oficial y uno social. \n     * La dirección tampoco es Real.\n     * Se agrega al paciente un acompañante patiente\n     * La dirección se declara con códigos por extensión.",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Encounter"
       }],
       "reference" : {
@@ -1365,6 +1389,30 @@
       "name" : "Ejemplo de Recurso Paciente",
       "description" : "Paciente ficticio",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PacienteCL2"
+      },
+      "name" : "Ejemplo de Recurso Paciente Extranjero",
+      "description" : "Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte.",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PacienteCL"
+      },
+      "name" : "Ejemplo de Recurso Paciente Nacional",
+      "description" : "Paciente ficticio nacional CI Chilena, sin sistema de validación \"http://regcivil.cl/Validacion/RUN\" ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
     },
     {
       "extension" : [{
@@ -1593,6 +1641,18 @@
       "name" : "Observaciones o comentarios simples respecto a un diagnóstico",
       "description" : "Esta extensión sirve para insertar comentarios acerca a un diagnóstico médico realizado en un encuentro remoto",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PacienteCl-3"
+      },
+      "name" : "Paciente Nacional, con datos actualizados, declarando nacionalidad",
+      "description" : "Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real",
+      "exampleCanonical" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
     },
     {
       "extension" : [{
@@ -1962,9 +2022,9 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "changes.html"
+          "valueUrl" : "Changes.html"
         }],
-        "nameUrl" : "changes.html",
+        "nameUrl" : "Changes.html",
         "title" : "Historial de Cambios",
         "generation" : "markdown"
       }]

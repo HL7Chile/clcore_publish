@@ -66,9 +66,9 @@
     "label" : "9",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Descargas</b></li>",
     "previous" : "Set-Ejemplos.html",
-    "next" : "changes.html"
+    "next" : "Changes.html"
   },
-  "changes.html" : {
+  "Changes.html" : {
     "title" : "Historial de Cambios",
     "label" : "10",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Historial de Cambios</b></li>",
@@ -79,7 +79,7 @@
     "title" : "Artifacts Summary",
     "label" : "11.0",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Artifacts Summary</b></li>",
-    "previous" : "changes.html",
+    "previous" : "Changes.html",
     "next" : "StructureDefinition-AuditEventCl.html"
   },
   "StructureDefinition-AuditEventCl.html" : {
@@ -670,7 +670,28 @@
     "intro-type" : "md",
     "notes" : "StructureDefinition-CorePacienteCl-notes.md",
     "notes-type" : "md",
-    "examples" : [],
+    "examples" : [
+      {
+        "url" : "Patient-PacienteCL.html",
+        "title" : "Ejemplo de Recurso Paciente Nacional"
+      },
+      {
+        "url" : "Patient-PacienteCL2.html",
+        "title" : "Ejemplo de Recurso Paciente Extranjero"
+      },
+      {
+        "url" : "Patient-PacienteCl-3.html",
+        "title" : "Paciente Nacional, con datos actualizados, declarando nacionalidad"
+      },
+      {
+        "url" : "Patient-PacienteCl-4.html",
+        "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado"
+      },
+      {
+        "url" : "Patient-PacienteCl-5.html",
+        "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"
+      }
+    ],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "StructureDefinition-CoreOrganizacionCl.profile.ttl.html",
@@ -695,13 +716,20 @@
     "label" : "11.10",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CL Paciente</b></li>",
     "previous" : "StructureDefinition-CorePacienteCl-mappings.html",
+    "next" : "StructureDefinition-CorePacienteCl-examples.html"
+  },
+  "StructureDefinition-CorePacienteCl-examples.html" : {
+    "title" : "CL Paciente - Examples",
+    "label" : "11.10",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CL Paciente</b></li>",
+    "previous" : "StructureDefinition-CorePacienteCl-testing.html",
     "next" : "StructureDefinition-CorePacienteCl.profile.xml.html"
   },
   "StructureDefinition-CorePacienteCl.profile.xml.html" : {
     "title" : "CL Paciente - XML Representation",
     "label" : "11.10",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>CL Paciente</b></li>",
-    "previous" : "StructureDefinition-CorePacienteCl-testing.html",
+    "previous" : "StructureDefinition-CorePacienteCl-examples.html",
     "next" : "StructureDefinition-CorePacienteCl.profile.json.html"
   },
   "StructureDefinition-CorePacienteCl.profile.json.html" : {
@@ -3784,42 +3812,104 @@
     "label" : "11.82",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de especialidad</b></li>",
     "previous" : "PractitionerRole-EspecialidadCL.json.html",
-    "next" : "Encounter-EncounterCL.html"
+    "next" : "Patient-PacienteCl-4.html"
   },
-  "Encounter-EncounterCL.html" : {
-    "title" : "Ejemplo de Recurso Encuentro",
+  "Patient-PacienteCl-4.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado",
     "label" : "11.83",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Encuentro</b></li>",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "PractitionerRole-EspecialidadCL.ttl.html",
+    "next" : "Patient-PacienteCl-4.xml.html"
+  },
+  "Patient-PacienteCl-4.xml.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado - XML Representation",
+    "label" : "11.83",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado</b></li>",
+    "previous" : "Patient-PacienteCl-4.html",
+    "next" : "Patient-PacienteCl-4.json.html"
+  },
+  "Patient-PacienteCl-4.json.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado - JSON Representation",
+    "label" : "11.83",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado</b></li>",
+    "previous" : "Patient-PacienteCl-4.xml.html",
+    "next" : "Patient-PacienteCl-4.ttl.html"
+  },
+  "Patient-PacienteCl-4.ttl.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado - TTL Representation",
+    "label" : "11.83",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado</b></li>",
+    "previous" : "Patient-PacienteCl-4.json.html",
+    "next" : "Patient-PacienteCl-5.html"
+  },
+  "Patient-PacienteCl-5.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección",
+    "label" : "11.84",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-PacienteCl-4.ttl.html",
+    "next" : "Patient-PacienteCl-5.xml.html"
+  },
+  "Patient-PacienteCl-5.xml.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección - XML Representation",
+    "label" : "11.84",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</b></li>",
+    "previous" : "Patient-PacienteCl-5.html",
+    "next" : "Patient-PacienteCl-5.json.html"
+  },
+  "Patient-PacienteCl-5.json.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección - JSON Representation",
+    "label" : "11.84",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</b></li>",
+    "previous" : "Patient-PacienteCl-5.xml.html",
+    "next" : "Patient-PacienteCl-5.ttl.html"
+  },
+  "Patient-PacienteCl-5.ttl.html" : {
+    "title" : "Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección - TTL Representation",
+    "label" : "11.84",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</b></li>",
+    "previous" : "Patient-PacienteCl-5.json.html",
+    "next" : "Encounter-EncounterCL.html"
+  },
+  "Encounter-EncounterCL.html" : {
+    "title" : "Ejemplo de Recurso Encuentro",
+    "label" : "11.85",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Encuentro</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-PacienteCl-5.ttl.html",
     "next" : "Encounter-EncounterCL.xml.html"
   },
   "Encounter-EncounterCL.xml.html" : {
     "title" : "Ejemplo de Recurso Encuentro - XML Representation",
-    "label" : "11.83",
+    "label" : "11.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Encuentro</b></li>",
     "previous" : "Encounter-EncounterCL.html",
     "next" : "Encounter-EncounterCL.json.html"
   },
   "Encounter-EncounterCL.json.html" : {
     "title" : "Ejemplo de Recurso Encuentro - JSON Representation",
-    "label" : "11.83",
+    "label" : "11.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Encuentro</b></li>",
     "previous" : "Encounter-EncounterCL.xml.html",
     "next" : "Encounter-EncounterCL.ttl.html"
   },
   "Encounter-EncounterCL.ttl.html" : {
     "title" : "Ejemplo de Recurso Encuentro - TTL Representation",
-    "label" : "11.83",
+    "label" : "11.85",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Encuentro</b></li>",
     "previous" : "Encounter-EncounterCL.json.html",
     "next" : "Immunization-999.html"
   },
   "Immunization-999.html" : {
     "title" : "Ejemplo de Recurso Immunization",
-    "label" : "11.84",
+    "label" : "11.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Immunization</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3829,28 +3919,28 @@
   },
   "Immunization-999.xml.html" : {
     "title" : "Ejemplo de Recurso Immunization - XML Representation",
-    "label" : "11.84",
+    "label" : "11.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Immunization</b></li>",
     "previous" : "Immunization-999.html",
     "next" : "Immunization-999.json.html"
   },
   "Immunization-999.json.html" : {
     "title" : "Ejemplo de Recurso Immunization - JSON Representation",
-    "label" : "11.84",
+    "label" : "11.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Immunization</b></li>",
     "previous" : "Immunization-999.xml.html",
     "next" : "Immunization-999.ttl.html"
   },
   "Immunization-999.ttl.html" : {
     "title" : "Ejemplo de Recurso Immunization - TTL Representation",
-    "label" : "11.84",
+    "label" : "11.86",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Immunization</b></li>",
     "previous" : "Immunization-999.json.html",
     "next" : "Immunization-ImmunizationCL.html"
   },
   "Immunization-ImmunizationCL.html" : {
     "title" : "Ejemplo de Recurso Inmunización",
-    "label" : "11.85",
+    "label" : "11.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Inmunización</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3860,28 +3950,28 @@
   },
   "Immunization-ImmunizationCL.xml.html" : {
     "title" : "Ejemplo de Recurso Inmunización - XML Representation",
-    "label" : "11.85",
+    "label" : "11.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Inmunización</b></li>",
     "previous" : "Immunization-ImmunizationCL.html",
     "next" : "Immunization-ImmunizationCL.json.html"
   },
   "Immunization-ImmunizationCL.json.html" : {
     "title" : "Ejemplo de Recurso Inmunización - JSON Representation",
-    "label" : "11.85",
+    "label" : "11.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Inmunización</b></li>",
     "previous" : "Immunization-ImmunizationCL.xml.html",
     "next" : "Immunization-ImmunizationCL.ttl.html"
   },
   "Immunization-ImmunizationCL.ttl.html" : {
     "title" : "Ejemplo de Recurso Inmunización - TTL Representation",
-    "label" : "11.85",
+    "label" : "11.87",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Inmunización</b></li>",
     "previous" : "Immunization-ImmunizationCL.json.html",
     "next" : "Location-3333458.html"
   },
   "Location-3333458.html" : {
     "title" : "Ejemplo de Recurso Location",
-    "label" : "11.86",
+    "label" : "11.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Location</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3891,28 +3981,28 @@
   },
   "Location-3333458.xml.html" : {
     "title" : "Ejemplo de Recurso Location - XML Representation",
-    "label" : "11.86",
+    "label" : "11.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Location</b></li>",
     "previous" : "Location-3333458.html",
     "next" : "Location-3333458.json.html"
   },
   "Location-3333458.json.html" : {
     "title" : "Ejemplo de Recurso Location - JSON Representation",
-    "label" : "11.86",
+    "label" : "11.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Location</b></li>",
     "previous" : "Location-3333458.xml.html",
     "next" : "Location-3333458.ttl.html"
   },
   "Location-3333458.ttl.html" : {
     "title" : "Ejemplo de Recurso Location - TTL Representation",
-    "label" : "11.86",
+    "label" : "11.88",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Location</b></li>",
     "previous" : "Location-3333458.json.html",
     "next" : "MedicationStatement-354.html"
   },
   "MedicationStatement-354.html" : {
     "title" : "Ejemplo de Recurso MedicationStatement",
-    "label" : "11.87",
+    "label" : "11.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso MedicationStatement</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3922,28 +4012,28 @@
   },
   "MedicationStatement-354.xml.html" : {
     "title" : "Ejemplo de Recurso MedicationStatement - XML Representation",
-    "label" : "11.87",
+    "label" : "11.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso MedicationStatement</b></li>",
     "previous" : "MedicationStatement-354.html",
     "next" : "MedicationStatement-354.json.html"
   },
   "MedicationStatement-354.json.html" : {
     "title" : "Ejemplo de Recurso MedicationStatement - JSON Representation",
-    "label" : "11.87",
+    "label" : "11.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso MedicationStatement</b></li>",
     "previous" : "MedicationStatement-354.xml.html",
     "next" : "MedicationStatement-354.ttl.html"
   },
   "MedicationStatement-354.ttl.html" : {
     "title" : "Ejemplo de Recurso MedicationStatement - TTL Representation",
-    "label" : "11.87",
+    "label" : "11.89",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso MedicationStatement</b></li>",
     "previous" : "MedicationStatement-354.json.html",
     "next" : "Observation-123.html"
   },
   "Observation-123.html" : {
     "title" : "Ejemplo de Recurso Observation",
-    "label" : "11.88",
+    "label" : "11.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Observation</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3953,28 +4043,28 @@
   },
   "Observation-123.xml.html" : {
     "title" : "Ejemplo de Recurso Observation - XML Representation",
-    "label" : "11.88",
+    "label" : "11.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Observation</b></li>",
     "previous" : "Observation-123.html",
     "next" : "Observation-123.json.html"
   },
   "Observation-123.json.html" : {
     "title" : "Ejemplo de Recurso Observation - JSON Representation",
-    "label" : "11.88",
+    "label" : "11.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Observation</b></li>",
     "previous" : "Observation-123.xml.html",
     "next" : "Observation-123.ttl.html"
   },
   "Observation-123.ttl.html" : {
     "title" : "Ejemplo de Recurso Observation - TTL Representation",
-    "label" : "11.88",
+    "label" : "11.90",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Observation</b></li>",
     "previous" : "Observation-123.json.html",
     "next" : "Organization-f003.html"
   },
   "Organization-f003.html" : {
     "title" : "Ejemplo de Recurso Organización",
-    "label" : "11.89",
+    "label" : "11.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Organización</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -3984,28 +4074,28 @@
   },
   "Organization-f003.xml.html" : {
     "title" : "Ejemplo de Recurso Organización - XML Representation",
-    "label" : "11.89",
+    "label" : "11.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Organización</b></li>",
     "previous" : "Organization-f003.html",
     "next" : "Organization-f003.json.html"
   },
   "Organization-f003.json.html" : {
     "title" : "Ejemplo de Recurso Organización - JSON Representation",
-    "label" : "11.89",
+    "label" : "11.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Organización</b></li>",
     "previous" : "Organization-f003.xml.html",
     "next" : "Organization-f003.ttl.html"
   },
   "Organization-f003.ttl.html" : {
     "title" : "Ejemplo de Recurso Organización - TTL Representation",
-    "label" : "11.89",
+    "label" : "11.91",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Organización</b></li>",
     "previous" : "Organization-f003.json.html",
     "next" : "Patient-11.html"
   },
   "Patient-11.html" : {
     "title" : "Ejemplo de Recurso Paciente",
-    "label" : "11.90",
+    "label" : "11.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4015,59 +4105,121 @@
   },
   "Patient-11.xml.html" : {
     "title" : "Ejemplo de Recurso Paciente - XML Representation",
-    "label" : "11.90",
+    "label" : "11.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente</b></li>",
     "previous" : "Patient-11.html",
     "next" : "Patient-11.json.html"
   },
   "Patient-11.json.html" : {
     "title" : "Ejemplo de Recurso Paciente - JSON Representation",
-    "label" : "11.90",
+    "label" : "11.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente</b></li>",
     "previous" : "Patient-11.xml.html",
     "next" : "Patient-11.ttl.html"
   },
   "Patient-11.ttl.html" : {
     "title" : "Ejemplo de Recurso Paciente - TTL Representation",
-    "label" : "11.90",
+    "label" : "11.92",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente</b></li>",
     "previous" : "Patient-11.json.html",
-    "next" : "Practitioner-3240.html"
+    "next" : "Patient-PacienteCL2.html"
   },
-  "Practitioner-3240.html" : {
-    "title" : "Ejemplo de Recurso Prestador como base para un Core Nacional",
-    "label" : "11.91",
-    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Prestador como base para un Core Nacional</b></li>",
+  "Patient-PacienteCL2.html" : {
+    "title" : "Ejemplo de Recurso Paciente Extranjero",
+    "label" : "11.93",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Extranjero</b></li>",
     "examples" : [],
     "testplans" : [],
     "testscripts" : [],
     "previous" : "Patient-11.ttl.html",
+    "next" : "Patient-PacienteCL2.xml.html"
+  },
+  "Patient-PacienteCL2.xml.html" : {
+    "title" : "Ejemplo de Recurso Paciente Extranjero - XML Representation",
+    "label" : "11.93",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Extranjero</b></li>",
+    "previous" : "Patient-PacienteCL2.html",
+    "next" : "Patient-PacienteCL2.json.html"
+  },
+  "Patient-PacienteCL2.json.html" : {
+    "title" : "Ejemplo de Recurso Paciente Extranjero - JSON Representation",
+    "label" : "11.93",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Extranjero</b></li>",
+    "previous" : "Patient-PacienteCL2.xml.html",
+    "next" : "Patient-PacienteCL2.ttl.html"
+  },
+  "Patient-PacienteCL2.ttl.html" : {
+    "title" : "Ejemplo de Recurso Paciente Extranjero - TTL Representation",
+    "label" : "11.93",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Extranjero</b></li>",
+    "previous" : "Patient-PacienteCL2.json.html",
+    "next" : "Patient-PacienteCL.html"
+  },
+  "Patient-PacienteCL.html" : {
+    "title" : "Ejemplo de Recurso Paciente Nacional",
+    "label" : "11.94",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Nacional</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-PacienteCL2.ttl.html",
+    "next" : "Patient-PacienteCL.xml.html"
+  },
+  "Patient-PacienteCL.xml.html" : {
+    "title" : "Ejemplo de Recurso Paciente Nacional - XML Representation",
+    "label" : "11.94",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Nacional</b></li>",
+    "previous" : "Patient-PacienteCL.html",
+    "next" : "Patient-PacienteCL.json.html"
+  },
+  "Patient-PacienteCL.json.html" : {
+    "title" : "Ejemplo de Recurso Paciente Nacional - JSON Representation",
+    "label" : "11.94",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Nacional</b></li>",
+    "previous" : "Patient-PacienteCL.xml.html",
+    "next" : "Patient-PacienteCL.ttl.html"
+  },
+  "Patient-PacienteCL.ttl.html" : {
+    "title" : "Ejemplo de Recurso Paciente Nacional - TTL Representation",
+    "label" : "11.94",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Paciente Nacional</b></li>",
+    "previous" : "Patient-PacienteCL.json.html",
+    "next" : "Practitioner-3240.html"
+  },
+  "Practitioner-3240.html" : {
+    "title" : "Ejemplo de Recurso Prestador como base para un Core Nacional",
+    "label" : "11.95",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Prestador como base para un Core Nacional</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Patient-PacienteCL.ttl.html",
     "next" : "Practitioner-3240.xml.html"
   },
   "Practitioner-3240.xml.html" : {
     "title" : "Ejemplo de Recurso Prestador como base para un Core Nacional - XML Representation",
-    "label" : "11.91",
+    "label" : "11.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Prestador como base para un Core Nacional</b></li>",
     "previous" : "Practitioner-3240.html",
     "next" : "Practitioner-3240.json.html"
   },
   "Practitioner-3240.json.html" : {
     "title" : "Ejemplo de Recurso Prestador como base para un Core Nacional - JSON Representation",
-    "label" : "11.91",
+    "label" : "11.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Prestador como base para un Core Nacional</b></li>",
     "previous" : "Practitioner-3240.xml.html",
     "next" : "Practitioner-3240.ttl.html"
   },
   "Practitioner-3240.ttl.html" : {
     "title" : "Ejemplo de Recurso Prestador como base para un Core Nacional - TTL Representation",
-    "label" : "11.91",
+    "label" : "11.95",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Prestador como base para un Core Nacional</b></li>",
     "previous" : "Practitioner-3240.json.html",
     "next" : "Practitioner-3020.html"
   },
   "Practitioner-3020.html" : {
     "title" : "Ejemplo de Recurso Profesional",
-    "label" : "11.92",
+    "label" : "11.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Profesional</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4077,28 +4229,28 @@
   },
   "Practitioner-3020.xml.html" : {
     "title" : "Ejemplo de Recurso Profesional - XML Representation",
-    "label" : "11.92",
+    "label" : "11.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Profesional</b></li>",
     "previous" : "Practitioner-3020.html",
     "next" : "Practitioner-3020.json.html"
   },
   "Practitioner-3020.json.html" : {
     "title" : "Ejemplo de Recurso Profesional - JSON Representation",
-    "label" : "11.92",
+    "label" : "11.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Profesional</b></li>",
     "previous" : "Practitioner-3020.xml.html",
     "next" : "Practitioner-3020.ttl.html"
   },
   "Practitioner-3020.ttl.html" : {
     "title" : "Ejemplo de Recurso Profesional - TTL Representation",
-    "label" : "11.92",
+    "label" : "11.96",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Recurso Profesional</b></li>",
     "previous" : "Practitioner-3020.json.html",
     "next" : "AuditEvent-AuditEventEx.html"
   },
   "AuditEvent-AuditEventEx.html" : {
     "title" : "Ejemplo de un Audit-Event Search.",
-    "label" : "11.93",
+    "label" : "11.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de un Audit-Event Search.</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4108,28 +4260,28 @@
   },
   "AuditEvent-AuditEventEx.xml.html" : {
     "title" : "Ejemplo de un Audit-Event Search. - XML Representation",
-    "label" : "11.93",
+    "label" : "11.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de un Audit-Event Search.</b></li>",
     "previous" : "AuditEvent-AuditEventEx.html",
     "next" : "AuditEvent-AuditEventEx.json.html"
   },
   "AuditEvent-AuditEventEx.json.html" : {
     "title" : "Ejemplo de un Audit-Event Search. - JSON Representation",
-    "label" : "11.93",
+    "label" : "11.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de un Audit-Event Search.</b></li>",
     "previous" : "AuditEvent-AuditEventEx.xml.html",
     "next" : "AuditEvent-AuditEventEx.ttl.html"
   },
   "AuditEvent-AuditEventEx.ttl.html" : {
     "title" : "Ejemplo de un Audit-Event Search. - TTL Representation",
-    "label" : "11.93",
+    "label" : "11.97",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de un Audit-Event Search.</b></li>",
     "previous" : "AuditEvent-AuditEventEx.json.html",
     "next" : "Condition-DiagnosticoEj.html"
   },
   "Condition-DiagnosticoEj.html" : {
     "title" : "Ejemplo de Un Diagnóstico de hipertensión",
-    "label" : "11.94",
+    "label" : "11.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Un Diagnóstico de hipertensión</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4139,28 +4291,28 @@
   },
   "Condition-DiagnosticoEj.xml.html" : {
     "title" : "Ejemplo de Un Diagnóstico de hipertensión - XML Representation",
-    "label" : "11.94",
+    "label" : "11.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Un Diagnóstico de hipertensión</b></li>",
     "previous" : "Condition-DiagnosticoEj.html",
     "next" : "Condition-DiagnosticoEj.json.html"
   },
   "Condition-DiagnosticoEj.json.html" : {
     "title" : "Ejemplo de Un Diagnóstico de hipertensión - JSON Representation",
-    "label" : "11.94",
+    "label" : "11.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Un Diagnóstico de hipertensión</b></li>",
     "previous" : "Condition-DiagnosticoEj.xml.html",
     "next" : "Condition-DiagnosticoEj.ttl.html"
   },
   "Condition-DiagnosticoEj.ttl.html" : {
     "title" : "Ejemplo de Un Diagnóstico de hipertensión - TTL Representation",
-    "label" : "11.94",
+    "label" : "11.98",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo de Un Diagnóstico de hipertensión</b></li>",
     "previous" : "Condition-DiagnosticoEj.json.html",
     "next" : "Location-LocalizacionEjemploCL1.html"
   },
   "Location-LocalizacionEjemploCL1.html" : {
     "title" : "Ejemplo Localización Farmacia",
-    "label" : "11.95",
+    "label" : "11.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Localización Farmacia</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4170,28 +4322,28 @@
   },
   "Location-LocalizacionEjemploCL1.xml.html" : {
     "title" : "Ejemplo Localización Farmacia - XML Representation",
-    "label" : "11.95",
+    "label" : "11.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Localización Farmacia</b></li>",
     "previous" : "Location-LocalizacionEjemploCL1.html",
     "next" : "Location-LocalizacionEjemploCL1.json.html"
   },
   "Location-LocalizacionEjemploCL1.json.html" : {
     "title" : "Ejemplo Localización Farmacia - JSON Representation",
-    "label" : "11.95",
+    "label" : "11.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Localización Farmacia</b></li>",
     "previous" : "Location-LocalizacionEjemploCL1.xml.html",
     "next" : "Location-LocalizacionEjemploCL1.ttl.html"
   },
   "Location-LocalizacionEjemploCL1.ttl.html" : {
     "title" : "Ejemplo Localización Farmacia - TTL Representation",
-    "label" : "11.95",
+    "label" : "11.99",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Localización Farmacia</b></li>",
     "previous" : "Location-LocalizacionEjemploCL1.json.html",
     "next" : "Organization-ORG1.html"
   },
   "Organization-ORG1.html" : {
     "title" : "Ejemplo Organización Prestadora de Salud",
-    "label" : "11.96",
+    "label" : "11.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Organización Prestadora de Salud</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4201,28 +4353,28 @@
   },
   "Organization-ORG1.xml.html" : {
     "title" : "Ejemplo Organización Prestadora de Salud - XML Representation",
-    "label" : "11.96",
+    "label" : "11.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Organización Prestadora de Salud</b></li>",
     "previous" : "Organization-ORG1.html",
     "next" : "Organization-ORG1.json.html"
   },
   "Organization-ORG1.json.html" : {
     "title" : "Ejemplo Organización Prestadora de Salud - JSON Representation",
-    "label" : "11.96",
+    "label" : "11.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Organización Prestadora de Salud</b></li>",
     "previous" : "Organization-ORG1.xml.html",
     "next" : "Organization-ORG1.ttl.html"
   },
   "Organization-ORG1.ttl.html" : {
     "title" : "Ejemplo Organización Prestadora de Salud - TTL Representation",
-    "label" : "11.96",
+    "label" : "11.100",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Organización Prestadora de Salud</b></li>",
     "previous" : "Organization-ORG1.json.html",
     "next" : "Bundle-BundleEx.html"
   },
   "Bundle-BundleEx.html" : {
     "title" : "Ejemplo Simple de Bundle de Transacción",
-    "label" : "11.97",
+    "label" : "11.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Simple de Bundle de Transacción</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4232,28 +4384,28 @@
   },
   "Bundle-BundleEx.xml.html" : {
     "title" : "Ejemplo Simple de Bundle de Transacción - XML Representation",
-    "label" : "11.97",
+    "label" : "11.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Simple de Bundle de Transacción</b></li>",
     "previous" : "Bundle-BundleEx.html",
     "next" : "Bundle-BundleEx.json.html"
   },
   "Bundle-BundleEx.json.html" : {
     "title" : "Ejemplo Simple de Bundle de Transacción - JSON Representation",
-    "label" : "11.97",
+    "label" : "11.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Simple de Bundle de Transacción</b></li>",
     "previous" : "Bundle-BundleEx.xml.html",
     "next" : "Bundle-BundleEx.ttl.html"
   },
   "Bundle-BundleEx.ttl.html" : {
     "title" : "Ejemplo Simple de Bundle de Transacción - TTL Representation",
-    "label" : "11.97",
+    "label" : "11.101",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Ejemplo Simple de Bundle de Transacción</b></li>",
     "previous" : "Bundle-BundleEx.json.html",
     "next" : "RequestGroup-RG12224.html"
   },
   "RequestGroup-RG12224.html" : {
     "title" : "example",
-    "label" : "11.98",
+    "label" : "11.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4263,28 +4415,28 @@
   },
   "RequestGroup-RG12224.xml.html" : {
     "title" : "example - XML Representation",
-    "label" : "11.98",
+    "label" : "11.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example</b></li>",
     "previous" : "RequestGroup-RG12224.html",
     "next" : "RequestGroup-RG12224.json.html"
   },
   "RequestGroup-RG12224.json.html" : {
     "title" : "example - JSON Representation",
-    "label" : "11.98",
+    "label" : "11.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example</b></li>",
     "previous" : "RequestGroup-RG12224.xml.html",
     "next" : "RequestGroup-RG12224.ttl.html"
   },
   "RequestGroup-RG12224.ttl.html" : {
     "title" : "example - TTL Representation",
-    "label" : "11.98",
+    "label" : "11.102",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>example</b></li>",
     "previous" : "RequestGroup-RG12224.json.html",
     "next" : "Medication-MedicamentoCl-2.html"
   },
   "Medication-MedicamentoCl-2.html" : {
     "title" : "Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido",
-    "label" : "11.99",
+    "label" : "11.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido</b></li>",
     "examples" : [],
     "testplans" : [],
@@ -4294,22 +4446,53 @@
   },
   "Medication-MedicamentoCl-2.xml.html" : {
     "title" : "Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido - XML Representation",
-    "label" : "11.99",
+    "label" : "11.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido</b></li>",
     "previous" : "Medication-MedicamentoCl-2.html",
     "next" : "Medication-MedicamentoCl-2.json.html"
   },
   "Medication-MedicamentoCl-2.json.html" : {
     "title" : "Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido - JSON Representation",
-    "label" : "11.99",
+    "label" : "11.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido</b></li>",
     "previous" : "Medication-MedicamentoCl-2.xml.html",
     "next" : "Medication-MedicamentoCl-2.ttl.html"
   },
   "Medication-MedicamentoCl-2.ttl.html" : {
     "title" : "Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido - TTL Representation",
-    "label" : "11.99",
+    "label" : "11.103",
     "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido</b></li>",
-    "previous" : "Medication-MedicamentoCl-2.json.html"
+    "previous" : "Medication-MedicamentoCl-2.json.html",
+    "next" : "Patient-PacienteCl-3.html"
+  },
+  "Patient-PacienteCl-3.html" : {
+    "title" : "Paciente Nacional, con datos actualizados, declarando nacionalidad",
+    "label" : "11.104",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Paciente Nacional, con datos actualizados, declarando nacionalidad</b></li>",
+    "examples" : [],
+    "testplans" : [],
+    "testscripts" : [],
+    "previous" : "Medication-MedicamentoCl-2.ttl.html",
+    "next" : "Patient-PacienteCl-3.xml.html"
+  },
+  "Patient-PacienteCl-3.xml.html" : {
+    "title" : "Paciente Nacional, con datos actualizados, declarando nacionalidad - XML Representation",
+    "label" : "11.104",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Paciente Nacional, con datos actualizados, declarando nacionalidad</b></li>",
+    "previous" : "Patient-PacienteCl-3.html",
+    "next" : "Patient-PacienteCl-3.json.html"
+  },
+  "Patient-PacienteCl-3.json.html" : {
+    "title" : "Paciente Nacional, con datos actualizados, declarando nacionalidad - JSON Representation",
+    "label" : "11.104",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Paciente Nacional, con datos actualizados, declarando nacionalidad</b></li>",
+    "previous" : "Patient-PacienteCl-3.xml.html",
+    "next" : "Patient-PacienteCl-3.ttl.html"
+  },
+  "Patient-PacienteCl-3.ttl.html" : {
+    "title" : "Paciente Nacional, con datos actualizados, declarando nacionalidad - TTL Representation",
+    "label" : "11.104",
+    "breadcrumb" : "<li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Paciente Nacional, con datos actualizados, declarando nacionalidad</b></li>",
+    "previous" : "Patient-PacienteCl-3.json.html"
   }
 }

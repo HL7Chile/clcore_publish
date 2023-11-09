@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "23d93681-48af-4776-b256-34dbd8b4d5fb-195",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/23d93681-48af-4776-b256-34dbd8b4d5fb-195",
+  "name" : "IntersectionVSDiagnosticosSCTAndVSDiagnosticosSCT",
+  "title" : "Intersection of Diagnósticos SNOMED y Ausente o Desconocido And Diagnósticos SNOMED y Ausente o Desconocido",
+  "status" : "active",
+  "date" : "2023-11-09T12:29:55-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }]
+}

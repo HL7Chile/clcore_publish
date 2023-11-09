@@ -8,5 +8,14 @@
         "system": "http://loinc.org#10244-2"
       }
     ]
-  }
+  },
+  "subject": {
+    "reference": "Patient/11"
+  },
+  "performer": [
+    {
+      "reference": "Practitioner/3020"
+    }
+  ],
+  "effectiveDateTime": "2022-07-06T14:30:00+01:00"
 }

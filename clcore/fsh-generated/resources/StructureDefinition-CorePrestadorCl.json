@@ -90,7 +90,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "type.coding.code"
+              "path": "type.coding"
             }
           ],
           "rules": "open"
@@ -125,10 +125,14 @@
         "mustSupport": true
       },
       {
-        "id": "Practitioner.identifier:run.type.coding.code",
-        "path": "Practitioner.identifier.type.coding.code",
+        "id": "Practitioner.identifier:run.type.coding",
+        "path": "Practitioner.identifier.type.coding",
         "min": 1,
-        "patternCode": "1"
+        "patternCoding": {
+          "code": "1",
+          "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores",
+          "display": "RUN"
+        }
       },
       {
         "id": "Practitioner.identifier:run.system",
@@ -163,10 +167,14 @@
         "mustSupport": true
       },
       {
-        "id": "Practitioner.identifier:rnpi.type.coding.code",
-        "path": "Practitioner.identifier.type.coding.code",
+        "id": "Practitioner.identifier:rnpi.type.coding",
+        "path": "Practitioner.identifier.type.coding",
         "min": 1,
-        "patternCode": "2"
+        "patternCoding": {
+          "code": "2",
+          "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores",
+          "display": "RNPI"
+        }
       },
       {
         "id": "Practitioner.identifier:rnpi.system",
@@ -201,10 +209,14 @@
         "mustSupport": true
       },
       {
-        "id": "Practitioner.identifier:pasaporte.type.coding.code",
-        "path": "Practitioner.identifier.type.coding.code",
+        "id": "Practitioner.identifier:pasaporte.type.coding",
+        "path": "Practitioner.identifier.type.coding",
         "min": 1,
-        "patternCode": "3"
+        "patternCoding": {
+          "code": "3",
+          "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores",
+          "display": "PPN"
+        }
       },
       {
         "id": "Practitioner.identifier:pasaporte.system",
@@ -239,10 +251,14 @@
         "mustSupport": true
       },
       {
-        "id": "Practitioner.identifier:otro.type.coding.code",
-        "path": "Practitioner.identifier.type.coding.code",
+        "id": "Practitioner.identifier:otro.type.coding",
+        "path": "Practitioner.identifier.type.coding",
         "min": 1,
-        "patternCode": "4"
+        "patternCoding": {
+          "code": "4",
+          "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores",
+          "display": "OTRO"
+        }
       },
       {
         "id": "Practitioner.identifier:otro.system",

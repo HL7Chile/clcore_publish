@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "HumanName.family",
+      "type": "element"
     }
   ],
   "type": "Extension",

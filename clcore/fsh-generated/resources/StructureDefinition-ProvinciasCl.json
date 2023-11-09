@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "Address.district",
+      "type": "element"
     }
   ],
   "type": "Extension",

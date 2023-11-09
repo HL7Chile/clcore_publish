@@ -762,6 +762,20 @@
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="Patient-PacienteCL2.html" title="Patient/PacienteCL2">Ejemplo de Recurso Paciente Extranjero</a>
+            </td>
+            <td>{% capture desc %}Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte.{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCL.html" title="Patient/PacienteCL">Ejemplo de Recurso Paciente Nacional</a>
+            </td>
+            <td>{% capture desc %}Paciente ficticio nacional CI Chilena, sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="Practitioner-3240.html" title="Practitioner/3240">Ejemplo de Recurso Prestador como base para un Core Nacional</a>
             </td>
             <td>{% capture desc %}Ejemplo de un Prestador no Real con identificadores en Systemas con API"s no disponibles{% endcapture %}
@@ -780,6 +794,29 @@
                   title="PractitionerRole/EspecialidadCL">Ejemplo de Recurso de especialidad</a>
             </td>
             <td>{% capture desc %}Define el Rol de un Médico durante la Operación de un paciente en Urgencia{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCl-4.html" title="Patient/PacienteCl-4">Ejemplo de Recurso de paciente Nacional con contacto declarado</a>
+            </td>
+            <td>{% capture desc %}Paciente ficticio nacional CI Chilena, 
+     * sin sistema de validación \"http://regcivil.cl/Validacion/RUN\" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente.{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCl-5.html" title="Patient/PacienteCl-5">Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</a>
+            </td>
+            <td>{% capture desc %}Paciente ficticio nacional CI Chilena, 
+     * sin sistema de validación \"http://regcivil.cl/Validacion/RUN\" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente
+     * La dirección se declara con códigos por extensión.{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
          <tr>
@@ -817,6 +854,13 @@
                   title="Medication/MedicamentoCl-2">Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido</a>
             </td>
             <td>{% capture desc %}Definición de Hidroclorotiazida 25 mg + Valsartán 160 mg comprimido Código de descripción = 1703591000167111 y de Cocepto = 696681000167108 según TFC{% endcapture %}
+{{ desc | markdownify}}</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCl-3.html" title="Patient/PacienteCl-3">Paciente Nacional, con datos actualizados, declarando nacionalidad</a>
+            </td>
+            <td>{% capture desc %}Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real{% endcapture %}
 {{ desc | markdownify}}</td>
          </tr>
          <tr>

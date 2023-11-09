@@ -1,7 +1,9 @@
+/*Por un bug o falta de desarrollo en la versión no permite más de un contexto, debería permitirse en un futuro*/
 Extension: IdentidadDeGenero
 Id: IdentidadDeGenero
 Title: "Identidad De Genero"
 Description: "Identidad De Genero"
+//Context: CorePacienteCl, PrestadorCL
 * valueCodeableConcept ^short = "Identidad De Genero"
 * valueCodeableConcept from  VSIdentidaddeGenero
 
@@ -9,6 +11,7 @@ Extension: SexoBiologico
 Id: SexoBiologico
 Title: "Sexo Biologico del paciente"
 Description: "Sexo Biologico del paciente"
+//Context: CorePacienteCl
 * value[x] only CodeableConcept
 * valueCodeableConcept ^short = "SexoBiologico"
 * valueCodeableConcept from VSSexoListadoDeis
@@ -18,11 +21,10 @@ Extension: SexoRegistral
 Id: SexoRegistral
 Title: "Sexo Registral del paciente"
 Description: "Sexo Registral del paciente"
+//Context: CorePacienteCl
 * value[x] only CodeableConcept
 * valueCodeableConcept ^short = "SexoRegistral"
 * valueCodeableConcept from http://hl7.org/fhir/ValueSet/administrative-gender
-
-
 
 Extension:   PaisOrigenNacionalidadCl
 Id:          CodigoPaises
@@ -44,6 +46,7 @@ Extension:   ComunasCl
 Id:          ComunasCl
 Title:       "Códigos para Comunas en Chile"
 Description: "Esta extensión que permite codiificar las Comunas en Chile en el campo de Dirección"
+Context: Address.city
 * value[x] only CodeableConcept
 * value[x] ^short = "Código de Comunas"
 * url 1..1 MS
@@ -60,6 +63,7 @@ Extension:   ProvinciasCl
 Id:          ProvinciasCl
 Title:       "Códigos para Provincias en Chile"
 Description: "Esta extensión que permite codificar las Provincias en Chile en el campo de Dirección"
+Context: Address.district
 * value[x] only CodeableConcept
 * value[x] ^short = "Código de Provincias"
 * url 1..1 MS
@@ -76,6 +80,7 @@ Extension:   RegionesCl
 Id:          RegionesCl
 Title:       "Códigos para Regiones en Chile"
 Description: "Esta extensión que permite codificar las Regiones en Chile en el campo de Dirección"
+Context: Address.state
 * value[x] only CodeableConcept
 * value[x] ^short = "Código de Provincias"
 * url 1..1 MS
@@ -90,6 +95,7 @@ Extension:   IdentificacionContactoCl
 Id:          IdContacto
 Title:       "Identificación del Contacto de un Paciente"
 Description: "Identificación de contacto de paciente en especial para casos en los cuales este actúa como Tutor Legal"
+Context: CorePacienteCl.contact
 * extension contains
 	tutId 1..* MS and
 	docProc 0..1 MS
@@ -124,12 +130,14 @@ Extension: TiposEncuentroRemotoCL
 Id: TiposEncuentro
 Title: "Código de tipos de encuentro remoto"
 Description: "Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota"
+Context: EncounterCL.type
 * valueCode from VSTiposEncuentroCL (extensible)
 
 Extension: TiposdeservicioCL
 Id: TiposServicio
 Title: "Código de los tipos de servicio que se atiende"
 Description: "Esta extensión incluye códigos de servicios que se entregan de forma remota"
+Context: EncounterCL.serviceType
 * value[x] only code
 * value[x] ^short = "Códigos de Tipos de Servicios de Salud"
 * valueCode from VSTiposServicio (extensible)
@@ -138,12 +146,14 @@ Extension: EspecialidadCL
 Id: VSEspecialidadesDeisCL
 Title: "Especialidad del médico principal"
 Description: "Esta extensión incluye los códigos de las especialidades que puede tener el medico principal"
+Context: EncounterCL.participant
 * valueCoding from VSEspecialidadesDeisCL (extensible)
 
 Extension: ContactopartCL
 Id: ContactoParticipantes
 Title: "Contacto de los participantes secundarios del encuentro"
 Description: "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios"
+Context: EncounterCL.participant
 * value[x] only ContactPoint
 * value[x] ^short = "Códigos de contactos"
 * valueContactPoint.system from VSContactosec 
@@ -152,6 +162,7 @@ Extension: RazonNOTatencionCL
 Id: RazonNOrealizarse
 Title: "Código de las razones por la cual no se pudo realizar la atención"
 Description: "Esta extensión incluye códigos de razones por la cuales no pudo llevarse a cabo el encuentro remoto"
+Context: EncounterCL.reasonCode
 * value[x] only code
 * value[x] ^short = "Códigos de razones por la cual el encuentro remoto no se pudo realizar"
 * valueCode from VSRazonNOT (extensible)
@@ -160,6 +171,7 @@ Extension: NotasCL
 Id: NotasEncuentro
 Title: "Notas realizadas en un encuentro por Comité"
 Description: "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios"
+Context: EncounterCL
 * value[x] only string
 * value[x] ^short = "Notas realizadas en un encuentro por Comité"
 
@@ -167,6 +179,7 @@ Extension: ObservacionesNotas
 Id: ObservacionesDiagnostico
 Title: "Observaciones o comentarios simples respecto a un diagnóstico"
 Description: "Esta extensión sirve para insertar comentarios acerca a un diagnóstico médico realizado en un encuentro remoto"
+Context: EncounterCL.diagnosis
 * value[x] only string 
 
 Extension: TiposVacunaCL
@@ -180,6 +193,7 @@ Extension:  NombreCampanaCL
 Id: NombreCampana
 Title: "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)"
 Description: "Esta extensión incluye los nombres de las distintas Campañas que se realizan y estan registradas en el RNI"
+Context: ImmunizationCL
 * valueCoding ^short = "Valor de la extensión"
 * valueCoding from VSNombreCampana (extensible)
 
@@ -187,6 +201,7 @@ Extension: RazonNOTinmunizacionCL
 Id: RazonNOrealizarseInm
 Title: "Razones por las cuales no se pudo realizar la inmunización"
 Description: "Esta extensión incluye las razones por la cuales no pudo llevarse a cabo la inmunización" 
+Context: ImmunizationCL.statusReason
 * value[x] only code
 * value[x] ^short = "Códigos de razones por la cual la inmunización no se pudo realizar"
 * valueCode from VSRazonNOTinm (extensible)
@@ -202,4 +217,5 @@ Extension: SegundoApellido
 Id: SegundoApellido
 Title: "Segundo Apellido"
 Description: "Segundo Apellido"
+Context: HumanName.family
 * value[x] only string

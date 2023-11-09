@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
-  <version value="1.8.5"/>
+  <version value="1.8.6"/>
   <name value="clcore"/>
   <title value="Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva)"/>
   <status value="active"/>
-  <date value="2023-10-31T17:56:54-03:00"/>
+  <date value="2023-11-09T12:29:21-03:00"/>
   <publisher value="HL7 Chile"/>
   <contact>
     <name value="HL7 Chile"/>
@@ -1050,6 +1050,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PacienteCl-4"/>
+      </reference>
+      <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado"/>
+      <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente."/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PacienteCl-5"/>
+      </reference>
+      <name value="Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección"/>
+      <description value="Paciente ficticio nacional CI Chilena, &#xA;     * sin sistema de validación \&quot;http://regcivil.cl/Validacion/RUN\&quot; ficticio , &#xA;     * cuyo nombre se decribe mediante el oficial y uno social. &#xA;     * La dirección tampoco es Real.&#xA;     * Se agrega al paciente un acompañante patiente&#xA;     * La dirección se declara con códigos por extensión."/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Encounter"/>
       </extension>
       <reference>
@@ -1135,6 +1157,28 @@
       <name value="Ejemplo de Recurso Paciente"/>
       <description value="Paciente ficticio"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PacienteCL2"/>
+      </reference>
+      <name value="Ejemplo de Recurso Paciente Extranjero"/>
+      <description value="Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte."/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PacienteCL"/>
+      </reference>
+      <name value="Ejemplo de Recurso Paciente Nacional"/>
+      <description value="Paciente ficticio nacional CI Chilena, sin sistema de validación &quot;http://regcivil.cl/Validacion/RUN&quot; ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real"/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1344,6 +1388,17 @@
       <name value="Observaciones o comentarios simples respecto a un diagnóstico"/>
       <description value="Esta extensión sirve para insertar comentarios acerca a un diagnóstico médico realizado en un encuentro remoto"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PacienteCl-3"/>
+      </reference>
+      <name value="Paciente Nacional, con datos actualizados, declarando nacionalidad"/>
+      <description value="Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real"/>
+      <exampleCanonical value="https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1679,9 +1734,9 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="changes.html"/>
+          <valueUrl value="Changes.html"/>
         </extension>
-        <nameUrl value="changes.html"/>
+        <nameUrl value="Changes.html"/>
         <title value="Historial de Cambios"/>
         <generation value="markdown"/>
       </page>

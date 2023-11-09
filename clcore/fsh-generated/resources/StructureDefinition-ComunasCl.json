@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "Address.city",
+      "type": "element"
     }
   ],
   "type": "Extension",

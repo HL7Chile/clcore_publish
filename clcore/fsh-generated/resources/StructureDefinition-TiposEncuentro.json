@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.type",
+      "type": "element"
     }
   ],
   "type": "Extension",

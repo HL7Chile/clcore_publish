@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl#Patient.contact",
+      "type": "element"
     }
   ],
   "type": "Extension",

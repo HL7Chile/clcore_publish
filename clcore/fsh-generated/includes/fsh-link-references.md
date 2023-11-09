@@ -47,6 +47,8 @@
 [CompositionCl-CarlosSalas]: Composition-CompositionCl-CarlosSalas.html
 [1112]: Condition-1112.html
 [EspecialidadCL]: PractitionerRole-EspecialidadCL.html
+[PacienteCl-4]: Patient-PacienteCl-4.html
+[PacienteCl-5]: Patient-PacienteCl-5.html
 [EncounterCL]: Encounter-EncounterCL.html
 [999]: Immunization-999.html
 [ImmunizationCL]: Immunization-ImmunizationCL.html
@@ -55,6 +57,8 @@
 [123]: Observation-123.html
 [f003]: Organization-f003.html
 [11]: Patient-11.html
+[PacienteCL2]: Patient-PacienteCL2.html
+[PacienteCL]: Patient-PacienteCL.html
 [3240]: Practitioner-3240.html
 [3020]: Practitioner-3020.html
 [AuditEventEx]: AuditEvent-AuditEventEx.html
@@ -74,6 +78,7 @@
 [NombreCampanaCL]: StructureDefinition-NombreCampana.html
 [NotasCL]: StructureDefinition-NotasEncuentro.html
 [ObservacionesNotas]: StructureDefinition-ObservacionesDiagnostico.html
+[PacienteCl-3]: Patient-PacienteCl-3.html
 [CSRazonNOencuentroCL]: CodeSystem-CSRazonNOT.html
 [VSRazonNOencuentro]: ValueSet-VSRazonNOT.html
 [VSRazonNOTinmCL]: ValueSet-VSRazonNOTinm.html

@@ -18,8 +18,8 @@
   "abstract": false,
   "context": [
     {
-      "type": "element",
-      "expression": "Element"
+      "expression": "Address.state",
+      "type": "element"
     }
   ],
   "type": "Extension",

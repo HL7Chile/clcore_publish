@@ -1,6 +1,6 @@
 {
   "package": "hl7.fhir.cl.clcore",
-  "version": "1.8.5",
+  "version": "1.8.6",
   "fhirVersion": "4.0.1",
   "jurisdiction": "CL",
   "extensions": [
@@ -387,10 +387,6 @@
       "StructureDefinition.differential.element.type",
       "StructureDefinition.snapshot.element.type"
     ],
-    "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family": [
-      "Patient.contact.name.family",
-      "Practitioner.name.family"
-    ],
     "http://hl7.org/fhir/StructureDefinition/regex": [
       "StructureDefinition.snapshot.element.type"
     ],
@@ -425,10 +421,14 @@
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises": [
       "Address.country",
       "Patient",
-      "Patient.identifier.type"
+      "Patient.address.country",
+      "Patient.identifier.type",
+      "Practitioner.address.country"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl": [
-      "Address.city"
+      "Address.city",
+      "Patient.address.city",
+      "Practitioner.address.city"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ContactoParticipantes": [
       "Encounter.participant"
@@ -450,7 +450,9 @@
       "Encounter.diagnosis"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl": [
-      "Address.district"
+      "Address.district",
+      "Patient.address.district",
+      "Practitioner.address.district"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarse": [
       "Encounter.reasonCode"
@@ -459,9 +461,12 @@
       "Immunization.statusReason"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl": [
-      "Address.state"
+      "Address.state",
+      "Patient.address.state",
+      "Practitioner.address.state"
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido": [
+      "Patient.contact.name.family",
       "Patient.name.family",
       "Practitioner.name.family"
     ],

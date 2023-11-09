@@ -377,10 +377,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensión para 2o apellido","Extensión para la declaracion de un segundo apellido","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Patient.contact.name.family.extension:mothers-family","Patient.contact.name.family.extension","mothers-family","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/humanname-mothers-family]]} {[]}
-","Portion of family name derived from mother","The portion of the family name that is derived from the person's mother.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Patient.contact.name.family.extension:segundoApellido","Patient.contact.name.family.extension","segundoApellido","","",0,1,"Y","","","Extension {[CanonicalType[https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido]]} {[]}
+","Segundo Apellido","Segundo Apellido","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","N/A","N/A"
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Patient.contact.name.family.value","Patient.contact.name.family.value","","","",0,1,"","","","string {[]} {[]}
 ","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "Patient.contact.name.given","Patient.contact.name.given","","first name

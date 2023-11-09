@@ -1,3 +1,7 @@
+### Version 1.8.6
+- Perfil [PacienteCL](StructureDefinition-CorePacienteCl.html)
+  - Se incluyeron los ejemplos
+
 ### Version 1.8.5
 - Prefil [PrestadorCL](StructureDefinition-CorePrestadorCl.html)
   - Cambio cardinalidad **birthDate** 1..1 -> 0..1

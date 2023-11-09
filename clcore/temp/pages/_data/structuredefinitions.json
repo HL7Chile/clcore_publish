@@ -11,7 +11,7 @@
     "basename" : "AuditEvent",
     "basepath" : "http://hl7.org/fhir/R4/auditevent.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -30,7 +30,7 @@
     "basename" : "Bundle",
     "basepath" : "http://hl7.org/fhir/R4/bundle.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -49,7 +49,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -75,7 +75,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -84,10 +84,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "Address.city"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Address", "datatypes", "multiple"]
   },
   "ContactoParticipantes" : {
     "index" : 4,
@@ -101,7 +101,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -110,10 +110,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.participant"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "CoreDiagnosticoCl" : {
     "index" : 5,
@@ -127,7 +127,7 @@
     "basename" : "Condition",
     "basepath" : "http://hl7.org/fhir/R4/condition.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -146,7 +146,7 @@
     "basename" : "PractitionerRole",
     "basepath" : "http://hl7.org/fhir/R4/practitionerrole.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -165,7 +165,7 @@
     "basename" : "Location",
     "basepath" : "http://hl7.org/fhir/R4/location.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -184,7 +184,7 @@
     "basename" : "Medication",
     "basepath" : "http://hl7.org/fhir/R4/medication.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -203,7 +203,7 @@
     "basename" : "Organization",
     "basepath" : "http://hl7.org/fhir/R4/organization.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -222,7 +222,7 @@
     "basename" : "Patient",
     "basepath" : "http://hl7.org/fhir/R4/patient.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -241,7 +241,7 @@
     "basename" : "Practitioner",
     "basepath" : "http://hl7.org/fhir/R4/practitioner.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -260,7 +260,7 @@
     "basename" : "Composition",
     "basepath" : "http://hl7.org/fhir/R4/composition.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -279,7 +279,7 @@
     "basename" : "Encounter",
     "basepath" : "http://hl7.org/fhir/R4/encounter.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -298,7 +298,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -307,10 +307,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl#Patient.contact"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Patient"]
   },
   "IdentidadDeGenero" : {
     "index" : 15,
@@ -324,7 +324,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -350,7 +350,7 @@
     "basename" : "Immunization",
     "basepath" : "http://hl7.org/fhir/R4/immunization.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -369,7 +369,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -378,10 +378,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL#Immunization"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Immunization"]
   },
   "NotasEncuentro" : {
     "index" : 18,
@@ -395,7 +395,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -404,10 +404,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "ObservacionesDiagnostico" : {
     "index" : 19,
@@ -421,7 +421,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -430,10 +430,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.diagnosis"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "ProvenanceCl" : {
     "index" : 20,
@@ -447,7 +447,7 @@
     "basename" : "Provenance",
     "basepath" : "http://hl7.org/fhir/R4/provenance.html",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -466,7 +466,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -475,10 +475,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "Address.district"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Address", "datatypes", "multiple"]
   },
   "RazonNOrealizarse" : {
     "index" : 22,
@@ -492,7 +492,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -501,10 +501,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.reasonCode"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "RazonNOrealizarseInm" : {
     "index" : 23,
@@ -518,7 +518,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -527,10 +527,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL#Immunization.statusReason"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Immunization"]
   },
   "RegionesCl" : {
     "index" : 24,
@@ -544,7 +544,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -553,10 +553,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "Address.state"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Address", "datatypes", "multiple"]
   },
   "SegundoApellido" : {
     "index" : 25,
@@ -570,7 +570,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -579,10 +579,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "HumanName.family"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["HumanName", "datatypes", "multiple"]
   },
   "ServicioSalud" : {
     "index" : 26,
@@ -596,7 +596,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -622,7 +622,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -648,7 +648,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -674,7 +674,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -683,10 +683,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.type"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "TiposServicio" : {
     "index" : 30,
@@ -700,7 +700,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -709,10 +709,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.serviceType"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "TiposVacunaRNI" : {
     "index" : 31,
@@ -726,7 +726,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -752,7 +752,7 @@
     "basename" : "Extension",
     "basepath" : "http://hl7.org/fhir/R4/extensibility.html#Extension",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",
@@ -761,10 +761,10 @@
     "contexts" : [
       {
         "type" : "Element ID",
-        "expression" : "Element"
+        "expression" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/EncounterCL#Encounter.participant"
       }
     ],
-    "extension-contexts" : ["Element", "datatypes", "multiple"]
+    "extension-contexts" : ["Encounter"]
   },
   "cl-address" : {
     "index" : 33,
@@ -778,7 +778,7 @@
     "basename" : "Address",
     "basepath" : "http://hl7.org/fhir/R4/datatypes.html#Address",
     "status" : "active",
-    "date" : "Tue Oct 31 17:56:54 CLST 2023",
+    "date" : "Thu Nov 09 12:29:21 CLST 2023",
     "abstract" : false,
     "derivation" : "constraint",
     "publisher" : "HL7 Chile",

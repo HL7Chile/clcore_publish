@@ -364,6 +364,58 @@
         "mustSupport": true
       },
       {
+        "id": "Composition.section:sectionInmunizacion",
+        "path": "Composition.section",
+        "sliceName": "sectionInmunizacion",
+        "short": "Sección Antecedentes de Vacunas e Inmunizaciones",
+        "definition": "Historial de inmunizaciones",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:sectionInmunizacion.title",
+        "path": "Composition.section.title",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Composition.section:sectionInmunizacion.code",
+        "path": "Composition.section.code",
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "11369-6",
+              "system": "http://loinc.org"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Composition.section:sectionInmunizacion.entry",
+        "path": "Composition.section.entry",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "profile",
+              "path": "resolve()"
+            }
+          ],
+          "rules": "open"
+        },
+        "short": "Antecendentes de inmunizacón",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Immunization"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Composition.section:sectionObservacionEmbarazo",
         "path": "Composition.section",
         "sliceName": "sectionObservacionEmbarazo",

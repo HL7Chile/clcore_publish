@@ -18,7 +18,7 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * identifier ^definition = "El identificador oficial para cada prestador en Chile es el Registro Nacional de Prestadores Institucionales (NRPI). Ademas existe el identificador nacional chileno, el Registro Único Nacional (RUN). Y por ultimo puede ingresar un numero de pasaporte y un ID extra para cada prestador."
 
 * identifier ^slicing.discriminator.type = #value
-* identifier ^slicing.discriminator.path = "type.coding.code"
+* identifier ^slicing.discriminator.path = "type.coding"
 * identifier ^slicing.rules = #open
 * identifier contains run 0..1 MS and rnpi 0..1 MS and pasaporte 0..1 MS and otro 0..1 MS
 * identifier.type from VSIdentificadores
@@ -38,7 +38,7 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * identifier[run].value ^short = "Número de RUN"
 * identifier[run].value ^definition = "Valor del RUN en la Cédula de Identidad entregada por el Registro Civil, en formato sin puntos y con guión para diferencia el dígito verificador"
 //* identifier[run].system = "http://registrocivil.cl/run"
-* identifier[run].type.coding.code = #1
+* identifier[run].type.coding = CSIdentificadores#1 "RUN"
 
 * identifier[rnpi]
   * use 1..1 MS
@@ -52,7 +52,7 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * identifier[rnpi].value ^short = "Valor identificador"
 * identifier[rnpi].value ^definition = "Valor identificador"
 //* identifier[rnpi].system = "http://rnpi.superdesalud.gob.cl"
-* identifier[rnpi].type.coding.code = #2
+* identifier[rnpi].type.coding = CSIdentificadores#2 "RNPI"
 
 * identifier[pasaporte]
   * use 1..1 MS
@@ -66,7 +66,7 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * identifier[pasaporte].value ^short = "Valor identificador"
 * identifier[pasaporte].value ^definition = "Valor identificador"
 //* identifier[pasaporte].system = "http://pasaporte.com/validate"
-* identifier[pasaporte].type.coding.code = #3
+* identifier[pasaporte].type.coding = CSIdentificadores#3 "PPN"
 
 * identifier[otro]
   * use 1..1 MS
@@ -79,7 +79,7 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * identifier[otro].system ^comment = "Se define el endPoint al cual debe apuntar a la API"
 * identifier[otro].value ^short = "Valor identificador"
 * identifier[otro].value ^definition = "Valor identificador"
-* identifier[otro].type.coding.code = #4
+* identifier[otro].type.coding = CSIdentificadores#4 "OTRO"
 
 * active MS
 
@@ -95,12 +95,6 @@ Description:    "Este Perfil fue creado para cubrir la descripción de un Presta
 * name.family.extension contains SegundoApellido named segundoApellido 0..1 MS
 * name.family.extension ^short = "Extensión para el segundo apellido"
 
-
-
-//* name.family.extension contains http://hl7.org/fhir/StructureDefinition/humanname-mothers-family named mothers-family 0..1 MS
-//* name.family.extension ^short = "Extensión para apellido materno"
-//* name.family.extension contains http://hl7.org/fhir/StructureDefinition/humanname-fathers-family named father-family 0..1 MS
-//* name.family.extension ^short = "Extensión para apellido paterno"
 * name.given 1..
  
 * telecom and gender and birthDate  MS

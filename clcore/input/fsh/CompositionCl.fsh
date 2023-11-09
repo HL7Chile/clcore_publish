@@ -102,6 +102,7 @@ Description: "Definición de un documento para Resumen de Historia o Registro de
     sectionDiagnosticos 0.. MS and
     sectionMedicamentos 0.. MS and
     sectionAlergias 0.. MS and
+    sectionInmunizacion 0.. MS and
     sectionObservacionEmbarazo 0.. MS and
     sectionObservacionSignosVitales 0.. MS 
     
@@ -162,7 +163,26 @@ Description: "Definición de un documento para Resumen de Historia o Registro de
 * section[sectionAlergias].entry ^slicing.rules = #open
 * section[sectionAlergias].entry ^short = "Alergias e Intolerancia descrita"
 
-//------ 4. Embarazos------------
+//------ 4. Imunización------------
+
+* section[sectionInmunizacion] ^short = "Sección Antecedentes de Vacunas e Inmunizaciones"
+* section[sectionInmunizacion] ^definition = "Historial de inmunizaciones"
+
+* section[sectionInmunizacion].code MS 
+* section[sectionInmunizacion].code = $loinc#11369-6
+
+* section[sectionInmunizacion].title 1.. MS
+
+* section[sectionInmunizacion].entry 1.. MS
+* section[sectionInmunizacion].entry only Reference(Immunization)
+
+* section[sectionInmunizacion].entry ^slicing.discriminator[0].type = #profile
+* section[sectionInmunizacion].entry ^slicing.discriminator[=].path = "resolve()"
+* section[sectionInmunizacion].entry ^slicing.rules = #open
+* section[sectionInmunizacion].entry ^short = "Antecendentes de inmunizacón"
+
+
+//------ 5. Embarazos------------
 
 * section[sectionObservacionEmbarazo] ^short = "Sección Antecedentes de Embarazo"
 * section[sectionObservacionEmbarazo] ^definition = "Descripción de las condiciones clínicas de los embarazos."
@@ -180,7 +200,7 @@ Description: "Definición de un documento para Resumen de Historia o Registro de
 * section[sectionObservacionEmbarazo].entry ^slicing.rules = #open
 * section[sectionObservacionEmbarazo].entry ^short = "Descripción del antecedente de embarzo"
 
-//------ 4. Signos Vitales y Mediciones Fisiológicas------------
+//------ 6. Signos Vitales y Mediciones Fisiológicas------------
 
 * section[sectionObservacionSignosVitales] ^short = "Sección de Signos Vitales Medidos"
 * section[sectionObservacionSignosVitales] ^definition = "Descripción de las mediciones fisiológicas hechas al paciente"

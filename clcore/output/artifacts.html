@@ -97,7 +97,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.5 - ci-build
+                    <span style="display:inline-block;">1.8.6 - ci-build
 
 
 
@@ -196,7 +196,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.5). See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación &quot;cl core&quot; FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.6). See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -1061,6 +1061,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="Patient-PacienteCL2.html" title="Patient/PacienteCL2">Ejemplo de Recurso Paciente Extranjero</a>
+            </td>
+            <td>
+<p>Paciente ficticio extrangero, con identificación Pasaporte de origen Salvadoreño sin sistema real de validación del número de Pasaporte.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCL.html" title="Patient/PacienteCL">Ejemplo de Recurso Paciente Nacional</a>
+            </td>
+            <td>
+<p>Paciente ficticio nacional CI Chilena, sin sistema de validación “http://regcivil.cl/Validacion/RUN” ficticio , cuyo nombre se decribe mediante el oficial y uno social. La dirección tampoco es Real</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="Practitioner-3240.html" title="Practitioner/3240">Ejemplo de Recurso Prestador como base para un Core Nacional</a>
             </td>
             <td>
@@ -1082,6 +1098,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>Define el Rol de un Médico durante la Operación de un paciente en Urgencia</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCl-4.html" title="Patient/PacienteCl-4">Ejemplo de Recurso de paciente Nacional con contacto declarado</a>
+            </td>
+            <td>
+<p>Paciente ficticio nacional CI Chilena, 
+     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-PacienteCl-5.html" title="Patient/PacienteCl-5">Ejemplo de Recurso de paciente Nacional con contacto declarado y extensión en dirección</a>
+            </td>
+            <td>
+<p>Paciente ficticio nacional CI Chilena, 
+     * sin sistema de validación "http://regcivil.cl/Validacion/RUN" ficticio , 
+     * cuyo nombre se decribe mediante el oficial y uno social. 
+     * La dirección tampoco es Real.
+     * Se agrega al paciente un acompañante patiente
+     * La dirección se declara con códigos por extensión.</p>
 </td>
          </tr>
          <tr>
@@ -1128,6 +1169,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="Patient-PacienteCl-3.html" title="Patient/PacienteCl-3">Paciente Nacional, con datos actualizados, declarando nacionalidad</a>
+            </td>
+            <td>
+<p>Paciente ficticio nacional CI Chilena con sistema de validación no real, cuyo nombre es solo el oficial. La dirección tampoco es Real</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="RequestGroup-RG12224.html" title="RequestGroup/RG12224">example</a>
             </td>
             <td>
@@ -1160,7 +1209,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.5 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Oct 31, 2023 17:56-0300">2023-10-31</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.6 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 9, 2023 12:29-0300">2023-11-09</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
