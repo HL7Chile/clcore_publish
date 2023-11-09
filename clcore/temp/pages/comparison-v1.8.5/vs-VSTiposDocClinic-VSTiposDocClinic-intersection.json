@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "23d93681-48af-4776-b256-34dbd8b4d5fb-222",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/23d93681-48af-4776-b256-34dbd8b4d5fb-222",
+  "name" : "IntersectionVSTiposDocClinicAndVSTiposDocClinic",
+  "title" : "Intersection of Tipos de Documentos Clínicos And Tipos de Documentos Clínicos",
+  "status" : "active",
+  "date" : "2023-11-09T12:29:55-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }]
+}
