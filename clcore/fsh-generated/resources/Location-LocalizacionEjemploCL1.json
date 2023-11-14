@@ -39,10 +39,74 @@
     "line": [
       "Calle 10 Norte, 1240, Viña del Mar"
     ],
-    "city": "05109",
-    "district": "051",
-    "state": "05",
-    "country": "152"
+    "city": "Viña del Mar",
+    "_city": {
+      "extension": [
+        {
+          "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "05109",
+                "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
+                "display": "Viña del Mar"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "district": "Valparaíso",
+    "_district": {
+      "extension": [
+        {
+          "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "051",
+                "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL",
+                "display": "Valparaíso"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "state": "Valparaíso",
+    "_state": {
+      "extension": [
+        {
+          "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "05",
+                "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
+                "display": "Valparaíso"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "country": "Chile",
+    "_country": {
+      "extension": [
+        {
+          "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "152",
+                "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+                "display": "Chile"
+              }
+            ]
+          }
+        }
+      ]
+    }
   },
   "position": {
     "longitude": 42.2565,

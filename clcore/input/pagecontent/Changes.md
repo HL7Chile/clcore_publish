@@ -1,6 +1,7 @@
 ### Version 1.8.6
 - Perfil [PacienteCL](StructureDefinition-CorePacienteCl.html)
   - Se incluyeron los ejemplos
+- El elemento **addresss** debe cumplir con **ClAddress** para las direcciones de los perfiles [OrganiztionCL](StructureDefinition-CoreOrganizacionCl.html) y [LocalizacionCL](StructureDefinition-CoreLocalizacionClhtml)
 
 ### Version 1.8.5
 - Prefil [PrestadorCL](StructureDefinition-CorePrestadorCl.html)

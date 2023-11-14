@@ -550,11 +550,7 @@ InstanceOf : CoreLocalizacionCl
 * telecom.value = "(+56) 234221678"
 * telecom.use = #work
 
-* address.line = "Calle 10 Norte, 1240, Viña del Mar"
-* address.city = #05109 
-* address.district = #051
-* address.state = #05
-* address.country = #152
+* address = AddressLocation
 
 * position.longitude = 42.2565
 * position.latitude = -71.550261
@@ -571,6 +567,42 @@ InstanceOf : CoreLocalizacionCl
 * hoursOfOperation.openingTime = 09:00:00
 * hoursOfOperation.openingTime = 19:00:00
 
+Instance: AddressLocation
+InstanceOf: ClAddress
+Usage: #inline
+* line = "Calle 10 Norte, 1240, Viña del Mar"
+* city = "Viña del Mar"
+* city.extension = ComunasClLocation
+* district = "Valparaíso"
+* district.extension = ProvinciasClLocation
+* state = "Valparaíso"
+* state.extension = RegionesClLocation
+* country = "Chile"
+* country.extension = CodigoPaisesLocation
+
+Instance: ComunasClLocation
+InstanceOf: ComunasCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodComunasCL#05109 "Viña del Mar"
+
+Instance: ProvinciasClLocation
+InstanceOf: ProvinciasCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodProvinciasCL#051 "Valparaíso"
+
+Instance: RegionesClLocation
+InstanceOf: RegionesCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodRegionCL#05 "Valparaíso"
+
+Instance: CodigoPaisesLocation
+InstanceOf: CodigoPaises
+Usage: #inline
+
+* valueCodeableConcept = CSCodPaises#152 "Chile"
 
 Instance : MedicamentoCl
 Title : "Ejemplo de comprimido Tareg - D 160"
@@ -629,15 +661,45 @@ Usage : #example
 * telecom.use = #work
 * telecom.value = "45325775"
 	
+* address = AddressOrganization
 	
+Instance: AddressOrganization
+InstanceOf: ClAddress
+Usage: #inline
 
-* address.line = "Calle Central 33"
-* address.city = #07401  //codigo de comuna por binding (linares, no validable aun)
-* address.district = #074  //codigo de comuna por binding (linares, no validable aun)
-* address.state = #07 //codigo por binding region (maule)
-* address.country = #152	
-	
-	
+* city = "Linares"
+* city.extension = ComunasClOrganization
+* district = "Linares"
+* district.extension = ProvinciasClOrganization
+* state = "Del Maule"
+* state.extension = RegionesClOrganization
+* country = "Chile"
+* country.extension = CodigoPaisesOrganization
+
+Instance: ComunasClOrganization
+InstanceOf: ComunasCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodComunasCL#07401 "Linares"
+
+Instance: ProvinciasClOrganization
+InstanceOf: ProvinciasCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodProvinciasCL#074 "Linares"
+
+Instance: RegionesClOrganization
+InstanceOf: RegionesCl
+Usage: #inline
+
+* valueCodeableConcept = CSCodRegionCL#07 "Del Maule"
+
+Instance: CodigoPaisesOrganization
+InstanceOf: CodigoPaises
+Usage: #inline
+
+* valueCodeableConcept = CSCodPaises#152 "Chile"
+
 Instance : PrestadorCL
 Title : "Ejemplo de Recurso Prestador como base para un Core Nacional"
 Description: "Ejemplo de un Prestador no Real con identificadores en Systemas con API\"s no disponibles"

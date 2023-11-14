@@ -8,9 +8,9 @@
   "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
   "version" : "1.8.6",
   "name" : "clcore",
-  "title" : "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
+  "title" : "Guía de Implementación 'cl core' FHIR R4, (Versión Evolutiva)",
   "status" : "active",
-  "date" : "2023-11-09T12:29:21-03:00",
+  "date" : "2023-11-13T14:28:19-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",

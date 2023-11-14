@@ -15,9 +15,9 @@
   fhir:url [ fhir:v "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.8.6"] ; # 
   fhir:name [ fhir:v "clcore"] ; # 
-  fhir:title [ fhir:v "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)"] ; # 
+  fhir:title [ fhir:v "Guía de Implementación 'cl core' FHIR R4, (Versión Evolutiva)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2023-11-09T12:29:21-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T14:28:19-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;

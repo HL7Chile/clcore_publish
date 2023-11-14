@@ -14,9 +14,9 @@
    <url value="https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"/>
    <version value="1.8.6"/>
    <name value="clcore"/>
-   <title value="Guía de Implementación &#34;cl core&#34; FHIR R4, (Versión Evolutiva)"/>
+   <title value="Guía de Implementación 'cl core' FHIR R4, (Versión Evolutiva)"/>
    <status value="active"/>
-   <date value="2023-11-09T12:29:21-03:00"/>
+   <date value="2023-11-13T14:28:19-03:00"/>
    <publisher value="HL7 Chile"/>
    <contact>
       <name value="HL7 Chile"/>

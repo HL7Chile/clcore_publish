@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "23d93681-48af-4776-b256-34dbd8b4d5fb-128",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/23d93681-48af-4776-b256-34dbd8b4d5fb-128",
+  "id" : "10be3b6b-d5b4-4ce1-bcdb-b82e06875593-128",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/10be3b6b-d5b4-4ce1-bcdb-b82e06875593-128",
   "name" : "UnionProvenanceCLAndProvenanceCL",
   "title" : "Union of CL Provenance And CL Provenance",
   "status" : "active",
-  "date" : "2023-11-09T12:29:55-03:00",
+  "date" : "2023-11-13T14:29:00-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

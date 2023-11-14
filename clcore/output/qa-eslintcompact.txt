@@ -2,7 +2,7 @@
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\Encounter-EncounterCL.json: line 23, col 10, Info - El URI para el Code System 'https://minsal.cl/fhir/HD/CodeSystem/CSTiposEncuentroCL' es desconocido asi que el código no puede ser validado (UNKNOWN)
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\Encounter-EncounterCL.json: line 38, col 8, Info - El URI para el Code System 'https://minsal.cl/fhir/HD/CodeSystem/CSCodigoServicio' es desconocido asi que el código no puede ser validado (UNKNOWN)
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\Immunization-ImmunizationCL.json: line 43, col 10, Info - El URI para el Code System 'https://minsal.cl/fhir/HD/CodeSystem/CSCodSSalud' es desconocido asi que el código no puede ser validado (UNKNOWN)
-C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.clcore.json: line 1, col 52196, Warning - La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló (INVARIANT)
+C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\ImplementationGuide-hl7.fhir.cl.clcore.json: line 1, col 52194, Warning - La regla ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' falló (INVARIANT)
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\Medication-MedicamentoCl.json: line 24, col 8, Info - El URI para el Code System 'http://minsal.cl/semantikos/description-id' es desconocido asi que el código no puede ser validado (UNKNOWN)
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\Medication-MedicamentoCl-2.json: line 24, col 8, Info - El URI para el Code System 'http://minsal.cl/semantikos/description-id' es desconocido asi que el código no puede ser validado (UNKNOWN)
 C:\Users\Franco-Trabajo\Documents\CLCore\clcore\fsh-generated\resources\StructureDefinition-CodigoPaises.json: line 0, col 0, Warning - Review the extension type for CodigoPaises: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
@@ -21,5 +21,5 @@ clcore : Validation Results
 =========================================
 
 err = 0, warn = 12, info = 10
-IG Publisher Version: 1.5.2
-Generated Thu Nov 09 12:32:51 CLST 2023. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.6 (canonical = https://hl7chile.cl/fhir/ig/clcore)
+IG Publisher Version: 1.5.2 Out of date - current version is 1.5.3
+Generated Mon Nov 13 14:32:12 CLST 2023. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.6 (canonical = https://hl7chile.cl/fhir/ig/clcore)

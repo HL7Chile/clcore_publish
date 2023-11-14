@@ -420,6 +420,8 @@
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises": [
       "Address.country",
+      "Location.address.country",
+      "Organization.address.country",
       "Patient",
       "Patient.address.country",
       "Patient.identifier.type",
@@ -427,6 +429,8 @@
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl": [
       "Address.city",
+      "Location.address.city",
+      "Organization.address.city",
       "Patient.address.city",
       "Practitioner.address.city"
     ],
@@ -451,6 +455,8 @@
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl": [
       "Address.district",
+      "Location.address.district",
+      "Organization.address.district",
       "Patient.address.district",
       "Practitioner.address.district"
     ],
@@ -462,6 +468,8 @@
     ],
     "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl": [
       "Address.state",
+      "Location.address.state",
+      "Organization.address.state",
       "Patient.address.state",
       "Practitioner.address.state"
     ],

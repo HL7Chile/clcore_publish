@@ -4,7 +4,7 @@
   "url": "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
   "version": "1.8.6",
   "name": "clcore",
-  "title": "Guía de Implementación \"cl core\" FHIR R4, (Versión Evolutiva)",
+  "title": "Guía de Implementación 'cl core' FHIR R4, (Versión Evolutiva)",
   "status": "active",
   "publisher": "HL7 Chile",
   "contact": [

@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "23d93681-48af-4776-b256-34dbd8b4d5fb-153",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/23d93681-48af-4776-b256-34dbd8b4d5fb-153",
+  "id" : "10be3b6b-d5b4-4ce1-bcdb-b82e06875593-153",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/10be3b6b-d5b4-4ce1-bcdb-b82e06875593-153",
   "name" : "IntersectionSexoRegistralAndSexoRegistral",
   "title" : "Intersection of Sexo Registral del paciente And Sexo Registral del paciente",
   "status" : "active",
-  "date" : "2023-11-09T12:29:55-03:00",
+  "date" : "2023-11-13T14:29:00-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -151,7 +151,7 @@
       "isSummary" : false,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/23d93681-48af-4776-b256-34dbd8b4d5fb-156"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/10be3b6b-d5b4-4ce1-bcdb-b82e06875593-156"
       },
       "mapping" : [{
         "identity" : "rim",

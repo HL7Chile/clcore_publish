@@ -145,8 +145,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
     },
     {
@@ -161,8 +161,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
     },
     {
@@ -376,9 +376,7 @@
       "uses" : {
       },
       "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
@@ -401,9 +399,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-ComunasCl.html" : "Códigos para Comunas en Chile",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-ComunasCl.html" : "Códigos para Comunas en Chile"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
@@ -417,9 +413,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-ProvinciasCl.html" : "Códigos para Provincias en Chile",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-ProvinciasCl.html" : "Códigos para Provincias en Chile"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
@@ -433,9 +427,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-RegionesCl.html" : "Códigos para Regiones en Chile",
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-RegionesCl.html" : "Códigos para Regiones en Chile"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosServiciosSalud",
@@ -502,8 +494,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-CoreEspecialidadCl.html" : "CL RolClinico",
-      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal"
+      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal",
+      "StructureDefinition-CoreEspecialidadCl.html" : "CL RolClinico"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentidaddeGenero",
