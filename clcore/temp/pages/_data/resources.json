@@ -11,7 +11,7 @@
     "version" : "1.8.6",
     "name" : "clcore",
     "title" : "Guía de Implementación 'cl core' FHIR R4, (Versión Evolutiva)",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4",
     "jurisdictions" : [
       {
@@ -970,7 +970,7 @@
     "version" : "1.8.6",
     "name" : "AuditEventCl",
     "title" : "CL Auditoria",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Perfil para genererar un recurso que permita desarrollar logs de auditoría en cuanto al acceso y manejo de recursos FHIR",
     "jurisdictions" : [
       {
@@ -999,7 +999,7 @@
     "version" : "1.8.6",
     "name" : "BundleCL",
     "title" : "Cl BundleCL",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil describe como debe ser el recurso Bundle que permite transportar una serie de recursos de PRescripción para  conformar una receta",
     "jurisdictions" : [
       {
@@ -1028,7 +1028,7 @@
     "version" : "1.8.6",
     "name" : "PaisOrigenNacionalidadCl",
     "title" : "Codigo de Identificación de países",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye códigos de paises de origen",
     "jurisdictions" : [
       {
@@ -1057,7 +1057,7 @@
     "version" : "1.8.6",
     "name" : "ComunasCl",
     "title" : "Códigos para Comunas en Chile",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión que permite codiificar las Comunas en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
@@ -1086,7 +1086,7 @@
     "version" : "1.8.6",
     "name" : "ContactopartCL",
     "title" : "Contacto de los participantes secundarios del encuentro",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios",
     "jurisdictions" : [
       {
@@ -1115,7 +1115,7 @@
     "version" : "1.8.6",
     "name" : "DiagnosticoCl",
     "title" : "CL Condición-Diagnóstico",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Condicion o Diagnósticos de Pacientes para Registro Clínico Electrónico",
     "jurisdictions" : [
       {
@@ -1144,7 +1144,7 @@
     "version" : "1.8.6",
     "name" : "CoreEspecialidadCl",
     "title" : "CL RolClinico",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso de Especialidad Médica para la denominación de Prescriptor en Chile",
     "jurisdictions" : [
       {
@@ -1173,7 +1173,7 @@
     "version" : "1.8.6",
     "name" : "LocalizacionCL",
     "title" : "CL Localización",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este perfil determina la ubicación especifica para un evento, objeto o Infraestructura específica. Este perfil permite vinlcular la localización especifica con una organización o espacio físico específico",
     "jurisdictions" : [
       {
@@ -1202,7 +1202,7 @@
     "version" : "1.8.6",
     "name" : "MedicamentoCL",
     "title" : "CL Medicamento",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica desde la visión del TFC que se usará para poder manejar farmacos ya registrados, y que deberán ser consultados por los prestadores a la hora de prescribir algno.",
     "jurisdictions" : [
       {
@@ -1231,7 +1231,7 @@
     "version" : "1.8.6",
     "name" : "OrganizacionCL",
     "title" : "CL Organización",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado para también cubrir las necesidades nacionales de un Recurso de Organzación en Salud",
     "jurisdictions" : [
       {
@@ -1260,7 +1260,7 @@
     "version" : "1.8.6",
     "name" : "PacienteCl",
     "title" : "CL Paciente",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso Paciente para un Historial Clínico Nacional",
     "jurisdictions" : [
       {
@@ -1289,7 +1289,7 @@
     "version" : "1.8.6",
     "name" : "PrestadorCL",
     "title" : "CL Prestador",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil fue creado para cubrir la descripción de un Prestador a nivel Nacional",
     "jurisdictions" : [
       {
@@ -1318,7 +1318,7 @@
     "version" : "1.8.6",
     "name" : "DocumentoCl",
     "title" : "CL Documento",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Definición de un documento para Resumen de Historia o Registro de Encuentro para Historia Clínica, basado en IPS.",
     "jurisdictions" : [
       {
@@ -1347,7 +1347,7 @@
     "version" : "1.8.6",
     "name" : "EncounterCL",
     "title" : "CL Encuentro",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Definición de un Encuentro clínico remoto para las necesidades de interoperabilidad en Chile.",
     "jurisdictions" : [
       {
@@ -1376,7 +1376,7 @@
     "version" : "1.8.6",
     "name" : "IdentificacionContactoCl",
     "title" : "Identificación del Contacto de un Paciente",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Identificación de contacto de paciente en especial para casos en los cuales este actúa como Tutor Legal",
     "jurisdictions" : [
       {
@@ -1405,7 +1405,7 @@
     "version" : "1.8.6",
     "name" : "IdentidadDeGenero",
     "title" : "Identidad De Genero",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Identidad De Genero",
     "jurisdictions" : [
       {
@@ -1434,7 +1434,7 @@
     "version" : "1.8.6",
     "name" : "ImmunizationCL",
     "title" : "CL Inmunización",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Definición de un evento de inmunización para las necesidades de interoperabilidad en Chile.",
     "jurisdictions" : [
       {
@@ -1463,7 +1463,7 @@
     "version" : "1.8.6",
     "name" : "NombreCampanaCL",
     "title" : "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye los nombres de las distintas Campañas que se realizan y estan registradas en el RNI",
     "jurisdictions" : [
       {
@@ -1492,7 +1492,7 @@
     "version" : "1.8.6",
     "name" : "NotasCL",
     "title" : "Notas realizadas en un encuentro por Comité",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye los códigos de los medios de contacto que se tiene para los participantes secundarios",
     "jurisdictions" : [
       {
@@ -1521,7 +1521,7 @@
     "version" : "1.8.6",
     "name" : "ObservacionesNotas",
     "title" : "Observaciones o comentarios simples respecto a un diagnóstico",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión sirve para insertar comentarios acerca a un diagnóstico médico realizado en un encuentro remoto",
     "jurisdictions" : [
       {
@@ -1550,7 +1550,7 @@
     "version" : "1.8.6",
     "name" : "ProvenanceCL",
     "title" : "CL Provenance",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Este Perfil describe la forma de validación respecto a la procedencia de un recurso genrado durante un acto clínico.",
     "jurisdictions" : [
       {
@@ -1579,7 +1579,7 @@
     "version" : "1.8.6",
     "name" : "ProvinciasCl",
     "title" : "Códigos para Provincias en Chile",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión que permite codificar las Provincias en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
@@ -1608,7 +1608,7 @@
     "version" : "1.8.6",
     "name" : "RazonNOTatencionCL",
     "title" : "Código de las razones por la cual no se pudo realizar la atención",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye códigos de razones por la cuales no pudo llevarse a cabo el encuentro remoto",
     "jurisdictions" : [
       {
@@ -1637,7 +1637,7 @@
     "version" : "1.8.6",
     "name" : "RazonNOTinmunizacionCL",
     "title" : "Razones por las cuales no se pudo realizar la inmunización",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye las razones por la cuales no pudo llevarse a cabo la inmunización",
     "jurisdictions" : [
       {
@@ -1666,7 +1666,7 @@
     "version" : "1.8.6",
     "name" : "RegionesCl",
     "title" : "Códigos para Regiones en Chile",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión que permite codificar las Regiones en Chile en el campo de Dirección",
     "jurisdictions" : [
       {
@@ -1695,7 +1695,7 @@
     "version" : "1.8.6",
     "name" : "SegundoApellido",
     "title" : "Segundo Apellido",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Segundo Apellido",
     "jurisdictions" : [
       {
@@ -1724,7 +1724,7 @@
     "version" : "1.8.6",
     "name" : "ServicioSaludCL",
     "title" : "Sistema Nacional de Servicios de Salud",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye los códigos de los Servicios de Salud que existen en el país",
     "jurisdictions" : [
       {
@@ -1753,7 +1753,7 @@
     "version" : "1.8.6",
     "name" : "SexoBiologico",
     "title" : "Sexo Biologico del paciente",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Sexo Biologico del paciente",
     "jurisdictions" : [
       {
@@ -1782,7 +1782,7 @@
     "version" : "1.8.6",
     "name" : "SexoRegistral",
     "title" : "Sexo Registral del paciente",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Sexo Registral del paciente",
     "jurisdictions" : [
       {
@@ -1811,7 +1811,7 @@
     "version" : "1.8.6",
     "name" : "TiposEncuentroRemotoCL",
     "title" : "Código de tipos de encuentro remoto",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye códigos de los tipos de encuentro que se realizan de forma remota",
     "jurisdictions" : [
       {
@@ -1840,7 +1840,7 @@
     "version" : "1.8.6",
     "name" : "TiposdeservicioCL",
     "title" : "Código de los tipos de servicio que se atiende",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye códigos de servicios que se entregan de forma remota",
     "jurisdictions" : [
       {
@@ -1869,7 +1869,7 @@
     "version" : "1.8.6",
     "name" : "TiposVacunaCL",
     "title" : "Código de tipos de Vacunas en Chile",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye códigos de los tipos de vacunas que existe en el Registro Nacional de Inmunizaciones RNI",
     "jurisdictions" : [
       {
@@ -1898,7 +1898,7 @@
     "version" : "1.8.6",
     "name" : "EspecialidadCL",
     "title" : "Especialidad del médico principal",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Esta extensión incluye los códigos de las especialidades que puede tener el medico principal",
     "jurisdictions" : [
       {
@@ -1927,7 +1927,7 @@
     "version" : "1.8.6",
     "name" : "ClAddress",
     "title" : "CL Address",
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Variable dirección",
     "jurisdictions" : [
       {

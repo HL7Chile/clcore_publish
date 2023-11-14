@@ -14,8 +14,8 @@
   "toolingVersionFull" : "5.0.0 (3)",
   "totalFiles" : 105,
   "processedFiles" : 140,
-  "genDate" : "Mon, Nov 13, 2023 14:28-0300",
-  "genDay" : "13/11/2023",
+  "genDate" : "Tue, Nov 14, 2023 10:49-0300",
+  "genDay" : "14/11/2023",
   "resourceTypes" : [
     "Account",
     "ActivityDefinition",
@@ -247,7 +247,7 @@
         "telecom" : ["http://hl7chile.cl", "chair@hl7chile.cl"]
       }
     ],
-    "date" : "2023-11-13T14:28:19-03:00",
+    "date" : "2023-11-14T10:49:35-03:00",
     "description" : "Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4",
     "copyright" : "Usado con el permiso de HL7 International, todos los derechos resevados en los Licencias de HL7 Internacional.",
     "fhirVersion" : "4.0.1"

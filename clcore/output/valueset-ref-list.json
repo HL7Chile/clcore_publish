@@ -145,9 +145,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
       "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -161,9 +161,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
       "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -375,8 +375,8 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"],
       "uses" : {
       },
-      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
-      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países"
+      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países",
+      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
@@ -494,8 +494,8 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal",
-      "StructureDefinition-CoreEspecialidadCl.html" : "CL RolClinico"
+      "StructureDefinition-CoreEspecialidadCl.html" : "CL RolClinico",
+      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentidaddeGenero",

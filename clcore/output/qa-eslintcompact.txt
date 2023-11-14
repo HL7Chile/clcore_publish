@@ -22,4 +22,4 @@ clcore : Validation Results
 
 err = 0, warn = 12, info = 10
 IG Publisher Version: 1.5.2 Out of date - current version is 1.5.3
-Generated Mon Nov 13 14:32:12 CLST 2023. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.6 (canonical = https://hl7chile.cl/fhir/ig/clcore)
+Generated Tue Nov 14 10:53:12 CLST 2023. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.6 (canonical = https://hl7chile.cl/fhir/ig/clcore)

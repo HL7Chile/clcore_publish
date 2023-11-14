@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "CorePacienteCl",
   "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl",
-  "version": "1.7.1",
   "name": "PacienteCl",
   "title": "CL Paciente",
   "status": "active",

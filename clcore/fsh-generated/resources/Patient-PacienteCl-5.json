@@ -24,6 +24,44 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+            "code": "152",
+            "display": "Chile"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "8",
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero",
+            "display": "No Revelado"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "1",
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis",
+            "display": "Masculino"
+          }
+        ]
+      }
+    }
+  ],
   "identifier": [
     {
       "type": {
@@ -190,44 +228,6 @@
           ]
         }
       ]
-    }
-  ],
-  "extension": [
-    {
-      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
-            "code": "152",
-            "display": "Chile"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "8",
-            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero",
-            "display": "No Revelado"
-          }
-        ]
-      }
-    },
-    {
-      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico",
-      "valueCodeableConcept": {
-        "coding": [
-          {
-            "code": "1",
-            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis",
-            "display": "Masculino"
-          }
-        ]
-      }
     }
   ],
   "active": true,

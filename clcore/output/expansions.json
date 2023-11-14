@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b8b0e162-66a5-41af-ae07-e5098b2be95f",
+  "id" : "83155924-326c-4f7a-b922-d5720ad835d0",
   "meta" : {
-    "lastUpdated" : "2023-11-13T14:28:19.128-03:00"
+    "lastUpdated" : "2023-11-14T10:49:35.656-03:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e10e8b41-429e-45c6-8396-afa0db439980",
-        "timestamp" : "2023-11-13T14:30:07-03:00",
+        "identifier" : "urn:uuid:76de1dd1-1de3-406c-b1aa-d9b893a85609",
+        "timestamp" : "2023-11-14T10:51:13-03:00",
         "total" : 249,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1310,8 +1310,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:cf8a2bc3-dc12-4e9a-a536-7ee62e6b2b06",
-        "timestamp" : "2023-11-13T14:30:09-03:00",
+        "identifier" : "urn:uuid:444d6b27-7122-4a5f-9ad8-069aee9f85e9",
+        "timestamp" : "2023-11-14T10:51:15-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -1372,8 +1372,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e7b77fee-dd95-4a43-997d-93d73d536b11",
-        "timestamp" : "2023-11-13T14:30:09-03:00",
+        "identifier" : "urn:uuid:63b585d7-5ac5-4370-a36f-a86ded2b7c85",
+        "timestamp" : "2023-11-14T10:51:15-03:00",
         "total" : 346,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3139,8 +3139,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:dc93db12-1e2f-48e4-9ce3-5592da1452f9",
-        "timestamp" : "2023-11-13T14:30:11-03:00",
+        "identifier" : "urn:uuid:3d9f168f-831e-4d76-92ca-e5297de30633",
+        "timestamp" : "2023-11-14T10:51:17-03:00",
         "total" : 56,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3456,8 +3456,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c29bb74d-fae7-49fb-9824-13c92e853b27",
-        "timestamp" : "2023-11-13T14:30:11-03:00",
+        "identifier" : "urn:uuid:7acabc43-5e73-4257-a331-8addc24f7d28",
+        "timestamp" : "2023-11-14T10:51:17-03:00",
         "total" : 16,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3573,8 +3573,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:70fb5dd8-def8-419f-a1af-2f5cb92375e7",
-        "timestamp" : "2023-11-13T14:30:11-03:00",
+        "identifier" : "urn:uuid:19e0d4bc-8659-453a-94f1-788f062fd498",
+        "timestamp" : "2023-11-14T10:51:18-03:00",
         "total" : 28,
         "parameter" : [{
           "name" : "excludeNested",
@@ -3750,8 +3750,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:37884004-d781-4d1a-9be6-289067941c30",
-        "timestamp" : "2023-11-13T14:30:11-03:00",
+        "identifier" : "urn:uuid:4298376c-7515-42db-9b94-9cc43d9c906e",
+        "timestamp" : "2023-11-14T10:51:18-03:00",
         "total" : 53,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4052,8 +4052,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:b2aaa48d-c0d1-4d0a-8872-d9fa09956f1a",
-        "timestamp" : "2023-11-13T14:30:12-03:00",
+        "identifier" : "urn:uuid:b6edee87-9119-40e5-8d4f-ee9c8a6c16bc",
+        "timestamp" : "2023-11-14T10:51:18-03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4128,8 +4128,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:f9a8379b-ce5a-47ae-bd19-57b3ff0be359",
-        "timestamp" : "2023-11-13T14:30:12-03:00",
+        "identifier" : "urn:uuid:26ae119c-cb68-4176-af43-84c1e5b655f6",
+        "timestamp" : "2023-11-14T10:51:18-03:00",
         "total" : 15,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4248,8 +4248,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c4c30401-867d-477c-a15a-c4d65033e9ee",
-        "timestamp" : "2023-11-13T14:30:12-03:00",
+        "identifier" : "urn:uuid:87aeaca0-e9b9-46bb-9946-7c1a5ef75e44",
+        "timestamp" : "2023-11-14T10:51:18-03:00",
         "total" : 68,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4625,8 +4625,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c966b4c6-ef83-4071-8acb-22adaca25af8",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:97ec6385-496f-4024-b249-3ac63d9290af",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4697,8 +4697,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:e5519cae-e912-4d8e-ad78-e7138b672829",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:d3d3fa34-1f25-42de-a790-1fe78dc2c9f8",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4754,8 +4754,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:5e11a9ba-57d6-4de2-9221-3659bad7649e",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:1afe2b40-8f92-413e-9554-136404b65512",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 36,
         "parameter" : [{
           "name" : "excludeNested",
@@ -4971,8 +4971,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:86ad59bb-f2ed-4408-b2db-92dc2d2e92df",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:055f5fbe-22c9-4e17-81b6-02b1c528bc55",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 5,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5033,8 +5033,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:92d220ed-0b1c-4f93-b25c-e5af5a2ef94c",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:909217f6-41b0-4b02-bd78-183568494253",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 4,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5090,8 +5090,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:c3fe4c28-d43c-4799-86fa-1a87ce45b7c7",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:2980db88-e1ad-4b89-889b-7c44abb34112",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 7,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5162,8 +5162,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f9917862-c56d-4da2-a241-f27f4ad55a42",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:fde9277a-b6a1-4e92-8e76-f1ca236c3129",
+        "timestamp" : "2023-11-14T10:51:19-03:00",
         "total" : 9,
         "parameter" : [{
           "name" : "excludeNested",
@@ -5248,8 +5248,8 @@
           "url" : "http://hl7.org/fhir/StructureDefinition/valueset-toocostly",
           "valueBoolean" : true
         }],
-        "identifier" : "urn:uuid:d273a117-e264-4f82-bb6e-2df56640044c",
-        "timestamp" : "2023-11-13T14:30:13-03:00",
+        "identifier" : "urn:uuid:f60ec8ee-ef94-4459-9466-3f6a1e5114b8",
+        "timestamp" : "2023-11-14T10:51:20-03:00",
         "total" : 1000,
         "parameter" : [{
           "name" : "excludeNested",
@@ -10297,8 +10297,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2c8970d7-127c-4eb5-9333-1eca56b093de",
-        "timestamp" : "2023-11-13T14:30:19-03:00",
+        "identifier" : "urn:uuid:7e7fcbfb-a0ba-4187-81e9-ec65e5de920d",
+        "timestamp" : "2023-11-14T10:51:25-03:00",
         "total" : 180,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11242,8 +11242,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d90857ca-8f9b-40d1-a31b-1313f9c9b545",
-        "timestamp" : "2023-11-13T14:30:20-03:00",
+        "identifier" : "urn:uuid:90b00ef0-aa65-41e7-bc38-d5044457fc7a",
+        "timestamp" : "2023-11-14T10:51:27-03:00",
         "total" : 3,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11294,8 +11294,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:f1a61f10-6471-497b-95eb-7f1c2f6607b9",
-        "timestamp" : "2023-11-13T14:30:20-03:00",
+        "identifier" : "urn:uuid:28a4a8e9-7c77-4c18-b308-7c1d789a75d7",
+        "timestamp" : "2023-11-14T10:51:27-03:00",
         "total" : 14,
         "parameter" : [{
           "name" : "excludeNested",
@@ -11401,8 +11401,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:893095ef-e085-487e-9702-1bfe2c6cba6c",
-        "timestamp" : "2023-11-13T14:30:20-03:00",
+        "identifier" : "urn:uuid:0c7401f1-b1bf-4b7a-8cb7-7306074b180e",
+        "timestamp" : "2023-11-14T10:51:27-03:00",
         "total" : 79,
         "parameter" : [{
           "name" : "excludeNested",

@@ -361,12 +361,12 @@ Description: """Paciente ficticio nacional CI Chilena,
      * La dirección se declara con códigos por extensión."""
 Usage: #example
 
-* extension[0].url = "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises"
-* extension[=].valueCodeableConcept.coding.system  = "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"
-* extension[=].valueCodeableConcept.coding.code  = #152
-* extension[=].valueCodeableConcept.coding.display  = "Chile"
 * extension[IdentidadDeGenero] = NoRevelado
 * extension[SexoBiologico] = Masculino
+* extension[nacionalidad].url = "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises"
+* extension[nacionalidad].valueCodeableConcept.coding.system  = "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"
+* extension[nacionalidad].valueCodeableConcept.coding.code  = #152
+* extension[nacionalidad].valueCodeableConcept.coding.display  = "Chile"
 
 * identifier.use = #official
 * identifier.type.extension[paises].valueCodeableConcept.coding.system =  "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"

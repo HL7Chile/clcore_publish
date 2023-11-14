@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "10be3b6b-d5b4-4ce1-bcdb-b82e06875593-126",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/10be3b6b-d5b4-4ce1-bcdb-b82e06875593-126",
+  "id" : "9534210a-8f66-4501-a619-96d40292df05-126",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9534210a-8f66-4501-a619-96d40292df05-126",
   "name" : "IntersectionObservacionesNotasAndObservacionesNotas",
   "title" : "Intersection of Observaciones o comentarios simples respecto a un diagnóstico And Observaciones o comentarios simples respecto a un diagnóstico",
   "status" : "active",
-  "date" : "2023-11-13T14:29:00-03:00",
+  "date" : "2023-11-14T10:50:10-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

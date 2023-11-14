@@ -5,7 +5,7 @@ Title:          "CL Paciente"
 Description:    "Este Perfil ha sido desarrollado para cubrir las necesidades del Caso de Uso de Receta Electrónica. Sin embargo, se ha modelado con el fin de cubrir las necesidades nacionales de un Recurso Paciente para un Historial Clínico Nacional"
 
 
-* ^version = "1.7.1"
+//* ^version = "1.7.1"
 * ^status = #active
 * ^publisher = "HL7 Chile"
 
