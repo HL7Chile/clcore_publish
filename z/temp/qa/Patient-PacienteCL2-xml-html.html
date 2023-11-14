@@ -1,0 +1,73 @@
+﻿<html>
+<head>
+  <title>Patient-PacienteCL2-xml-html</title>
+  <link rel="stylesheet" href="fhir.css"/>
+</head>
+<body>
+<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;PacienteCL2&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;&lt;b&gt;Wilmer Andres de Dios Cabrales (OFFICIAL)&lt;/b&gt; male, DoB: 1968-11-03 ( Passport number: P3334521.2 (use: OFFICIAL))&lt;/p&gt;&lt;hr/&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Record is active&quot;&gt;Active:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;true&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Ways to contact the Patient&quot;&gt;Contact Detail:&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;a href=&quot;mailto:wilCAB12l@wilmermail.com&quot;&gt;wilCAB12l@wilmermail.com&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=&quot;background-color: #f3f5da&quot; title=&quot;Esta extensión incluye códigos de paises de origen&quot;&gt;&lt;a href=&quot;StructureDefinition-CodigoPaises.html&quot;&gt;Codigo de Identificación de países:&lt;/a&gt;&lt;/td&gt;&lt;td colspan=&quot;3&quot;&gt;&lt;ul&gt;&lt;li&gt;&lt;span title=&quot;Codes: {urn:iso:std:iso:3166 222}&quot;&gt;El Salvador&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+  &lt;/text&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.extension">extension</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises&quot;&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;222&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;El Salvador&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/valueCodeableConcept&gt;
+  &lt;/extension&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.type">type</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueCodeableConcept</a>&gt;
+          &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:iso:std:iso:3166&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;222&quot;/&gt;
+            &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;El Salvador&quot;/&gt;
+          &lt;/coding&gt;
+        &lt;/valueCodeableConcept&gt;
+      &lt;/extension&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://terminology.hl7.org/CodeSystem/v2-0203&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;PPN&quot;/&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Passport number&quot;/&gt;
+      &lt;/coding&gt;
+    &lt;/type&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://Pasaportes.cl/Validacion/Pass&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;P3334521.2&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.active">active</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;true&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;official&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cabrales&quot;&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#string#string.extension">extension</a>
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/humanname-mothers-family&quot;&gt;
+        &lt;<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valueString</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Rivas&quot;/&gt;
+      &lt;/extension&gt;
+    &lt;/family&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Wilmer&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Andres&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;de Dios&quot;/&gt;
+  &lt;/name&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.telecom">telecom</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;email&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;wilCAB12l@wilmermail.com&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.use">use</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;home&quot;/&gt;
+  &lt;/telecom&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.gender">gender</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;male&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.birthDate">birthDate</a> <a href="http://hl7.org/fhir/R4/datatypes.html#date">value</a>=&quot;1968-11-03&quot;/&gt;
+&lt;/Patient&gt;</code></pre>
+</body>
+</html>

@@ -7,6 +7,16 @@
       "sequence" : "ci-build"
     },
     {
+      "version" : "1.8.5",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.5",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2023-11-02",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
       "version" : "1.8.4",
       "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.4",
       "status" : "draft",

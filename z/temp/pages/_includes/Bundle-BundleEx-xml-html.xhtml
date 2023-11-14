@@ -1,0 +1,30 @@
+{% raw %}<pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+
+&lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle">Bundle</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;BundleEx&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.meta">meta</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/BundleCl&quot;/&gt;
+  &lt;/meta&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.identifier">identifier</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://sistema.cl/Transacciones/&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Bundle-001&quot;/&gt;
+  &lt;/identifier&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;transaction&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.timestamp">timestamp</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2020-09-25T00:00:00-03:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Organization/ORG1&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">request</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">method</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POST&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Organization&quot;/&gt;
+    &lt;/request&gt;
+  &lt;/entry&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry">entry</a>&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.fullUrl">fullUrl</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Practitioner/3020&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request">request</a>&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.method">method</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;POST&quot;/&gt;
+      &lt;<a href="http://hl7.org/fhir/R4/bundle.html#Bundle.entry.request.url">url</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;Practitioner&quot;/&gt;
+    &lt;/request&gt;
+  &lt;/entry&gt;
+&lt;/Bundle&gt;</code></pre>
+{% endraw %}

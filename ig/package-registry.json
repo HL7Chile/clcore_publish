@@ -7,10 +7,10 @@
       "canonical" : "https://hl7chile.cl/fhir/ig/clcore",
       "category" : "National Base",
       "ci-build" : "http://build.fhir.org/ig/HL7Chile/clcore",
-      "version-count" : 6,
+      "version-count" : 5,
       "latest" : {
         "version" : "1.8.5",
-        "date" : "2023-10-26",
+        "date" : "2023-11-02",
         "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.5"
       }
     }

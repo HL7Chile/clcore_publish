@@ -46,6 +46,7 @@
       },
       "StructureDefinition-SexoRegistral.html" : "Sexo Registral del paciente",
       "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
+      "StructureDefinition-SexoBiologico.html" : "Sexo Biologico del paciente",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
     },
     {
@@ -1649,10 +1650,7 @@
       "description" : "Sexo Listado Deis",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-SexoBiologico.html" : "Sexo Biologico del paciente"
+      ]
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador",

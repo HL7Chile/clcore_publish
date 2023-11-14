@@ -12,7 +12,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.1"],
       "uses" : {
       },
-      "StructureDefinition-SexoRegistral.html" : "Sexo Registral del paciente"
+      "StructureDefinition-SexoRegistral.html" : "Sexo Registral del paciente",
+      "StructureDefinition-SexoBiologico.html" : "Sexo Biologico del paciente"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/audit-event-action",
@@ -584,10 +585,7 @@
       "description" : "Sexo Listado Deis",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSSexoListadoDeis"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-SexoBiologico.html" : "Sexo Biologico del paciente"
+      ]
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador",
