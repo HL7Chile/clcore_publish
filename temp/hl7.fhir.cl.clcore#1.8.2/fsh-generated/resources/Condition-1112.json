@@ -1,7 +1,0 @@
-{
-  "resourceType": "Condition",
-  "id": "1112",
-  "subject": {
-    "reference": "Patient/11"
-  }
-}

@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "50be5e5e-e207-4e40-a993-4e516ebbbf13-180",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/50be5e5e-e207-4e40-a993-4e516ebbbf13-180",
+  "name" : "IntersectionVSCodigoslenguajeAndVSCodigoslenguaje",
+  "title" : "Intersection of Codigos Lenguaje And Codigos Lenguaje",
+  "status" : "active",
+  "date" : "2024-02-20T08:46:27-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }]
+}

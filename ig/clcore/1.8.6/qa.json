@@ -1,0 +1,16 @@
+{
+  "url" : "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore",
+  "name" : "clcore",
+  "title" : "Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva)",
+  "description" : "Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4",
+  "status" : "active",
+  "package-id" : "hl7.fhir.cl.clcore",
+  "ig-ver" : "1.8.7",
+  "date" : "Tue, 20 Feb, 2024 08:46:12 -0300",
+  "errs" : 1,
+  "warnings" : 4,
+  "hints" : 7,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2273082848
+}
