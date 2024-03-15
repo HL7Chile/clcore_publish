@@ -1,0 +1,64 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "960350a0-3d2c-4f8f-be71-823b824769fd-50",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/960350a0-3d2c-4f8f-be71-823b824769fd-50",
+  "name" : "UnionCSTipoIdentificadorAndCSTipoIdentificador",
+  "title" : "Union of Tipo Identificador And Tipo Identificador",
+  "status" : "active",
+  "date" : "2024-03-07T17:16:00-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Run"
+  },
+  {
+    "code" : "02",
+    "display" : "Run materno/progenitor(a)"
+  },
+  {
+    "code" : "03",
+    "display" : "Número de Folio de comprobante de parto"
+  },
+  {
+    "code" : "04",
+    "display" : "Número de pasaporte"
+  },
+  {
+    "code" : "05",
+    "display" : "Número de documento identificador de país de origen"
+  },
+  {
+    "code" : "06",
+    "display" : "Número de identificador FONASA"
+  },
+  {
+    "code" : "07",
+    "display" : "Identificador Provisorio Escolar"
+  },
+  {
+    "code" : "08",
+    "display" : "Identificador Provisorio Apoderado"
+  },
+  {
+    "code" : "09",
+    "display" : "Registro Único de Contribuyentes"
+  },
+  {
+    "code" : "10",
+    "display" : "Identificación Provisoria del Apoderado (IPA)"
+  },
+  {
+    "code" : "11",
+    "display" : "Identificación Provisoria del Escolar (IPE)"
+  },
+  {
+    "code" : "12",
+    "display" : "Número de Ficha Clínica Sistema Local"
+  }]
+}

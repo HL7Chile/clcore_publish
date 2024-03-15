@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "960350a0-3d2c-4f8f-be71-823b824769fd-35",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/960350a0-3d2c-4f8f-be71-823b824769fd-35",
+  "name" : "UnionCSIdentificadoresAndCSIdentificadores",
+  "title" : "Union of Identificadores And Identificadores",
+  "status" : "active",
+  "date" : "2024-03-07T17:16:00-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "RUN",
+    "definition" : "Registro Unico Nacional"
+  },
+  {
+    "code" : "2",
+    "display" : "RNPI",
+    "definition" : "Registro Nacional de Prestadores Individuales"
+  },
+  {
+    "code" : "3",
+    "display" : "PPN",
+    "definition" : "Pasaporte"
+  },
+  {
+    "code" : "4",
+    "display" : "OTRO",
+    "definition" : "Otro tipo de identificador"
+  }]
+}
