@@ -1,16 +1,27 @@
 {
   "resourceType" : "ValueSet",
-  "id" : "50be5e5e-e207-4e40-a993-4e516ebbbf13-185",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/50be5e5e-e207-4e40-a993-4e516ebbbf13-185",
+  "id" : "1460a9c8-bb0f-4b8a-8c63-18cd5cee1e9a-182",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/1460a9c8-bb0f-4b8a-8c63-18cd5cee1e9a-182",
   "name" : "UnionVSDiagnosticosSCTAndVSDiagnosticosSCT",
   "title" : "Union of Diagnósticos SNOMED y Ausente o Desconocido And Diagnósticos SNOMED y Ausente o Desconocido",
   "status" : "active",
-  "date" : "2024-02-20T08:46:27-03:00",
+  "date" : "2024-03-07T17:37:38-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
       "code" : "CL",
       "display" : "Chile"
     }]
-  }]
+  }],
+  "compose" : {
+    "include" : [{
+      
+    },
+    {
+      "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
+    },
+    {
+      "system" : "https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html"
+    }]
+  }
 }

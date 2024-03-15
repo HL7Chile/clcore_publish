@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8137577d-ecdd-43a1-a485-3ed5b171b03e"/>
+  <id value="8cf299c6-3802-4906-9625-044e889017e8"/>
   <meta>
-    <lastUpdated value="2024-02-20T08:46:12.597-03:00"/>
+    <lastUpdated value="2024-03-07T17:37:26.994-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -2039,8 +2039,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:45731634-7acf-45ed-9416-52a525a034c0"/>
-          <timestamp value="2024-02-20T08:46:57-03:00"/>
+          <identifier value="urn:uuid:41d2f09d-3f65-4154-8554-2d3ce7db2bad"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="249"/>
           <offset value="0"/>
           <parameter>
@@ -3389,8 +3389,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3446b5d4-8725-461e-874f-2e48fe6035b3"/>
-          <timestamp value="2024-02-20T08:46:57-03:00"/>
+          <identifier value="urn:uuid:aae73f3d-8887-478c-a656-b789b69ea13e"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -6247,8 +6247,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:03528d57-ea17-4eb0-8bde-c78a93097e7b"/>
-          <timestamp value="2024-02-20T08:46:57-03:00"/>
+          <identifier value="urn:uuid:1f4838b3-08d9-4eb5-afc3-fc59c5a2e66c"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="346"/>
           <offset value="0"/>
           <parameter>
@@ -8490,8 +8490,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:0d00cd84-a995-446c-b24f-4944b696ad93"/>
-          <timestamp value="2024-02-20T08:46:58-03:00"/>
+          <identifier value="urn:uuid:c15d51ba-006e-458f-847c-2b79308c04c5"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="56"/>
           <offset value="0"/>
           <parameter>
@@ -8963,8 +8963,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:761d9d14-9502-41c0-9aa4-706681eab737"/>
-          <timestamp value="2024-02-20T08:46:58-03:00"/>
+          <identifier value="urn:uuid:9bb8519e-3fa9-4964-bf90-5d2fdf5528a8"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="16"/>
           <offset value="0"/>
           <parameter>
@@ -9332,8 +9332,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:c40af9b2-6b51-4393-8763-5fb4c91cb756"/>
-          <timestamp value="2024-02-20T08:46:58-03:00"/>
+          <identifier value="urn:uuid:5350bae0-d7c6-4148-9dfd-afe7937c70ff"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="28"/>
           <offset value="0"/>
           <parameter>
@@ -10282,8 +10282,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3b597f3f-3c30-4aa0-a84c-01c0fb35bd62"/>
-          <timestamp value="2024-02-20T08:46:58-03:00"/>
+          <identifier value="urn:uuid:10cb7c43-01b5-49f2-a0ae-9478c9f6f5e1"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="53"/>
           <offset value="0"/>
           <parameter>
@@ -10713,8 +10713,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:7ad386af-13d0-434d-9652-378d341ab336"/>
-          <timestamp value="2024-02-20T08:46:58-03:00"/>
+          <identifier value="urn:uuid:5d2aa36c-024b-48bf-a5da-aa4b1aed59d8"/>
+          <timestamp value="2024-03-07T17:38:03-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -10813,8 +10813,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-toocostly">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:6228964b-abf9-4fe6-8079-3b743803b215"/>
-          <timestamp value="2024-02-20T11:46:59.838Z"/>
+          <identifier value="urn:uuid:f324d374-3df6-4061-af0c-16ed9920611c"/>
+          <timestamp value="2024-03-07T20:38:04.744Z"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -11422,8 +11422,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4cbbb9c8-779e-44b6-8f8a-8a8e719c05b0"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:7c936f8f-d0da-4286-b322-5a40f9af45ee"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="68"/>
           <offset value="0"/>
           <parameter>
@@ -11883,8 +11883,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:aad7041b-ae6a-4e2e-b018-56d8a867e818"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:7c22a654-3bc6-43df-8f35-1a5db492b235"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -12042,8 +12042,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:099b9562-d8d6-4aa5-81bb-3f9da4a88ee2"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:14a65954-0a4e-46bd-b95f-dd56d9e6441a"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -12415,8 +12415,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9dd21db4-e23a-479a-8c46-a879a4a4047a"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:484f1e08-3a65-498d-8a66-fa23f8741f8a"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="36"/>
           <offset value="0"/>
           <parameter>
@@ -12716,8 +12716,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:00e912c4-3541-41eb-8564-a238c42ed262"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:4941ef70-2c8c-495c-b135-fb4c2b92ad07"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -12889,8 +12889,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ea0121fc-1206-4fb0-93de-75020b342a95"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:ad5499d9-7536-4a72-892a-075e08fb1eab"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -13011,8 +13011,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8ae95e35-6644-43cb-87fa-50b745fba8bf"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:8ea4d06b-33be-436c-acaa-66d0a2db1d32"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -13136,8 +13136,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:717068da-3b9b-4d07-bd76-ef50ae6a7e72"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:d36805a4-2d62-4a72-9dbf-a8fc9df91112"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -13322,8 +13322,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a4ca0be8-8edb-4267-8638-c860dd3e7c5a"/>
-          <timestamp value="2024-02-20T08:46:59-03:00"/>
+          <identifier value="urn:uuid:175db434-2058-42b9-9ebb-6412ebc89f15"/>
+          <timestamp value="2024-03-07T17:38:04-03:00"/>
           <total value="12"/>
           <offset value="0"/>
           <parameter>
@@ -13413,7 +13413,7 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.74</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on Loinc v2.77</p>
             <p style="border: maroon 1px solid; background-color: #FFCCCC; font-weight: bold; padding: 8px">This value set has 0 codes in it. In order to keep the publication size manageable, only a selection (1000 codes) of the whole set of codes is shown.</p>
             <table class="codes">
               <tr>
@@ -15393,7 +15393,7 @@
                   <a href="https://loinc.org/100217-9/">100217-9</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology synoptic report</td>
+                <td>Synoptic report Narrative Surgical oncology</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -15401,7 +15401,7 @@
                   <a href="https://loinc.org/100218-7/">100218-7</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology of colon synoptic report</td>
+                <td>Surgical oncology of colon cancer synoptic report</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -15409,7 +15409,7 @@
                   <a href="https://loinc.org/100219-5/">100219-5</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology of melanoma synoptic report</td>
+                <td>Surgical oncology of melanoma cancer synoptic report</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -15425,7 +15425,7 @@
                   <a href="https://loinc.org/100220-3/">100220-3</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology of breast synoptic report</td>
+                <td>Surgical oncology of breast cancer synoptic report</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -15433,7 +15433,7 @@
                   <a href="https://loinc.org/100221-1/">100221-1</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology of thyroid synoptic report</td>
+                <td>Surgical oncology of thyroid cancer synoptic report</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -15441,7 +15441,7 @@
                   <a href="https://loinc.org/100222-9/">100222-9</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Surgical oncology of pancreas synoptic report</td>
+                <td>Surgical oncology of pancreas cancer synoptic report</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -19617,7 +19617,7 @@
                   <a href="https://loinc.org/100693-1/">100693-1</a>
                 </td>
                 <td>http://loinc.org</td>
-                <td>Pneumocystis jiroveci DNA [Log #/volume] in Respiratory specimen by NAA with probe detection</td>
+                <td>Pneumocystis jiroveci DNA [Log #/volume] in Respiratory system specimen by NAA with probe detection</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -21445,8 +21445,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9b9426de-5336-48c2-a778-d5aa952afd4c"/>
-          <timestamp value="2024-02-20T11:47:00.792Z"/>
+          <identifier value="urn:uuid:5622e8e8-48eb-45c9-8464-378808a6cfbe"/>
+          <timestamp value="2024-03-07T20:38:05.760Z"/>
           <total value="0"/>
           <offset value="0"/>
           <parameter>
@@ -21467,11 +21467,11 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://loinc.org|2.74"/>
+            <valueUri value="http://loinc.org|2.77"/>
           </parameter>
           <contains>
             <system value="http://loinc.org"/>
@@ -22701,17 +22701,17 @@
           <contains>
             <system value="http://loinc.org"/>
             <code value="100217-9"/>
-            <display value="Surgical oncology synoptic report"/>
+            <display value="Synoptic report Narrative Surgical oncology"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="100218-7"/>
-            <display value="Surgical oncology of colon synoptic report"/>
+            <display value="Surgical oncology of colon cancer synoptic report"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="100219-5"/>
-            <display value="Surgical oncology of melanoma synoptic report"/>
+            <display value="Surgical oncology of melanoma cancer synoptic report"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
@@ -22721,17 +22721,17 @@
           <contains>
             <system value="http://loinc.org"/>
             <code value="100220-3"/>
-            <display value="Surgical oncology of breast synoptic report"/>
+            <display value="Surgical oncology of breast cancer synoptic report"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="100221-1"/>
-            <display value="Surgical oncology of thyroid synoptic report"/>
+            <display value="Surgical oncology of thyroid cancer synoptic report"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
             <code value="100222-9"/>
-            <display value="Surgical oncology of pancreas synoptic report"/>
+            <display value="Surgical oncology of pancreas cancer synoptic report"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
@@ -25341,7 +25341,7 @@
           <contains>
             <system value="http://loinc.org"/>
             <code value="100693-1"/>
-            <display value="Pneumocystis jiroveci DNA [Log #/volume] in Respiratory specimen by NAA with probe detection"/>
+            <display value="Pneumocystis jiroveci DNA [Log #/volume] in Respiratory system specimen by NAA with probe detection"/>
           </contains>
           <contains>
             <system value="http://loinc.org"/>
@@ -28959,8 +28959,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:677caa70-9eca-4751-8eb4-7ce3f3a2ed3d"/>
-          <timestamp value="2024-02-20T08:47:06-03:00"/>
+          <identifier value="urn:uuid:f62ab8a4-ef14-4723-8e55-b09503184254"/>
+          <timestamp value="2024-03-07T17:38:10-03:00"/>
           <total value="183"/>
           <offset value="0"/>
           <parameter>
@@ -29971,8 +29971,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8a5d36ba-df84-4ca2-8146-5775f9e6e88e"/>
-          <timestamp value="2024-02-20T08:47:06-03:00"/>
+          <identifier value="urn:uuid:cb910c08-76dd-4a5d-bbc3-c0bd19508caa"/>
+          <timestamp value="2024-03-07T17:38:10-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -30163,8 +30163,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8266b347-54fe-4148-a37b-45ddba1b0267"/>
-          <timestamp value="2024-02-20T08:47:06-03:00"/>
+          <identifier value="urn:uuid:6357093e-b843-4b75-a48c-4fae5589d190"/>
+          <timestamp value="2024-03-07T17:38:10-03:00"/>
           <total value="14"/>
           <offset value="0"/>
           <parameter>
@@ -30930,8 +30930,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1e4a2d32-81c0-4518-955e-b50fb2f0db8c"/>
-          <timestamp value="2024-02-20T08:47:06-03:00"/>
+          <identifier value="urn:uuid:9ff0d9f6-dcbe-4afd-930f-bfa761ae2140"/>
+          <timestamp value="2024-03-07T17:38:10-03:00"/>
           <total value="79"/>
           <offset value="0"/>
           <parameter>

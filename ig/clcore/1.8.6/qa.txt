@@ -1,9 +1,9 @@
 clcore : Validation Results
 =========================================
 
-err = 1, warn = 4, info = 7
-IG Publisher Version: 1.5.16
-Generated Tue Feb 20 08:48:01 CLST 2024. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.7 (canonical = https://hl7chile.cl/fhir/ig/clcore)
+err = 0, warn = 4, info = 7
+IG Publisher Version: 1.6.0
+Generated Thu Mar 07 17:38:56 CLST 2024. FHIR version 4.0.1 for hl7.fhir.cl.clcore#1.8.7 (canonical = https://hl7chile.cl/fhir/ig/clcore)
  Build Errors : 0 / 0 / 0
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/AllergyIntolerance-222 : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/AuditEvent-AuditEventEx : 0 / 0 / 2
@@ -90,7 +90,7 @@ Generated Tue Feb 20 08:48:01 CLST 2024. FHIR version 4.0.1 for hl7.fhir.cl.clco
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSCodigosServiciosSalud : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSCodigoslenguaje : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSContactosec : 0 / 0 / 1
- /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSDiagnosticosSCT : 1 / 0 / 1
+ /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSDiagnosticosSCT : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSEspecialidadesDeisCL : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSIdentidaddeGenero : 0 / 0 / 1
  /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.7/fsh-generated/resources/ValueSet-VSIdentificadores : 0 / 0 / 1
@@ -203,7 +203,6 @@ WARNING: StructureDefinition.where(url = 'https://hl7chile.cl/fhir/ig/clcore/Str
 == fsh-generated/resources/ValueSet-VSCodigoslenguaje.json ==
 == fsh-generated/resources/ValueSet-VSContactosec.json ==
 == fsh-generated/resources/ValueSet-VSDiagnosticosSCT.json ==
-ERROR: ValueSet/VSDiagnosticosSCT: ValueSet.compose.include[1].system: URL value 'http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips' does not resolve
 == fsh-generated/resources/ValueSet-VSEspecialidadesDeisCL.json ==
 == fsh-generated/resources/ValueSet-VSIdentidaddeGenero.json ==
 == fsh-generated/resources/ValueSet-VSIdentificadores.json ==
@@ -214,7 +213,7 @@ ERROR: ValueSet/VSDiagnosticosSCT: ValueSet.compose.include[1].system: URL value
 == fsh-generated/resources/ValueSet-VSSexoListadoDeis.json ==
 == fsh-generated/resources/ValueSet-VSTipoIdentificador.json ==
 == fsh-generated/resources/ValueSet-VSTiposDocClinico.json ==
-INFORMATION: ValueSet.where(id = 'VSTiposDocClinico'): The value set expansion is incomplete
+INFORMATION: ValueSet.where(id = 'VSTiposDocClinico'): The value set expansion is too large, and only a subset has been displayed
 == fsh-generated/resources/ValueSet-VSTiposDocumentos.json ==
 == fsh-generated/resources/ValueSet-VSTiposEncuentroCL.json ==
 == fsh-generated/resources/ValueSet-VSTiposServicio.json ==

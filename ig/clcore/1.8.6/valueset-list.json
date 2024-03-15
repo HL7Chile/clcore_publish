@@ -88,7 +88,7 @@
       "title" : "Diagnósticos SNOMED y Ausente o Desconocido",
       "description" : "Diagnósticos definidos en Snomed-CT.",
       "systems" : [
-        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+        "https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html",
         "http://snomed.info/sct"
       ]
     },

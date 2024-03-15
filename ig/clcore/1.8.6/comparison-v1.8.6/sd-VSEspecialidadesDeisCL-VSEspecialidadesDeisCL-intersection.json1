@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "50be5e5e-e207-4e40-a993-4e516ebbbf13-159",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/50be5e5e-e207-4e40-a993-4e516ebbbf13-159",
+  "id" : "1460a9c8-bb0f-4b8a-8c63-18cd5cee1e9a-156",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1460a9c8-bb0f-4b8a-8c63-18cd5cee1e9a-156",
   "name" : "IntersectionEspecialidadCLAndEspecialidadCL",
   "title" : "Intersection of Especialidad del médico principal And Especialidad del médico principal",
   "status" : "active",
-  "date" : "2024-02-20T08:46:27-03:00",
+  "date" : "2024-03-07T17:37:38-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

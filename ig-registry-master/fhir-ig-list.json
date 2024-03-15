@@ -7006,8 +7006,8 @@
       "editions": [
         {
           "name": "STU2 Draft",
-          "ig-version": "1.8.6",
-          "package": "hl7.fhir.cl.clcore#1.8.6",
+          "ig-version": "1.8.7",
+          "package": "hl7.fhir.cl.clcore#1.8.7",
           "fhir-version": [
             "4.0.1"
           ],

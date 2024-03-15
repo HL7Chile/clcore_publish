@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "50be5e5e-e207-4e40-a993-4e516ebbbf13-96",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/50be5e5e-e207-4e40-a993-4e516ebbbf13-96",
+  "id" : "63061483-b5c8-4bad-b5a6-e94a40b32fe1-96",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/63061483-b5c8-4bad-b5a6-e94a40b32fe1-96",
   "name" : "IntersectionCoreRolClinicoClAndCoreRolClinicoCl",
   "title" : "Intersection of CL RolClinico And CL RolClinico",
   "status" : "active",
-  "date" : "2024-02-20T08:46:27-03:00",
+  "date" : "2024-03-04T15:53:43-03:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

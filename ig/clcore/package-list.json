@@ -7,6 +7,76 @@
       "sequence" : "ci-build"
     },
     {
+      "version" : "1.8.7",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-07",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-05",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-04",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-04",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-04",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-02-20",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.6",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-02-20",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
       "version" : "1.8.6",
       "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
       "status" : "draft",

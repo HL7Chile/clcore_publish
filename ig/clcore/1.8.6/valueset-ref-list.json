@@ -387,8 +387,8 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"],
       "uses" : {
       },
-      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países",
-      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente"
+      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
+      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
@@ -487,7 +487,7 @@
       "title" : "Diagnósticos SNOMED y Ausente o Desconocido",
       "description" : "Diagnósticos definidos en Snomed-CT.",
       "systems" : [
-        "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+        "https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html",
         "http://snomed.info/sct"
       ],
       "uses" : {
