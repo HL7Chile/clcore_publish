@@ -1,3 +1,40 @@
+CodeSystem: CSClaseVacuna
+Id: CSClaseVacuna
+Title: "Códigos de clases de Vacuna"
+Description: "Códigos de clase de vacuna"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-01-18T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #programatica "Vacuna Programática"
+* #internacional "Vacuna Internacional"
+* #campaña "Vacunación Campaña"
+
+
+ValueSet: VSClaseVacuna
+Id: VSClaseVacuna
+Title: "Códigos de clases de Vacuna"
+Description: "Códigos de clase de vacuna"
+* ^experimental = false
+* ^version = "1.0.0"
+* ^status = #active
+* ^date = "2022-07-25T00:00:00-03:00"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+* ^copyright = "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement" 
+
+* ^experimental = false //dependera del uso que le den al codesystem
+
+* codes from system CSClaseVacuna
+
 ValueSet: VSCodMadurez
 Id: VSCodMadurez
 Title: "Códigos de grado de madurez del artefacto"
@@ -42,7 +79,7 @@ ValueSet: VSDiagnosticosSCT
 Id: VSDiagnosticosSCT
 Title: "Diagnósticos SNOMED y Ausente o Desconocido"
 Description: "Diagnósticos definidos en Snomed-CT."
-* ^experimental = false
+* ^experimental = false //dependera del uso que le den al codesystem
 * ^version = "1.0.0"
 * ^status = #active
 * ^date = "2022-07-25T00:00:00-03:00"
@@ -54,8 +91,10 @@ Description: "Diagnósticos definidos en Snomed-CT."
 
 * ^experimental = false //dependera del uso que le den al codesystem
 
-* codes from system http://snomed.info/sct 
-* codes from system https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html
+// * codes from system https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html
+* include codes from system http://snomed.info/sct where concept descendent-of #404684003
+//* include codes from valueset http://hl7.org/fhir/uv/ips/ValueSet/absent-or-unknown-problems-uv-ips
+* http://snomed.info/sct#160245001 "No current problems or disability"
 
 ValueSet: VSTiposDocumentos
 Id: VSTiposDocumentos
@@ -407,18 +446,10 @@ Description: "Codigos definidos para la identificación de países segun norma I
 * #887 "Yemen"
 * #894 "Zambia"
 
-
-
-
-
-
-
-
-
-ValueSet: VSEspecialidadesDeisCL
-Id: VSEspecialidadesDeisCL
+ValueSet: VSEspecialidadesCL
+Id: VSEspecialidadesCL
 Title: "Códigos de Especialidades"
-Description: "Códigos de especialidades médicas descritas según DEIS"
+Description: "Códigos de especialidades médicas descritas según DEIS, la CONACEM y CONACEO"
 * ^experimental = false
 * ^version = "1.0.0"
 * ^status = #active
@@ -429,6 +460,9 @@ Description: "Códigos de especialidades médicas descritas según DEIS"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 * codes from system CSEspecialidadesDeisCL
+* codes from system CSEspecialidadOdontologica
+* codes from system CSEspecialidadFarma
+* codes from system EspecialidadesConacemConaceoCS
 
 CodeSystem: CSEspecialidadesDeisCL
 Id: CSEspecialidadesDeisCL
@@ -445,15 +479,15 @@ Description: "Códigos de especialidades médicas descritas según DEIS"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
 
-* #01 "Anatomía Patológica"
-* #02 "Anestesiología"
-* #03 "Cardiología"
-* #04 "Cirugía General"
-* #05 "Cirugía de Cabeza, Cuello y Maxilofacial"
-* #06 "Cirugía Cardiovascular"
-* #07 "Cirugía  de Tórax"
-* #08 "Cirugía Plástica y Reparadora"
-* #09 "Cirugía Pediátrica"
+* #1 "Anatomía Patológica"
+* #2 "Anestesiología"
+* #3 "Cardiología"
+* #4 "Cirugía General"
+* #5 "Cirugía de Cabeza, Cuello y Maxilofacial"
+* #6 "Cirugía Cardiovascular"
+* #7 "Cirugía  de Tórax"
+* #8 "Cirugía Plástica y Reparadora"
+* #9 "Cirugía Pediátrica"
 * #10 "Cirugía Vascular Periférica"
 * #11 "Coloproctología"
 * #12 "Dermatología"
@@ -1042,7 +1076,7 @@ Description: "Tipos de Documentos clínicos para Composition. Se trae todo Loinc
 
 * codes from system http://loinc.org
 
-
+/*
 CodeSystem: CSRazonNOencuentroCL
 Id: CSRazonNOT
 Title: "Razones Cancelación Atención Remota"
@@ -1062,7 +1096,7 @@ Description: "Códigos de las razones por la cual un encuentro remoto no pudo re
 * #problConex "El participante tuvo problemas de conexión a internet"
 * #medproblConex "Tuve problemas de conexión a internet"
 * #otros "Otros / texto libre"
-
+*/
 
 ValueSet: VSTiposVacunasCL
 Id: VSTiposVacunas
@@ -1173,9 +1207,6 @@ Description: "Códigos de las vacunas o inmunizaciones según indicaciones del M
 * #VPHTetraval "VPH Tetravalente"
 * #VPHTretavalPriv "VPH Tetravalente (sector privado)"
 
-
-
-
 ValueSet: VSNombreCampanaCL
 Id: VSNombreCampana
 Title: "Campañas de Vacunación"
@@ -1243,7 +1274,6 @@ Description: "Códigos de las campañas de vacunas o inmunizaciones según indic
 * #vacunaFiebAmar "Vacuna Fiebre Amarilla"
 
 
-
 ValueSet: VSRazonNOTinmCL
 Id: VSRazonNOTinm
 Title: "Razones no Inmunización"
@@ -1277,10 +1307,7 @@ Description: "Códigos de las razones por la cual el registro de inmunización n
 * #otras "Otras"
 * #contraindicación "Contraindicación"
 * #solicitudPad "Solicitud de los Padres"
-
-
-
-
+/*
 ValueSet: VSCodigosServiciosSaludCL
 Id: VSCodigosServiciosSalud
 Title: "Servicos de Salud en Chile"
@@ -1338,6 +1365,7 @@ Description:  "Códigos del Sistema Nacional de Servicios de Salud"
 * #SSCH "Servicio de Salud Chiloé"
 * #SSAY "Servicio de Salud Aysén"
 * #SSMA "Servicio de Salud Magallanes"
+*/
 
 ValueSet: VSCodigoslenguaje
 Id: VSCodigoslenguaje
@@ -1489,7 +1517,7 @@ Description: "Códigos para los Servicios realizados en un encuentro remoto seg�
 * #nutINTA	"Nutrición INTA"
 * #nedINTA	"Medicina INTA"
 * #medInt	"Medicina Interna"
-* #saludMDigital	"Salud Mental Digital"
+* #saludMDigital "Salud Mental Digital"
 * #medGen	"Medicina General"
 * #derm	"Dermatología"
 * #telDiabetes	"Telemedicina Diabetes"
@@ -1501,7 +1529,7 @@ Description: "Códigos para los Servicios realizados en un encuentro remoto seg�
 * #geri	"Geriatría"
 * #gine	"Ginecología"
 
-
+/*
 ValueSet: VSContactoSecundario
 Id: VSContactosec
 Title: "Contacto participantes"
@@ -1517,6 +1545,7 @@ Description: "Contacto telefónico o correo de los participantes"
 
 * include codes from system ContactPointSystem
 	
+*/
 
 ValueSet: VSRazonNOencuentro
 Id: VSRazonNOT
@@ -1553,7 +1582,6 @@ Description: "Códigos de las razones por la cual un encuentro remoto no pudo re
 * #medicoproblcon "Tuve problemas de conexión a internet" "Indica problemas de conexión a internet que tuvo el médico"
 * #otros "Otros, texto libre" "Cualquier otro motivo"
 
-
 ValueSet: VSTipoIdentificador
 Id: VSTipoIdentificador
 Title: "Tipo Identificador"
@@ -1583,20 +1611,20 @@ Description: "Tipo Identificador"
 * ^contact.telecom.value = "interoperabilidad@minsal.cl"
 * ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
 
-* #01 "Rol Único Nacional o RUN"
-* #02 "RUN provisorio (Artículo 44)"
-* #03 "RUN madre (para recién nacido)"
-* #04 "Número Folio Comprobante de Parto chileno"
-* #05 "Pasaporte"
-* #06 "Documento de identificación del país de origen"
-* #07 "Acta de nacimiento del país de origen"
-* #08 "Número de Identificación Provisorio (NIP)"
-* #09 "Número Identificatorio para cotizar (NIC)"
-* #10 "Identificación Provisoria del Apoderado (IPA)"
-* #11 "Identificación Provisoria del Escolar (IPE)"
-* #12 "Número de Ficha Clínica Sistema Local"
-
-
+* #01 "RUN" "Rol Único Nacional"
+* #02 "RUN Provisorio" "RUN provisorio (Artículo 44)"
+* #03 "RUN Madre" "RUN Madre (para recién nacido)"
+* #04 "Número Folio" "Número Folio Comprobante de Parto chileno"
+* #05 "PPN" "Pasaporte"
+* #06 "Documento de identificación del país de origen" "Documento de identificación del país de origen"
+* #07 "Acta de nacimiento del país de origen" "Acta de nacimiento del país de origen"
+* #08 "NIP" "Número de Identificación Provisorio (NIP)"
+* #09 "NIC" "Número Identificatorio para cotizar (NIC)"
+* #10 "IPA" "Identificación Provisoria del Apoderado (IPA)"
+* #11 "IPE" "Identificación Provisoria del Escolar (IPE)"
+* #12 "Número de Ficha Clínica Sistema Local" "Número de Ficha Clínica Sistema Local"
+* #13 "RNPI" "Registro Nacional de Prestadores Individuales"
+* #14 "OTRO" "Otro tipo de identificador"
 
 ValueSet: VSIdentidaddeGenero
 Id: VSIdentidaddeGenero
@@ -1670,41 +1698,7 @@ Description: "Sexo Listado Deis"
 * #93 "No Informado"
 * #99 "Desconocido"
 
-
-ValueSet: VSIdentificadores
-Id: VSIdentificadores
-Title: "Identificadores"
-Description: "Identificadores"
-* ^experimental = false
-* ^version = "0.1"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* codes from system CSIdentificadores
-
-CodeSystem: CSIdentificadores
-Id: CSIdentificadores
-Title: "Identificadores"
-Description: "Identificadores"
-* ^experimental = false
-* ^caseSensitive = true
-* ^version = "0.9"
-* ^status = #active
-* ^date = "2023-01-15"
-* ^contact.name = "MINSAL CHILE"
-* ^contact.telecom.system = #email
-* ^contact.telecom.value = "minsal@minsal.cl"
-* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
-
-* #1 "RUN" "Registro Unico Nacional"
-* #2 "RNPI" "Registro Nacional de Prestadores Individuales"
-* #3 "PPN" "Pasaporte"
-* #4 "OTRO" "Otro tipo de identificador"
-
+/*
 ValueSet: VSPrevision
 Id: VSPrevision
 Title: "Prevision"
@@ -1741,5 +1735,92 @@ Description: "Prevision"
 * #05	"SISA" 
 * #96	"NINGUNA"
 * #99	"DESCONOCIDO"
+*/
 
+CodeSystem:  EspecialidadesConacemConaceoCS
+Id:          EspecialidadesConacemConaceoCS
+Title:       "Códigos de Especialidades de CONACEM y CONACEO"
+Description: "Códigos a usar para las Especialidades provenientes de La Corporación Nacional Autónoma de Certificación de Especialidades Médicas (CONACEM) y de La Corporación Nacional Autónoma de Certificación de Especialidades Odontológicas (CONACEO) de Chile"
+* ^version = "1.0"
+* ^caseSensitive = true
+* ^experimental = true
+* ^status = #active
+* ^publisher = "HL7 Chile"
+* ^contact.name = "HL7 Chile"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "chair@hl7chile.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile" 
 
+* #1 "Adolescencia"
+* #14 "Dermatología y Venerología"
+* #16 "Endocrinología"
+* #18 "Enfermedades Respiratorias"
+* #19 "Enfermedades Respiratorias Pediátricas"
+* #20 "Gastroenterología"
+* #24 "Ginecología Oncológica"
+* #30 "Inmunología Clínica"
+* #32 "Mastología"
+* #34 "Medicina Física y Rehabilitación"
+* #35 "Medicina Intensiva"
+* #39 "Medicina Materno Fetal"
+* #41 "Medicina Paliativa Del Adulto"
+* #42 "Medicina Reproductiva"
+* #43 "Nefrología"
+* #44 "Nefrología Pediátrica"
+* #47 "Neurología"
+* #49 "Neurorradiología"
+* #50 "Nutrición Clínica del Adulto"
+* #51 "Nutrición Clínica Pediátrica"
+* #58 "Psiquiatría"
+* #59 "Psiquiatría Infantil y de la Adolescencia"
+* #3 "Imagenología Maxilofacial"
+* #8 "Patología Oral y Maxilofacial"
+
+CodeSystem: CSEspecialidadOdontologica
+Id: CSEspecialidadOdontologica
+Title: "Especialidad Odontologica"
+Description: "Especialidad de Odontologica"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Cirugía y Traumatología Buco Maxilofacial"
+* #2 "Cirugía Bucal"
+* #3 "Endodoncia"
+* #4 "Imagenología Oral y Maxilofacial"
+* #5 "Implantología Buco Maxilofacial"
+* #6 "Odontología legal"
+* #7 "Odontopediatría"
+* #8 "Ortodoncia y Ortopedia Dento Máxilo Facial"
+* #9 "Patología Oral"
+* #10 "Periodoncia"
+* #11 "Rehabilitación Oral"
+* #12 "Salud Pública"
+* #13 "Somato-Prótesis"
+* #14 "Trastornos Temporomandibulares Y Dolor Orofacial"
+
+CodeSystem: CSEspecialidadFarma
+Id: CSEspecialidadFarma
+Title: "Especialidad Farmacia"
+Description: "Especialidad de Farmacia"
+* ^experimental = false
+* ^caseSensitive = true
+* ^version = "0.9"
+* ^status = #active
+* ^date = "2023-01-15"
+* ^contact.name = "MINSAL CHILE"
+* ^contact.telecom.system = #email
+* ^contact.telecom.value = "minsal@minsal.cl"
+* ^jurisdiction = urn:iso:std:iso:3166#CL "Chile"
+
+* #1 "Farmacia Clínica"
+* #2 "Farmacia Hospitalaria"
+* #3 "Laboratorio Clínico"
+* #4 "Salud Pública"
+* #5 "Laboratorio Forense"

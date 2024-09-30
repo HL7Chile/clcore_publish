@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e8d3520a-9cee-47dd-a5ec-6544618c78bf-176",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e8d3520a-9cee-47dd-a5ec-6544618c78bf-176",
+  "name" : "UnionVSTiposDocClinicoAndVSTiposDocClinico",
+  "title" : "Union of Tipos de Documentos Clínicos And Tipos de Documentos Clínicos",
+  "status" : "active",
+  "date" : "2024-09-26T13:09:32-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }]
+}

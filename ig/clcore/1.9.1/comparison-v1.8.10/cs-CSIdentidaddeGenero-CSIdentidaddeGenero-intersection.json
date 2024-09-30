@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e8d3520a-9cee-47dd-a5ec-6544618c78bf-30",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e8d3520a-9cee-47dd-a5ec-6544618c78bf-30",
+  "name" : "IntersectionCSIdentidaddeGeneroAndCSIdentidaddeGenero",
+  "title" : "Intersection of Identidad de Genero And Identidad de Genero",
+  "status" : "active",
+  "date" : "2024-09-26T13:09:32-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Masculino"
+  },
+  {
+    "code" : "2",
+    "display" : "Femenina"
+  },
+  {
+    "code" : "3",
+    "display" : "Transgénero Masculino"
+  },
+  {
+    "code" : "4",
+    "display" : "Transgénero Femenina"
+  },
+  {
+    "code" : "5",
+    "display" : "No binarie"
+  },
+  {
+    "code" : "6",
+    "display" : "Otra"
+  },
+  {
+    "code" : "7",
+    "display" : "No Revelado"
+  }]
+}

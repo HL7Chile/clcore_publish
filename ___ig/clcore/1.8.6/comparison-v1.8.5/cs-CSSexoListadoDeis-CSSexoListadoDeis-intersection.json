@@ -1,0 +1,24 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "693c0064-98e7-44d0-a177-d7a0cb680c75-48",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/693c0064-98e7-44d0-a177-d7a0cb680c75-48",
+  "name" : "IntersectionCSSexoListadoDeisAndCSSexoListadoDeis",
+  "title" : "Intersection of Sexo Listado Deis And Sexo Listado Deis",
+  "status" : "active",
+  "date" : "2024-02-15T15:19:04-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Masculino"
+  },
+  {
+    "code" : "2",
+    "display" : "Femenina"
+  }]
+}

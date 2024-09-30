@@ -42,6 +42,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -53,8 +54,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -64,14 +65,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.48"
+            --heading-prefix:"6.45"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.48"
+            --heading-prefix:"6.45"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -97,7 +98,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -135,10 +136,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -180,7 +197,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -226,7 +243,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">1.8.7<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador|1.8.7"/></span>
+      <span class="copy-text">1.9.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador|1.9.1"/></span>
       </td>
     </tr>
 
@@ -272,7 +289,9 @@
     <b>References</b>
   </p>
   
-<p>This value set is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</p>
+<ul>
+ <li><a href="StructureDefinition-CorePrestadorCl.html">CL Prestador</a></li>
+</ul>
 
 
   <!-- insert intro if present -->
@@ -284,13 +303,28 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSTipoIdentificador.html"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</code></a></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VSTipoIdentificador</b></p><a name="VSTipoIdentificador"> </a><a name="hcVSTipoIdentificador"> </a><a name="VSTipoIdentificador-es-CL"> </a>
+<ul><li>Include all codes defined in <a href="CodeSystem-CSTipoIdentificador.html"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</code></a></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSTipoIdentificador.html">codesystem Tipo Identificador v1.8.7 (CodeSystem)</a></p><p>This value set contains 12 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-01"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-01">01</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Rol Único Nacional o RUN</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-02"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-02">02</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RUN provisorio (Artículo 44)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-03"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-03">03</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RUN madre (para recién nacido)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-04"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-04">04</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número Folio Comprobante de Parto chileno</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-05"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-05">05</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Pasaporte</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-06"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-06">06</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Documento de identificación del país de origen</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-07"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-07">07</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Acta de nacimiento del país de origen</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-08"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-08">08</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número de Identificación Provisorio (NIP)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-09"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-09">09</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número Identificatorio para cotizar (NIC)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-10"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-10">10</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Identificación Provisoria del Apoderado (IPA)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-11"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-11">11</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Identificación Provisoria del Escolar (IPE)</td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSTipoIdentificador-12"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-12">12</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número de Ficha Clínica Sistema Local</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSTipoIdentificador.html">codesystem Tipo Identificador v1.9.1 (CodeSystem)</a></p><p>This value set contains 14 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-01"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-01">01</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RUN</td><td><div><p>Rol Único Nacional</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-02"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-02">02</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RUN Provisorio</td><td><div><p>RUN provisorio (Artículo 44)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-03"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-03">03</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RUN Madre</td><td><div><p>RUN Madre (para recién nacido)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-04"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-04">04</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número Folio</td><td><div><p>Número Folio Comprobante de Parto chileno</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-05"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-05">05</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>PPN</td><td><div><p>Pasaporte</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-06"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-06">06</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Documento de identificación del país de origen</td><td><div><p>Documento de identificación del país de origen</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-07"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-07">07</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Acta de nacimiento del país de origen</td><td><div><p>Acta de nacimiento del país de origen</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-08"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-08">08</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>NIP</td><td><div><p>Número de Identificación Provisorio (NIP)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-09"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-09">09</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>NIC</td><td><div><p>Número Identificatorio para cotizar (NIC)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-10"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-10">10</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>IPA</td><td><div><p>Identificación Provisoria del Apoderado (IPA)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-11"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-11">11</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>IPE</td><td><div><p>Identificación Provisoria del Escolar (IPE)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-12"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-12">12</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>Número de Ficha Clínica Sistema Local</td><td><div><p>Número de Ficha Clínica Sistema Local</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-13"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-13">13</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>RNPI</td><td><div><p>Registro Nacional de Prestadores Individuales</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador-14"> </a>  <a href="CodeSystem-CSTipoIdentificador.html#CSTipoIdentificador-14">14</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador</td><td>OTRO</td><td><div><p>Otro tipo de identificador</p>
+</div></td></tr></table></div>
 
   <hr/>
   <p>
@@ -342,20 +376,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -372,7 +400,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -382,101 +410,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

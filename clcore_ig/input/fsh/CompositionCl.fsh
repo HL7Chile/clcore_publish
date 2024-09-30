@@ -1,5 +1,3 @@
-Alias: $loinc = http://loinc.org
-
 Profile: DocumentoCl
 Parent: Composition
 Id: DocumentoCl
@@ -29,10 +27,10 @@ Description: "De un formato genérico para documento clínico en Chile."
 
 
 //* ---- Paciente ----- 
-* subject only Reference(PacienteCl)
+//* subject only Reference(PacienteCl)
 * subject MS
-* subject ^definition = "Paciente sobre el cual se ha generado este documento. Este debe ser basado en el perfil de paciente Chileno."
-* subject ^short = "Paciente sobre el cual se ha generado este documento. Este debe ser basado en el perfil del paciente Chileno."
+* subject ^definition = "Recurso sobre el cual se ha generado este documento."
+* subject ^short = "Recurso sobre el cual se ha generado este documento. Es deseable que el recurso cumpla con un perfil Chileno."
 
 
 * encounter 0..1 
@@ -49,7 +47,7 @@ Description: "De un formato genérico para documento clínico en Chile."
 //* encounter
 
 //* --- Author : referencia a un practitioner----
-* author only Reference(PrestadorCL or CoreRolClinicoCl or Device or PacienteCl or PrestadorCL or OrganizacionCL)
+* author only Reference(PrestadorCL or CoreRolClinicoCl or Device or PacienteCl or OrganizacionCL)
 * author MS
 * author ^short = "Quien Ha creado el documento"
 * author ^definition = "Identifica al responsable de los datos ingresados al documento."
@@ -72,12 +70,14 @@ Description: "De un formato genérico para documento clínico en Chile."
   * time ^short = "Fecha y Hora de la validación"
   * time ^definition = "Fecha y Hora de la validación"
   * party MS
+  * party only Reference(PacienteCl or RelatedPerson or PrestadorCL or CoreRolClinicoCl or OrganizacionCL)
   * party ^short = "Quien validó"
   * party ^definition = "Quien validó"
 
 * custodian MS
   * ^short = "Organización que mantiene los documentos"
   * ^definition = "Referencia a la organización según perfil nacional"
+* custodian only Reference(CoreOrganizacionCl)
 
 
 * section 1.. MS

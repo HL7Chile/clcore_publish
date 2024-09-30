@@ -1,0 +1,6 @@
+{
+  "version" : "1.8.10",
+  "fhirVersion" : ["4.0.1"],
+  "date" : "20240319153815",
+  "name" : "hl7.fhir.cl.clcore"
+}

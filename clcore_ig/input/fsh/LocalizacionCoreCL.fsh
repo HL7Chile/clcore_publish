@@ -2,7 +2,7 @@ Profile:        LocalizacionCL
 Parent:         Location
 Id:             CoreLocalizacionCl
 Title:          "CL Localización"
-Description:    "Este perfil determina la ubicación especifica para un evento, objeto o Infraestructura específica. Este perfil permite vinlcular la localización especifica con una organización o espacio físico específico"
+Description:    "Este perfil determina la ubicación especifica para un evento, objeto o Infraestructura específica. Este perfil permite vinlcular una localización con una organización o espacio físico específico"
 
 * ^version = "1.9.0"
 * ^status = #active
@@ -52,6 +52,7 @@ Description:    "Este perfil determina la ubicación especifica para un evento, 
 
 
 * managingOrganization  MS
+* managingOrganization only Reference(CoreOrganizacionCl)
 * managingOrganization ^short = "Organización a la cual la ubicación pertenece, si es el caso. Esta relación se hace en base a una referencia a una Orgaización"
 * managingOrganization ^definition = "La organización responsable de la localización."
 * managingOrganization ^comment = "Se puede usar para indicar la organzación jerárquica superior. Siempre debe existir una Organizacion jerarquicamente sobre la localizacion y en caso de no existir esta jerquia, se debe crear la organizacion, con los mismos datos del location."

@@ -1,0 +1,16 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "ea62e05b-3883-49f1-a54a-ada32da87aad-180",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/ea62e05b-3883-49f1-a54a-ada32da87aad-180",
+  "name" : "IntersectionVSContactoSecundarioAndVSContactoSecundario",
+  "title" : "Intersection of Contacto participantes And Contacto participantes",
+  "status" : "active",
+  "date" : "2024-03-19T15:31:36-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }]
+}

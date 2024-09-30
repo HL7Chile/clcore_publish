@@ -44,6 +44,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -55,8 +56,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -66,14 +67,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.41"
+            --heading-prefix:"6.41"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.41"
+            --heading-prefix:"6.41"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -99,7 +100,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -137,10 +138,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -182,7 +199,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -247,16 +264,15 @@
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">
-{
+  <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-json" style="white-space: pre; text-wrap: nowrap;">{
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet">resourceType</a>" : "ValueSet",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.id">id</a>" : "VSIdentidaddeGenero",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-CSIdentidaddeGenero.html\&quot;&gt;&lt;code&gt;https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: ValueSet VSIdentidaddeGenero&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;VSIdentidaddeGenero\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcVSIdentidaddeGenero\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;VSIdentidaddeGenero-es-CL\&quot;&gt; &lt;/a&gt;&lt;ul&gt;&lt;li&gt;Include all codes defined in &lt;a href=\&quot;CodeSystem-CSIdentidaddeGenero.html\&quot;&gt;&lt;code&gt;https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;"
   },
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.url">url</a>" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentidaddeGenero",
-  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "1.8.7",
+  "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.version">version</a>" : "1.9.1",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.name">name</a>" : "VSIdentidaddeGenero",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.title">title</a>" : "Identidad de Genero",
   "<a href="http://hl7.org/fhir/R4/valueset.html#ValueSet.status">status</a>" : "active",
@@ -315,20 +331,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -345,7 +355,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -355,101 +365,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

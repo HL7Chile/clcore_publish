@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>clcore</h2><p>The official URL for this implementation guide is: </p><pre>https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore</pre><div><p>Guía de Implementación Versión de Desarrollo Sobre STU 1, para los perfiles Core que se van a requerir a nivel de desarrollo Nacional para Sistemas que Intercambien datos en estandar FHIR-R4</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://hl7chile.cl/fhir/ig/clcore/ImplementationGuide/hl7.fhir.cl.clcore"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.8.7"] ; # 
+  fhir:version [ fhir:v "1.8.9"] ; # 
   fhir:name [ fhir:v "clcore"] ; # 
   fhir:title [ fhir:v "Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-03-07T17:37:26-03:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-03-19T15:31:25-03:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 Chile"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 Chile" ] ;

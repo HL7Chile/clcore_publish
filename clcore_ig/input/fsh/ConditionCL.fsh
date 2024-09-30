@@ -14,28 +14,27 @@ Description:    "Condicion o Diagnósticos de Pacientes"
 * clinicalStatus ^binding.description = "Códigos definidos por estándar"
 * clinicalStatus ^definition = "El estatus en el cual se encuentra la condición de un Paciente"
 
+* verificationStatus MS 
 * verificationStatus ^short = "Estado de verificación de la condición o diagnóstico: unconfirmed | provisional | differential | confirmed | refuted | entered-in-error"
 * verificationStatus ^definition = "Estado de verificación de la condición o Diagnóstico"
 * verificationStatus from http://hl7.org/fhir/ValueSet/condition-ver-status (required)
 * verificationStatus ^binding.description = "Códigos definidos por estándar"
 
-
 //---paciente
-* subject only Reference(PacienteCl)
+* subject only Reference(PacienteCl or Group)
 * subject MS
 * subject.reference MS
-* subject.identifier and subject.display MS
+// * subject.identifier and subject.display MS
 
 * subject ^short = "Paciente sobre al que corresponde la condición." 
 * subject ^definition = "Paciente sobre al que corresponde la condición." 
   * reference ^short = "Referencia al recurso del Paciente al cual se indica el diagnóstico o condicón"
-  * identifier ^short = "Identificador del paciente"
-  * display ^short = "Texto alternativo para el recurso"
+  // * identifier ^short = "Identificador del paciente"
+  // * display ^short = "Texto alternativo para el recurso"
 
 //----Code
 
-* code MS
-  
+* code MS  
 
 * code ^definition = "Identificación de la condición, el problema o el diagnóstico o registro del \"problema ausente\" o de los \"problemas desconocidos\"."
 * code ^short = "Condición de la persona en Código o no conocido"
@@ -44,8 +43,6 @@ Description:    "Condicion o Diagnósticos de Pacientes"
 * code from VSDiagnosticosSCT (example)
 * code ^short = "Códigos de SOMED-CT y adicionales de ausente o desconocido"
 * code ^binding.description = "Diagósticos en SNOMED-CT. El ValueSet trae toda la terminología + Problema Ausente o Desconocido"
-
-
 
 * onset[x] MS
 * onset[x] ^short = "Fecha para determinación Diagnóstica a definir entre fecha única o período"

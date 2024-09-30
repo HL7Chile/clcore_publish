@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e8d3520a-9cee-47dd-a5ec-6544618c78bf-155",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e8d3520a-9cee-47dd-a5ec-6544618c78bf-155",
+  "name" : "UnionVSDiagnosticosSCTAndVSDiagnosticosSCT",
+  "title" : "Union of Diagnósticos SNOMED y Ausente o Desconocido And Diagnósticos SNOMED y Ausente o Desconocido",
+  "status" : "active",
+  "date" : "2024-09-26T13:09:32-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://snomed.info/sct"
+    },
+    {
+      "system" : "https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "filter" : [{
+        "property" : "concept",
+        "op" : "descendent-of",
+        "value" : "404684003"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "160245001",
+        "display" : "No current problems or disability"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "056650c7-172b-45ae-8017-e99affca4465-42",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/056650c7-172b-45ae-8017-e99affca4465-42",
+  "name" : "IntersectionCSPrevisionAndCSPrevision",
+  "title" : "Intersection of Prevision And Prevision",
+  "status" : "active",
+  "date" : "2024-03-19T15:38:59-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "FONASA"
+  },
+  {
+    "code" : "02",
+    "display" : "ISAPRE"
+  },
+  {
+    "code" : "03",
+    "display" : "CAPREDENA"
+  },
+  {
+    "code" : "04",
+    "display" : "DIPRECA"
+  },
+  {
+    "code" : "05",
+    "display" : "SISA"
+  },
+  {
+    "code" : "96",
+    "display" : "NINGUNA"
+  },
+  {
+    "code" : "99",
+    "display" : "DESCONOCIDO"
+  }]
+}

@@ -3,14 +3,14 @@
   "id" : "ImmunizationCL",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization\">Immunization</a><a name=\"Immunization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/immunization.html\">Immunization</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Immunization event information</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck12.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension\">Slices for extension</a><a name=\"Immunization.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck14.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension:campana\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana\">campana</a><a name=\"Immunization.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)</span><br/><span style=\"font-weight:bold\">URL: </span>https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSNombreCampana.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSNombreCampana\">Campañas de Vacunación</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\">extensible</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.identifier\" title=\"Es el número de identificación del evento donde a un paciente se le administra una vacuna o registro de inmunización\">identifier</a><a name=\"Immunization.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identificador(es) por los que se conoce este registro de Inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.status\" title=\"Indica el estado actual del evento de inmunización\">status</a><a name=\"Immunization.status\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">completed | entered-in-error | not-done</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-immunization-status.html\" title=\"http://hl7.org/fhir/ValueSet/immunization-status\">ImmunizationStatusCodes</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.statusReason\" title=\"Indica la razón por la que no se realizó el evento de inmunización\">statusReason</a><a name=\"Immunization.statusReason\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Razón de no realizarse la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.statusReason.extension\">extension</a><a name=\"Immunization.statusReason.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Motivo de no realizar la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck104.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.statusReason.extension:statusReason\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm\">statusReason</a><a name=\"Immunization.statusReason.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Razones por las cuales no se pudo realizar la inmunización</span><br/><span style=\"font-weight:bold\">URL: </span>https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSRazonNOTinm.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm\">Razones no Inmunización</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\">extensible</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.vaccineCode\" title=\"Vacuna que se administró o se iba a administrar. Se proporciona valores que utilizan en el RNI (Registro Nacional de Inmunizaciones)\">vaccineCode</a><a name=\"Immunization.vaccineCode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Vacuna que se administró o se iba a administrar</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.vaccineCode.extension\">extension</a><a name=\"Immunization.vaccineCode.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nombre de vacuna administrada</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck104.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.vaccineCode.extension:tipov\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI\">tipov</a><a name=\"Immunization.vaccineCode.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Código de tipos de Vacunas en Chile</span><br/><span style=\"font-weight:bold\">URL: </span>https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSTiposVacunas.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas\">Tipos de Vacunas RNI</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\">extensible</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.patient\" title=\"El paciente que recibió o no recibió la inmunización\">patient</a><a name=\"Immunization.patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CorePacienteCl.html\">CL Paciente</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Paciente inmunizado</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.occurrence[x]\">Slices for occurrence[x]</a><a name=\"Immunization.occurrence_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"opacity: 0.5; font-style: italic\">1</span><span style=\"opacity: 0.5; font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a><span style=\"opacity: 0.5; font-style: italic\">, </span><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5; font-style: italic\">Vaccine administration date</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by type:$this</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.occurrence[x]:occurrenceDateTime\" title=\"Slice occurrenceDateTime: Fecha y hora en la que se realiza la inmunización o se administra la vacuna\">occurrence[x]:occurrenceDateTime</a><a name=\"Immunization.occurrence_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fecha de administración de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.recorded\" title=\"La fecha en que se registró por primera vez la ocurrencia de la inmunización, potencialmente significativamente después de la ocurrencia del evento\">recorded</a><a name=\"Immunization.recorded\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cuando la inmunización se capturó por primera vez en el registro del sujeto</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.location\" title=\"El lugar donde se produjo la administración de la vacuna\">location</a><a name=\"Immunization.location\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..<span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CoreLocalizacionCl.html\">CL Localización</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Dónde se produjo la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.location.extension\">extension</a><a name=\"Immunization.location.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Extensión para los Sistemas de Salud, por ejemplo: S.S Viña del mar Quillota</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck104.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.location.extension:ssalud\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud\">ssalud</a><a name=\"Immunization.location.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Sistema Nacional de Servicios de Salud</span><br/><span style=\"font-weight:bold\">URL: </span>https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSCodigosServiciosSalud.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosServiciosSalud\">Servicos de Salud en Chile</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#extensible\" title=\"To be conformant, the concept in this element SHALL be from the specified value set if any of the codes within the value set can apply to the concept being communicated.  If the value set does not cover the concept (based on human review), alternate codings (or, data type allowing, text) may be included instead.\">extensible</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.lotNumber\" title=\"Número de lote del producto de la vacuna\">lotNumber</a><a name=\"Immunization.lotNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Número de lote de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.expirationDate\" title=\"Fecha de vencimiento del lote de la vacuna\">expirationDate</a><a name=\"Immunization.expirationDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fecha de caducidad de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.performer\" title=\"Indica quién realizó el evento de inmunización\">performer</a><a name=\"Immunization.performer\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Quién realizó la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.performer.actor\" title=\"Prestador personal u organizacional que realizó la acción\">actor</a><a name=\"Immunization.performer.actor\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CorePrestadorCl.html\">CL Prestador</a> | <a href=\"StructureDefinition-CoreOrganizacionCl.html\">CL Organización</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Prestador personal u organizacional que realizó la acción</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.programEligibility\" title=\"Indica la elegibilidad de un paciente para un programa de financiamiento\">programEligibility</a><a name=\"Immunization.programEligibility\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Indica la elegibilidad de un paciente para un programa de financiamiento<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-immunization-program-eligibility.html\" title=\"http://hl7.org/fhir/ValueSet/immunization-program-eligibility\">ImmunizationProgramEligibility</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#example\" title=\"Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.\">example</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reaction\">reaction</a><a name=\"Immunization.reaction\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Detalles de una reacción que proviene de la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reaction.date\" title=\"Fecha de reacción a la inmunización\">date</a><a name=\"Immunization.reaction.date\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cuándo comenzó la reacción</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.protocolApplied\" title=\"El protocolo (conjunto de recomendaciones) que sigue el proveedor que administró la dosis\">protocolApplied</a><a name=\"Immunization.protocolApplied\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Protocolo seguido por el proveedor</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: StructureDefinition ImmunizationCL</b></p><a name=\"ImmunizationCL\"> </a><a name=\"hcImmunizationCL\"> </a><a name=\"ImmunizationCL-es-CL\"> </a><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_resource.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization\">Immunization</a><a name=\"Immunization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/immunization.html\">Immunization</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Immunization event information</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_extension_simple.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Simple Extension\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension\">Slices for extension</a><a name=\"Immunization.extension\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/extensibility.html#Extension\">Extension</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Extension</span><br/><span style=\"font-weight:bold\">Slice: </span>Unordered, Open by value:url</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck134.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension:ClaseVacuna\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ClaseVacuna\">ClaseVacuna</a><a name=\"Immunization.extension.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#Coding\">Coding</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Clase de Vacuna</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"StructureDefinition-ClaseVacuna.html\">https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ClaseVacuna</a><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSClaseVacuna.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSClaseVacuna\">Códigos de clases de Vacuna</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck134.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension:Campana\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Campana\">Campana</a><a name=\"Immunization.extension.3\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Nombre Campaña de Vacunación</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"StructureDefinition-Campana.html\">https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Campana</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck134.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension:Dosis\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Dosis\">Dosis</a><a name=\"Immunization.extension.4\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Dosis Administrada</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"StructureDefinition-Dosis.html\">https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Dosis</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.extension:ProxFecha\" title=\"Extension URL = https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProxFecha\">ProxFecha</a><a name=\"Immunization.extension.5\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">Proxima fecha de vacunación</span><br/><span style=\"font-weight:bold\">URL: </span><a href=\"StructureDefinition-ProxFecha.html\">https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProxFecha</a></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.identifier\" title=\"Es el número de identificación del evento donde a un paciente se le administra una vacuna o registro de inmunización\">identifier</a><a name=\"Immunization.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#Identifier\">Identifier</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Identificador(es) por los que se conoce este registro de Inmunización. En el caso del sistema público correspondería al ID del Registro de Inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.status\" title=\"Indica el estado actual del evento de inmunización\">status</a><a name=\"Immunization.status\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">completed | entered-in-error | not-done</span><br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-immunization-status.html\" title=\"http://hl7.org/fhir/ValueSet/immunization-status\">ImmunizationStatusCodes</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#required\" title=\"To be conformant, the concept in this element SHALL be from the specified value set.\">required</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.statusReason\" title=\"Indica la razón por la que no se realizó el evento de inmunización\">statusReason</a><a name=\"Immunization.statusReason\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Razón de no realizarse la inmunización<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSRazonNOTinm.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm\">Razones no Inmunización</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#example\" title=\"Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.\">example</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.statusReason.text\">text</a><a name=\"Immunization.statusReason.text\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Descripción de la razon por la cual noi se produjo la inmunizción</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.vaccineCode\" title=\"Vacuna que se administró o se iba a administrar. Se proporciona valores que utilizan en el RNI (Registro Nacional de Inmunizaciones)\">vaccineCode</a><a name=\"Immunization.vaccineCode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Vacuna que se administró o se iba a administrar<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"ValueSet-VSTiposVacunas.html\" title=\"https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas\">Tipos de Vacunas RNI</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#example\" title=\"Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.\">example</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.vaccineCode.text\">text</a><a name=\"Immunization.vaccineCode.text\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Nombre normalizado a nivel nacional de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.patient\" title=\"El paciente que recibió o no recibió la inmunización\">patient</a><a name=\"Immunization.patient\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CorePacienteCl.html\">CL Paciente</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Paciente inmunizado</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck13.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Definition\" class=\"hierarchy\"/> <a style=\"font-style: italic\" href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.occurrence[x]\" title=\"Momento en la que se realiza la inmunización o se administra la vacuna\">Slices for occurrence[x]</a><a name=\"Immunization.occurrence_x_\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red; font-style: italic\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\"/><span style=\"opacity: 0.5; font-style: italic\">1</span><span style=\"opacity: 0.5; font-style: italic\">..</span><span style=\"opacity: 0.5; font-style: italic\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a><span style=\"opacity: 0.5; font-style: italic\">, </span><a style=\"opacity: 0.5; font-style: italic\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"font-style: italic\">Momento de administración de la vacuna</span><br style=\"font-style: italic\"/><span style=\"font-weight:bold; font-style: italic\">Slice: </span><span style=\"font-style: italic\">Unordered, Open by type:$this</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck134.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.occurrence[x]:occurrenceDateTime\" title=\"Slice occurrenceDateTime\">occurrence[x]:occurrenceDateTime</a><a name=\"Immunization.occurrence_x_.2\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fecha y hora de la administración</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck124.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end_slicer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_slice_item.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Slice Item\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.occurrence[x]:occurrenceString\" title=\"Slice occurrenceString\">occurrence[x]:occurrenceString</a><a name=\"Immunization.occurrence_x_.3\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Momento de la administración</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.recorded\" title=\"La fecha en que se registró por primera vez la ocurrencia de la inmunización, potencialmente significativamente después de la ocurrencia del evento\">recorded</a><a name=\"Immunization.recorded\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cuando se realizo el regstro del la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reportOrigin\" title=\"También pude ser considerado como registro secundario\">reportOrigin</a><a name=\"Immunization.reportOrigin\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fuente de registro</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.location\" title=\"El lugar donde se produjo la administración de la vacuna\">location</a><a name=\"Immunization.location\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CoreLocalizacionCl.html\">CL Localización</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Dónde se produjo la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.lotNumber\" title=\"Número de lote del producto de la vacuna\">lotNumber</a><a name=\"Immunization.lotNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Número de lote de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.expirationDate\" title=\"Fecha de vencimiento del lote de la vacuna\">expirationDate</a><a name=\"Immunization.expirationDate\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fecha de caducidad de la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.performer\" title=\"Indica quién realizó el evento de inmunización\">performer</a><a name=\"Immunization.performer\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Quién realizó la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.performer.actor\" title=\"Prestador personal u organizacional que realizó la acción\">actor</a><a name=\"Immunization.performer.actor\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">1</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"StructureDefinition-CorePrestadorCl.html\">CL Prestador</a> | <a href=\"StructureDefinition-CoreOrganizacionCl.html\">CL Organización</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Prestador personal u organizacional que realizó la acción</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.programEligibility\" title=\"Indica la elegibilidad de un paciente para un programa de financiamiento\">programEligibility</a><a name=\"Immunization.programEligibility\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#CodeableConcept\">CodeableConcept</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Corresponde al Id del criterio de elegibilidad de la vacuna administrada<br/><span style=\"font-weight:bold\">Binding: </span><a href=\"http://hl7.org/fhir/R4/valueset-immunization-program-eligibility.html\" title=\"http://hl7.org/fhir/ValueSet/immunization-program-eligibility\">ImmunizationProgramEligibility</a> (<a href=\"http://hl7.org/fhir/R4/terminologies.html#example\" title=\"Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included.\">example</a>)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck101.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.programEligibility.coding\">coding</a><a name=\"Immunization.programEligibility.coding\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1010.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.programEligibility.coding.code\">code</a><a name=\"Immunization.programEligibility.coding.code\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Código identificador del criterio</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1000.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_blank.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.programEligibility.coding.display\">display</a><a name=\"Immunization.programEligibility.coding.display\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Descripción del programa asociado al identificador del criterio</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reaction\">reaction</a><a name=\"Immunization.reaction\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Detalles de una reacción que proviene de la inmunización</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck110.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reaction.date\" title=\"Fecha de reacción a la inmunización\">date</a><a name=\"Immunization.reaction.date\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#dateTime\">dateTime</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cuándo comenzó la reacción</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.reaction.reported\" title=\"Reporte de reacción adversa a la vacuna\">reported</a><a name=\"Immunization.reaction.reported\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Indica si se reporto reacción adversa a la vacuna</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-ImmunizationCL-definitions.html#Immunization.protocolApplied\" title=\"El protocolo (conjunto de recomendaciones) que sigue el proveedor que administró la dosis\">protocolApplied</a><a name=\"Immunization.protocolApplied\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"padding-left: 3px; padding-right: 3px; color: white; background-color: red\" title=\"This element must be supported\">S</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a style=\"opacity: 0.5\" href=\"http://hl7.org/fhir/R4/datatypes.html#BackboneElement\">BackboneElement</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Protocolo seguido por el proveedor</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
   },
   "url" : "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ImmunizationCL",
-  "version" : "1.8.7",
+  "version" : "1.9.1",
   "name" : "ImmunizationCL",
   "title" : "CL Inmunización",
   "status" : "active",
-  "date" : "2024-03-07T17:15:51-03:00",
+  "date" : "2024-09-26T12:51:50-03:00",
   "publisher" : "HL7 Chile",
   "contact" : [{
     "name" : "HL7 Chile",
@@ -364,11 +364,11 @@
       "isSummary" : false
     },
     {
-      "id" : "Immunization.extension:campana",
+      "id" : "Immunization.extension:ClaseVacuna",
       "path" : "Immunization.extension",
-      "sliceName" : "campana",
-      "short" : "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)",
-      "definition" : "Esta extensión incluye los nombres de las distintas Campañas que se realizan y estan registradas en el RNI",
+      "sliceName" : "ClaseVacuna",
+      "short" : "Clase de Vacuna",
+      "definition" : "Corresponde a un Id creado por el equipo de gestión de datos del Deis",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -378,7 +378,7 @@
       },
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana"]
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ClaseVacuna"]
       }],
       "condition" : ["ele-1"],
       "constraint" : [{
@@ -397,6 +397,118 @@
         "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
+      "mustSupport" : true,
+      "isModifier" : false
+    },
+    {
+      "id" : "Immunization.extension:Campana",
+      "path" : "Immunization.extension",
+      "sliceName" : "Campana",
+      "short" : "Nombre Campaña de Vacunación",
+      "definition" : "Nombre Campaña de Vacunación",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "DomainResource.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Campana"]
+      }],
+      "condition" : ["ele-1"],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "mustSupport" : true,
+      "isModifier" : false
+    },
+    {
+      "id" : "Immunization.extension:Dosis",
+      "path" : "Immunization.extension",
+      "sliceName" : "Dosis",
+      "short" : "Dosis Administrada",
+      "definition" : "Definición de la dosis administrada",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "DomainResource.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Dosis"]
+      }],
+      "condition" : ["ele-1"],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "mustSupport" : true,
+      "isModifier" : false
+    },
+    {
+      "id" : "Immunization.extension:ProxFecha",
+      "path" : "Immunization.extension",
+      "sliceName" : "ProxFecha",
+      "short" : "Proxima fecha de vacunación",
+      "definition" : "Fecha de la próxima fecha de vacunación si corresponde",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "DomainResource.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProxFecha"]
+      }],
+      "condition" : ["ele-1"],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "mustSupport" : true,
       "isModifier" : false
     },
     {
@@ -445,7 +557,7 @@
     {
       "id" : "Immunization.identifier",
       "path" : "Immunization.identifier",
-      "short" : "Identificador(es) por los que se conoce este registro de Inmunización",
+      "short" : "Identificador(es) por los que se conoce este registro de Inmunización. En el caso del sistema público correspondería al ID del Registro de Inmunización",
       "definition" : "Es el número de identificación del evento donde a un paciente se le administra una vacuna o registro de inmunización",
       "min" : 0,
       "max" : "*",
@@ -558,13 +670,8 @@
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "ImmunizationStatusReason"
-        }],
         "strength" : "example",
-        "description" : "The reason why a vaccine was not administered.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-status-reason"
+        "valueSet" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -613,8 +720,11 @@
         "description" : "Extensions are always sliced by (at least) url",
         "rules" : "open"
       },
-      "short" : "Motivo de no realizar la inmunización",
-      "definition" : "An Extension",
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -642,43 +752,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Immunization.statusReason.extension:statusReason",
-      "path" : "Immunization.statusReason.extension",
-      "sliceName" : "statusReason",
-      "short" : "Razones por las cuales no se pudo realizar la inmunización",
-      "definition" : "Esta extensión incluye las razones por la cuales no pudo llevarse a cabo la inmunización",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
     },
     {
       "id" : "Immunization.statusReason.coding",
@@ -727,7 +805,7 @@
         "valueBoolean" : true
       }],
       "path" : "Immunization.statusReason.text",
-      "short" : "Plain text representation of the concept",
+      "short" : "Descripción de la razon por la cual noi se produjo la inmunizción",
       "definition" : "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
       "comment" : "Very often the text is the same as a displayName of one of the codings.",
       "requirements" : "The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.",
@@ -749,6 +827,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -791,13 +870,8 @@
       "isModifier" : false,
       "isSummary" : true,
       "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "VaccineCode"
-        }],
         "strength" : "example",
-        "description" : "The code for vaccine product administered.",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/vaccine-code"
+        "valueSet" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas"
       },
       "mapping" : [{
         "identity" : "workflow",
@@ -858,9 +932,12 @@
         "description" : "Extensions are always sliced by (at least) url",
         "rules" : "open"
       },
-      "short" : "Nombre de vacuna administrada",
-      "definition" : "An Extension",
-      "min" : 1,
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
       "max" : "*",
       "base" : {
         "path" : "Element.extension",
@@ -887,43 +964,11 @@
         "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
       }],
       "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Immunization.vaccineCode.extension:tipov",
-      "path" : "Immunization.vaccineCode.extension",
-      "sliceName" : "tipov",
-      "short" : "Código de tipos de Vacunas en Chile",
-      "definition" : "Esta extensión incluye códigos de los tipos de vacunas que existe en el Registro Nacional de Inmunizaciones RNI",
-      "min" : 1,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
     },
     {
       "id" : "Immunization.vaccineCode.coding",
@@ -972,7 +1017,7 @@
         "valueBoolean" : true
       }],
       "path" : "Immunization.vaccineCode.text",
-      "short" : "Plain text representation of the concept",
+      "short" : "Nombre normalizado a nivel nacional de la vacuna",
       "definition" : "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
       "comment" : "Very often the text is the same as a displayName of one of the codings.",
       "requirements" : "The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.",
@@ -994,6 +1039,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : true,
       "mapping" : [{
@@ -1109,10 +1155,10 @@
           "path" : "$this"
         }],
         "ordered" : false,
-        "rules" : "open"
+        "rules" : "closed"
       },
-      "short" : "Vaccine administration date",
-      "definition" : "Date vaccine administered or was to be administered.",
+      "short" : "Momento de administración de la vacuna",
+      "definition" : "Momento en la que se realiza la inmunización o se administra la vacuna",
       "comment" : "When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose.",
       "min" : 1,
       "max" : "1",
@@ -1126,54 +1172,6 @@
       },
       {
         "code" : "string"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "workflow",
-        "map" : "Event.occurrence[x]"
-      },
-      {
-        "identity" : "w5",
-        "map" : "FiveWs.done[x]"
-      },
-      {
-        "identity" : "v2",
-        "map" : "RXA-3"
-      },
-      {
-        "identity" : "rim",
-        "map" : ".effectiveTime"
-      },
-      {
-        "identity" : "cda",
-        "map" : "ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/effectiveTime/value"
-      }]
-    },
-    {
-      "id" : "Immunization.occurrence[x]:occurrenceDateTime",
-      "path" : "Immunization.occurrence[x]",
-      "sliceName" : "occurrenceDateTime",
-      "short" : "Fecha de administración de la vacuna",
-      "definition" : "Fecha y hora en la que se realiza la inmunización o se administra la vacuna",
-      "comment" : "When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Immunization.occurrence[x]",
-        "min" : 1,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "dateTime"
       }],
       "constraint" : [{
         "key" : "ele-1",
@@ -1208,9 +1206,105 @@
       }]
     },
     {
+      "id" : "Immunization.occurrence[x]:occurrenceDateTime",
+      "path" : "Immunization.occurrence[x]",
+      "sliceName" : "occurrenceDateTime",
+      "short" : "Fecha y hora de la administración",
+      "definition" : "Date vaccine administered or was to be administered.",
+      "comment" : "When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.occurrence[x]",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "dateTime"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "workflow",
+        "map" : "Event.occurrence[x]"
+      },
+      {
+        "identity" : "w5",
+        "map" : "FiveWs.done[x]"
+      },
+      {
+        "identity" : "v2",
+        "map" : "RXA-3"
+      },
+      {
+        "identity" : "rim",
+        "map" : ".effectiveTime"
+      },
+      {
+        "identity" : "cda",
+        "map" : "ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/effectiveTime/value"
+      }]
+    },
+    {
+      "id" : "Immunization.occurrence[x]:occurrenceString",
+      "path" : "Immunization.occurrence[x]",
+      "sliceName" : "occurrenceString",
+      "short" : "Momento de la administración",
+      "definition" : "Date vaccine administered or was to be administered.",
+      "comment" : "When immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.occurrence[x]",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "workflow",
+        "map" : "Event.occurrence[x]"
+      },
+      {
+        "identity" : "w5",
+        "map" : "FiveWs.done[x]"
+      },
+      {
+        "identity" : "v2",
+        "map" : "RXA-3"
+      },
+      {
+        "identity" : "rim",
+        "map" : ".effectiveTime"
+      },
+      {
+        "identity" : "cda",
+        "map" : "ClinicalDocument/component/StructuredBody/component/section/entry/substanceAdministration/effectiveTime/value"
+      }]
+    },
+    {
       "id" : "Immunization.recorded",
       "path" : "Immunization.recorded",
-      "short" : "Cuando la inmunización se capturó por primera vez en el registro del sujeto",
+      "short" : "Cuando se realizo el regstro del la inmunización",
       "definition" : "La fecha en que se registró por primera vez la ocurrencia de la inmunización, potencialmente significativamente después de la ocurrencia del evento",
       "min" : 0,
       "max" : "1",
@@ -1284,8 +1378,8 @@
     {
       "id" : "Immunization.reportOrigin",
       "path" : "Immunization.reportOrigin",
-      "short" : "Indicates the source of a secondarily reported record",
-      "definition" : "The source of the data when the report of the immunization event is not based on information from the person who administered the vaccine.",
+      "short" : "Fuente de registro",
+      "definition" : "También pude ser considerado como registro secundario",
       "comment" : "Should not be populated if primarySource = True, not required even if primarySource = False.",
       "min" : 0,
       "max" : "1",
@@ -1305,6 +1399,7 @@
         "xpath" : "@value|f:*|h:div",
         "source" : "http://hl7.org/fhir/StructureDefinition/Element"
       }],
+      "mustSupport" : true,
       "isModifier" : false,
       "isSummary" : false,
       "binding" : {
@@ -1334,7 +1429,7 @@
       "path" : "Immunization.location",
       "short" : "Dónde se produjo la inmunización",
       "definition" : "El lugar donde se produjo la administración de la vacuna",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "base" : {
         "path" : "Immunization.location",
@@ -1371,249 +1466,6 @@
       {
         "identity" : "rim",
         "map" : ".participation[typeCode=LOC].COCT_MT240000UV"
-      }]
-    },
-    {
-      "id" : "Immunization.location.id",
-      "path" : "Immunization.location.id",
-      "representation" : ["xmlAttr"],
-      "short" : "Unique id for inter-element referencing",
-      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.id",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
-          "valueUrl" : "string"
-        }],
-        "code" : "http://hl7.org/fhirpath/System.String"
-      }],
-      "isModifier" : false,
-      "isSummary" : false,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "n/a"
-      }]
-    },
-    {
-      "id" : "Immunization.location.extension",
-      "path" : "Immunization.location.extension",
-      "slicing" : {
-        "discriminator" : [{
-          "type" : "value",
-          "path" : "url"
-        }],
-        "description" : "Extensions are always sliced by (at least) url",
-        "rules" : "open"
-      },
-      "short" : "Extensión para los Sistemas de Salud, por ejemplo: S.S Viña del mar Quillota",
-      "definition" : "An Extension",
-      "min" : 0,
-      "max" : "*",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Immunization.location.extension:ssalud",
-      "path" : "Immunization.location.extension",
-      "sliceName" : "ssalud",
-      "short" : "Sistema Nacional de Servicios de Salud",
-      "definition" : "Esta extensión incluye los códigos de los Servicios de Salud que existen en el país",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Element.extension",
-        "min" : 0,
-        "max" : "*"
-      },
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud"]
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      },
-      {
-        "key" : "ext-1",
-        "severity" : "error",
-        "human" : "Must have either extensions or value[x], not both",
-        "expression" : "extension.exists() != value.exists()",
-        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
-      }],
-      "isModifier" : false,
-      "isSummary" : false
-    },
-    {
-      "id" : "Immunization.location.reference",
-      "path" : "Immunization.location.reference",
-      "short" : "Literal reference, Relative, internal or absolute URL",
-      "definition" : "A reference to a location at which the other resource is found. The reference may be a relative reference, in which case it is relative to the service base URL, or an absolute URL that resolves to the location where the resource is found. The reference may be version specific or not. If the reference is not to a FHIR RESTful server, then it should be assumed to be version specific. Internal fragment references (start with '#') refer to contained resources.",
-      "comment" : "Using absolute URLs provides a stable scalable approach suitable for a cloud/web context, while using relative/logical references provides a flexible approach suitable for use when trading across closed eco-system boundaries.   Absolute URLs do not need to point to a FHIR RESTful server, though this is the preferred approach. If the URL conforms to the structure \"/[type]/[id]\" then it should be assumed that the reference is to a FHIR RESTful server.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Reference.reference",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "condition" : ["ref-1"],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Immunization.location.type",
-      "path" : "Immunization.location.type",
-      "short" : "Type the reference refers to (e.g. \"Patient\")",
-      "definition" : "The expected type of the target of the reference. If both Reference.type and Reference.reference are populated and Reference.reference is a FHIR URL, both SHALL be consistent.\n\nThe type is the Canonical URL of Resource Definition that is the type this reference refers to. References are URLs that are relative to http://hl7.org/fhir/StructureDefinition/ e.g. \"Patient\" is a reference to http://hl7.org/fhir/StructureDefinition/Patient. Absolute URLs are only allowed for logical models (and can only be used in references in logical models, not resources).",
-      "comment" : "This element is used to indicate the type of  the target of the reference. This may be used which ever of the other elements are populated (or not). In some cases, the type of the target may be determined by inspection of the reference (e.g. a RESTful URL) or by resolving the target of the reference; if both the type and a reference is provided, the reference SHALL resolve to a resource of the same type as that specified.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Reference.type",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "uri"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "binding" : {
-        "extension" : [{
-          "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
-          "valueString" : "FHIRResourceTypeExt"
-        }],
-        "strength" : "extensible",
-        "description" : "Aa resource (or, for logical models, the URI of the logical model).",
-        "valueSet" : "http://hl7.org/fhir/ValueSet/resource-types"
-      },
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "N/A"
-      }]
-    },
-    {
-      "id" : "Immunization.location.identifier",
-      "path" : "Immunization.location.identifier",
-      "short" : "Logical reference, when literal reference is not known",
-      "definition" : "An identifier for the target resource. This is used when there is no way to reference the other resource directly, either because the entity it represents is not available through a FHIR server, or because there is no way for the author of the resource to convert a known identifier to an actual location. There is no requirement that a Reference.identifier point to something that is actually exposed as a FHIR instance, but it SHALL point to a business concept that would be expected to be exposed as a FHIR instance, and that instance would need to be of a FHIR resource type allowed by the reference.",
-      "comment" : "When an identifier is provided in place of a reference, any system processing the reference will only be able to resolve the identifier to a reference if it understands the business context in which the identifier is used. Sometimes this is global (e.g. a national identifier) but often it is not. For this reason, none of the useful mechanisms described for working with references (e.g. chaining, includes) are possible, nor should servers be expected to be able resolve the reference. Servers may accept an identifier based reference untouched, resolve it, and/or reject it - see CapabilityStatement.rest.resource.referencePolicy. \n\nWhen both an identifier and a literal reference are provided, the literal reference is preferred. Applications processing the resource are allowed - but not required - to check that the identifier matches the literal reference\n\nApplications converting a logical reference to a literal reference may choose to leave the logical reference present, or remove it.\n\nReference is intended to point to a structure that can potentially be expressed as a FHIR resource, though there is no need for it to exist as an actual FHIR resource instance - except in as much as an application wishes to actual find the target of the reference. The content referred to be the identifier must meet the logical constraints implied by any limitations on what resource types are permitted for the reference.  For example, it would not be legitimate to send the identifier for a drug prescription if the type were Reference(Observation|DiagnosticReport).  One of the use-cases for Reference.identifier is the situation where no FHIR representation exists (where the type is Reference (Any).",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Reference.identifier",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "Identifier"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : ".identifier"
-      }]
-    },
-    {
-      "id" : "Immunization.location.display",
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
-        "valueBoolean" : true
-      }],
-      "path" : "Immunization.location.display",
-      "short" : "Text alternative for the resource",
-      "definition" : "Plain text narrative that identifies the resource in addition to the resource reference.",
-      "comment" : "This is generally not the same as the Resource.text of the referenced resource.  The purpose is to identify what's being referenced, not to fully describe it.",
-      "min" : 0,
-      "max" : "1",
-      "base" : {
-        "path" : "Reference.display",
-        "min" : 0,
-        "max" : "1"
-      },
-      "type" : [{
-        "code" : "string"
-      }],
-      "constraint" : [{
-        "key" : "ele-1",
-        "severity" : "error",
-        "human" : "All FHIR elements must have a @value or children",
-        "expression" : "hasValue() or (children().count() > id.count())",
-        "xpath" : "@value|f:*|h:div",
-        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
-      }],
-      "isModifier" : false,
-      "isSummary" : true,
-      "mapping" : [{
-        "identity" : "rim",
-        "map" : "N/A"
       }]
     },
     {
@@ -2573,7 +2425,7 @@
     {
       "id" : "Immunization.programEligibility",
       "path" : "Immunization.programEligibility",
-      "short" : "Indica la elegibilidad de un paciente para un programa de financiamiento",
+      "short" : "Corresponde al Id del criterio de elegibilidad de la vacuna administrada",
       "definition" : "Indica la elegibilidad de un paciente para un programa de financiamiento",
       "min" : 0,
       "max" : "*",
@@ -2607,6 +2459,445 @@
       {
         "identity" : "rim",
         "map" : "N/A"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.id",
+      "path" : "Immunization.programEligibility.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.extension",
+      "path" : "Immunization.programEligibility.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding",
+      "path" : "Immunization.programEligibility.coding",
+      "short" : "Code defined by a terminology system",
+      "definition" : "A reference to a code defined by a terminology system.",
+      "comment" : "Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.",
+      "requirements" : "Allows for alternative encodings within a code system, and translations to other code systems.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "CodeableConcept.coding",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Coding"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.1-8, C*E.10-22"
+      },
+      {
+        "identity" : "rim",
+        "map" : "union(., ./translation)"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:CodeableConcept.coding rdfs:subPropertyOf dt:CD.coding"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.id",
+      "path" : "Immunization.programEligibility.coding.id",
+      "representation" : ["xmlAttr"],
+      "short" : "Unique id for inter-element referencing",
+      "definition" : "Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Element.id",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type",
+          "valueUrl" : "string"
+        }],
+        "code" : "http://hl7.org/fhirpath/System.String"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.extension",
+      "path" : "Immunization.programEligibility.coding.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "description" : "Extensions are always sliced by (at least) url",
+        "rules" : "open"
+      },
+      "short" : "Additional content defined by implementations",
+      "definition" : "May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.",
+      "comment" : "There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.",
+      "alias" : ["extensions",
+      "user content"],
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Element.extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "type" : [{
+        "code" : "Extension"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      },
+      {
+        "key" : "ext-1",
+        "severity" : "error",
+        "human" : "Must have either extensions or value[x], not both",
+        "expression" : "extension.exists() != value.exists()",
+        "xpath" : "exists(f:extension)!=exists(f:*[starts-with(local-name(.), \"value\")])",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Extension"
+      }],
+      "isModifier" : false,
+      "isSummary" : false,
+      "mapping" : [{
+        "identity" : "rim",
+        "map" : "n/a"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.system",
+      "path" : "Immunization.programEligibility.coding.system",
+      "short" : "Identity of the terminology system",
+      "definition" : "The identification of the code system that defines the meaning of the symbol in the code.",
+      "comment" : "The URI may be an OID (urn:oid:...) or a UUID (urn:uuid:...).  OIDs and UUIDs SHALL be references to the HL7 OID registry. Otherwise, the URI should come from HL7's list of FHIR defined special URIs or it should reference to some definition that establishes the system clearly and unambiguously.",
+      "requirements" : "Need to be unambiguous about the source of the definition of the symbol.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Coding.system",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "uri"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.3"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./codeSystem"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding.system rdfs:subPropertyOf dt:CDCoding.codeSystem"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.version",
+      "path" : "Immunization.programEligibility.coding.version",
+      "short" : "Version of the system - if relevant",
+      "definition" : "The version of the code system which was used when choosing this code. Note that a well-maintained code system does not need the version reported, because the meaning of codes is consistent across versions. However this cannot consistently be assured, and when the meaning is not guaranteed to be consistent, the version SHOULD be exchanged.",
+      "comment" : "Where the terminology does not clearly define what string should be used to identify code system versions, the recommendation is to use the date (expressed in FHIR date format) on which that version was officially published as the version date.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Coding.version",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.7"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./codeSystemVersion"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding.version rdfs:subPropertyOf dt:CDCoding.codeSystemVersion"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.code",
+      "path" : "Immunization.programEligibility.coding.code",
+      "short" : "Código identificador del criterio",
+      "definition" : "A symbol in syntax defined by the system. The symbol may be a predefined code or an expression in a syntax defined by the coding system (e.g. post-coordination).",
+      "requirements" : "Need to refer to a particular code in the system.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Coding.code",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "mustSupport" : true,
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.1"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./code"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding.code rdfs:subPropertyOf dt:CDCoding.code"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.display",
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+        "valueBoolean" : true
+      }],
+      "path" : "Immunization.programEligibility.coding.display",
+      "short" : "Descripción del programa asociado al identificador del criterio",
+      "definition" : "A representation of the meaning of the code in the system, following the rules of the system.",
+      "requirements" : "Need to be able to carry a human-readable meaning of the code for readers that do not know  the system.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Coding.display",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "mustSupport" : true,
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.2 - but note this is not well followed"
+      },
+      {
+        "identity" : "rim",
+        "map" : "CV.displayName"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding.display rdfs:subPropertyOf dt:CDCoding.displayName"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.userSelected",
+      "path" : "Immunization.programEligibility.coding.userSelected",
+      "short" : "If this coding was chosen directly by the user",
+      "definition" : "Indicates that this coding was chosen by a user directly - e.g. off a pick list of available items (codes or displays).",
+      "comment" : "Amongst a set of alternatives, a directly chosen code is the most appropriate starting point for new translations. There is some ambiguity about what exactly 'directly chosen' implies, and trading partner agreement may be needed to clarify the use of this element and its consequences more completely.",
+      "requirements" : "This has been identified as a clinical safety criterium - that this exact system/code pair was chosen explicitly, rather than inferred by the system based on some rules or language processing.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Coding.userSelected",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "Sometimes implied by being first"
+      },
+      {
+        "identity" : "rim",
+        "map" : "CD.codingRationale"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:Coding.userSelected fhir:mapsTo dt:CDCoding.codingRationale. fhir:Coding.userSelected fhir:hasMap fhir:Coding.userSelected.map. fhir:Coding.userSelected.map a fhir:Map;   fhir:target dt:CDCoding.codingRationale. fhir:Coding.userSelected\\#true a [     fhir:source \"true\";     fhir:target dt:CDCoding.codingRationale\\#O   ]"
+      }]
+    },
+    {
+      "id" : "Immunization.programEligibility.text",
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable",
+        "valueBoolean" : true
+      }],
+      "path" : "Immunization.programEligibility.text",
+      "short" : "Plain text representation of the concept",
+      "definition" : "A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.",
+      "comment" : "Very often the text is the same as a displayName of one of the codings.",
+      "requirements" : "The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "CodeableConcept.text",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }],
+      "constraint" : [{
+        "key" : "ele-1",
+        "severity" : "error",
+        "human" : "All FHIR elements must have a @value or children",
+        "expression" : "hasValue() or (children().count() > id.count())",
+        "xpath" : "@value|f:*|h:div",
+        "source" : "http://hl7.org/fhir/StructureDefinition/Element"
+      }],
+      "isModifier" : false,
+      "isSummary" : true,
+      "mapping" : [{
+        "identity" : "v2",
+        "map" : "C*E.9. But note many systems use C*E.2 for this"
+      },
+      {
+        "identity" : "rim",
+        "map" : "./originalText[mediaType/code=\"text/plain\"]/data"
+      },
+      {
+        "identity" : "orim",
+        "map" : "fhir:CodeableConcept.text rdfs:subPropertyOf dt:CD.originalText"
       }]
     },
     {
@@ -2868,8 +3159,8 @@
     {
       "id" : "Immunization.reaction.reported",
       "path" : "Immunization.reaction.reported",
-      "short" : "Indicates self-reported reaction",
-      "definition" : "Self-reported indicator.",
+      "short" : "Indica si se reporto reacción adversa a la vacuna",
+      "definition" : "Reporte de reacción adversa a la vacuna",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -3229,20 +3520,57 @@
       }
     },
     {
-      "id" : "Immunization.extension:campana",
+      "id" : "Immunization.extension:ClaseVacuna",
       "path" : "Immunization.extension",
-      "sliceName" : "campana",
+      "sliceName" : "ClaseVacuna",
       "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/NombreCampana"]
-      }]
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ClaseVacuna"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Immunization.extension:Campana",
+      "path" : "Immunization.extension",
+      "sliceName" : "Campana",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Campana"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Immunization.extension:Dosis",
+      "path" : "Immunization.extension",
+      "sliceName" : "Dosis",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/Dosis"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Immunization.extension:ProxFecha",
+      "path" : "Immunization.extension",
+      "sliceName" : "ProxFecha",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProxFecha"]
+      }],
+      "mustSupport" : true
     },
     {
       "id" : "Immunization.identifier",
       "path" : "Immunization.identifier",
-      "short" : "Identificador(es) por los que se conoce este registro de Inmunización",
+      "short" : "Identificador(es) por los que se conoce este registro de Inmunización. En el caso del sistema público correspondería al ID del Registro de Inmunización",
       "definition" : "Es el número de identificación del evento donde a un paciente se le administra una vacuna o registro de inmunización",
       "mustSupport" : true
     },
@@ -3261,47 +3589,34 @@
       "path" : "Immunization.statusReason",
       "short" : "Razón de no realizarse la inmunización",
       "definition" : "Indica la razón por la que no se realizó el evento de inmunización",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "example",
+        "valueSet" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm"
+      }
+    },
+    {
+      "id" : "Immunization.statusReason.text",
+      "path" : "Immunization.statusReason.text",
+      "short" : "Descripción de la razon por la cual noi se produjo la inmunizción",
       "mustSupport" : true
-    },
-    {
-      "id" : "Immunization.statusReason.extension",
-      "path" : "Immunization.statusReason.extension",
-      "short" : "Motivo de no realizar la inmunización"
-    },
-    {
-      "id" : "Immunization.statusReason.extension:statusReason",
-      "path" : "Immunization.statusReason.extension",
-      "sliceName" : "statusReason",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RazonNOrealizarseInm"]
-      }]
     },
     {
       "id" : "Immunization.vaccineCode",
       "path" : "Immunization.vaccineCode",
       "short" : "Vacuna que se administró o se iba a administrar",
       "definition" : "Vacuna que se administró o se iba a administrar. Se proporciona valores que utilizan en el RNI (Registro Nacional de Inmunizaciones)",
+      "mustSupport" : true,
+      "binding" : {
+        "strength" : "example",
+        "valueSet" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas"
+      }
+    },
+    {
+      "id" : "Immunization.vaccineCode.text",
+      "path" : "Immunization.vaccineCode.text",
+      "short" : "Nombre normalizado a nivel nacional de la vacuna",
       "mustSupport" : true
-    },
-    {
-      "id" : "Immunization.vaccineCode.extension",
-      "path" : "Immunization.vaccineCode.extension",
-      "short" : "Nombre de vacuna administrada",
-      "min" : 1
-    },
-    {
-      "id" : "Immunization.vaccineCode.extension:tipov",
-      "path" : "Immunization.vaccineCode.extension",
-      "sliceName" : "tipov",
-      "min" : 1,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/TiposVacunaRNI"]
-      }]
     },
     {
       "id" : "Immunization.patient",
@@ -3324,26 +3639,45 @@
         }],
         "ordered" : false,
         "rules" : "open"
-      }
+      },
+      "short" : "Momento de administración de la vacuna",
+      "definition" : "Momento en la que se realiza la inmunización o se administra la vacuna",
+      "mustSupport" : true
     },
     {
       "id" : "Immunization.occurrence[x]:occurrenceDateTime",
       "path" : "Immunization.occurrence[x]",
       "sliceName" : "occurrenceDateTime",
-      "short" : "Fecha de administración de la vacuna",
-      "definition" : "Fecha y hora en la que se realiza la inmunización o se administra la vacuna",
+      "short" : "Fecha y hora de la administración",
       "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "dateTime"
-      }],
-      "mustSupport" : true
+      }]
+    },
+    {
+      "id" : "Immunization.occurrence[x]:occurrenceString",
+      "path" : "Immunization.occurrence[x]",
+      "sliceName" : "occurrenceString",
+      "short" : "Momento de la administración",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
     },
     {
       "id" : "Immunization.recorded",
       "path" : "Immunization.recorded",
-      "short" : "Cuando la inmunización se capturó por primera vez en el registro del sujeto",
+      "short" : "Cuando se realizo el regstro del la inmunización",
       "definition" : "La fecha en que se registró por primera vez la ocurrencia de la inmunización, potencialmente significativamente después de la ocurrencia del evento",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Immunization.reportOrigin",
+      "path" : "Immunization.reportOrigin",
+      "short" : "Fuente de registro",
+      "definition" : "También pude ser considerado como registro secundario",
       "mustSupport" : true
     },
     {
@@ -3351,28 +3685,11 @@
       "path" : "Immunization.location",
       "short" : "Dónde se produjo la inmunización",
       "definition" : "El lugar donde se produjo la administración de la vacuna",
-      "min" : 1,
       "type" : [{
         "code" : "Reference",
         "targetProfile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CoreLocalizacionCl"]
       }],
       "mustSupport" : true
-    },
-    {
-      "id" : "Immunization.location.extension",
-      "path" : "Immunization.location.extension",
-      "short" : "Extensión para los Sistemas de Salud, por ejemplo: S.S Viña del mar Quillota"
-    },
-    {
-      "id" : "Immunization.location.extension:ssalud",
-      "path" : "Immunization.location.extension",
-      "sliceName" : "ssalud",
-      "min" : 0,
-      "max" : "1",
-      "type" : [{
-        "code" : "Extension",
-        "profile" : ["https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ServicioSalud"]
-      }]
     },
     {
       "id" : "Immunization.lotNumber",
@@ -3410,13 +3727,25 @@
     {
       "id" : "Immunization.programEligibility",
       "path" : "Immunization.programEligibility",
-      "short" : "Indica la elegibilidad de un paciente para un programa de financiamiento",
+      "short" : "Corresponde al Id del criterio de elegibilidad de la vacuna administrada",
       "definition" : "Indica la elegibilidad de un paciente para un programa de financiamiento",
       "mustSupport" : true,
       "binding" : {
         "strength" : "example",
         "valueSet" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility"
       }
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.code",
+      "path" : "Immunization.programEligibility.coding.code",
+      "short" : "Código identificador del criterio",
+      "mustSupport" : true
+    },
+    {
+      "id" : "Immunization.programEligibility.coding.display",
+      "path" : "Immunization.programEligibility.coding.display",
+      "short" : "Descripción del programa asociado al identificador del criterio",
+      "mustSupport" : true
     },
     {
       "id" : "Immunization.reaction",
@@ -3429,6 +3758,12 @@
       "path" : "Immunization.reaction.date",
       "short" : "Cuándo comenzó la reacción",
       "definition" : "Fecha de reacción a la inmunización"
+    },
+    {
+      "id" : "Immunization.reaction.reported",
+      "path" : "Immunization.reaction.reported",
+      "short" : "Indica si se reporto reacción adversa a la vacuna",
+      "definition" : "Reporte de reacción adversa a la vacuna"
     },
     {
       "id" : "Immunization.protocolApplied",

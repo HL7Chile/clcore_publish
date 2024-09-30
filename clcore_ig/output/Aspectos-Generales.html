@@ -42,6 +42,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -53,8 +54,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -64,14 +65,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"3"
+            --heading-prefix:"4"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"3"
+            --heading-prefix:"4"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -97,7 +98,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -135,10 +136,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -187,7 +204,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Generalidades</h2>
   
 
@@ -232,12 +249,12 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Al revisar un perfil nos encontramos con la posibilidad de ver múltiples vistas de este.</p>
 
-<h5 id="resumen-de-texto">Resumen de Texto</h5>
+<h5 id="statisticsreferences">Statistics/References</h5>
 
 <p>Esta vista permite ver un resumen del Perfil como de que recurso proviene elementos <em>mandatorios</em>, <em>eliminados</em> y que deben ser <em>soportados</em>. Además, resume las <em>extensiones</em> y <em>slices</em> generados en el diseño.
 <br /></p>
 <div align="center">
-  <img style="border: 1px solid; color: black;" src="Resumen.png" /> 
+  <img style="border: 1px solid; color: black;" src="Stactics-Reference.png" /> 
   <p>Visión Resumen de un Perfil</p>
 </div>
 <p><br /></p>
@@ -266,14 +283,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div>
 <p><br /></p>
 
-<h5 id="vista-snapshot-must-support">Vista Snapshot (Must Support)</h5>
+<h5 id="vista-key-elements">Vista Key Elements</h5>
 
-<p>En la vista <strong>Snapshot Table (Must Support)</strong>, todos los elementos presentados en la vista son obligatorios o deben ser compatibles con el perfil.</p>
+<p>En la vista <strong>Key Elements Table</strong>, todos los elementos presentados en la vista son obligatorios o deben ser compatibles con el perfil.</p>
 
 <p><br /></p>
 <div align="center">
   <img style="border: 1px solid; color: black;" src="SnapMS.png" /> 
-  <p>Vista Snapshot (Must Support) de un perfil</p>
+  <p>Vista Key Elements de un perfil</p>
 </div>
 
 <h3 id="definición-del-conjunto-mínimo-de-datos">Definición del Conjunto Mínimo de Datos</h3>
@@ -427,97 +444,266 @@ Además cada ejemplo viene descrito en 4 formatos:
 </ul>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
-  "resourceType" : "Patient",
-  "id" : "PacienteCL",
-  "meta" : {
-    "profile" : [
-      "http://core.hl7chile.cl/StructureDefinition/CorePacienteCl"
+  "resourceType": "Patient",
+  "id": "PacienteCL",
+  "meta": {
+    "profile": [
+      "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CorePacienteCl"
     ]
   },
-  "text" : {
-    "status" : "generated",
-    "div" : "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;p&gt;&lt;b&gt;Generated Narrative&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;identifier&lt;/b&gt;: NNCH: 15.236.327-k (OFFICIAL)&lt;/p&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Marietta María Ximena Rosales (OFFICIAL), Xime &lt;/p&gt;&lt;p&gt;&lt;b&gt;telecom&lt;/b&gt;: ph: 943561833(MOBILE), &lt;a href=\"mailto:mariRosal@mimail.com\"&gt;mariRosal@mimail.com&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: female&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1983-03-24&lt;/p&gt;&lt;p&gt;&lt;b&gt;address&lt;/b&gt;: Av Los Chirimoyos, 32, casa 4 5101 5 152 (HOME)&lt;/p&gt;&lt;/div&gt;"
-  },
-  "identifier" : [
+  "name": [
     {
-      "use" : "official",
-      "type" : {
-        "extension" : [
+      "use": "official",
+      "family": "Rosales",
+      "_family": {
+        "extension": [
           {
-            "url" : "http://core.hl7chile.cl/StructureDefinition/CodigoPaises",
-            "valueCodeableConcept" : {
-              "coding" : [
-                {
-                  "code" : "152",
-                  "display" : "Chile"
-                }
-              ]
-            }
-          }
-        ],
-        "coding" : [
-          {
-            "code" : "NNCH"
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+            "valueString": "Bosh"
           }
         ]
       },
-      "value" : "15.236.327-k"
-    }
-  ],
-  "active" : true,
-  "name" : [
-    {
-      "use" : "official",
-      "family" : "Rosales",
-      "_family" : {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
-            "valueString" : "Bosh"
-          }
-        ]
-      },
-      "given" : [
+      "given": [
         "Marietta",
         "María",
         "Ximena"
       ]
     },
     {
-      "use" : "usual",
-      "given" : [
+      "use": "usual",
+      "given": [
         "Xime"
       ]
     }
   ],
-  "telecom" : [
+  "contact": [
     {
-      "system" : "phone",
-      "value" : "943561833",
-      "use" : "mobile"
-    },
-    {
-      "system" : "email",
-      "value" : "mariRosal@mimail.com",
-      "use" : "work"
+      "name": {
+        "use": "official",
+        "family": "Calleja",
+        "_family": {
+          "extension": [
+            {
+              "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SegundoApellido",
+              "valueString": "Morales"
+            }
+          ]
+        },
+        "given": [
+          "Juana",
+          "Josefa"
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdContacto",
+          "extension": [
+            {
+              "url": "tutId",
+              "valueIdentifier": {
+                "type": {
+                  "coding": [
+                    {
+                      "code": "NNCHL",
+                      "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
+                      "display": "Chile"
+                    }
+                  ]
+                },
+                "system": "http://regcivil.cl/Validacion/RUN",
+                "value": "8987321-7"
+              }
+            },
+            {
+              "url": "docProc",
+              "valueCodeableConcept": {
+                "coding": [
+                  {
+                    "code": "152",
+                    "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+                    "display": "Chile"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "relationship": [
+        {
+          "coding": [
+            {
+              "code": "N",
+              "system": "http://terminology.hl7.org/CodeSystem/v2-0131",
+              "display": "Next-of-Kin"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "gender" : "female",
-  "birthDate" : "1983-03-24",
-  "address" : [
+  "extension": [
     {
-      "use" : "home",
-      "line" : [
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/IdentidadDeGenero",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "1",
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentidaddeGenero",
+            "display": "Masculino"
+          }
+        ]
+      }
+    },
+    {
+      "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/SexoBiologico",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "male",
+            "system": "http://hl7.org/fhir/administrative-gender",
+            "display": "Male"
+          }
+        ]
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "use": "official",
+      "type": {
+        "extension": [
+          {
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "152",
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+                  "display": "Chile"
+                }
+              ]
+            }
+          }
+        ],
+        "coding": [
+          {
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoDNI",
+            "code": "NNCHL",
+            "display": "Chile"
+          }
+        ]
+      },
+      "system": "http://regcivil.cl/Validacion/RUN",
+      "value": "15.236.327-k"
+    }
+  ],
+  "active": true,
+  "telecom": [
+    {
+      "system": "phone",
+      "use": "mobile",
+      "value": "943561833"
+    },
+    {
+      "system": "email",
+      "use": "work",
+      "value": "mariRosal@mimail.com"
+    }
+  ],
+  "gender": "female",
+  "birthDate": "1983-03-24",
+  "address": [
+    {
+      "use": "home",
+      "line": [
         "Av Los Chirimoyos, 32, casa 4"
       ],
-      "city" : "5101",
-      "district" : "051",
-      "state" : "5",
-      "country" : "152"
+      "_city": {
+        "extension": [
+          {
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ComunasCl",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "05602",
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodComunasCL",
+                  "display": "Algarrobo"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "_district": {
+        "extension": [
+          {
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/ProvinciasCl",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "056",
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL",
+                  "display": "San Antonio"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "_state": {
+        "extension": [
+          {
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/RegionesCl",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "05",
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodRegionCL",
+                  "display": "Valparaíso"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "_country": {
+        "extension": [
+          {
+            "url": "https://hl7chile.cl/fhir/ig/clcore/StructureDefinition/CodigoPaises",
+            "valueCodeableConcept": {
+              "coding": [
+                {
+                  "code": "152",
+                  "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais",
+                  "display": "Chile"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "communication": [
+    {
+      "language": {
+        "coding": [
+          {
+            "code": "es-CL",
+            "system": "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje",
+            "display": "Spanish"
+          }
+        ]
+      }
+    }
+  ],
+  "generalPractitioner": [
+    {
+      "reference": "Organization/OrganizacionClEjemplo1"
     }
   ]
 }
-
 </code></pre></div></div>
 
 
@@ -532,20 +718,14 @@ Además cada ejemplo viene descrito en 4 formatos:
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -562,7 +742,7 @@ Además cada ejemplo viene descrito en 4 formatos:
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -572,101 +752,7 @@ Además cada ejemplo viene descrito en 4 formatos:
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

@@ -42,6 +42,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -53,8 +54,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -64,14 +65,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.32"
+            --heading-prefix:"6.32"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.32"
+            --heading-prefix:"6.32"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -97,7 +98,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -135,10 +136,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -180,7 +197,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -226,7 +243,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">1.8.7<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje|1.8.7"/></span>
+      <span class="copy-text">1.9.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje|1.9.1"/></span>
       </td>
     </tr>
 
@@ -286,65 +303,66 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-CSCodigoslenguaje.html"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</code></a></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet VSCodigoslenguaje</b></p><a name="VSCodigoslenguaje"> </a><a name="hcVSCodigoslenguaje"> </a><a name="VSCodigoslenguaje-es-CL"> </a>
+<ul><li>Include all codes defined in <a href="CodeSystem-CSCodigoslenguaje.html"><code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</code></a></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSCodigoslenguaje.html">codesystem Codigos Lenguaje v1.8.7 (CodeSystem)</a></p><p>This value set contains 53 concepts.</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ar-SA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ar-SA">ar-SA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Arabic</td><td><div><p>Saudi Arabia, Arabic (Saudi Arabia)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-bn-BD"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-bn-BD">bn-BD</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Bangla</td><td><div><p>Bangladesh, Bangla (Bangladesh)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-bn-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-bn-IN">bn-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Bangla</td><td><div><p>India, Bangla (India)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-cs-CZ"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-cs-CZ">cs-CZ</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Czech</td><td><div><p>Czech Republic, Czech (Czech Republic)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-da-DK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-da-DK">da-DK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Danish</td><td><div><p>Denmark, Danish (Denmark)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-de-AT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-AT">de-AT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Austria, Austrian German</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-de-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-CH">de-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Switzerland, Swiss German</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-de-DE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-DE">de-DE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Germany, Standard German (as spoken in Germany)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-el-GR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-el-GR">el-GR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Greek</td><td><div><p>Greece, Modern Greek</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-AU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-AU">en-AU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Australia, Australian English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-CA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-CA">en-CA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Canada, Canadian English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-GB"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-GB">en-GB</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>United Kingdom, British English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-IE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-IE">en-IE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Ireland, Irish English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-IN">en-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>India, Indian English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-NZ"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-NZ">en-NZ</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>New Zealand, New Zealand English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-US"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-US">en-US</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>United States, US English</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-en-ZA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-ZA">en-ZA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>South Africa, English (South Africa)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-AR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-AR">es-AR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Argentina, Argentine Spanish</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-CL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-CL">es-CL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Chile, Chilean Spanish</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-CO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-CO">es-CO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Columbia, Colombian Spanish</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-ES"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-ES">es-ES</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Spain, Castilian Spanish (as spoken in Central-Northern Spain)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-MX"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-MX">es-MX</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Mexico, Mexican Spanish</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-es-US"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-US">es-US</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>United States, American Spanish</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-fi-FI"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fi-FI">fi-FI</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Finnish</td><td><div><p>Finland, Finnish (Finland)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-fr-BE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-BE">fr-BE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Belgium, Belgian French</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-fr-CA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-CA">fr-CA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Canada, Canadian French</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-fr-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-CH">fr-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Switzerland, Swiss French</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-fr-FR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-FR">fr-FR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>France, Standard French (especially in France)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-he-IL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-he-IL">he-IL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hebrew</td><td><div><p>Israel, Hebrew (Israel)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-hi-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-hi-IN">hi-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hindi</td><td><div><p>India, Hindi (India)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-hu-HU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-hu-HU">hu-HU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hungarian</td><td><div><p>Hungary, Hungarian (Hungary)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-id-ID"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-id-ID">id-ID</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Indonesian</td><td><div><p>Indonesia, Indonesian (Indonesia)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-it-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-it-CH">it-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Italian</td><td><div><p>Switzerland, Swiss Italian</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-it-IT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-it-IT">it-IT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Italian</td><td><div><p>Italy, Standard Italian (as spoken in Italy)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-jp-JP"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-jp-JP">jp-JP</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Japanese</td><td><div><p>Japan, Japanese (Japan)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ko-KR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ko-KR">ko-KR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Korean</td><td><div><p>Republic of Korea, Korean (Republic of Korea)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-nl-BE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-nl-BE">nl-BE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Dutch</td><td><div><p>Belgium, Belgian Dutch</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-nl-NL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-nl-NL">nl-NL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Dutch</td><td><div><p>The Netherlands, Standard Dutch (as spoken in The Netherlands)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-no-NO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-no-NO">no-NO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Norwegian</td><td><div><p>Norway, Norwegian (Norway)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-pl-PL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pl-PL">pl-PL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Polish</td><td><div><p>Poland, Polish (Poland)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-pt-BR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pt-BR">pt-BR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Portugese</td><td><div><p>Brazil, Brazilian Portuguese</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-pt-PT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pt-PT">pt-PT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Portugese</td><td><div><p>Portugal, European Portuguese (as written and spoken in Portugal)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ro-RO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ro-RO">ro-RO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Romanian</td><td><div><p>Romania, Romanian (Romania)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ru-RU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ru-RU">ru-RU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Russian</td><td><div><p>Russian Federation, Russian (Russian Federation)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-sk-SK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-sk-SK">sk-SK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Slovak</td><td><div><p>Slovakia, Slovak (Slovakia)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-sv-SE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-sv-SE">sv-SE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Swedish</td><td><div><p>Sweden, Swedish (Sweden)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ta-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ta-IN">ta-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Tamil</td><td><div><p>India, Indian Tamil</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-ta-LK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ta-LK">ta-LK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Tamil</td><td><div><p>Sri Lanka, Sri Lankan Tamil</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-th-TH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-th-TH">th-TH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Thai</td><td><div><p>Thailand, Thai (Thailand)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-tr-TR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-tr-TR">tr-TR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Turkish</td><td><div><p>Turkey, Turkish (Turkey)</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-zh-CN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-CN">zh-CN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>China, Mainland China, simplified characters</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-zh-HK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-HK">zh-HK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>Hond Kong, Hong Kong, traditional characters</p>
-</div></td></tr><tr><td style="white-space:nowrap"><a name="https---hl7chile.cl-fhir-ig-clcore-CodeSystem-CSCodigoslenguaje-zh-TW"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-TW">zh-TW</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>Taiwan, Taiwan, traditional characters</p>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet </b></p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="CodeSystem-CSCodigoslenguaje.html">codesystem Codigos Lenguaje v1.9.1 (CodeSystem)</a></p><p>This value set contains 53 concepts</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ar-SA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ar-SA">ar-SA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Arabic</td><td><div><p>Saudi Arabia, Arabic (Saudi Arabia)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-bn-BD"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-bn-BD">bn-BD</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Bangla</td><td><div><p>Bangladesh, Bangla (Bangladesh)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-bn-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-bn-IN">bn-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Bangla</td><td><div><p>India, Bangla (India)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-cs-CZ"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-cs-CZ">cs-CZ</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Czech</td><td><div><p>Czech Republic, Czech (Czech Republic)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-da-DK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-da-DK">da-DK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Danish</td><td><div><p>Denmark, Danish (Denmark)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-de-AT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-AT">de-AT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Austria, Austrian German</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-de-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-CH">de-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Switzerland, Swiss German</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-de-DE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-de-DE">de-DE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>German</td><td><div><p>Germany, Standard German (as spoken in Germany)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-el-GR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-el-GR">el-GR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Greek</td><td><div><p>Greece, Modern Greek</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-AU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-AU">en-AU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Australia, Australian English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-CA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-CA">en-CA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Canada, Canadian English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-GB"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-GB">en-GB</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>United Kingdom, British English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-IE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-IE">en-IE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>Ireland, Irish English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-IN">en-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>India, Indian English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-NZ"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-NZ">en-NZ</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>New Zealand, New Zealand English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-US"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-US">en-US</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>United States, US English</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-en-ZA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-en-ZA">en-ZA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>English</td><td><div><p>South Africa, English (South Africa)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-AR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-AR">es-AR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Argentina, Argentine Spanish</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-CL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-CL">es-CL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Chile, Chilean Spanish</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-CO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-CO">es-CO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Columbia, Colombian Spanish</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-ES"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-ES">es-ES</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Spain, Castilian Spanish (as spoken in Central-Northern Spain)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-MX"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-MX">es-MX</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>Mexico, Mexican Spanish</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-es-US"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-es-US">es-US</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Spanish</td><td><div><p>United States, American Spanish</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-fi-FI"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fi-FI">fi-FI</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Finnish</td><td><div><p>Finland, Finnish (Finland)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-fr-BE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-BE">fr-BE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Belgium, Belgian French</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-fr-CA"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-CA">fr-CA</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Canada, Canadian French</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-fr-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-CH">fr-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>Switzerland, Swiss French</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-fr-FR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-fr-FR">fr-FR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>French</td><td><div><p>France, Standard French (especially in France)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-he-IL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-he-IL">he-IL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hebrew</td><td><div><p>Israel, Hebrew (Israel)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-hi-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-hi-IN">hi-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hindi</td><td><div><p>India, Hindi (India)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-hu-HU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-hu-HU">hu-HU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Hungarian</td><td><div><p>Hungary, Hungarian (Hungary)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-id-ID"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-id-ID">id-ID</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Indonesian</td><td><div><p>Indonesia, Indonesian (Indonesia)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-it-CH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-it-CH">it-CH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Italian</td><td><div><p>Switzerland, Swiss Italian</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-it-IT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-it-IT">it-IT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Italian</td><td><div><p>Italy, Standard Italian (as spoken in Italy)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-jp-JP"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-jp-JP">jp-JP</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Japanese</td><td><div><p>Japan, Japanese (Japan)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ko-KR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ko-KR">ko-KR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Korean</td><td><div><p>Republic of Korea, Korean (Republic of Korea)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-nl-BE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-nl-BE">nl-BE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Dutch</td><td><div><p>Belgium, Belgian Dutch</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-nl-NL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-nl-NL">nl-NL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Dutch</td><td><div><p>The Netherlands, Standard Dutch (as spoken in The Netherlands)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-no-NO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-no-NO">no-NO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Norwegian</td><td><div><p>Norway, Norwegian (Norway)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-pl-PL"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pl-PL">pl-PL</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Polish</td><td><div><p>Poland, Polish (Poland)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-pt-BR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pt-BR">pt-BR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Portugese</td><td><div><p>Brazil, Brazilian Portuguese</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-pt-PT"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-pt-PT">pt-PT</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Portugese</td><td><div><p>Portugal, European Portuguese (as written and spoken in Portugal)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ro-RO"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ro-RO">ro-RO</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Romanian</td><td><div><p>Romania, Romanian (Romania)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ru-RU"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ru-RU">ru-RU</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Russian</td><td><div><p>Russian Federation, Russian (Russian Federation)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-sk-SK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-sk-SK">sk-SK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Slovak</td><td><div><p>Slovakia, Slovak (Slovakia)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-sv-SE"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-sv-SE">sv-SE</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Swedish</td><td><div><p>Sweden, Swedish (Sweden)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ta-IN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ta-IN">ta-IN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Tamil</td><td><div><p>India, Indian Tamil</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-ta-LK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-ta-LK">ta-LK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Tamil</td><td><div><p>Sri Lanka, Sri Lankan Tamil</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-th-TH"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-th-TH">th-TH</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Thai</td><td><div><p>Thailand, Thai (Thailand)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-tr-TR"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-tr-TR">tr-TR</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Turkish</td><td><div><p>Turkey, Turkish (Turkey)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-zh-CN"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-CN">zh-CN</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>China, Mainland China, simplified characters</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-zh-HK"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-HK">zh-HK</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>Hond Kong, Hong Kong, traditional characters</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="x-https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje-zh-TW"> </a>  <a href="CodeSystem-CSCodigoslenguaje.html#CSCodigoslenguaje-zh-TW">zh-TW</a></td><td>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoslenguaje</td><td>Chinese</td><td><div><p>Taiwan, Taiwan, traditional characters</p>
 </div></td></tr></table></div>
 
   <hr/>
@@ -397,20 +415,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -427,7 +439,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -437,101 +449,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

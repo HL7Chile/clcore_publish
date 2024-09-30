@@ -44,6 +44,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -55,8 +56,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -66,14 +67,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.95"
+            --heading-prefix:"6.86"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.95"
+            --heading-prefix:"6.86"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -99,7 +100,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -137,10 +138,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -182,7 +199,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -232,8 +249,7 @@
 
 
 
-  <pre class="xml" style="white-space: pre; text-wrap: nowrap;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
-
+  <pre class="xml" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition">Condition</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;DiagnosticoEj&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.meta">meta</a>&gt;
@@ -242,7 +258,7 @@
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: Condition&lt;/b&gt;&lt;a name=&quot;DiagnosticoEj&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%&quot;&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Resource Condition &amp;quot;DiagnosticoEj&amp;quot; &lt;/p&gt;&lt;p style=&quot;margin-bottom: 0px&quot;&gt;Profile: &lt;a href=&quot;StructureDefinition-CoreDiagnosticoCl.html&quot;&gt;CL Condición-Diagnóstico&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: Active &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://terminology.hl7.org/5.3.0/CodeSystem-condition-clinical.html&quot;&gt;Condition Clinical Status Codes&lt;/a&gt;#active)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: Confirmed &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;http://terminology.hl7.org/5.3.0/CodeSystem-condition-ver-status.html&quot;&gt;ConditionVerificationStatus&lt;/a&gt;#confirmed)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: Diagnóstico de Hipertensión Confirmada &lt;span style=&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki&quot;&gt; (&lt;a href=&quot;https://browser.ihtsdotools.org/&quot;&gt;SNOMED CT&lt;/a&gt;#38341003 &amp;quot;High blood pressure&amp;quot;)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-11.html&quot;&gt;Patient/11&lt;/a&gt; &amp;quot;&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;onset&lt;/b&gt;: 2022-08-07&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: Condition DiagnosticoEj&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;DiagnosticoEj&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcDiagnosticoEj&quot;&gt; &lt;/a&gt;&lt;a name=&quot;DiagnosticoEj-es-CL&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;clinicalStatus&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}&quot;&gt;Activo&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;verificationStatus&lt;/b&gt;: &lt;span title=&quot;Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status confirmed}&quot;&gt;Confirmado&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;code&lt;/b&gt;: &lt;span title=&quot;Codes:{http://snomed.info/sct 38341003}&quot;&gt;Diagnóstico de Hipertensión Confirmada&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;subject&lt;/b&gt;: &lt;a href=&quot;Patient-PacienteCL.html&quot;&gt;Xime  Female, DoB: 1983-03-24 ( Chile: 15.236.327-k (use: official, ))&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;onset&lt;/b&gt;: 2022-08-07&lt;/p&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/text&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.clinicalStatus">clinicalStatus</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -251,6 +267,7 @@
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Active&quot;/&gt;
     &lt;/coding&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Activo&quot;/&gt;
   &lt;/clinicalStatus&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.verificationStatus">verificationStatus</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -259,6 +276,7 @@
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;confirmed&quot;/&gt;
       &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Confirmed&quot;/&gt;
     &lt;/coding&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Confirmado&quot;/&gt;
   &lt;/verificationStatus&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.code">code</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>&gt;
@@ -268,8 +286,8 @@
     &lt;/coding&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">text</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Diagnóstico de Hipertensión Confirmada&quot;/&gt;
   &lt;/code&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.subject">subject</a>&gt;<a href="Patient-11.html" style="color: Maroon">&#x1F517;</a> 
-    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/11&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.subject">subject</a>&gt;<a href="Patient-PacienteCL.html" style="color: Maroon">&#x1F517;</a> 
+    &lt;<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Patient/PacienteCL&quot;/&gt;
   &lt;/subject&gt;
   &lt;<a href="http://hl7.org/fhir/R4/condition.html#Condition.onset[x]">onsetDateTime</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2022-08-07&quot;/&gt;
 &lt;/Condition&gt;</code></pre>
@@ -289,20 +307,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -319,7 +331,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -329,101 +341,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

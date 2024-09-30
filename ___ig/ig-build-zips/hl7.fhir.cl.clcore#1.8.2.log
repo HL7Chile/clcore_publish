@@ -1,0 +1,409 @@
+FHIR IG Publisher Version 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (35 hours old)
+Detected Java version: 20.0.1 from /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home on aarch64 (64bit). 4096MB available
+dir = /Users/jorgemansilla/IGs/GG/clcore_publish, path = /opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+Parameters: -go-publish -source /Users/jorgemansilla/IGs/GG/clcore_publish/clcore/ -web /Users/jorgemansilla/IGs/GG/clcore_publish/ig/ -registry /Users/jorgemansilla/IGs/GG/clcore_publish/ig-registry-master/fhir-ig-list.json -history /Users/jorgemansilla/IGs/GG/clcore_publish/fhir-ig-history-template-master/ -temp /Users/jorgemansilla/IGs/GG/clcore_publish/temp -templates /Users/jorgemansilla/IGs/GG/clcore_publish/ig/templates
+---------------
+Publication Run: publish /Users/jorgemansilla/IGs/GG/clcore_publish/clcore/ to /Users/jorgemansilla/IGs/GG/clcore_publish/ig/
+Run Number: 5
+Relative directory for IG is '/clcore'
+All checks passed. Do the publication build from /Users/jorgemansilla/IGs/GG/clcore_publish/clcore and publish to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/clcore
+Prepare Build space in /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2
+Build IG at /Users/jorgemansilla/IGs/GG/clcore_publish/clcore: final copy suitable for publication (in /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2)
+FHIR IG Publisher Version 1.4.2 (Git# ea03c7e80a02). Built 2023-08-31T15:23:46.877Z (35 hours old)
+Detected Java version: 20.0.1 from /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home on Mac OS X/aarch64 (64bit). 4096MB available
+dir = /Users/jorgemansilla/IGs/GG/clcore_publish, path = /opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+Parameters: -ig /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 -resetTx -publish https://hl7chile.cl/fhir/ig/clcore/1.8.2 -no-exit
+Start Clock @ Friday, September 1, 2023, 10:35:46 PM Chile Standard Time (2023-09-01T22:35:46-04:00)
+                                                                                
+Build FHIR IG from /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 (00:00.017)
+Build Formal Publication package, intended for https://hl7chile.cl/fhir/ig/clcore/1.8.2 (00:00.023)
+API keys loaded from /Users/jorgemansilla/.fhir/fhir-settings.json               (00:00.023)
+Package Cache: /Users/jorgemansilla/.fhir/packages                               (00:00.030)
+Run Sushi on /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 (00:00.034)
+Sushi: info  Running SUSHI v3.3.3 (implements FHIR Shorthand specification v3.0.0-ballot) (00:00.564)
+Sushi: info  Arguments:                                                          (00:00.565)
+Sushi: info    --require-latest                                                  (00:00.566)
+Sushi: info    --out /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 (00:00.566)
+Sushi: info    /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 (00:00.567)
+Sushi: info  Using configuration file: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/sushi-config.yaml (00:01.999)
+Sushi: info  Importing FSH text...                                               (00:02.091)
+Sushi: info  Preprocessed 18 documents with 57 aliases.                          (00:02.345)
+Sushi: info  Imported 67 definitions and 23 instances.                           (00:02.377)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.uv.tools#current... (00:02.378)
+Sushi: info  Found hl7.fhir.uv.tools#current in /Users/jorgemansilla/.fhir/packages. (00:02.403)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                            (00:03.857)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.terminology.r4#5.0.0... (00:05.028)
+Sushi: info  Found hl7.terminology.r4#5.0.0 in /Users/jorgemansilla/.fhir/packages. (00:05.901)
+Sushi: info  Loaded package hl7.terminology.r4#5.0.0                             (00:05.903)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.uv.ips#1.0.0... (00:05.903)
+Sushi: info  Found hl7.fhir.uv.ips#1.0.0 in /Users/jorgemansilla/.fhir/packages. (00:06.178)
+Sushi: info  Loaded package hl7.fhir.uv.ips#1.0.0                                (00:06.179)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.r4.core#4.0.1... (00:06.180)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in /Users/jorgemansilla/.fhir/packages. (00:07.384)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                               (00:07.385)
+Sushi: info  Converting FSH to FHIR resources...                                 (00:07.417)
+Sushi: info  Converted 31 FHIR StructureDefinitions.                             (00:10.927)
+Sushi: info  Converted 17 FHIR CodeSystems.                                      (00:11.565)
+Sushi: info  Converted 19 FHIR ValueSets.                                        (00:12.298)
+Sushi: info  Converted 23 FHIR instances.                                        (00:13.148)
+Sushi: info  Exporting FHIR resources as JSON...                                 (00:13.149)
+Sushi: info  Exported 90 FHIR resources as JSON.                                 (00:13.228)
+Sushi: info  Assembling Implementation Guide sources...                          (00:13.229)
+Sushi: info  Generated ImplementationGuide-hl7.fhir.cl.clcore.json               (00:13.242)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.     (00:13.243)
+Sushi: ========================= SUSHI RESULTS ===========================       (00:13.244)
+Sushi: |  -------------------------------------------------------------  |       (00:13.244)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |       (00:13.245)
+Sushi: | |-------------------------------------------------------------| |       (00:13.245)
+Sushi: | |      14       |      17      |      0       |       0       | |       (00:13.246)
+Sushi: |  -------------------------------------------------------------  |       (00:13.246)
+Sushi: |  -------------------------------------------------------------  |       (00:13.247)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |       (00:13.247)
+Sushi: | |-------------------------------------------------------------| |       (00:13.248)
+Sushi: | |         19         |        17         |         23         | |       (00:13.248)
+Sushi: |  -------------------------------------------------------------  |       (00:13.249)
+Sushi: |                                                                 |       (00:13.250)
+Sushi: ===================================================================       (00:13.250)
+Sushi: | Nice job! Are you hooked yet?          0 Errors      0 Warnings |       (00:13.251)
+Sushi: ===================================================================       (00:13.251)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:13.671)
+Load Template from hl7chile-ig-template                                          (00:14.048)
+ Load Template from fhir.base.template#current                                   (00:14.061)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onLoad-ig-working.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2 (00:17.339)
+Core Package hl7.fhir.r4.core#4.0.1
+Terminology Cache is at /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/txcache. Clearing now (00:22.233)
+Connect to Terminology Server at http://tx.fhir.org                              (00:22.237)
+Load Package hl7.fhir.pubpack#0.1.5
+Load Package hl7.fhir.xver-extensions#0.0.12
+Load Package hl7.terminology.r4#5.0.0
+Load Package hl7.fhir.uv.extensions.r4#1.0.0
+Load Package hl7.fhir.uv.ips#1.0.0
+Version mismatch. This IG is version 4.0.1, while the IG 'hl7.fhir.uv.tools' is from version 5.0.0 (will try to run anyway) (00:25.771)
+Load Package hl7.fhir.uv.tools#1.0.0-candidate
+Load R5 Specials
+Initialization complete                                                          (00:28.244)
+Fetch https://hl7chile.cl/fhir/ig/clcore/package-list.json for version check     (00:28.246)
+Load Content                                                                     (00:28.869)
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/includes] as /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/includes
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input/data] as /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input/data
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input/pagecontent] as /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input/pagecontent
+Processing Conformance Resources                                                 (00:43.358)
+Generating Snapshots                                                             (00:50.899)
+Propagating status                                                               (01:21.492)
+Generating Narratives                                                            (01:21.493)
+Validating Conformance Resources                                                 (01:54.040)
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodRegionCL resource CodeSystem/CSCodRegionCL: 801ms (2 kb/sec)
+  * Times (ms): overall = 800:4, tx = 487, sd = 0, load = 0, fpe = 5, spec = 1
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodigoVacunas resource CodeSystem/CSCodigoVacunas: 66ms (122 kb/sec)
+  * Times (ms): overall = 65:4, tx = 0, sd = 0, load = 0, fpe = 6, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodSSalud resource CodeSystem/CSCodSSalud: 20ms (162 kb/sec)
+  * Times (ms): overall = 19:4, tx = 1, sd = 0, load = 0, fpe = 2, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodComunasCL resource CodeSystem/CSCodComunasCL: 147ms (159 kb/sec)
+  * Times (ms): overall = 146:4, tx = 1, sd = 2, load = 0, fpe = 26, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSEspecialidadesDeisCL resource CodeSystem/CSEspecialidadesDeisCL: 31ms (194 kb/sec)
+  * Times (ms): overall = 30:4, tx = 0, sd = 0, load = 0, fpe = 3, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodigoDNI resource CodeSystem/CSCodigoDNI: 18ms (169 kb/sec)
+  * Times (ms): overall = 17:4, tx = 0, sd = 0, load = 0, fpe = 1, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodProvinciasCL resource CodeSystem/CSCodProvinciasCL: 29ms (153 kb/sec)
+  * Times (ms): overall = 29:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodMadurez resource CodeSystem/CSCodMadurez: 8ms (135 kb/sec)
+  * Times (ms): overall = 7:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-csrazonnoencuentro resource CodeSystem/csrazonnoencuentro: 8ms (223 kb/sec)
+  * Times (ms): overall = 8:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodigoServicio resource CodeSystem/CSCodigoServicio: 10ms (191 kb/sec)
+  * Times (ms): overall = 10:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSCodigoslenguaje resource CodeSystem/CSCodigoslenguaje: 31ms (226 kb/sec)
+  * Times (ms): overall = 31:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSTipoIdentificador resource CodeSystem/CSTipoIdentificador: 9ms (174 kb/sec)
+  * Times (ms): overall = 8:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSNombreCampana resource CodeSystem/CSNombreCampana: 18ms (229 kb/sec)
+  * Times (ms): overall = 17:4, tx = 0, sd = 0, load = 0, fpe = 1, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSRazonNOT resource CodeSystem/CSRazonNOT: 8ms (173 kb/sec)
+  * Times (ms): overall = 7:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CodPais resource CodeSystem/CodPais: 88ms (197 kb/sec)
+  * Times (ms): overall = 88:4, tx = 0, sd = 1, load = 0, fpe = 11, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSRazonNOTinm resource CodeSystem/CSRazonNOTinm: 7ms (174 kb/sec)
+  * Times (ms): overall = 6:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/CodeSystem-CSTiposEncuentroCL resource CodeSystem/CSTiposEncuentroCL: 7ms (142 kb/sec)
+  * Times (ms): overall = 6:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodigoslenguaje resource ValueSet/VSCodigoslenguaje: 8ms (105 kb/sec)
+  * Times (ms): overall = 7:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 1
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodigosComunaCL resource ValueSet/VSCodigosComunaCL: 5ms (193 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSNombreCampana resource ValueSet/VSNombreCampana: 5ms (179 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTiposDocClinic resource ValueSet/VSTiposDocClinic: 6ms (209 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodMadurez resource ValueSet/VSCodMadurez: 5ms (231 kb/sec)
+  * Times (ms): overall = 4:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTiposEncuentroCL resource ValueSet/VSTiposEncuentroCL: 5ms (173 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodigosServiciosSalud resource ValueSet/VSCodigosServiciosSalud: 5ms (179 kb/sec)
+  * Times (ms): overall = 4:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodigosProvinciasCL resource ValueSet/VSCodigosProvinciasCL: 5ms (198 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSContactosec resource ValueSet/VSContactosec: 10ms (85 kb/sec)
+  * Times (ms): overall = 9:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSRazonNOT resource ValueSet/VSRazonNOT: 5ms (180 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSRazonNOTinm resource ValueSet/VSRazonNOTinm: 6ms (157 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTiposServicio resource ValueSet/VSTiposServicio: 4ms (223 kb/sec)
+  * Times (ms): overall = 4:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTiposDocumentos resource ValueSet/VSTiposDocumentos: 6ms (181 kb/sec)
+  * Times (ms): overall = 6:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTipoIdentificador resource ValueSet/VSTipoIdentificador: 5ms (176 kb/sec)
+  * Times (ms): overall = 4:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-CodPais resource ValueSet/CodPais: 5ms (226 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSEspecialidadesDeisCL resource ValueSet/VSEspecialidadesDeisCL: 6ms (151 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSDiagnosticosSCT resource ValueSet/VSDiagnosticosSCT: 6ms (205 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSTiposVacunas resource ValueSet/VSTiposVacunas: 5ms (175 kb/sec)
+  * Times (ms): overall = 5:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ValueSet-VSCodigosRegionesCL resource ValueSet/VSCodigosRegionesCL: 5ms (195 kb/sec)
+  * Times (ms): overall = 4:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ImmunizationCL resource StructureDefinition/ImmunizationCL: 612ms (17 kb/sec)
+  * Times (ms): overall = 612:4, tx = 40, sd = 7, load = 0, fpe = 40, spec = 68
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-DocumentoCl resource StructureDefinition/DocumentoCl: 1671ms (8 kb/sec)
+  * Times (ms): overall = 1670:4, tx = 791, sd = 10, load = 0, fpe = 48, spec = 103
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-TiposVacunaRNI resource StructureDefinition/TiposVacunaRNI: 59ms (36 kb/sec)
+  * Times (ms): overall = 58:4, tx = 5, sd = 0, load = 0, fpe = 3, spec = 10
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-RazonNOrealizarse resource StructureDefinition/RazonNOrealizarse: 45ms (41 kb/sec)
+  * Times (ms): overall = 44:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 8
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CoreLocalizacionCl resource StructureDefinition/CoreLocalizacionCl: 462ms (24 kb/sec)
+  * Times (ms): overall = 461:4, tx = 4, sd = 2, load = 0, fpe = 24, spec = 53
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ComunasCl resource StructureDefinition/ComunasCl: 104ms (22 kb/sec)
+  * Times (ms): overall = 103:4, tx = 1, sd = 0, load = 0, fpe = 5, spec = 14
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-SegundoApellido resource StructureDefinition/SegundoApellido: 42ms (31 kb/sec)
+  * Times (ms): overall = 42:4, tx = 0, sd = 0, load = 0, fpe = 7, spec = 7
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ServicioSalud resource StructureDefinition/ServicioSalud: 44ms (48 kb/sec)
+  * Times (ms): overall = 43:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 8
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CorePrestadorCl resource StructureDefinition/CorePrestadorCl: 930ms (21 kb/sec)
+  * Times (ms): overall = 930:4, tx = 8, sd = 5, load = 0, fpe = 51, spec = 102
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CodigoPaises resource StructureDefinition/CodigoPaises: 96ms (23 kb/sec)
+  * Times (ms): overall = 95:4, tx = 1, sd = 0, load = 0, fpe = 5, spec = 14
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-cl-address resource StructureDefinition/cl-address: 192ms (32 kb/sec)
+  * Times (ms): overall = 191:4, tx = 2, sd = 1, load = 0, fpe = 10, spec = 23
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ProvenanceCl resource StructureDefinition/ProvenanceCl: 501ms (17 kb/sec)
+  * Times (ms): overall = 501:4, tx = 4, sd = 2, load = 0, fpe = 25, spec = 56
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-VSEspecialidadesDeisCL resource StructureDefinition/VSEspecialidadesDeisCL: 43ms (48 kb/sec)
+  * Times (ms): overall = 43:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 8
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-TiposServicio resource StructureDefinition/TiposServicio: 47ms (36 kb/sec)
+  * Times (ms): overall = 47:4, tx = 3, sd = 0, load = 0, fpe = 2, spec = 7
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-BundleCl resource StructureDefinition/BundleCl: 228ms (16 kb/sec)
+  * Times (ms): overall = 227:4, tx = 3, sd = 1, load = 0, fpe = 10, spec = 27
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ObservacionesDiagnostico resource StructureDefinition/ObservacionesDiagnostico: 38ms (43 kb/sec)
+  * Times (ms): overall = 37:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 7
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ContactoParticipantes resource StructureDefinition/ContactoParticipantes: 85ms (22 kb/sec)
+  * Times (ms): overall = 84:4, tx = 1, sd = 0, load = 0, fpe = 4, spec = 14
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-NombreCampana resource StructureDefinition/NombreCampana: 47ms (48 kb/sec)
+  * Times (ms): overall = 47:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 9
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CorePacienteCl resource StructureDefinition/CorePacienteCl: 891ms (24 kb/sec)
+  * Times (ms): overall = 891:4, tx = 10, sd = 4, load = 0, fpe = 48, spec = 101
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-RazonNOrealizarseInm resource StructureDefinition/RazonNOrealizarseInm: 40ms (45 kb/sec)
+  * Times (ms): overall = 39:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 7
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CoreOrganizacionCl resource StructureDefinition/CoreOrganizacionCl: 360ms (25 kb/sec)
+  * Times (ms): overall = 360:4, tx = 5, sd = 2, load = 0, fpe = 18, spec = 40
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CoreMedicamentoCl resource StructureDefinition/CoreMedicamentoCl: 318ms (18 kb/sec)
+  * Times (ms): overall = 317:4, tx = 2, sd = 1, load = 0, fpe = 15, spec = 38
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-RegionesCl resource StructureDefinition/RegionesCl: 95ms (24 kb/sec)
+  * Times (ms): overall = 95:4, tx = 1, sd = 0, load = 0, fpe = 5, spec = 13
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-TiposEncuentro resource StructureDefinition/TiposEncuentro: 43ms (48 kb/sec)
+  * Times (ms): overall = 43:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 8
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-EncounterCL resource StructureDefinition/EncounterCL: 809ms (18 kb/sec)
+  * Times (ms): overall = 808:4, tx = 6, sd = 4, load = 0, fpe = 43, spec = 90
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CoreDiagnosticoCl resource StructureDefinition/CoreDiagnosticoCl: 327ms (19 kb/sec)
+  * Times (ms): overall = 326:4, tx = 2, sd = 2, load = 0, fpe = 16, spec = 36
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-IdContacto resource StructureDefinition/IdContacto: 271ms (19 kb/sec)
+  * Times (ms): overall = 270:4, tx = 4, sd = 1, load = 0, fpe = 14, spec = 36
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-NotasEncuentro resource StructureDefinition/NotasEncuentro: 36ms (45 kb/sec)
+  * Times (ms): overall = 36:4, tx = 0, sd = 0, load = 0, fpe = 2, spec = 6
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-CoreEspecialidadCl resource StructureDefinition/CoreEspecialidadCl: 364ms (16 kb/sec)
+  * Times (ms): overall = 364:4, tx = 2, sd = 2, load = 0, fpe = 18, spec = 40
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-AuditEventCl resource StructureDefinition/AuditEventCl: 435ms (18 kb/sec)
+  * Times (ms): overall = 434:4, tx = 3, sd = 2, load = 0, fpe = 22, spec = 49
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/StructureDefinition-ProvinciasCl resource StructureDefinition/ProvinciasCl: 95ms (24 kb/sec)
+  * Times (ms): overall = 94:4, tx = 1, sd = 0, load = 0, fpe = 5, spec = 14
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/ImplementationGuide-hl7.fhir.cl.clcore resource ImplementationGuide/hl7.fhir.cl.clcore: 702ms (44 kb/sec)
+  * Times (ms): overall = 702:4, tx = 12, sd = 9, load = 0, fpe = 19, spec = 0
+Validating Resources                                                             (02:12.717)
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/AllergyIntolerance-222 resource AllergyIntolerance/222: 5ms (57 kb/sec)
+  * Times (ms): overall = 5:4, tx = 1, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Location-3333458 resource Location/3333458: 1ms (52 kb/sec)
+  * Times (ms): overall = 0:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Immunization-999 resource Immunization/999: 162ms (1 kb/sec)
+  * Times (ms): overall = 161:4, tx = 157, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Medication-MedicamentoCl-2 resource Medication/MedicamentoCl-2: 10ms (76 kb/sec)
+  * Times (ms): overall = 9:4, tx = 1, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Immunization-ImmunizationCL resource Immunization/ImmunizationCL: 105ms (16 kb/sec)
+  * Times (ms): overall = 104:4, tx = 48, sd = 0, load = 0, fpe = 3, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/RequestGroup-RG12224 resource RequestGroup/RG12224: 3ms (32 kb/sec)
+  * Times (ms): overall = 3:4, tx = 2, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/PractitionerRole-EspecialidadCL resource PractitionerRole/EspecialidadCL: 11ms (88 kb/sec)
+  * Times (ms): overall = 10:4, tx = 3, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Bundle-BundleEx resource Bundle/BundleEx: 8ms (77 kb/sec)
+  * Times (ms): overall = 7:4, tx = 1, sd = 0, load = 0, fpe = 0, spec = 1
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Condition-1112 resource Condition/1112: 2ms (50 kb/sec)
+  * Times (ms): overall = 1:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Composition-CompositionCl-CarlosSalas resource Composition/CompositionCl-CarlosSalas: 1330ms (2 kb/sec)
+  * Times (ms): overall = 1329:4, tx = 1274, sd = 0, load = 0, fpe = 4, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Observation-123 resource Observation/123: 4ms (43 kb/sec)
+  * Times (ms): overall = 3:4, tx = 1, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Provenance-EjemplValidacionProvCl resource Provenance/EjemplValidacionProvCl: 180ms (6 kb/sec)
+  * Times (ms): overall = 180:4, tx = 163, sd = 0, load = 0, fpe = 1, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Organization-f003 resource Organization/f003: 1ms (88 kb/sec)
+  * Times (ms): overall = 1:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Location-LocalizacionEjemploCL1 resource Location/LocalizacionEjemploCL1: 19ms (61 kb/sec)
+  * Times (ms): overall = 19:4, tx = 5, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Encounter-EncounterCL resource Encounter/EncounterCL: 53ms (59 kb/sec)
+  * Times (ms): overall = 53:4, tx = 5, sd = 0, load = 0, fpe = 3, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Practitioner-3020 resource Practitioner/3020: 1ms (131 kb/sec)
+  * Times (ms): overall = 1:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Practitioner-3240 resource Practitioner/3240: 27ms (77 kb/sec)
+  * Times (ms): overall = 27:4, tx = 1, sd = 0, load = 0, fpe = 1, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/MedicationStatement-354 resource MedicationStatement/354: 171ms (2 kb/sec)
+  * Times (ms): overall = 171:4, tx = 166, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Patient-11 resource Patient/11: 2ms (88 kb/sec)
+  * Times (ms): overall = 1:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+add to cache: http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips|1.0.0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Condition-DiagnosticoEj resource Condition/DiagnosticoEj: 527ms (1 kb/sec)
+  * Times (ms): overall = 526:4, tx = 513, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Organization-ORG1 resource Organization/ORG1: 7ms (97 kb/sec)
+  * Times (ms): overall = 6:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/Medication-MedicamentoCl resource Medication/MedicamentoCl: 7ms (108 kb/sec)
+  * Times (ms): overall = 7:4, tx = 0, sd = 0, load = 0, fpe = 0, spec = 0
+Long Validation for /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/fsh-generated/resources/AuditEvent-AuditEventEx resource AuditEvent/AuditEventEx: 24ms (51 kb/sec)
+  * Times (ms): overall = 23:4, tx = 1, sd = 0, load = 0, fpe = 0, spec = 0
+Processing Provenance Records                                                    (02:15.484)
+Generating Outputs in /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/output (02:15.484)
+Generate Native Outputs                                                          (02:16.017)
+Run Template                                                                     (02:22.224)
+
+onGenerate.checkVersions:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/versions.txt
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.getVersions.xslt
+    [mkdir] Created dir: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas
+
+onGenerate.r5-schemas:
+    [mkdir] Created dir: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R5
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R5/fhir-single.xsd
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R5/xml.xsd
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R5/xmldsig-core-schema.xsd
+
+onGenerate.r4-schemas:
+    [mkdir] Created dir: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R4
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R4/fhir-single.xsd
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R4/xml.xsd
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/input-cache/schemas/R4/xmldsig-core-schema.xsd
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 17 files to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.1.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.2.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.groupSort.xslt
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-working.2.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-updated.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/onGenerate-ig-updated.xml to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                    (02:26.506)
+Generate HTML Outputs                                                            (02:26.507)
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Generate Summaries                                                               (03:00.313)
+Generating Summary Outputs                                                       (03:00.314)
+Sending Usage Stats to Server                                                    (04:22.409)
+## Memory (MB): Use = 1725, Free = 890, Total = 2616, Max = 4096
+Reclaiming memory...
+## Memory (MB): Use = 1017, Free = 1598, Total = 2616, Max = 4096
+Run jekyll: jekyll build --destination "/Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/output" (in folder /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages) (04:22.866)
+Jekyll: Source: /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/temp/pages (04:23.322)
+Jekyll: Generating...                                                            (04:23.324)
+Jekyll: done in 2.906 seconds.                                                   (04:26.229)
+
+Installing hl7.fhir.cl.clcore#1.8.2Checking Output HTML                                                             (04:29.653)
+found 1566 files                                                                 (04:29.666)
+........................................
+........................................
+  ... 1566 html files, 1 page invalid xhtml (0%)                                 (04:51.500)
+  ... 319397 links, 5 broken link (0%)                                           (04:51.501)
+Build final .zip                                                                 (04:51.501)
+Final .zip built                                                                 (04:54.249)
+Built. Times: loading: 00:14.487, generate: 04:15.349, narrative generation: 00:32.545, realm-rules: 00:00.000, previous-version: 00:07.113, jekyll: 00:03.380, validation: 00:14.224 (#91), template: 00:04.281 (#3) (04:58.717)
+Validation output in /Users/jorgemansilla/IGs/GG/clcore_publish/temp/hl7.fhir.cl.clcore#1.8.2/output/qa.html
+Errors: 0, Warnings: 30, Info: 11, Broken Links: 6 (04:59.052)
+Finished                                                                         (04:59.062)
+Keep a copy of the build directory at /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/ig-build-zips/hl7.fhir.cl.clcore#1.8.2.zip
+
+ok. All checks passed. Publish v1.8.2 to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/clcore/1.8.2
+Copy the IG to /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/clcore/1.8.2
+Update /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/clcore/package-list.json
+Publish Box Statement: This page is part of the Chile Core (v1.8.2: <a href="https://confluence.hl7.org/display/HL7/HL7+Balloting" title="Standard for Trial-Use">STU</a>2 Draft) based on <a href="http://hl7.org/fhir/R4">FHIR R4</a>. .  For a full list of available versions, see the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions <img src="external.png" style="text-align: baseline"></a>
+  .. 605 files checked, 605 updated
+  .. 320 clones checked, 640 updated
+  .. 22 redirections (22 created/updated)
+Update history page at /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901/clcore from /Users/jorgemansilla/IGs/GG/clcore_publish/fhir-ig-history-template-master and /Users/jorgemansilla/IGs/GG/clcore_publish/ig/templates
+Build is complete. Copy from /Users/jorgemansilla/IGs/GG/clcore_publish/temp/web-root/run-20230901
+hl7.fhir.cl.clcore (https://hl7chile.cl/fhir/ig/clcore): Chile Core @ http://build.fhir.org/ig/HL7Chile/clcore
+  candidate: STU2 Draft 1.8.2/4.0.1 @ https://hl7chile.cl/fhir/ig/clcore/1.8.2

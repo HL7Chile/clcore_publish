@@ -44,6 +44,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -55,8 +56,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -66,14 +67,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.94"
+            --heading-prefix:"6.84"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.94"
+            --heading-prefix:"6.84"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -99,7 +100,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -137,10 +138,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -182,7 +199,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -250,12 +267,12 @@
   ] ; # 
   <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: AuditEvent&lt;/b&gt;&lt;a name=\&quot;AuditEventEx\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource AuditEvent &amp;quot;AuditEventEx&amp;quot; &lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profile: &lt;a href=\&quot;StructureDefinition-AuditEventCl.html\&quot;&gt;CL Auditoria&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: Application Activity (Details: DICOM code 110100 = 'Application Activity', stated as 'Application Activity')&lt;/p&gt;&lt;p&gt;&lt;b&gt;subtype&lt;/b&gt;: search (Details: http://hl7.org/fhir/restful-interaction code search = 'search', stated as 'search')&lt;/p&gt;&lt;p&gt;&lt;b&gt;action&lt;/b&gt;: E&lt;/p&gt;&lt;p&gt;&lt;b&gt;recorded&lt;/b&gt;: 22 Aug 2021, 19:42:24&lt;/p&gt;&lt;p&gt;&lt;b&gt;outcome&lt;/b&gt;: 0&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;agent&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: human user &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (&lt;a href=\&quot;http://terminology.hl7.org/5.3.0/CodeSystem-extra-security-role-type.html\&quot;&gt;Security Role Type&lt;/a&gt;#humanuser)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;who&lt;/b&gt;: &lt;span&gt;95&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;altId&lt;/b&gt;: 601847123&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: El Nombre&lt;/p&gt;&lt;p&gt;&lt;b&gt;requestor&lt;/b&gt;: true&lt;/p&gt;&lt;h3&gt;Networks&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Workstation1.ehr.familyclinic.com&lt;/td&gt;&lt;td&gt;1&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Observer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Practitioner-3240.html\&quot;&gt;Practitioner/3240&lt;/a&gt; &amp;quot;&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Entities&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;What&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Organization-ORG1.html\&quot;&gt;Organization/ORG1&lt;/a&gt; &amp;quot;Centro de Salud Familiar Rio Bueno de Linares&amp;quot;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: AuditEvent AuditEventEx&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;AuditEventEx\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcAuditEventEx\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;AuditEventEx-es-CL\&quot;&gt; &lt;/a&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;a href=\&quot;http://terminology.hl7.org/6.0.2/CodeSystem-audit-event-type.html#audit-event-type-rest\&quot;&gt;Audit Event ID&lt;/a&gt; rest: Restful Operation&lt;/p&gt;&lt;p&gt;&lt;b&gt;subtype&lt;/b&gt;: &lt;a href=\&quot;http://hl7.org/fhir/R4/codesystem-restful-interaction.html#restful-interaction-search\&quot;&gt;FHIR Restful Interactions&lt;/a&gt; search: search&lt;/p&gt;&lt;p&gt;&lt;b&gt;action&lt;/b&gt;: Execute&lt;/p&gt;&lt;p&gt;&lt;b&gt;recorded&lt;/b&gt;: 2021-08-22 23:42:24+0000&lt;/p&gt;&lt;p&gt;&lt;b&gt;outcome&lt;/b&gt;: Success&lt;/p&gt;&lt;blockquote&gt;&lt;p&gt;&lt;b&gt;agent&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;type&lt;/b&gt;: &lt;span title=\&quot;Codes:{http://terminology.hl7.org/CodeSystem/extra-security-role-type humanuser}\&quot;&gt;Usuario Humano&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;who&lt;/b&gt;: Identifier: 95&lt;/p&gt;&lt;p&gt;&lt;b&gt;altId&lt;/b&gt;: 601847123&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Grahame Grieve&lt;/p&gt;&lt;p&gt;&lt;b&gt;requestor&lt;/b&gt;: true&lt;/p&gt;&lt;h3&gt;Networks&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Address&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;Workstation1.ehr.familyclinic.com&lt;/td&gt;&lt;td&gt;Machine Name&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/blockquote&gt;&lt;h3&gt;Sources&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;Observer&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Practitioner-EjemploPrestadorCL.html\&quot;&gt;Practitioner Johanna Rosa Silva (official)&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;h3&gt;Entities&lt;/h3&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;-&lt;/td&gt;&lt;td&gt;&lt;b&gt;What&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;display: none\&quot;&gt;*&lt;/td&gt;&lt;td&gt;&lt;a href=\&quot;Organization-OrganizacionClEjemplo1.html\&quot;&gt;Organization Centro de Salud Familiar Arauco&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
   ] ; # 
   <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.type">fhir:type</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://dicom.nema.org/resources/ontology/DCM&quot;^^xsd:anyURI ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;110100&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Application Activity&quot; ]
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/audit-event-type&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;rest&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Restful Operation&quot; ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.subtype">fhir:subtype</a> ( [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/restful-interaction&quot;^^xsd:anyURI ] ;
@@ -270,12 +287,13 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
       ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/extra-security-role-type&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;humanuser&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;human user&quot; ]       ] )     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;human user&quot; ]       ] ) ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.text">fhir:text</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Usuario Humano&quot; ]     ] ;
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.who">fhir:who</a> [
 <a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.identifier">fhir:identifier</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;95&quot; ]       ]     ] ;
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.altId">fhir:altId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;601847123&quot; ] ;
-<a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;El Nombre&quot; ] ;
+<a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Grahame Grieve&quot; ] ;
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.requestor">fhir:requestor</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;true&quot;^^xsd:boolean ] ;
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.network">fhir:network</a> [
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.agent.network.address">fhir:address</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Workstation1.ehr.familyclinic.com&quot; ] ;
@@ -283,11 +301,11 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.source">fhir:source</a> [
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.source.observer">fhir:observer</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Practitioner/3240&quot; ]     ]
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Practitioner/EjemploPrestadorCL&quot; ]     ]
   ] ; # 
   <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.entity">fhir:entity</a> ( [
 <a href="http://hl7.org/fhir/R4/auditevent.html#AuditEvent.entity.what">fhir:what</a> [
-<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/ORG1&quot; ]     ]
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Organization/OrganizacionClEjemplo1&quot; ]     ]
   ] ) . # 
 
 </code></pre>
@@ -308,20 +326,14 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -338,7 +350,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -348,101 +360,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

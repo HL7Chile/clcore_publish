@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "008f3aef-3658-4181-95c3-547e45526358-38",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/008f3aef-3658-4181-95c3-547e45526358-38",
+  "name" : "UnionCSPrevisionAndCSPrevision",
+  "title" : "Union of Prevision And Prevision",
+  "status" : "active",
+  "date" : "2024-06-03T16:56:43-04:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "FONASA"
+  },
+  {
+    "code" : "02",
+    "display" : "ISAPRE"
+  },
+  {
+    "code" : "03",
+    "display" : "CAPREDENA"
+  },
+  {
+    "code" : "04",
+    "display" : "DIPRECA"
+  },
+  {
+    "code" : "05",
+    "display" : "SISA"
+  },
+  {
+    "code" : "96",
+    "display" : "NINGUNA"
+  },
+  {
+    "code" : "99",
+    "display" : "DESCONOCIDO"
+  }]
+}

@@ -1,0 +1,257 @@
+FHIR IG Publisher Version 1.6.0 (Git# 872897e62f36). Built 2024-02-28T09:32:43.487Z (20 days old)
+Detected Java version: 20.0.1 from /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home on aarch64 (64bit). 4096MB available
+dir = /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7, path = /opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+Parameters: -go-publish -source /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/clcore_ig/ -web /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/ig/ -registry /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/ig-registry-master/fhir-ig-list.json -history /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/fhir-ig-history-template-master/ -temp /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp -templates /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/ig/templates
+---------------
+Publication Run: publish /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/clcore_ig/ to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/ig/
+Run Number: 11
+Relative directory for IG is '/clcore'
+===== Web Publication Run Details ===============================
+ Source IG: hl7.fhir.cl.clcore#1.8.9 : https://hl7chile.cl/fhir/ig/clcore (R4) from /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/clcore_ig/
+All checks passed. Do the publication build from /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/clcore_ig and publish to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore
+Prepare Build space in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9
+Build IG at /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/clcore_ig: final copy suitable for publication (in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9)
+FHIR IG Publisher Version 1.6.0 (Git# 872897e62f36). Built 2024-02-28T09:32:43.487Z (20 days old)   
+Detected Java version: 20.0.1 from /Library/Java/JavaVirtualMachines/jdk-20.jdk/Contents/Home on Mac OS X/aarch64 (64bit). 4096MB available
+dir = /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7, path = /opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/Applications/VMware Fusion.app/Contents/Public:/opt/homebrew/opt/postgresql@15/bin:/opt/homebrew/opt/libpq/bin:/Library/Frameworks/Python.framework/Versions/3.10/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+Parameters: -ig /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9 -resetTx -publish https://hl7chile.cl/fhir/ig/clcore/1.8.6 -no-exit
+Start Clock @ Tuesday, 19 March 2024, 15:30:52 Chile Summer Time (2024-03-19T15:30:52-03:00)        
+                                                                                                    
+Build FHIR IG from /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9 (00:00.021 / 00:00.022, 85Mb)
+Build Formal Publication package, intended for https://hl7chile.cl/fhir/ig/clcore/1.8.6              (00:00.003 / 00:00.025, 85Mb)
+API keys loaded from /Users/jorgemansilla/.fhir/fhir-settings.json                                   (00:00.000 / 00:00.026, 85Mb)
+Package Cache: /Users/jorgemansilla/.fhir/packages                                                   (00:00.005 / 00:00.031, 85Mb)
+Run Sushi on /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9     (00:00.001 / 00:00.033, 85Mb)
+Sushi: info  Running SUSHI v3.8.0 (implements FHIR Shorthand specification v3.0.0-ballot)            (00:00.661 / 00:00.695, 87Mb)
+Sushi: info  Arguments:                                                                              (00:00.000 / 00:00.696, 87Mb)
+Sushi: info    --require-latest                                                                      (00:00.000 / 00:00.696, 87Mb)
+Sushi: info    --out /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9 (00:00.000 / 00:00.697, 87Mb)
+Sushi: info    /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9   (00:00.000 / 00:00.698, 87Mb)
+Sushi: info  Using configuration file: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/sushi-config.yaml (00:02.125 / 00:02.823, 87Mb)
+Sushi: info  Importing FSH text...                                                                   (00:00.087 / 00:02.911, 87Mb)
+Sushi: info  Preprocessed 18 documents with 60 aliases.                                              (00:00.356 / 00:03.267, 87Mb)
+Sushi: info  Imported 74 definitions and 41 instances.                                               (00:00.039 / 00:03.307, 87Mb)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.uv.tools#current...           (00:00.001 / 00:03.308, 87Mb)
+Sushi: info  Found hl7.fhir.uv.tools#current in /Users/jorgemansilla/.fhir/packages.                 (00:00.057 / 00:03.366, 87Mb)
+Sushi: info  Loaded package hl7.fhir.uv.tools#current                                                (00:01.567 / 00:04.933, 87Mb)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.terminology.r4#5.3.0...            (00:00.950 / 00:05.883, 87Mb)
+Sushi: info  Found hl7.terminology.r4#5.3.0 in /Users/jorgemansilla/.fhir/packages.                  (00:00.925 / 00:06.809, 87Mb)
+Sushi: info  Loaded package hl7.terminology.r4#5.3.0                                                 (00:00.000 / 00:06.809, 87Mb)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.uv.extensions.r4#1.0.0...     (00:00.875 / 00:07.685, 87Mb)
+Sushi: info  Found hl7.fhir.uv.extensions.r4#1.0.0 in /Users/jorgemansilla/.fhir/packages.           (00:00.657 / 00:08.343, 87Mb)
+Sushi: info  Loaded package hl7.fhir.uv.extensions.r4#1.0.0                                          (00:00.001 / 00:08.344, 87Mb)
+Sushi: info  Checking /Users/jorgemansilla/.fhir/packages for hl7.fhir.r4.core#4.0.1...              (00:00.000 / 00:08.344, 87Mb)
+Sushi: info  Found hl7.fhir.r4.core#4.0.1 in /Users/jorgemansilla/.fhir/packages.                    (00:01.388 / 00:09.733, 87Mb)
+Sushi: info  Loaded package hl7.fhir.r4.core#4.0.1                                                   (00:00.000 / 00:09.733, 87Mb)
+Sushi: info  Converting FSH to FHIR resources...                                                     (00:00.031 / 00:09.765, 87Mb)
+Sushi: info  Converted 30 FHIR StructureDefinitions.                                                 (00:03.220 / 00:12.986, 87Mb)
+Sushi: info  Converted 21 FHIR CodeSystems.                                                          (00:00.669 / 00:13.655, 87Mb)
+Sushi: info  Converted 23 FHIR ValueSets.                                                            (00:00.990 / 00:14.645, 87Mb)
+Sushi: info  Converted 41 FHIR instances.                                                            (00:02.705 / 00:17.351, 87Mb)
+Sushi: info  Exporting FHIR resources as JSON...                                                     (00:00.002 / 00:17.353, 87Mb)
+Sushi: info  Exported 99 FHIR resources as JSON.                                                     (00:00.088 / 00:17.441, 87Mb)
+Sushi: info  Assembling Implementation Guide sources...                                              (00:00.003 / 00:17.445, 87Mb)
+Sushi: info  Generated ImplementationGuide-hl7.fhir.cl.clcore.json                                   (00:00.006 / 00:17.451, 87Mb)
+Sushi: info  Assembled Implementation Guide sources; ready for IG Publisher.                         (00:00.000 / 00:17.452, 87Mb)
+Sushi: ========================= SUSHI RESULTS ===========================                           (00:00.000 / 00:17.453, 87Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:17.454, 87Mb)
+Sushi: | |    Profiles   |  Extensions  |   Logicals   |   Resources   | |                           (00:00.000 / 00:17.455, 87Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:17.455, 87Mb)
+Sushi: | |      13       |      17      |      0       |       0       | |                           (00:00.000 / 00:17.456, 87Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:17.457, 87Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:17.458, 87Mb)
+Sushi: | |      ValueSets     |    CodeSystems    |     Instances      | |                           (00:00.000 / 00:17.458, 87Mb)
+Sushi: | |-------------------------------------------------------------| |                           (00:00.000 / 00:17.459, 87Mb)
+Sushi: | |         23         |        21         |         41         | |                           (00:00.000 / 00:17.460, 87Mb)
+Sushi: |  -------------------------------------------------------------  |                           (00:00.000 / 00:17.461, 87Mb)
+Sushi: |                                                                 |                           (00:00.000 / 00:17.462, 87Mb)
+Sushi: ===================================================================                           (00:00.000 / 00:17.462, 87Mb)
+Sushi: | That was a sea breeze!                 0 Errors      0 Warnings |                           (00:00.000 / 00:17.463, 87Mb)
+Sushi: ===================================================================                           (00:00.000 / 00:17.464, 87Mb)
+Unable to load IG as an r5 IG - try R4 (property code is a class com.google.gson.JsonPrimitive looking for an object) (00:00.425 / 00:17.889, 56Mb)
+Load Template from hl7chile-ig-template                                                              (00:00.412 / 00:18.301, 23Mb)
+ Load Template from fhir.base.template#current                                                       (00:00.821 / 00:19.122, 26Mb)
+
+onLoad.findSpreadsheets:
+
+onLoad.updateIg:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onLoad-ig-working.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onLoad-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onLoad.xslt
+
+onLoad.extend:
+
+onLoad:
+Root directory: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9  (00:04.158 / 00:23.281, 83Mb)
+Terminology Cache is at /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/txcache. Clearing now (00:01.429 / 00:24.710, 82Mb)
+Core Package hl7.fhir.r4.core#4.0.1
+Running Terminology Log: /var/folders/0g/fbcld4s52t5fl6f9w63l8y3h0000gn/T/ohfu-fhir-ig-9653526070337003349.log
+Connect to Terminology Server at http://tx.fhir.org                                                  (00:02.273 / 00:26.983, 267Mb)
+Load Package hl7.fhir.pubpack#0.1.7
+Load Package hl7.fhir.xver-extensions#0.1.0
+Load Package hl7.terminology.r4#5.3.0
+Load Package hl7.fhir.uv.extensions.r4#1.0.0
+Version mismatch. This IG is version 4.0.1, while the IG 'hl7.fhir.uv.tools' is from version 5.0.0 (will try to run anyway) (00:04.558 / 00:31.541, 343Mb)
+Load Package hl7.fhir.uv.tools#0.1.0
+Load R5 Specials
+Initialization complete                                                                              (00:00.570 / 00:32.111, 449Mb)
+Fetch https://hl7chile.cl/fhir/ig/clcore/package-list.json for version check                         (00:00.001 / 00:32.113, 449Mb)
+Load Content                                                                                         (00:00.816 / 00:32.929, 450Mb)
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/fsh-generated/includes] as /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/fsh-generated/includes
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input/data] as /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input/data
+loadPrePages from FetchedFile[/Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input/pagecontent] as /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input/pagecontent
+Processing Conformance Resources                                                                     (00:00.674 / 00:33.604, 314Mb)
+Load Dependency Info                                                                                 (00:00.002 / 00:33.606, 314Mb)
+Load Info                                                                                            (00:00.001 / 00:33.608, 314Mb)
+Load Resources                                                                                       (00:00.001 / 00:33.610, 315Mb)
+Load Paths                                                                                           (00:00.182 / 00:33.792, 421Mb)
+Generating Snapshots                                                                                 (00:00.001 / 00:33.793, 421Mb)
+Check R4 / R4B                                                                                       (00:00.750 / 00:34.544, 322Mb)
+Assign Comparison Ids                                                                                (00:00.052 / 00:34.597, 328Mb)
+Propagating status                                                                                   (00:00.001 / 00:34.598, 328Mb)
+Generating Narratives                                                                                (00:00.000 / 00:34.599, 328Mb)
+Validating Conformance Resources                                                                     (00:02.366 / 00:36.965, 755Mb)
+Check profiles & code systems                                                                        (00:03.733 / 00:40.699, 576Mb)
+Check realm rules                                                                                    (00:00.004 / 00:40.703, 576Mb)
+Previous Version Comparison                                                                          (00:00.000 / 00:40.704, 576Mb)
+Validating Resources                                                                                 (00:04.726 / 00:45.431, 1Gb)
+Processing Provenance Records                                                                        (00:06.306 / 00:51.737, 725Mb)
+Generating Outputs in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/output (00:00.002 / 00:51.740, 725Mb)
+Generate Native Outputs                                                                              (00:00.066 / 00:51.806, 743Mb)
+Run Template                                                                                         (00:06.936 / 00:58.743, 1Gb)
+
+onGenerate.checkVersions:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/versions.txt
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.getVersions.xslt
+
+onGenerate.r5-schemas:
+      [get] Getting: http://build.fhir.org/fhir-single.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R5/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/fhir-xhtml.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R5/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xml.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R5/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://build.fhir.org/xmldsig-core-schema.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R5/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r4-schemas:
+      [get] Getting: http://hl7.org/fhir/R4/fhir-single.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R4/fhir-single.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/fhir-xhtml.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R4/fhir-xhtml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xml.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R4/xml.xsd
+      [get] Not modified - so not downloaded
+      [get] Getting: http://hl7.org/fhir/R4/xmldsig-core-schema.xsd
+      [get] To: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/input-cache/schemas/R4/xmldsig-core-schema.xsd
+      [get] Not modified - so not downloaded
+
+onGenerate.r3-schemas:
+
+onGenerate.r2b-schemas:
+
+onGenerate.r2-schemas:
+
+onGenerate.schemas:
+
+onGenerate.data:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages/_data/artifacts.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.data.xslt
+
+onGenerate.setup:
+
+onGenerate.infoFile:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages/_data/info.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.genJson.xslt
+
+onGenerate.processIncludes:
+     [copy] Copying 19 files to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages/_includes
+
+onGenerate.processIg:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.1.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.group.xslt
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.1.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.2.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.groupSort.xslt
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-working.2.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-updated.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.final.xslt
+
+onGenerate.igQa:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-updated.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/ongenerate-validation-igqa.json
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/onGenerate.qa.xslt
+
+onGenerate.artifactList:
+     [xslt] Processing /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/onGenerate-ig-updated.xml to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages/_includes/artifacts.xml
+     [xslt] Loading stylesheet /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/template/scripts/createArtifactSummary.xslt
+
+check-plantumlfiles:
+
+onGenerate.plantUml.ig:
+
+onGenerate.plantUml.template:
+
+onGenerate.plantUml:
+
+onGenerate.copyDataFiles:
+
+onGenerate.extend:
+
+onGenerate:
+Template Done                                                                                        (00:02.417 / 01:01.160, 1Gb)
+Generate HTML Outputs                                                                                (00:00.000 / 01:01.161, 1Gb)
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Error from http://tx.fhir.org/r4: The code System "http://snomed.info/sct" has a grammar, and cannot be enumerated directly [125-111937]
+Error from http://tx.fhir.org/r4: The value set '' expansion has too many codes to display (>10000) [125-111942]
+XSLT Error: Error reported by XML parser
+Exception generating xslt page /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages/_includes/cambios_hacer.xml for _includes/cambios_hacer.xml in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog. (00:19.515 / 01:20.676, 1Gb)
+Generate Summaries                                                                                   (00:03.063 / 01:23.740, 1Gb)
+Generating Summary Outputs                                                                           (00:00.001 / 01:23.741, 1Gb)
+DB Cumulative Time invested: 00:00:01.504
+Sending Usage Stats to Server                                                                        (00:17.510 / 01:41.252, 1Gb)
+## Memory (MB): Use = 1515, Free = 382, Total = 1898, Max = 4096                                     (00:00.006 / 01:41.258, 1Gb)
+Reclaiming memory...                                                                                 (00:00.000 / 01:41.259, 1Gb)
+## Memory (MB): Use = 868, Free = 1029, Total = 1898, Max = 4096                                     (00:00.331 / 01:41.591, 869Mb)
+Run jekyll: jekyll build --destination "/Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/output" (in folder /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages) (00:00.002 / 01:41.593, 869Mb)
+Troubleshooting Note: usual cases for Jekyll to fail are:                                            (00:00.002 / 01:41.596, 869Mb)
+* A failure to produce a fragment that is already logged in the output above                         (00:00.001 / 01:41.597, 869Mb)
+* A reference to a manually edited file that hasn't been provided                                    (00:00.001 / 01:41.598, 869Mb)
+Jekyll: Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7 (00:00.302 / 01:41.901, 873Mb)
+Jekyll: Ignoring ffi-1.15.5 because its extensions are not built. Try: gem pristine ffi --version 1.15.5 (00:00.001 / 01:41.902, 873Mb)
+Jekyll: Ignoring http_parser.rb-0.8.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.8.0 (00:00.000 / 01:41.903, 873Mb)
+Jekyll: Source: /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/temp/pages (00:00.183 / 01:42.086, 873Mb)
+Jekyll: Generating...                                                                                (00:00.000 / 01:42.087, 873Mb)
+Jekyll: done in 3.228 seconds.                                                                       (00:03.226 / 01:45.314, 873Mb)
+
+Installing hl7.fhir.cl.clcore#1.8.9 done.
+Checking Output HTML                                                                                 (00:03.105 / 01:48.419, 982Mb)
+found 1695 files                                                                                     (00:00.010 / 01:48.430, 982Mb)
+.........Sending usage stats failed: Connection reset
+...............................
+........................................
+  ... 1695 html files, 0 pages invalid xhtml (0%)                                                    (00:20.948 / 02:09.379, 1006Mb)
+  ... 283698 links, 0 broken links (0%)                                                              (00:00.001 / 02:09.381, 1006Mb)
+Build final .zip                                                                                     (00:00.000 / 02:09.381, 1006Mb)
+Final .zip built                                                                                     (00:03.048 / 02:12.430, 1Gb)
+Built. Times: loading: 00:00.673, generate: 01:42.338, narrative generation: 00:02.365, realm-rules: 00:00.000, previous-version: 00:04.709, jekyll: 00:03.731, validation: 00:09.932 (#100), template: 00:02.415 (#3) (00:03.531 / 02:15.961, 1Gb)
+Generating QA                                                                                        (00:00.001 / 02:15.963, 1Gb)
+Validation output in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/hl7.fhir.cl.clcore#1.8.9/output/qa.html
+Errors: 0, Warnings: 4, Info: 7, Broken Links: 0 (00:00.411 / 02:16.374, 1Gb)
+Finished. Max Memory Used = 1Gb. Log file saved in /var/folders/0g/fbcld4s52t5fl6f9w63l8y3h0000gn/T/fhir-ig-publisher-tmp.log (00:00.018 / 02:16.393, 1Gb)
+Keep a copy of the build directory at /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/ig-build-zips/hl7.fhir.cl.clcore#1.8.9.zip
+
+ok. All checks passed. Publish v1.8.9 to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore/1.8.6
+Copy the IG to /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore/1.8.6
+Update /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore/package-list.json
+Publish Box Statement: This page is part of the Chile Core (v1.8.9: <a no-external="true" href="https://confluence.hl7.org/display/HL7/HL7+Balloting" title="Standard for Trial-Use">STU</a>2 Draft) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. .  For a full list of available versions, see the <a no-external="true" href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a>
+no html insert in /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore/1.8.6/qa-txservers.html
+  .. 652 files checked, 652 updated
+  .. 357 clones checked, 714 updated
+  .. 20 redirections (20 created/updated)
+Update history page at /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319/clcore from /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/fhir-ig-history-template-master and /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/ig/templates
+Build is complete. Copy from /Users/jorgemansilla/IGs/_HL7CHILE_clcore_publish_hl7/temp/web-root/run-20240319
+hl7.fhir.cl.clcore (https://hl7chile.cl/fhir/ig/clcore): Chile Core @ http://build.fhir.org/ig/HL7Chile/clcore
+  candidate: STU2 Draft 1.8.9/4.0.1 @ https://hl7chile.cl/fhir/ig/clcore/1.8.6

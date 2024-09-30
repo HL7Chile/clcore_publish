@@ -1,8 +1,8 @@
 {
     "package-id": "hl7.fhir.cl.clcore",
-    "version": "1.8.7",
+    "version": "1.9.1",
     "desc": "Versión de desarrollo",
-    "path": "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+    "path": "https://hl7chile.cl/fhir/ig/clcore/1.9.1",
     "changes": "changes.html",
     "status": "draft",
     "sequence": "STU2",
@@ -10,6 +10,6 @@
     "category": "National Base",
     "title": "Chile Core",
     "introduction": "Versiones publicadas guias core Chile",
-    "ci-build": "http://build.fhir.org/ig/HL7Chile/clcore",
+    "ci-build": "http://build.fhir.org/ig/HL7Chile/clcore_ig",
     "fhirversion": "4.0.1"
 }

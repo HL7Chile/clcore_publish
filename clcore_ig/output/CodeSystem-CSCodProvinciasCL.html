@@ -42,6 +42,7 @@
 
 <!-- JORGE MANSILLA -->
 <!-- Google tag (gtag.js) -->
+<!-- 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KDP1SHWXWT"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
@@ -53,8 +54,8 @@
 
     gtag('config', 'G-KDP1SHWXWT');
 </script>
-
-
+-->
+<!-- Franco: Nota Para Mansilla Revisa este script genera errores al subir en Build -->
 
 
 
@@ -64,14 +65,14 @@
 
     <style type="text/css">
         h2 {
-            --heading-prefix:"9.61"
+            --heading-prefix:"6.60"
         }
         
         h3,
         h4,
         h5,
         h6 {
-            --heading-prefix:"9.61"
+            --heading-prefix:"6.60"
         }
     </style>
     <div id="segment-header" class="segment">
@@ -97,7 +98,7 @@
             <div id="ig-status">
                 <p><span style="font-size:12pt;font-weight:bold">Guía de Implementación &#39;&#39;cl core&#39;&#39; FHIR R4, (Versión Evolutiva)</span>
                     <br/>
-                    <span style="display:inline-block;">1.8.7 - ci-build
+                    <span style="display:inline-block;">1.9.1 - draft
 
 
 
@@ -135,10 +136,26 @@
     <a href="index.html">Inicio</a>
   </li>
   <li>
-    <a href="Aspectos-Generales.html">Generalidades</a>
+    <a href="Alcances-Objetivos.html">Objetivos</a>
   </li>
   <li>
-    <a href="Alcances-Objetivos.html">Objetivos</a>
+    <a href="Notas-MS.html">Must Support</a>
+  </li>
+  <li>
+    <a href="Aspectos-Generales.html">Generalidades</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">CapabilityStatement
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="CapabilityStatement-cl-core-server.html">CapabilityStatement Servidor</a>
+      </li>
+      <li>
+        <a href="CapabilityStatement-cl-core-client.html">CapabilityStatement Cliente</a>
+      </li>
+    </ul>
   </li>
   <li>
     <a href="artifacts.html">Artefactos</a>
@@ -180,7 +197,7 @@
             <div class="row">
                 <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.8.7) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Guía de Implementación ''cl core'' FHIR R4, (Versión Evolutiva) - Local Development build (v1.9.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="https://hl7chile.cl/fhir/ig/clcore/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -227,7 +244,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">1.8.7<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL|1.8.7"/></span>
+      <span class="copy-text">1.9.1<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL|1.9.1"/></span>
       </td>
     </tr>
 
@@ -283,7 +300,120 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">122<a name="CSCodProvinciasCL-122"> </a></td><td>Antártica Chilena</td></tr><tr><td style="white-space:nowrap">021<a name="CSCodProvinciasCL-021"> </a></td><td>Antofagasta</td></tr><tr><td style="white-space:nowrap">082<a name="CSCodProvinciasCL-082"> </a></td><td>Arauco</td></tr><tr><td style="white-space:nowrap">151<a name="CSCodProvinciasCL-151"> </a></td><td>Arica</td></tr><tr><td style="white-space:nowrap">112<a name="CSCodProvinciasCL-112"> </a></td><td>Aysén</td></tr><tr><td style="white-space:nowrap">083<a name="CSCodProvinciasCL-083"> </a></td><td>Biobío</td></tr><tr><td style="white-space:nowrap">061<a name="CSCodProvinciasCL-061"> </a></td><td>Cachapoal</td></tr><tr><td style="white-space:nowrap">113<a name="CSCodProvinciasCL-113"> </a></td><td>Capitán Prat</td></tr><tr><td style="white-space:nowrap">062<a name="CSCodProvinciasCL-062"> </a></td><td>Cardenal Caro</td></tr><tr><td style="white-space:nowrap">072<a name="CSCodProvinciasCL-072"> </a></td><td>Cauquenes</td></tr><tr><td style="white-space:nowrap">091<a name="CSCodProvinciasCL-091"> </a></td><td>Cautín</td></tr><tr><td style="white-space:nowrap">133<a name="CSCodProvinciasCL-133"> </a></td><td>Chacabuco</td></tr><tr><td style="white-space:nowrap">032<a name="CSCodProvinciasCL-032"> </a></td><td>Chañaral</td></tr><tr><td style="white-space:nowrap">102<a name="CSCodProvinciasCL-102"> </a></td><td>Chiloé</td></tr><tr><td style="white-space:nowrap">042<a name="CSCodProvinciasCL-042"> </a></td><td>Choapa</td></tr><tr><td style="white-space:nowrap">111<a name="CSCodProvinciasCL-111"> </a></td><td>Coihaique</td></tr><tr><td style="white-space:nowrap">063<a name="CSCodProvinciasCL-063"> </a></td><td>Colchagua</td></tr><tr><td style="white-space:nowrap">081<a name="CSCodProvinciasCL-081"> </a></td><td>Concepción</td></tr><tr><td style="white-space:nowrap">031<a name="CSCodProvinciasCL-031"> </a></td><td>Copiapó</td></tr><tr><td style="white-space:nowrap">132<a name="CSCodProvinciasCL-132"> </a></td><td>Cordillera</td></tr><tr><td style="white-space:nowrap">073<a name="CSCodProvinciasCL-073"> </a></td><td>Curicó</td></tr><tr><td style="white-space:nowrap">161<a name="CSCodProvinciasCL-161"> </a></td><td>Diguillín</td></tr><tr><td style="white-space:nowrap">022<a name="CSCodProvinciasCL-022"> </a></td><td>El Loa</td></tr><tr><td style="white-space:nowrap">041<a name="CSCodProvinciasCL-041"> </a></td><td>Elqui</td></tr><tr><td style="white-space:nowrap">114<a name="CSCodProvinciasCL-114"> </a></td><td>General Carrera</td></tr><tr><td style="white-space:nowrap">033<a name="CSCodProvinciasCL-033"> </a></td><td>Huasco</td></tr><tr><td style="white-space:nowrap">011<a name="CSCodProvinciasCL-011"> </a></td><td>Iquique</td></tr><tr><td style="white-space:nowrap">052<a name="CSCodProvinciasCL-052"> </a></td><td>Isla de Pascua</td></tr><tr><td style="white-space:nowrap">162<a name="CSCodProvinciasCL-162"> </a></td><td>Itata</td></tr><tr><td style="white-space:nowrap">043<a name="CSCodProvinciasCL-043"> </a></td><td>Limarí</td></tr><tr><td style="white-space:nowrap">074<a name="CSCodProvinciasCL-074"> </a></td><td>Linares</td></tr><tr><td style="white-space:nowrap">101<a name="CSCodProvinciasCL-101"> </a></td><td>Llanquihue</td></tr><tr><td style="white-space:nowrap">053<a name="CSCodProvinciasCL-053"> </a></td><td>Los Andes</td></tr><tr><td style="white-space:nowrap">121<a name="CSCodProvinciasCL-121"> </a></td><td>Magallanes</td></tr><tr><td style="white-space:nowrap">134<a name="CSCodProvinciasCL-134"> </a></td><td>Maipo</td></tr><tr><td style="white-space:nowrap">092<a name="CSCodProvinciasCL-092"> </a></td><td>Malleco</td></tr><tr><td style="white-space:nowrap">058<a name="CSCodProvinciasCL-058"> </a></td><td>Marga Marga</td></tr><tr><td style="white-space:nowrap">135<a name="CSCodProvinciasCL-135"> </a></td><td>Melipilla</td></tr><tr><td style="white-space:nowrap">103<a name="CSCodProvinciasCL-103"> </a></td><td>Osorno</td></tr><tr><td style="white-space:nowrap">104<a name="CSCodProvinciasCL-104"> </a></td><td>Palena</td></tr><tr><td style="white-space:nowrap">152<a name="CSCodProvinciasCL-152"> </a></td><td>Parinacota</td></tr><tr><td style="white-space:nowrap">054<a name="CSCodProvinciasCL-054"> </a></td><td>Petorca</td></tr><tr><td style="white-space:nowrap">163<a name="CSCodProvinciasCL-163"> </a></td><td>Punilla</td></tr><tr><td style="white-space:nowrap">055<a name="CSCodProvinciasCL-055"> </a></td><td>Quillota</td></tr><tr><td style="white-space:nowrap">142<a name="CSCodProvinciasCL-142"> </a></td><td>Ranco</td></tr><tr><td style="white-space:nowrap">056<a name="CSCodProvinciasCL-056"> </a></td><td>San Antonio</td></tr><tr><td style="white-space:nowrap">057<a name="CSCodProvinciasCL-057"> </a></td><td>San Felipe de Aconcagua</td></tr><tr><td style="white-space:nowrap">131<a name="CSCodProvinciasCL-131"> </a></td><td>Santiago</td></tr><tr><td style="white-space:nowrap">136<a name="CSCodProvinciasCL-136"> </a></td><td>Talagante</td></tr><tr><td style="white-space:nowrap">071<a name="CSCodProvinciasCL-071"> </a></td><td>Talca</td></tr><tr><td style="white-space:nowrap">014<a name="CSCodProvinciasCL-014"> </a></td><td>Tamarugal</td></tr><tr><td style="white-space:nowrap">123<a name="CSCodProvinciasCL-123"> </a></td><td>Tierra del Fuego</td></tr><tr><td style="white-space:nowrap">023<a name="CSCodProvinciasCL-023"> </a></td><td>Tocopilla</td></tr><tr><td style="white-space:nowrap">124<a name="CSCodProvinciasCL-124"> </a></td><td>última Esperanza</td></tr><tr><td style="white-space:nowrap">141<a name="CSCodProvinciasCL-141"> </a></td><td>Valdivia</td></tr><tr><td style="white-space:nowrap">051<a name="CSCodProvinciasCL-051"> </a></td><td>Valparaíso</td></tr></table></div>
+  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem CSCodProvinciasCL</b></p><a name="CSCodProvinciasCL"> </a><a name="hcCSCodProvinciasCL"> </a><a name="CSCodProvinciasCL-es-CL"> </a><p>This case-sensitive code system <code>https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodProvinciasCL</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr>
+<tr><td style="white-space:nowrap">122<a name="CSCodProvinciasCL-122"> </a></td>
+<td>Antártica Chilena</td></tr>
+<tr><td style="white-space:nowrap">021<a name="CSCodProvinciasCL-021"> </a></td>
+<td>Antofagasta</td></tr>
+<tr><td style="white-space:nowrap">082<a name="CSCodProvinciasCL-082"> </a></td>
+<td>Arauco</td></tr>
+<tr><td style="white-space:nowrap">151<a name="CSCodProvinciasCL-151"> </a></td>
+<td>Arica</td></tr>
+<tr><td style="white-space:nowrap">112<a name="CSCodProvinciasCL-112"> </a></td>
+<td>Aysén</td></tr>
+<tr><td style="white-space:nowrap">083<a name="CSCodProvinciasCL-083"> </a></td>
+<td>Biobío</td></tr>
+<tr><td style="white-space:nowrap">061<a name="CSCodProvinciasCL-061"> </a></td>
+<td>Cachapoal</td></tr>
+<tr><td style="white-space:nowrap">113<a name="CSCodProvinciasCL-113"> </a></td>
+<td>Capitán Prat</td></tr>
+<tr><td style="white-space:nowrap">062<a name="CSCodProvinciasCL-062"> </a></td>
+<td>Cardenal Caro</td></tr>
+<tr><td style="white-space:nowrap">072<a name="CSCodProvinciasCL-072"> </a></td>
+<td>Cauquenes</td></tr>
+<tr><td style="white-space:nowrap">091<a name="CSCodProvinciasCL-091"> </a></td>
+<td>Cautín</td></tr>
+<tr><td style="white-space:nowrap">133<a name="CSCodProvinciasCL-133"> </a></td>
+<td>Chacabuco</td></tr>
+<tr><td style="white-space:nowrap">032<a name="CSCodProvinciasCL-032"> </a></td>
+<td>Chañaral</td></tr>
+<tr><td style="white-space:nowrap">102<a name="CSCodProvinciasCL-102"> </a></td>
+<td>Chiloé</td></tr>
+<tr><td style="white-space:nowrap">042<a name="CSCodProvinciasCL-042"> </a></td>
+<td>Choapa</td></tr>
+<tr><td style="white-space:nowrap">111<a name="CSCodProvinciasCL-111"> </a></td>
+<td>Coihaique</td></tr>
+<tr><td style="white-space:nowrap">063<a name="CSCodProvinciasCL-063"> </a></td>
+<td>Colchagua</td></tr>
+<tr><td style="white-space:nowrap">081<a name="CSCodProvinciasCL-081"> </a></td>
+<td>Concepción</td></tr>
+<tr><td style="white-space:nowrap">031<a name="CSCodProvinciasCL-031"> </a></td>
+<td>Copiapó</td></tr>
+<tr><td style="white-space:nowrap">132<a name="CSCodProvinciasCL-132"> </a></td>
+<td>Cordillera</td></tr>
+<tr><td style="white-space:nowrap">073<a name="CSCodProvinciasCL-073"> </a></td>
+<td>Curicó</td></tr>
+<tr><td style="white-space:nowrap">161<a name="CSCodProvinciasCL-161"> </a></td>
+<td>Diguillín</td></tr>
+<tr><td style="white-space:nowrap">022<a name="CSCodProvinciasCL-022"> </a></td>
+<td>El Loa</td></tr>
+<tr><td style="white-space:nowrap">041<a name="CSCodProvinciasCL-041"> </a></td>
+<td>Elqui</td></tr>
+<tr><td style="white-space:nowrap">114<a name="CSCodProvinciasCL-114"> </a></td>
+<td>General Carrera</td></tr>
+<tr><td style="white-space:nowrap">033<a name="CSCodProvinciasCL-033"> </a></td>
+<td>Huasco</td></tr>
+<tr><td style="white-space:nowrap">011<a name="CSCodProvinciasCL-011"> </a></td>
+<td>Iquique</td></tr>
+<tr><td style="white-space:nowrap">052<a name="CSCodProvinciasCL-052"> </a></td>
+<td>Isla de Pascua</td></tr>
+<tr><td style="white-space:nowrap">162<a name="CSCodProvinciasCL-162"> </a></td>
+<td>Itata</td></tr>
+<tr><td style="white-space:nowrap">043<a name="CSCodProvinciasCL-043"> </a></td>
+<td>Limarí</td></tr>
+<tr><td style="white-space:nowrap">074<a name="CSCodProvinciasCL-074"> </a></td>
+<td>Linares</td></tr>
+<tr><td style="white-space:nowrap">101<a name="CSCodProvinciasCL-101"> </a></td>
+<td>Llanquihue</td></tr>
+<tr><td style="white-space:nowrap">053<a name="CSCodProvinciasCL-053"> </a></td>
+<td>Los Andes</td></tr>
+<tr><td style="white-space:nowrap">121<a name="CSCodProvinciasCL-121"> </a></td>
+<td>Magallanes</td></tr>
+<tr><td style="white-space:nowrap">134<a name="CSCodProvinciasCL-134"> </a></td>
+<td>Maipo</td></tr>
+<tr><td style="white-space:nowrap">092<a name="CSCodProvinciasCL-092"> </a></td>
+<td>Malleco</td></tr>
+<tr><td style="white-space:nowrap">058<a name="CSCodProvinciasCL-058"> </a></td>
+<td>Marga Marga</td></tr>
+<tr><td style="white-space:nowrap">135<a name="CSCodProvinciasCL-135"> </a></td>
+<td>Melipilla</td></tr>
+<tr><td style="white-space:nowrap">103<a name="CSCodProvinciasCL-103"> </a></td>
+<td>Osorno</td></tr>
+<tr><td style="white-space:nowrap">104<a name="CSCodProvinciasCL-104"> </a></td>
+<td>Palena</td></tr>
+<tr><td style="white-space:nowrap">152<a name="CSCodProvinciasCL-152"> </a></td>
+<td>Parinacota</td></tr>
+<tr><td style="white-space:nowrap">054<a name="CSCodProvinciasCL-054"> </a></td>
+<td>Petorca</td></tr>
+<tr><td style="white-space:nowrap">163<a name="CSCodProvinciasCL-163"> </a></td>
+<td>Punilla</td></tr>
+<tr><td style="white-space:nowrap">055<a name="CSCodProvinciasCL-055"> </a></td>
+<td>Quillota</td></tr>
+<tr><td style="white-space:nowrap">142<a name="CSCodProvinciasCL-142"> </a></td>
+<td>Ranco</td></tr>
+<tr><td style="white-space:nowrap">056<a name="CSCodProvinciasCL-056"> </a></td>
+<td>San Antonio</td></tr>
+<tr><td style="white-space:nowrap">057<a name="CSCodProvinciasCL-057"> </a></td>
+<td>San Felipe de Aconcagua</td></tr>
+<tr><td style="white-space:nowrap">131<a name="CSCodProvinciasCL-131"> </a></td>
+<td>Santiago</td></tr>
+<tr><td style="white-space:nowrap">136<a name="CSCodProvinciasCL-136"> </a></td>
+<td>Talagante</td></tr>
+<tr><td style="white-space:nowrap">071<a name="CSCodProvinciasCL-071"> </a></td>
+<td>Talca</td></tr>
+<tr><td style="white-space:nowrap">014<a name="CSCodProvinciasCL-014"> </a></td>
+<td>Tamarugal</td></tr>
+<tr><td style="white-space:nowrap">123<a name="CSCodProvinciasCL-123"> </a></td>
+<td>Tierra del Fuego</td></tr>
+<tr><td style="white-space:nowrap">023<a name="CSCodProvinciasCL-023"> </a></td>
+<td>Tocopilla</td></tr>
+<tr><td style="white-space:nowrap">124<a name="CSCodProvinciasCL-124"> </a></td>
+<td>última Esperanza</td></tr>
+<tr><td style="white-space:nowrap">141<a name="CSCodProvinciasCL-141"> </a></td>
+<td>Valdivia</td></tr>
+<tr><td style="white-space:nowrap">051<a name="CSCodProvinciasCL-051"> </a></td>
+<td>Valparaíso</td></tr></table></div>
 
   
 
@@ -303,20 +433,14 @@
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
   <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.8.7 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Mar 7, 2024 17:15-0300">2024-03-07</span>
+          IG &#169; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7chile.cl">HL7 Chile</a>.  Package hl7.fhir.cl.clcore#1.9.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Sep 26, 2024 12:51-0300">2024-09-26</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
              Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Tabla de contenidos</a> |
@@ -333,7 +457,7 @@
     <div class="container">  <!-- container -->
     </div>  <!-- /container -->
   </div>  <!-- /segment-post-footer -->
-  
+
   <!-- JS and analytics only. -->
   <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -343,101 +467,7 @@
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
   <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-<!-- feedback form - Google forms -->
-<!-- v0.1, 2021-01-09 -->
-
-
-  
-    
-    <script type="text/javascript">
-     /* <![CDATA[ */
-        $(':header[id]').each(function() { // apply this to each heading
-          var id = $(this).attr('id');
-          var feedbackurl = 'https://docs.google.com/forms/d/e/1FAIpQLSei5FWjB_pIJKmgkSE_683y06GMrl7Hyjm1S9RGPBedf5QBtg/viewform?usp=pp_url'; // the feedbackEntry (in the YAML) file will have a URL, which will be a google forms URL. This URL can be clicked, so the security risks are the same as an IG Editor entering any other URL.
-          var feedbacklabel = 'Feedback';
-          
-            
-              feedbacklabel = 'Observaciones';  // The feedback label is a string
-            
-
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(1894621411).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'pageTitle';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-              var parameterFieldId = '';
-              var parameterVariableName = '';
-              var parameterValue = '';
-              parameterFieldId = 'entry.'+parseInt(823462654).toString(); // the parameter fields is parsed as an integer, i presume this means no code can be injected there.
-              parameterVariableName = 'sectionName';
-
-              switch (parameterVariableName) { // the variableName only has 3 possible values. Everything else will default to "not supported"
-                default:
-                    console.log("Parameter value not supported");
-                    break;
-                  case "pageTitle":
-                    parameterValue = encodeURIComponent($(document).attr('title'));
-                    break;
-                  case "sectionId":
-                    parameterValue = id;
-                    break;
-                  case "sectionName":
-                    parameterValue = document.getElementById(id).textContent;
-                    break;
-              }
-/* <![CDATA[ */
-              feedbackurl = feedbackurl + '&';
-              feedbackurl = feedbackurl + parameterFieldId + '=' + parameterValue;
-/* ]]> */
-            
-            
-          if (id) { //To make sure the element has an id
-            $(this).append(function () {
-              return $('<a/>', {
-                id,
-                href: feedbackurl,
-                text: feedbacklabel+' ' ,
-                class: 'feedback',
-                target: '_blank',
-                onclick: 'window.open('+feedbackurl+',\'newwindow\',\'width=300,height=250\');return false;'
-        
-              });
-            });
-          }
-        }) 
-/* ]]> */
-      </script>  
-    
-  
-
-
-
-<!-- / feedback form  -->
-
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
   <!-- Analytics Below
   ================================================== -->
   </body>

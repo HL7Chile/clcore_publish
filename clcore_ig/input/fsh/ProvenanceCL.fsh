@@ -2,7 +2,7 @@ Profile:        ProvenanceCL
 Parent:         Provenance
 Id:             ProvenanceCl
 Title:          "CL Provenance"
-Description:    "Este Perfil describe la forma de validación respecto a la procedencia de un recurso genrado durante un acto clínico."
+Description:    "Este Perfil describe la forma de validación respecto a la procedencia de un recurso generado durante un acto clínico."
 
 //Target
 * target MS
@@ -19,6 +19,7 @@ Description:    "Este Perfil describe la forma de validación respecto a la proc
 
 // ubicación
 * location MS
+* location only Reference(CoreLocalizacionCl)
 * location ^short = "Referencia o identificación de la localización de donde ocurrió la actividad"
 * location ^definition = "Donde la actividad ocurrió"
 
@@ -36,28 +37,30 @@ Description:    "Este Perfil describe la forma de validación respecto a la proc
 * agent ^definition = "El actor que tiene la responsabilidad en la generación del recurso"
 * agent ^comment = "Puede haber más de un agente "
 
-* agent.type 0..1
+* agent.type 0..1 MS
 * agent.type.coding from http://hl7.org/fhir/ValueSet/provenance-agent-type (extensible)
 * agent.type.coding ^binding.description = "VS HL7 FHIR, tipo de agente"
 * agent.type ^short = "Referencia a lo que ejecuta el actor"
 * agent.type ^definition = "participacion del actor, que rol cumple"
 
-* agent.role 0..1 
+* agent.role 0..1 MS
 * agent.role.coding from http://hl7.org/fhir/ValueSet/security-role-type (example)
 * agent.role.coding ^binding.description = "VS HL7 FHIR, tipo de código"
 * agent.role ^short = "El rol especifico del agente" 
 * agent.role ^definition = "La función del agente con respecto a la actividad. La función de seguridad que habilita al agente con respecto a la actividad."
 
 * agent.who MS
+* agent.who  only Reference(CorePrestadorCl or CoreRolClinicoCl or RelatedPerson or CorePacienteCl or Device or CoreOrganizacionCl)
 * agent.who ^short = "Quien emite el recurso"
 * agent.who ^definition = "Definición mediate la id de un recurso al emisor de receta"
 * agent.who.reference ^short = "Referencia al misor del recurso"
 * agent.who.reference ^definition = "Recurso que indica al practitioner que genera el recurso a validar"
 
+
 * signature MS
 * signature ^short = "firma del target"
 * signature ^definition = "Una firma digital en la(s) Referencia(s) de destino. El firmante debe coincidir con un Provenance.agent. Se indica la finalidad de la firma."
-
+* signature.type MS
 * signature.type ^short = "Indicación de la razón por la que la entidad firmó el objeto o los objetos"
 * signature.type ^definition = "Indicación del motivo por el que la entidad ha firmado este documento. Puede incluirse explícitamente como parte de la información de la firma y puede utilizarse a la hora de determinar la responsabilidad de diversas acciones relativas al documento."
 * signature.type from http://hl7.org/fhir/ValueSet/signature-type (preferred)
@@ -69,6 +72,7 @@ Description:    "Este Perfil describe la forma de validación respecto a la proc
 * signature.when ^definition = "Hora y Fecha de cuando se firmó la validacion"
 
 * signature.who MS
+* signature.who only Reference(CorePrestadorCl or CoreRolClinicoCl or RelatedPerson or CorePacienteCl or Device or CoreOrganizacionCl)
 * signature.who ^short = "Referencia al firmante"
 * signature.who ^definition = "Referencia al recurso del validador mediante la firma"
 
@@ -80,8 +84,7 @@ Description:    "Este Perfil describe la forma de validación respecto a la proc
 * signature.sigFormat ^definition = "Un tipo mime que indica el formato técnico de la firma. Los tipos mime importantes son application/signature+xml para X ML DigSig, application/jose para JWS, e image/* para una imagen gráfica de una firma, etc"
 * signature.sigFormat ^comment = "Se sugiere hacer uso de application/jose" 
 
-
-* signature.data 1..1 MS
+* signature.data 0..1 MS
 * signature.data ^short = "Contenido de la firma (XML DigSig.JWS, imagem, etc.)"
 * signature.data ^definition = "La codificación base64 del contenido de la firma. Si la firma no se registra electrónicamente, este elemento estará vacío."
 

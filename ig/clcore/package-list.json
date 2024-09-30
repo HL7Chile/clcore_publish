@@ -7,6 +7,46 @@
       "sequence" : "ci-build"
     },
     {
+      "version" : "1.9.1",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.9.1",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-09-26",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.10",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.10",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-19",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.9",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-19",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
+      "version" : "1.8.8",
+      "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
+      "status" : "draft",
+      "sequence" : "STU2",
+      "fhirversion" : "4.0.1",
+      "date" : "2024-03-19",
+      "desc" : "Versión de desarrollo",
+      "changes" : "changes.html"
+    },
+    {
       "version" : "1.8.7",
       "path" : "https://hl7chile.cl/fhir/ig/clcore/1.8.6",
       "status" : "draft",

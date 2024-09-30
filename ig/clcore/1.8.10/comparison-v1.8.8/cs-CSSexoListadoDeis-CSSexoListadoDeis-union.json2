@@ -1,0 +1,36 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "056650c7-172b-45ae-8017-e99affca4465-50",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/056650c7-172b-45ae-8017-e99affca4465-50",
+  "name" : "UnionCSSexoListadoDeisAndCSSexoListadoDeis",
+  "title" : "Union of Sexo Listado Deis And Sexo Listado Deis",
+  "status" : "active",
+  "date" : "2024-03-19T15:38:59-03:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "CL",
+      "display" : "Chile"
+    }]
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Hombre"
+  },
+  {
+    "code" : "2",
+    "display" : "Mujer"
+  },
+  {
+    "code" : "3",
+    "display" : "Intersexual"
+  },
+  {
+    "code" : "93",
+    "display" : "No Informado"
+  },
+  {
+    "code" : "99",
+    "display" : "Desconocido"
+  }]
+}

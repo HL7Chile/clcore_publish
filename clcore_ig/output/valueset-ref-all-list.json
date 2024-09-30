@@ -41,8 +41,96 @@
       "uses" : {
       },
       "StructureDefinition-SexoBiologico.html" : "Sexo Biologico del paciente",
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
+      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCategory",
+      "title" : "AllergyIntoleranceCategory",
+      "description" : "Category of an identified substance associated with allergies or intolerances.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.133"],
+      "sources" : ["2.16.840.1.113883.4.642.3.133"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-criticality",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceCriticality",
+      "title" : "AllergyIntoleranceCriticality",
+      "description" : "Estimate of the potential clinical harm, or seriousness, of a reaction to an identified substance.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-criticality"],
+      "oids" : ["2.16.840.1.113883.4.642.3.129"],
+      "sources" : ["2.16.840.1.113883.4.642.3.129"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergy-intolerance-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceType",
+      "title" : "AllergyIntoleranceType",
+      "description" : "Identification of the underlying physiological mechanism for a Reaction Risk.",
+      "systems" : ["http://hl7.org/fhir/allergy-intolerance-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.131"],
+      "sources" : ["2.16.840.1.113883.4.642.3.131"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-clinical",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceClinicalStatusCodes",
+      "title" : "AllergyIntolerance Clinical Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Clinical Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1372"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1372"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSubstance/Product,ConditionAndNegationCodes",
+      "title" : "AllergyIntolerance Substance/Product, Condition and Negation Codes",
+      "description" : "This value set includes concept codes for specific substances/pharmaceutical products, allergy or intolerance conditions, and negation/exclusion codes to specify the absence of specific types of allergies or intolerances.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.137"],
+      "sources" : ["2.16.840.1.113883.4.642.3.137"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/allergyintolerance-verification",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceVerificationStatusCodes",
+      "title" : "AllergyIntolerance Verification Status Codes",
+      "description" : "Preferred value set for AllergyIntolerance Verification Status.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.1370"],
+      "sources" : ["2.16.840.1.113883.4.642.3.1370"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/audit-entity-type",
@@ -150,7 +238,22 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico"
+      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico",
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/clinical-findings",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTClinicalFindings",
+      "title" : "SNOMED CT Clinical Findings",
+      "description" : "This value set includes all the \"Clinical finding\" [SNOMED CT](http://snomed.info/sct) codes - concepts where concept is-a 404684003 (Clinical finding (finding)).",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.232"],
+      "sources" : ["2.16.840.1.113883.4.642.3.232"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
@@ -276,9 +379,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.71"],
       "uses" : {
       },
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contact-point-use",
@@ -292,10 +395,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.73"],
       "uses" : {
       },
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-ContactoParticipantes.html" : "Contacto de los participantes secundarios del encuentro",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -310,6 +412,20 @@
       "uses" : {
       },
       "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+      "oids" : ["2.16.840.1.113883.4.642.3.5"],
+      "sources" : ["2.16.840.1.113883.4.642.3.5"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/days-of-week",
@@ -338,7 +454,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.49"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/dicm-405-mediatype",
@@ -408,7 +524,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.257"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
@@ -422,7 +538,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.255"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-discharge-disposition",
@@ -438,7 +554,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.259"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-location-status",
@@ -452,7 +568,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.262"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-participant-type",
@@ -469,7 +585,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.250"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-reason",
@@ -483,7 +599,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.261"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-arrangements",
@@ -499,7 +615,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.253"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-special-courtesy",
@@ -516,7 +632,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.252"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
@@ -530,21 +646,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.246"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/encounter-type",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "EncounterType",
-      "title" : "Encounter type",
-      "description" : "This example value set defines a set of codes that can be used to indicate the type of encounter: a specific code indicating type of service provided.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/encounter-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.248"],
-      "sources" : ["2.16.840.1.113883.4.642.3.248"],
-      "uses" : {
-      },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -558,10 +660,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
       "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
+      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
+      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
       "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
     },
     {
@@ -576,12 +678,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
       "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento",
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
+      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-function",
@@ -702,23 +804,6 @@
       "StructureDefinition-ImmunizationCL.html" : "CL Inmunización"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "ImmunizationStatusReasonCodes",
-      "title" : "Immunization Status Reason Codes",
-      "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was not administered. This value set is provided as a suggestive example.",
-      "systems" : [
-        "http://terminology.hl7.org/CodeSystem/v3-ActReason",
-        "http://snomed.info/sct"
-      ],
-      "oids" : ["2.16.840.1.113883.4.642.3.992"],
-      "sources" : ["2.16.840.1.113883.4.642.3.992"],
-      "uses" : {
-      },
-      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
       "version" : "4.0.1",
       "status" : "draft",
@@ -760,18 +845,20 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico",
-      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización",
-      "StructureDefinition-ProvenanceCl.html" : "CL Provenance",
-      "StructureDefinition-DocumentoCl.html" : "CL Documento",
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico",
-      "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento",
       "StructureDefinition-CoreRolClinicoCl.html" : "CL RolClinico",
-      "StructureDefinition-AuditEventCl.html" : "CL Auditoria",
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
+      "StructureDefinition-ProvenanceCl.html" : "CL Provenance",
+      "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento",
       "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
-      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización"
+      "StructureDefinition-AuditEventCl.html" : "CL Auditoria",
+      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización",
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias",
+      "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
+      "StructureDefinition-DocumentoCl.html" : "CL Documento",
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico",
+      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico",
+      "StructureDefinition-CoreOrganizacionCl.html" : "CL Organización",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -858,7 +945,7 @@
       "uses" : {
       },
       "StructureDefinition-CoreLocalizacionCl.html" : "CL Localización",
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/location-status",
@@ -973,8 +1060,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.65"],
       "uses" : {
       },
-      "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
+      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
+      "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/network-type",
@@ -992,15 +1079,17 @@
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/object-lifecycle-events",
-      "version" : "4.0.1",
-      "status" : "draft",
+      "version" : "5.1.0",
+      "status" : "active",
       "name" : "ObjectLifecycleEvents",
-      "title" : null,
-      "description" : "This example FHIR value set is comprised of lifecycle event codes. The FHIR Actor value set is based on    DICOM Audit Message, ParticipantObjectDataLifeCycle;   ISO Standard, TS 21089-2017;  ",
+      "title" : "ObjectLifecycleEvents",
+      "description" : "This FHIR value set is comprised of lifecycle event codes. The FHIR Actor value set is based on    DICOM Audit Message, ParticipantObjectDataLifeCycle;   ISO Standard, TS 21089-2017;  ",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/dicom-audit-lifecycle",
         "http://terminology.hl7.org/CodeSystem/iso-21089-lifecycle"
       ],
+      "oids" : ["2.16.840.1.113883.4.642.3.3009"],
+      "sources" : ["2.16.840.1.113883.4.642.3.3009"],
       "uses" : {
       },
       "StructureDefinition-AuditEventCl.html" : "CL Auditoria"
@@ -1018,6 +1107,78 @@
       "uses" : {
       },
       "StructureDefinition-AuditEventCl.html" : "CL Auditoria"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationCategoryCodes",
+      "title" : "Observation Category Codes",
+      "description" : "Observation Category codes.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.403"],
+      "sources" : ["2.16.840.1.113883.4.642.3.403"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "LOINCCodes",
+      "title" : "LOINC Codes",
+      "description" : "This value set includes all LOINC codes",
+      "systems" : ["http://loinc.org"],
+      "oids" : ["2.16.840.1.113883.4.642.3.396"],
+      "sources" : ["2.16.840.1.113883.4.642.3.396"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationInterpretationCodes",
+      "title" : "Observation Interpretation Codes",
+      "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.399"],
+      "sources" : ["2.16.840.1.113883.4.642.3.399"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationMethods",
+      "title" : "Observation Methods",
+      "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.395"],
+      "sources" : ["2.16.840.1.113883.4.642.3.395"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "ObservationStatus",
+      "title" : "ObservationStatus",
+      "description" : "Codes providing the status of an observation.",
+      "systems" : ["http://hl7.org/fhir/observation-status"],
+      "oids" : ["2.16.840.1.113883.4.642.3.400"],
+      "sources" : ["2.16.840.1.113883.4.642.3.400"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -1136,6 +1297,67 @@
       "StructureDefinition-ProvenanceCl.html" : "CL Provenance"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "QuantityComparator",
+      "title" : "QuantityComparator",
+      "description" : "How the Quantity should be understood and represented.",
+      "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+      "oids" : ["2.16.840.1.113883.4.642.3.59"],
+      "sources" : ["2.16.840.1.113883.4.642.3.59"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/reaction-event-severity",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "AllergyIntoleranceSeverity",
+      "title" : "AllergyIntoleranceSeverity",
+      "description" : "Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.",
+      "systems" : ["http://hl7.org/fhir/reaction-event-severity"],
+      "oids" : ["2.16.840.1.113883.4.642.3.135"],
+      "sources" : ["2.16.840.1.113883.4.642.3.135"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeAppliesToCodes",
+      "title" : "Observation Reference Range Applies To Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/v3-Race",
+        "http://snomed.info/sct"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.407"],
+      "sources" : ["2.16.840.1.113883.4.642.3.407"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ObservationReferenceRangeMeaningCodes",
+      "title" : "Observation Reference Range Meaning Codes",
+      "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+      "systems" : [
+        "http://terminology.hl7.org/CodeSystem/referencerange-meaning"
+      ],
+      "oids" : ["2.16.840.1.113883.4.642.3.397"],
+      "sources" : ["2.16.840.1.113883.4.642.3.397"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreObservacionCL.html" : "CL Observación"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
       "version" : "4.0.1",
       "status" : "active",
@@ -1147,12 +1369,26 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico",
-      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización",
-      "StructureDefinition-ProvenanceCl.html" : "CL Provenance",
+      "StructureDefinition-CoreMedicamentoCl.html" : "CL Medicamento",
+      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador",
       "StructureDefinition-CoreRolClinicoCl.html" : "CL RolClinico",
+      "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico",
       "StructureDefinition-CorePacienteCl.html" : "CL Paciente",
-      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
+      "StructureDefinition-ProvenanceCl.html" : "CL Provenance"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/route-codes",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SNOMEDCTRouteCodes",
+      "title" : "SNOMED CT Route Codes",
+      "description" : "This value set includes all Route codes from SNOMED CT - provided as an exemplar.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.98"],
+      "sources" : ["2.16.840.1.113883.4.642.3.98"],
+      "uses" : {
+      },
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -1194,22 +1430,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.978"],
       "uses" : {
       },
-      "StructureDefinition-ProvenanceCl.html" : "CL Provenance",
-      "StructureDefinition-AuditEventCl.html" : "CL Auditoria"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/service-type",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "ServiceType",
-      "title" : "Service type",
-      "description" : "This value set defines an example set of codes of service-types.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.518"],
-      "sources" : ["2.16.840.1.113883.4.642.3.518"],
-      "uses" : {
-      },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-AuditEventCl.html" : "CL Auditoria",
+      "StructureDefinition-ProvenanceCl.html" : "CL Provenance"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/signature-type",
@@ -1226,18 +1448,18 @@
       "StructureDefinition-ProvenanceCl.html" : "CL Provenance"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/vaccine-code",
+      "url" : "http://hl7.org/fhir/ValueSet/substance-code",
       "version" : "4.0.1",
-      "status" : "active",
-      "name" : "VaccineAdministeredValueSet",
-      "title" : "Vaccine Administered Value Set",
-      "description" : "This identifies the vaccine substance administered - CVX codes.",
-      "systems" : ["urn:oid:1.2.36.1.2001.1005.17", "http://hl7.org/fhir/sid/cvx"],
-      "oids" : ["2.16.840.1.113883.3.88.12.80.22"],
-      "sources" : ["2.16.840.1.113883.3.88.12.80.22"],
+      "status" : "draft",
+      "name" : "SubstanceCode",
+      "title" : "Substance Code",
+      "description" : "This value set contains concept codes for specific substances. It includes codes from [SNOMED](http://snomed.info/sct) where concept is-a 105590001 (Substance (substance)) and where concept is-a 373873005 (Pharmaceutical / biologic product (product))",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.473"],
+      "sources" : ["2.16.840.1.113883.4.642.3.473"],
       "uses" : {
       },
-      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización"
+      "StructureDefinition-CoreAletgiaIntCl.html" : "CL Alergias e Intolerancias"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0092",
@@ -1251,7 +1473,7 @@
       "sources" : ["2.16.840.1.113883.21.40"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v2-0116",
@@ -1281,7 +1503,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActCode",
       "title" : "v3 Code System ActCode",
@@ -1289,12 +1511,12 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico",
-      "StructureDefinition-DocumentoCl.html" : "CL Documento"
+      "StructureDefinition-DocumentoCl.html" : "CL Documento",
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActEncounterCode",
       "title" : "ActEncounterCode",
@@ -1304,11 +1526,11 @@
       "sources" : ["2.16.840.1.113883.1.11.13955"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ActPriority",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ActPriority",
       "title" : "ActPriority",
@@ -1318,7 +1540,7 @@
       "sources" : ["2.16.840.1.113883.1.11.16866"],
       "uses" : {
       },
-      "StructureDefinition-EncounterCL.html" : "Encuentro Clínico"
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
@@ -1336,7 +1558,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-PurposeOfUse",
-      "version" : "2.0.0",
+      "version" : "3.1.0",
       "status" : "active",
       "name" : "PurposeOfUse",
       "title" : "PurposeOfUse",
@@ -1346,12 +1568,12 @@
       "sources" : ["2.16.840.1.113883.1.11.20448"],
       "uses" : {
       },
-      "StructureDefinition-ProvenanceCl.html" : "CL Provenance",
-      "StructureDefinition-AuditEventCl.html" : "CL Auditoria"
+      "StructureDefinition-AuditEventCl.html" : "CL Auditoria",
+      "StructureDefinition-ProvenanceCl.html" : "CL Provenance"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
-      "version" : "2.0.0",
+      "version" : "3.0.0",
       "status" : "active",
       "name" : "ServiceDeliveryLocationRoleType",
       "title" : "ServiceDeliveryLocationRoleType",
@@ -1365,7 +1587,7 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/CodPais",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "CodPaises",
       "title" : "Códigos de Países",
@@ -1373,12 +1595,26 @@
       "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CodPais"],
       "uses" : {
       },
-      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente",
-      "StructureDefinition-CodigoPaises.html" : "Codigo de Identificación de países"
+      "StructureDefinition-CodigoPaises.html" : "Codigo de Paises",
+      "StructureDefinition-IdContacto.html" : "Identificación del Contacto de un Paciente"
+    },
+    {
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSClaseVacuna",
+      "version" : "1.9.1",
+      "status" : "active",
+      "name" : "VSClaseVacuna",
+      "title" : "Códigos de clases de Vacuna",
+      "description" : "Códigos de clase de vacuna",
+      "systems" : [
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSClaseVacuna"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ClaseVacuna.html" : "Clase de Vacuna"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodMadurez",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSCodMadurez",
       "title" : "Códigos de grado de madurez del artefacto",
@@ -1387,7 +1623,7 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosComunaCL",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSCodigosComunaCL",
       "title" : "Códigos de Comunas en Chile",
@@ -1401,7 +1637,7 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosProvinciasCL",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSCodigosProvinciasCL",
       "title" : "Códigos de Provincias en Chile",
@@ -1415,7 +1651,7 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosRegionesCL",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSCodigosRegionesCL",
       "title" : "Códigos de Regiones en Chile",
@@ -1428,20 +1664,8 @@
       "StructureDefinition-RegionesCl.html" : "Códigos para Regiones en Chile"
     },
     {
-      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigosServiciosSalud",
-      "version" : "1.8.7",
-      "status" : "active",
-      "name" : "VSCodigosServiciosSaludCL",
-      "title" : "Servicos de Salud en Chile",
-      "description" : "Códigos de Servicios de Salud que existen en Chile",
-      "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodSSalud"],
-      "uses" : {
-      },
-      "StructureDefinition-ServicioSalud.html" : "Sistema Nacional de Servicios de Salud"
-    },
-    {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSCodigoslenguaje",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSCodigoslenguaje",
       "title" : "Codigos Lenguaje",
@@ -1454,50 +1678,37 @@
       "StructureDefinition-CorePacienteCl.html" : "CL Paciente"
     },
     {
-      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSContactosec",
-      "version" : "1.8.7",
-      "status" : "active",
-      "name" : "VSContactoSecundario",
-      "title" : "Contacto participantes",
-      "description" : "Contacto telefónico o correo de los participantes",
-      "systems" : ["http://hl7.org/fhir/contact-point-system"],
-      "uses" : {
-      },
-      "StructureDefinition-ContactoParticipantes.html" : "Contacto de los participantes secundarios del encuentro"
-    },
-    {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSDiagnosticosSCT",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSDiagnosticosSCT",
       "title" : "Diagnósticos SNOMED y Ausente o Desconocido",
       "description" : "Diagnósticos definidos en Snomed-CT.",
-      "systems" : [
-        "https://hl7.org/fhir/uv/ips/STU1.1/CodeSystem-absent-unknown-uv-ips.html",
-        "http://snomed.info/sct"
-      ],
+      "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
       "StructureDefinition-CoreDiagnosticoCl.html" : "CL Condición-Diagnóstico"
     },
     {
-      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesDeisCL",
-      "version" : "1.8.7",
+      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSEspecialidadesCL",
+      "version" : "1.9.1",
       "status" : "active",
-      "name" : "VSEspecialidadesDeisCL",
+      "name" : "VSEspecialidadesCL",
       "title" : "Códigos de Especialidades",
-      "description" : "Códigos de especialidades médicas descritas según DEIS",
+      "description" : "Códigos de especialidades médicas descritas según DEIS, la CONACEM y CONACEO",
       "systems" : [
-        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL"
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadOdontologica",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadesDeisCL",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/EspecialidadesConacemConaceoCS",
+        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSEspecialidadFarma"
       ],
       "uses" : {
       },
-      "StructureDefinition-VSEspecialidadesDeisCL.html" : "Especialidad del médico principal",
       "StructureDefinition-CoreRolClinicoCl.html" : "CL RolClinico"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentidaddeGenero",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSIdentidaddeGenero",
       "title" : "Identidad de Genero",
@@ -1510,59 +1721,30 @@
       "StructureDefinition-IdentidadDeGenero.html" : "Identidad De Genero"
     },
     {
-      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSIdentificadores",
-      "version" : "1.8.7",
-      "status" : "active",
-      "name" : "VSIdentificadores",
-      "title" : "Identificadores",
-      "description" : "Identificadores",
-      "systems" : [
-        "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSIdentificadores"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
-    },
-    {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSNombreCampana",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSNombreCampanaCL",
       "title" : "Campañas de Vacunación",
       "description" : "Campañas de Inmunización utilizada en Chile según CodeSystem local",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSNombreCampana"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-NombreCampana.html" : "Nombre de la Campaña de vacunación establecida por el RNI (Registro Nacional de Inmunizaciones)"
-    },
-    {
-      "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSPrevision",
-      "version" : "1.8.7",
-      "status" : "active",
-      "name" : "VSPrevision",
-      "title" : "Prevision",
-      "description" : "Prevision",
-      "systems" : ["https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSPrevision"]
+      ]
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOT",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSRazonNOencuentro",
       "title" : "Razones no Atención Remota",
       "description" : "Razones por la que no se lleva a cabo un encuentro remoto según CodeSystem local",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/csrazonnoencuentro"
-      ],
-      "uses" : {
-      },
-      "StructureDefinition-RazonNOrealizarse.html" : "Código de las razones por la cual no se pudo realizar la atención"
+      ]
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSRazonNOTinm",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSRazonNOTinmCL",
       "title" : "Razones no Inmunización",
@@ -1572,11 +1754,11 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-RazonNOrealizarseInm.html" : "Razones por las cuales no se pudo realizar la inmunización"
+      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSSexoListadoDeis",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSSexoListadoDeis",
       "title" : "Sexo Listado Deis",
@@ -1587,18 +1769,21 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTipoIdentificador",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTipoIdentificador",
       "title" : "Tipo Identificador",
       "description" : "Tipo Identificador",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTipoIdentificador"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-CorePrestadorCl.html" : "CL Prestador"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocClinico",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTiposDocClinico",
       "title" : "Tipos de Documentos Clínicos",
@@ -1610,7 +1795,7 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposDocumentos",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTiposDocumentos",
       "title" : "Tipos de Documentos",
@@ -1626,29 +1811,35 @@
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposEncuentroCL",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTiposEncuentroCL",
       "title" : "Tipos de Encuentro",
       "description" : "Códigos de Encuentros según MINSAL",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSTiposEncuentroCL"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposServicio",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTiposServicioCL",
       "title" : "Tipos de Servicios Remotos",
       "description" : "Tipos de Servicios para encuentro remoto según CodeSystem local",
       "systems" : [
         "https://hl7chile.cl/fhir/ig/clcore/CodeSystem/CSCodigoServicio"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-EncounterCL.html" : "CL Encuentro Clínico"
     },
     {
       "url" : "https://hl7chile.cl/fhir/ig/clcore/ValueSet/VSTiposVacunas",
-      "version" : "1.8.7",
+      "version" : "1.9.1",
       "status" : "active",
       "name" : "VSTiposVacunasCL",
       "title" : "Tipos de Vacunas RNI",
@@ -1658,7 +1849,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-TiposVacunaRNI.html" : "Código de tipos de Vacunas en Chile"
+      "StructureDefinition-ImmunizationCL.html" : "CL Inmunización"
     }
   ]
 }

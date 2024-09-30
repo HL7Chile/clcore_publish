@@ -1,6 +1,7 @@
 {
-  "version" : "1.8.7",
+  "version" : "1.9.1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240307171521",
-  "name" : "hl7.fhir.cl.clcore"
+  "date" : "20240926125117",
+  "name" : "hl7.fhir.cl.clcore",
+  "jurisdiction" : "urn:iso:std:iso:3166#CL"
 }
